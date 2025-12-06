@@ -9,101 +9,84 @@
         h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; }
         .update-time { text-align: center; color: #7f8c8d; margin-bottom: 20px; font-size: 0.9em; }
         
-        /* === 新增：市場行情列 === */
+        /* 市場行情列 */
         .market-bar { display: flex; gap: 15px; margin-bottom: 30px; overflow-x: auto; padding-bottom: 5px; justify-content: center; }
-        .market-item { 
-            background: white; padding: 10px 15px; border-radius: 8px; 
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05); min-width: 120px; text-align: center; 
-            border-top: 3px solid #ddd;
-        }
-        .market-name { font-size: 0.85em; color: #666; font-weight: bold; margin-bottom: 5px; display: block; }
+        .market-item { background: white; padding: 10px 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); min-width: 120px; text-align: center; border-top: 3px solid #ddd; }
+        .market-name { font-size: 0.85em; color: #666; font-weight: bold; display: block; }
         .market-price { font-size: 1.1em; font-weight: bold; }
         .market-change { font-size: 0.9em; margin-left: 5px; }
-        
-        /* 漲跌顏色 */
-        .up { color: #27ae60; border-top-color: #27ae60; } /* 綠漲 */
-        .down { color: #c0392b; border-top-color: #c0392b; } /* 紅跌 */
+        .up { color: #27ae60; border-top-color: #27ae60; }
+        .down { color: #c0392b; border-top-color: #c0392b; }
 
-        /* 佈局容器 */
         .container { display: flex; gap: 20px; flex-wrap: wrap; }
         .news-section { flex: 2; min-width: 300px; }
         .data-section { flex: 1; min-width: 250px; }
 
-        /* 新聞卡片 */
-        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #bdc3c7; transition: transform 0.2s; }
-        .card:hover { transform: translateY(-2px); }
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #bdc3c7; }
         .card.score-high { border-left-color: #e74c3c; } 
         .card.score-med { border-left-color: #f1c40f; }  
         
         .category-tag { background: #ecf0f1; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; color: #555; font-weight: bold; }
         .impact-tag { float: right; font-weight: bold; font-size: 0.9em; color: #7f8c8d; }
-        
         h3 { margin: 10px 0 5px; }
         p { line-height: 1.6; color: #555; font-size: 0.95em; }
         a { text-decoration: none; color: #3498db; font-weight: bold; font-size: 0.9em; }
 
-        /* 表格 */
+        /* 宏觀數據表格 */
         table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        th { background: #2c3e50; color: white; padding: 10px; text-align: left; font-size: 0.9em; }
-        td { padding: 10px; border-bottom: 1px solid #eee; font-size: 0.85em; }
-        .num { font-family: monospace; font-weight: bold; }
+        th { background: #34495e; color: white; padding: 10px; text-align: left; font-size: 0.9em; }
+        td { padding: 12px 10px; border-bottom: 1px solid #eee; font-size: 0.9em; }
+        .macro-val { font-family: monospace; font-weight: bold; float: right; }
+        .macro-change { font-size: 0.8em; margin-left: 5px; float: right; clear: both; }
     </style>
 </head>
 <body>
 
     <h1>🚀 AI 每日財經情報</h1>
-    <p id="update-time" class="update-time">資料讀取中...</p>
+    <p id="update-time" class="update-time">讀取中...</p>
 
-    <div id="market-bar" class="market-bar">
-        </div>
+    <div id="market-bar" class="market-bar"></div>
 
     <div class="container">
         <div class="news-section" id="news-box"></div>
 
         <div class="data-section">
             <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                <h3 style="margin-top:0">📅 未來一週重要數據 (US)</h3>
-                <table id="calendar-table">
+                <h3 style="margin-top:0">🌍 全球宏觀指標</h3>
+                <table>
                     <thead>
-                        <tr><th>事件</th><th>前值</th><th>預測</th></tr>
+                        <tr><th>指標</th><th style="text-align:right">數值 / 變動</th></tr>
                     </thead>
-                    <tbody id="calendar-box"></tbody>
+                    <tbody id="macro-box"></tbody>
                 </table>
-                <p id="no-data-msg" style="display:none; text-align:center; color:#999; font-size:0.8em; padding:10px;">暫無數據</p>
+                <p style="font-size:0.8em; color:#999; margin-top:10px; text-align:center;">數據來源: Yahoo Finance</p>
             </div>
         </div>
     </div>
 
     <script>
-        // 加入時間戳記避免緩存
         fetch('daily_news.json?t=' + new Date().getTime())
             .then(r => r.json())
             .then(data => {
-                // 更新時間
                 document.getElementById('update-time').textContent = "最後更新: " + (data.update_time || "--");
 
-                // ================= Render 1: 市場行情 =================
+                // 1. Render Market Bar
                 const marketBox = document.getElementById('market-bar');
-                if (data.market && data.market.length > 0) {
+                if (data.market) {
                     data.market.forEach(item => {
-                        // 判斷漲跌顏色 (Green up, Red down)
                         const isUp = item.change >= 0;
                         const colorClass = isUp ? 'up' : 'down';
-                        const sign = isUp ? '+' : '';
-                        
                         marketBox.innerHTML += `
                             <div class="market-item ${colorClass}">
                                 <span class="market-name">${item.name}</span>
-                                <span class="market-price">${item.price.toFixed(2)}</span><br>
-                                <span class="market-change">${sign}${item.percent.toFixed(2)}%</span>
+                                <span class="market-price">${item.price.toLocaleString()}</span><br>
+                                <span class="market-change">${isUp?'+':''}${item.percent}%</span>
                             </div>
                         `;
                     });
-                } else {
-                    marketBox.style.display = 'none';
                 }
 
-                // ================= Render 2: 新聞 =================
+                // 2. Render News
                 const newsBox = document.getElementById('news-box');
                 if (data.news && data.news.length > 0) {
                     data.news.forEach(item => {
@@ -124,21 +107,23 @@
                     newsBox.innerHTML = "<p>暫無新聞。</p>";
                 }
 
-                // ================= Render 3: 日曆 =================
-                const calBox = document.getElementById('calendar-box');
-                if (data.calendar && data.calendar.length > 0) {
-                    data.calendar.forEach(item => {
-                        calBox.innerHTML += `
+                // 3. Render Macro Data (New!)
+                const macroBox = document.getElementById('macro-box');
+                if (data.macro) {
+                    data.macro.forEach(item => {
+                        const isUp = item.change >= 0;
+                        const color = isUp ? '#27ae60' : '#c0392b';
+                        const sign = isUp ? '+' : '';
+                        macroBox.innerHTML += `
                             <tr>
-                                <td>${item.event}</td>
-                                <td class="num">${item.prev}</td>
-                                <td class="num" style="color:#e67e22">${item.estimate}</td>
+                                <td>${item.name}</td>
+                                <td>
+                                    <span class="macro-val">${item.price.toLocaleString()}</span>
+                                    <span class="macro-change" style="color:${color}">${sign}${item.percent}%</span>
+                                </td>
                             </tr>
                         `;
                     });
-                } else {
-                     document.getElementById('calendar-table').style.display = 'none';
-                     document.getElementById('no-data-msg').style.display = 'block';
                 }
             })
             .catch(e => console.error("Error:", e));
