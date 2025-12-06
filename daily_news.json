@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 16:27",
+  "update_time": "2025-12-06 16:32",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,93 +15,11 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89918.87,
-      "change": 696.32,
-      "percent": 0.7804
+      "price": 89819.42,
+      "change": 849.41,
+      "percent": 0.9547
     }
   ],
-  "news": [
-    {
-      "category": "🔥 市場頭條",
-      "title": "(原文) Sahkar Taxi to become the largest cooperative taxi company in some years :Amit Shah",
-      "link": "https://economictimes.indiatimes.com/news/politics-and-nation/sahkar-taxi-to-become-the-largest-cooperative-taxi-company-in-some-years-amit-shah/articleshow/125792362.cms",
-      "date": "2025-12-05",
-      "summary": "Union Minister Amit Shah announced plans for 'Sahakar Taxi' to become India's largest cooperative taxi company. He detailed a vision to establish a cooperative in every Panchayat, creating over 50 crore members. This initiative aims to boost the cooperative s…",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "(原文) AmEast Roundup: 1 Month In",
-      "link": "https://www.midmajormadness.com/america-east-conference/32170/ameast-roundup-1-month-in",
-      "date": "2025-12-05",
-      "summary": "Tanner provides some news and notes on the America East.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "(原文) Nicos Christodoulides reshuffles the government in Cyprus",
-      "link": "https://en.protothema.gr/2025/12/05/nicos-christodoulides-reshuffles-the-government-in-cyprus/",
-      "date": "2025-12-05",
-      "summary": "Who are the new members of the government\nThe post Nicos Christodoulides reshuffles the government in Cyprus appeared first on ProtoThema English.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(原文) ⚖️ Supreme Court sides with Real Madrid in TV rights row with LaLiga",
-      "link": "https://onefootball.com/en/news/supreme-court-sides-with-real-madrid-in-tv-rights-row-with-laliga-42052945",
-      "date": "2025-12-05",
-      "summary": "The Supreme Court (TS) has dealt a blow to LaLiga by annulling a crucial part of its statutes that regulated the distribution of audiovisual rights for the 2015/2016 season, according to Europa Press....",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(原文) Trump Administration elevates India's role in Indo-Pacific strategy",
-      "link": "https://economictimes.indiatimes.com/news/defence/trump-administration-elevates-indias-role-in-indo-pacific-strategy/articleshow/125792361.cms",
-      "date": "2025-12-05",
-      "summary": "The Trump Administration's National Security Strategy identifies India as a crucial partner, emphasizing deepened cooperation in economic, technological, and defense sectors. The document highlights the Indo-Pacific as a key geopolitical battleground and call…",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(原文) This Startup Makes Ammonia By Turning The Planet Into A Chemical Reactor",
-      "link": "https://www.forbes.com/sites/the-prototype/2025/12/05/this-startup-makes-ammonia-by-turning-the-planet-into-a-chemical-reactor/",
-      "date": "2025-12-05",
-      "summary": "In this week’s edition of The Prototype, we look at a cleaner way to make ammonia, the brightest young scientists in North America, magnetically charging your care, and more.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "(原文) Bitcoin mining stocks MARA, CleanSpark rise as network difficulty eases",
-      "link": "https://blockspace.media/insight/bitcoin-mining-stocks-mara-cleanspark-rise-as-network-difficulty-eases/",
-      "date": "2025-12-05",
-      "summary": "Publicly traded bitcoin miners saw a split in weekly returns, with some operators edging higher while others slipped, as the sector continued to absorb...",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "(原文) Glassnode introduces interpolated implied volatility metrics for crypto options",
-      "link": "https://cryptobriefing.com/glassnode-interpolated-implied-volatility-metrics-crypto-options/",
-      "date": "2025-12-05",
-      "summary": "Glassnode's new metrics enhance crypto market analysis, enabling traders to better assess risk and identify strategic opportunities across assets.\nThe post Glassnode introduces interpolated implied volatility metrics for crypto options appeared first on Crypt…",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "(原文) py-geth 6.4.0",
-      "link": "https://pypi.org/project/py-geth/6.4.0/",
-      "date": "2025-12-05",
-      "summary": "py-geth: Run Go-Ethereum as a subprocess",
-      "impact": "無分析",
-      "score": 0
-    }
-  ],
+  "news": [],
   "calendar": []
 }
