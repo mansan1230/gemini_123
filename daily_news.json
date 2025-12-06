@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 16:35",
+  "update_time": "2025-12-06 16:41",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,11 +15,93 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89835.13,
-      "change": 947.13,
-      "percent": 1.0655
+      "price": 89872.52,
+      "change": 1428.16,
+      "percent": 1.6148
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "category": "🔥 市場頭條",
+      "title": "Netflix’s $59 Billion Loan for Warner Bros. Among Biggest Ever",
+      "link": "https://finance.yahoo.com/news/netflix-lines-59-billion-debt-125547191.html",
+      "date": "2025-12-05",
+      "summary": "Wells Fargo & Co., BNP Paribas SA and HSBC Plc are providing the unsecured bridge loan, according to a statement and filing on Friday.  Wells Fargo’s $29.5...",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "Jamie Oliver revives Italian chain six years after collapse",
+      "link": "https://financialpost.com/news/retail-marketing/jamie-oliver-revives-italian-chain",
+      "date": "2025-12-05",
+      "summary": "Jamie Oliver is bringing his Italian restaurants back to the UK six years after the chain collapsed into insolvency. Find out more here",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "Roma not keen on Niccolo Pisilli exit despite Serie A interest",
+      "link": "https://www.getfootballnewsitaly.com/2025/roma-not-keen-on-niccolo-pisilli-exit-despite-serie-a-interest/",
+      "date": "2025-12-05",
+      "summary": "AS Roma are not keen on allowing young talent Niccolò Pisilli to depart on loan in January, as the club is focused on maintaining squad depth while challenging for European qualification. This stance...",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "From lift-and-shift to one-and-done: Inside AWS’ agentic cloud modernization push",
+      "link": "https://siliconangle.com/2025/12/05/aws-rise-agentic-cloud-modernization-awsreinvent/",
+      "date": "2025-12-05",
+      "summary": "The historic delay between moving workloads to the cloud and optimizing them for use is disappearing, thanks in large part to the emergence of agentic cloud modernization. Enterprises are no longer content with multi-year timelines for digital transformation.…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "What’s up with… Lumen Technologies, Euro AI funds, HPE",
+      "link": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-lumen-technologies-euro-ai-funds-hpe-54463/",
+      "date": "2025-12-05",
+      "summary": "Lumen Technologies has a new CTOThe EC’s AI gigafactory funding process slips into 2026HPE reports 14% sales hike for fiscal Q4",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "Why You Get Stomach Pain After Eating — Doctors' First Checks for Indigestion and Food Intolerance",
+      "link": "https://www.medicaldaily.com/why-you-get-stomach-pain-after-eating-doctors-first-checks-indigestion-food-intolerance-474172",
+      "date": "2025-12-05",
+      "summary": "Stomach pain after eating often stems from indigestion causes or food intolerance. Learn what doctors check first, key triggers, diagnostic steps, and effective relief.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Indiana Lawmaker Pushes for Bitcoin in Pensions, Crypto Payment Protections",
+      "link": "https://decrypt.co/351112/indiana-lawmaker-pushes-bitcoin-pensions-crypto-payment-protections",
+      "date": "2025-12-05",
+      "summary": "A lawmaker in Indiana introduced legislation that would broaden access to Bitcoin and crypto exposure for savers in the Midwestern state.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Another U.S. state pushes bill to allow Bitcoin in retirement funds",
+      "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_282e5c82-08ba-4eb0-959d-75c3de6def9f",
+      "date": "2025-12-05",
+      "summary": null,
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Good Morning, News: City Afraid of 'Big PR Problem' Over Unspent Funds, Attorney Caught Filing Fake Case Law in AI Briefs, Trump/Hegseth Doing More War Crimes (Spotify CEO Votes  With His Dollar)",
+      "link": "https://www.portlandmercury.com/good-morning-news/2025/12/05/48167843/good-morning-news-city-afraid-of-big-pr-problem-over-unspent-funds-attorney-caught-filing-fake-case-law-in-ai-briefs-trumphegseth-doing",
+      "date": "2025-12-05",
+      "summary": "by Jeremiah Hayden\n \n \n \n If you appreciate the Mercury's interesting and useful news & culture reporting, consider making a small monthly contribution to support our editorial team. Your donation is tax-deductible. You can also subscribe and have our papers …",
+      "impact": "無分析",
+      "score": 0
+    }
+  ],
   "calendar": []
 }
