@@ -91,60 +91,74 @@ def get_market_and_macro():
 def get_ai_news():
     if not NEWS_API_KEY: return []
     final_news = []
-    bad_domains = "biztoc.com,globenewswire.com,prnewswire.com,businesswire.com,prweb.com,marketwatch.com"
+    
+    # 【改動 1】定義「權威媒體」名單 (Whitelist)
+    # 與其過濾垃圾，不如直接指定只看大佬。這樣抓到的新聞 99% 都是重點。
+    # 包含：路透、CNBC、彭博、雅虎財經、華爾街日報、TechCrunch (科技)、CoinDesk (幣圈)
+    trusted_domains = "reuters.com,cnbc.com,bloomberg.com,finance.yahoo.com,wsj.com,techcrunch.com,coindesk.com,decrypt.co"
     
     for category, query in CATEGORIES.items():
-        print(f"🔍 處理新聞: {category}...")
-        url = f"https://newsapi.org/v2/everything?q={query}&language=en&excludeDomains={bad_domains}&sortBy=publishedAt&pageSize=3&apiKey={NEWS_API_KEY}"
+        print(f"🔍 處理新聞: {category} (篩選權威媒體)...")
+        
+        # 【改動 2】API 參數大升級
+        # - domains={trusted_domains}: 只從上面的權威媒體抓
+        # - sortBy=popularity: 改抓「熱門度」最高的新聞，確保是市場焦點
+        # - pageSize=10: 擴大搜尋範圍到 10 篇 (讀多啲)
+        url = f"https://newsapi.org/v2/everything?q={query}&language=en&domains={trusted_domains}&sortBy=popularity&pageSize=10&apiKey={NEWS_API_KEY}"
         
         try:
             response = requests.get(url).json()
             articles = response.get("articles", [])
+            print(f"   -> 從權威媒體找到 {len(articles)} 篇熱門報導")
         except: continue
 
-        for art in articles:
+        # 【改動 3】雖然抓了 10 篇，但為了不爆 AI 額度，我們只分析「前 5 篇」
+        # 因為已經按熱門度排序了，前 5 篇一定是最重要的
+        for art in articles[:5]:
             prompt = f"""
-            你是一位華爾街分析師。請閱讀新聞：
+            你是一位華爾街基金經理。請閱讀以下重要財經新聞：
             標題: {art['title']}
             內容: {art['description']}
+
+            請嚴格判斷：這則新聞對市場有多重要？
+            - 如果是重大政策、財報、併購或崩盤，score 給 8-10 分。
+            - 如果只是普通觀點或小新聞，score 給 1-4 分。
 
             請回傳單一 JSON 物件 (繁體中文)：
             {{
                 "title_zh": "中文標題",
-                "summary_zh": "50字內中文摘要",
+                "summary_zh": "50字內中文精華摘要",
                 "impact": "利多 / 利空 / 中性",
                 "score": 8
             }}
             """
+            
             try:
                 ai_response = model.generate_content(prompt)
                 analysis = json.loads(ai_response.text)
+                
                 if isinstance(analysis, list): analysis = analysis[0]
                 
-                final_news.append({
-                    "category": category,
-                    "title": analysis.get("title_zh", art['title']),
-                    "link": art['url'],
-                    "date": art['publishedAt'][:10],
-                    "summary": analysis.get("summary_zh", "AI 未能生成摘要"),
-                    "impact": analysis.get("impact", "中性"),
-                    "score": analysis.get("score", 5)
-                })
-                print(f"   ✅ 新聞分析成功: {analysis.get('title_zh')}")
-                time.sleep(2)
+                # 只有分數大於 0 的才加入 (過濾掉 AI 認為完全不重要的)
+                if analysis.get("score", 0) > 0:
+                    final_news.append({
+                        "category": category,
+                        "title": analysis.get("title_zh", art['title']),
+                        "link": art['url'],
+                        "date": art['publishedAt'][:10],
+                        "summary": analysis.get("summary_zh", "AI 未能生成摘要"),
+                        "impact": analysis.get("impact", "中性"),
+                        "score": analysis.get("score", 5)
+                    })
+                    print(f"   ✅ 分析成功 (分): {analysis.get('title_zh')} (Score: {analysis.get('score')})")
+                
+                time.sleep(2) # 休息一下
+                
             except Exception as e:
-                print(f"   ⚠️ 新聞失敗: {e}")
-                # Fallback
-                final_news.append({
-                    "category": category,
-                    "title": art['title'],
-                    "link": art['url'],
-                    "date": art['publishedAt'][:10],
-                    "summary": art['description'],
-                    "impact": "無分析",
-                    "score": 0
-                })
+                print(f"   ⚠️ 分析失敗: {e}")
+                continue
 
+    # 最後排序：分數高的放最前面
     return sorted(final_news, key=lambda x: x['score'], reverse=True)
 
 # ================= 3. 主程式 =================
