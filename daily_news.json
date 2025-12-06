@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 17:17",
+  "update_time": "2025-12-06 17:23",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,92 +15,74 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89659.01,
-      "change": 783.83,
-      "percent": 0.8819
+      "price": 89699.98,
+      "change": 933.93,
+      "percent": 1.0521
     }
   ],
   "news": [
     {
-      "category": "🔥 市場頭條",
-      "title": "(英) CNN Just Cracked Open Pandora’s Box That’s Worse Than Any Fake News Hoax",
-      "link": "https://dailycaller.com/2025/12/05/cnn-partnership-kalshi-prediction-markets-betting-breaking-news-events/",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: CNN announced Tuesday an \"official partnership\" with the online platform Kalshi, which allows users to wager on future events.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "(英) Why Micron Stock Bounced Higher",
-      "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_85a70e70-66de-4db2-9267-c94a32448eeb",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: None",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "(英) Consumer staples stock surges 1,600% amid crypto pivot",
-      "link": "https://www.thestreet.com/crypto/investing/consumer-staples-stock-surges-1600",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: CIMG Inc. a small-cap consumer staples and packaged-foods company surges more than 1600% on Dec. 4, after announcing a 20-for-1 reverse stock split aimed at ...",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(英) CEO Of Waterstone’s And Barnes & Noble Says They Would Sell AI-Authored Books (If Clearly Labeled)",
-      "link": "https://www.bbc.com/news/articles/cpvdkw4xgewo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: “We as booksellers would naturally and instinctively disdain it,” said James Daunt, but “maybe it’s going to produce the next War and Peace. And if people want to read that book, AI-generated or not, we will be selling it — as long as it doesn’t pretend to be…",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(英) In a takeover of Warner Bros., Netflix makes a play for 21st century Hollywood's throne",
-      "link": "https://www.nbcnews.com/business/media/netflix-warner-bros-merger-hollywood-rcna247548",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: Hollywood is in a brave new world",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "(英) 9 films that helped decode 2025’s absurd reality",
-      "link": "https://www.salon.com/2025/12/05/9-films-that-helped-decode-2025s-absurd-reality/",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: Amid scandals, boycotts and political turmoil, these standout films helped us keep perspective.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
       "category": "💰 加密貨幣",
-      "title": "(英) Fidelity Investments CEO Abigail Johnson confirms Bitcoin ownership",
+      "title": "富達投資執行長 Abigail Johnson 確認持有比特幣",
       "link": "https://cryptobriefing.com/fidelity-ceo-abigail-johnson-bitcoin-ownership-confirmation/",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: Johnson's Bitcoin ownership highlights growing institutional confidence in digital assets, influencing broader acceptance in traditional finance.\nThe post Fidelity Investments CEO Abigail Johnson confirms Bitcoin ownership appeared first on Crypto Briefing.",
-      "impact": "無分析",
-      "score": 0
+      "summary": "Johnson 持有比特幣，突顯機構對數位資產的信心增長，並影響傳統金融對數位資產更廣泛的接受。",
+      "impact": "利多",
+      "score": 8
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "Dynatrace將可觀測性更深入地推進到人工智慧堆疊中",
+      "link": "https://siliconangle.com/2025/12/05/dynatrace-observability-platform-awsreinvent/",
+      "date": "2025-12-05",
+      "summary": "AI可觀測平台Dynatrace在AI領域扮演關鍵角色，旨在預防錯誤發生。它不僅監控AI系統，還提供預測性分析，以確保AI模型準確且可靠。",
+      "impact": "利多",
+      "score": 7
     },
     {
       "category": "💰 加密貨幣",
-      "title": "(英) Consumer staples stock surges 1,600% amid crypto pivot",
+      "title": "消費必需品公司股價因轉向加密貨幣而飆升 1600%",
       "link": "https://www.thestreet.com/crypto/investing/consumer-staples-stock-surges-1600",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: CIMG Inc. a small-cap consumer staples and packaged-foods company surges more than 1600% on Dec. 4, after announcing a 20-for-1 reverse stock split aimed at ...",
-      "impact": "無分析",
-      "score": 0
+      "summary": "小型消費必需品公司CIMG Inc.宣布20比1的反向股票分割，股價於12月4日飆升超過1600%，計劃轉向加密貨幣領域。",
+      "impact": "利多",
+      "score": 7
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "代幣化股票為投資者提供新機會，但也伴隨獨特風險",
+      "link": "https://www.cnbc.com/2025/12/05/tokenized-stocks-offer-new-opportunities-for-investors-but-carry-unique-risks.html",
+      "date": "2025-12-05",
+      "summary": "代幣化股票日益普及，但專家警告，投資這種新興資產可能帶來潛在風險。投資者應謹慎評估。",
+      "impact": "中性",
+      "score": 6
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "氣候變遷下的奇異故事需求",
+      "link": "https://theconversation.com/why-we-need-weird-stories-for-a-warming-world-269156",
+      "date": "2025-12-05",
+      "summary": "New Weird小說想像人類不再掌控的世界，反映對氣候變遷的焦慮，可能影響相關產業的投資情緒。",
+      "impact": "中性",
+      "score": 6
     },
     {
       "category": "💰 加密貨幣",
-      "title": "(英) Hedera Drops Alongside Broader Crypto Market Amid Volume Spike",
-      "link": "https://www.coindesk.com/markets/2025/12/05/hedera-drops-alongside-broader-crypto-market-amid-volume-spike",
+      "title": "代幣化股票為投資者帶來新機遇，但也存在獨特風險",
+      "link": "https://www.cnbc.com/2025/12/05/tokenized-stocks-offer-new-opportunities-for-investors-but-carry-unique-risks.html",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: Hedera's token retreats despite fresh institutional product speculation driving broader altcoin momentum.",
-      "impact": "無分析",
-      "score": 0
+      "summary": "代幣化股票日益普及，但專家警告，投資此新興資產類別的回報伴隨著潛在風險。投資者應謹慎評估。",
+      "impact": "中性",
+      "score": 6
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "Omega Racer改裝Royal Enfield Continental GT 650咖啡賽車",
+      "link": "https://www.bikeexif.com/royal-enfield-continental-gt-omega-racer",
+      "date": "2025-12-05",
+      "summary": "Omega Racer推出新款Royal Enfield Continental GT 650咖啡賽車，採用全新鋁製車身，展示了該公司在金屬方面的精湛技術。這家泰國公司以精湛的金屬工藝聞名。",
+      "impact": "中性",
+      "score": 5
     }
   ],
   "calendar": []
