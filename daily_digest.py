@@ -13,7 +13,7 @@ FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
-        'gemini-1.5-flash',
+        'gemini-2.0-pro',
         generation_config={"response_mime_type": "application/json"}
     )
 
@@ -98,7 +98,7 @@ def get_ai_news():
                 
                 final_news.append({
                     "category": category,
-                    "title": analysis.get("title_zh", art['summary_zh']), # 用 AI 翻譯的標題
+                    "title": analysis.get("title_zh", art['title']), # 用 AI 翻譯的標題
                     "link": art['url'],
                     "date": art['publishedAt'][:10],
                     "summary": analysis.get("summary_zh", "無摘要"), # 用 AI 寫的中文摘要
@@ -112,10 +112,10 @@ def get_ai_news():
                 # 失敗時的回退 (至少顯示原文)
                 final_news.append({
                     "category": category,
-                    "title": art['title_zh'],
+                    "title": art['title'],
                     "link": art['url'],
                     "date": art['publishedAt'][:10],
-                    "summary": art['summary_zh'],
+                    "summary": art['description'],
                     "impact": "無分析",
                     "score": 0
                 })
