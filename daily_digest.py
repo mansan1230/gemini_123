@@ -18,7 +18,14 @@ print(f"- FINNHUB_API_KEY: {'✅ Found' if FINNHUB_API_KEY else '❌ Missing'}")
 
 # 【修正 1】改用 gemini-1.5-pro (目前最穩定且支援中文最強的版本)
 # 注意：gemini-2.0-pro 目前 API 尚未開放，用了一定會報錯
-print(genai.list_models())
+try:
+    for m in genai.list_models():
+        if 'generateContent' in m.supported_generation_methods:
+            print(f"- {m.name}")
+except Exception as e:
+    print(f"❌ 無法列出模型，原因: {e}")
+    print("💡 提示：這通常代表 google-generativeai 套件版本太舊！")
+    
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
