@@ -1,6 +1,107 @@
 {
-  "update_time": "2025-12-06 16:59",
-  "market": [],
-  "news": [],
+  "update_time": "2025-12-06 17:02",
+  "market": [
+    {
+      "name": "🇺🇸 S&P 500",
+      "price": 685.69,
+      "change": 1.3,
+      "percent": 0.19
+    },
+    {
+      "name": "🇺🇸 Nasdaq",
+      "price": 625.48,
+      "change": 2.54,
+      "percent": 0.4077
+    },
+    {
+      "name": "🪙 Bitcoin",
+      "price": 89638.22,
+      "change": 745.99,
+      "percent": 0.8392
+    }
+  ],
+  "news": [
+    {
+      "category": "🔥 市場頭條",
+      "title": "(英) Another Wear OS Smartwatch Maker Appears to Have Given Up",
+      "link": "https://uk.pcmag.com/migrated-99802-smartwatches/161857/another-wear-os-smartwatch-maker-appears-to-have-given-up",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: It’s now much harder to buy a Mobvoi TicWatch and it's only committing to \"essential\" software support.\nThe Mobvoi TicWatch series brought us some of the most exciting Wear OS smartwatches, but it appears the brand may be giving up on making future wearables.…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "(英) Another Wear OS Smartwatch Maker Appears to Have Given Up",
+      "link": "https://me.pcmag.com/en/smartwatches/33966/another-wear-os-smartwatch-maker-appears-to-have-given-up",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: It’s now much harder to buy a Mobvoi TicWatch and it's only committing to \"essential\" software support.\nThe Mobvoi TicWatch series brought us some of the most exciting Wear OS smartwatches, but it appears the brand may be giving up on making future wearables.…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "(英) Netflix Is Buying Warner Bros. and HBO. Here's What This Means for Your Favorite Movies and Shows",
+      "link": "https://me.pcmag.com/en/old-video-streaming-services/33967/netflix-is-buying-warner-bros-and-hbo-heres-what-this-means-for-your-favorite-movies-and-shows",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: What happens next? WBD will split into two companies. The studios and streaming business will go to Netflix, while the cable networks will be folded into a separately traded company.\nIt's official: Netflix is set to acquire Warner Bros' studios, HBO Max, and …",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "(英) 9 films that helped decode 2025’s absurd reality",
+      "link": "https://www.salon.com/2025/12/05/9-films-that-helped-decode-2025s-absurd-reality/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: Amid scandals, boycotts and political turmoil, these standout films helped us keep perspective.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "(英) AI-native agents are breaking brittle workflows, ushering in fresh programming mindsets",
+      "link": "https://siliconangle.com/2025/12/05/ai-native-agents-turn-model-driven-design-awsreinvent/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: As organizations look to roll out artificial intelligence initiatives, they’re quickly discovering that the fixed workflows and step-by-step procedures that work so well in traditional programming come up short when designing models for AI-native agents.  Bec…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "(英) The “Kabuto King” is buying up all the first edition Kabuto Pokémon cards, causing a surge in pricing and demand",
+      "link": "https://www.dailydot.com/news/first-edition-kabuto-pokemon-cards-kabuto-king/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: A strange corner of the Pokémon world recently watched the value of a once-ignored card, the Kabuto, shoot upward. \n\n\nA single collector known online as @KabutoKing_ has spent months buying first-edition Kabuto cards, and the resale market shifted in response…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) $194.6M outflows hit Bitcoin ETFs – What it means for BTC",
+      "link": "https://ambcrypto.com/?p=551495",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: What contradiction in the market is driving this unusual behavior?",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) $ADA at $0.43 Looks Cheap, but $TAP Up 160% on Non-KYC Visa Card Demand: Which is the Best Crypto to Buy in Dec?",
+      "link": "https://ambcrypto.com/ada-at-0-43-looks-cheap-but-tap-up-160-on-non-kyc-visa-card-demand-which-is-the-best-crypto-to-buy-in-dec/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: Cardano has struggled to impress in this market cycle, especially when compared to Ethereum, Solana, […]",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) Bitcoin Must Break $97K To Restore Confidence Among Youngest Long-Term Holders – Details",
+      "link": "http://www.newsbtc.com/bitcoin-news/bitcoin-must-break-97k-to-restore-confidence-among-youngest-long-term-holders-details/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: Bitcoin is trading around $91,000 after a minor dip earlier today, and uncertainty continues to dominate sentiment. The market sits at a crossroads: a small but vocal group of analysts argues that the recent correction served as a healthy reset before a conti…",
+      "impact": "無分析",
+      "score": 0
+    }
+  ],
   "calendar": []
 }
