@@ -6,17 +6,34 @@
     <title>AI 財經情報站</title>
     <style>
         body { font-family: "Segoe UI", sans-serif; background-color: #f4f4f9; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
-        h1 { text-align: center; color: #2c3e50; }
-        .update-time { text-align: center; color: #7f8c8d; margin-bottom: 30px; }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; }
+        .update-time { text-align: center; color: #7f8c8d; margin-bottom: 20px; font-size: 0.9em; }
         
+        /* === 新增：市場行情列 === */
+        .market-bar { display: flex; gap: 15px; margin-bottom: 30px; overflow-x: auto; padding-bottom: 5px; justify-content: center; }
+        .market-item { 
+            background: white; padding: 10px 15px; border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); min-width: 120px; text-align: center; 
+            border-top: 3px solid #ddd;
+        }
+        .market-name { font-size: 0.85em; color: #666; font-weight: bold; margin-bottom: 5px; display: block; }
+        .market-price { font-size: 1.1em; font-weight: bold; }
+        .market-change { font-size: 0.9em; margin-left: 5px; }
+        
+        /* 漲跌顏色 */
+        .up { color: #27ae60; border-top-color: #27ae60; } /* 綠漲 */
+        .down { color: #c0392b; border-top-color: #c0392b; } /* 紅跌 */
+
+        /* 佈局容器 */
         .container { display: flex; gap: 20px; flex-wrap: wrap; }
         .news-section { flex: 2; min-width: 300px; }
         .data-section { flex: 1; min-width: 250px; }
 
         /* 新聞卡片 */
-        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #bdc3c7; }
-        .card.score-high { border-left-color: #e74c3c; } /* 高分紅色 */
-        .card.score-med { border-left-color: #f1c40f; }  /* 中分黃色 */
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #bdc3c7; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-2px); }
+        .card.score-high { border-left-color: #e74c3c; } 
+        .card.score-med { border-left-color: #f1c40f; }  
         
         .category-tag { background: #ecf0f1; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; color: #555; font-weight: bold; }
         .impact-tag { float: right; font-weight: bold; font-size: 0.9em; color: #7f8c8d; }
@@ -30,29 +47,27 @@
         th { background: #2c3e50; color: white; padding: 10px; text-align: left; font-size: 0.9em; }
         td { padding: 10px; border-bottom: 1px solid #eee; font-size: 0.85em; }
         .num { font-family: monospace; font-weight: bold; }
-        
-        /* 錯誤訊息框 */
-        #error-msg { background: #ffebee; color: #c62828; padding: 10px; border-radius: 5px; display: none; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
     <h1>🚀 AI 每日財經情報</h1>
-    <div id="error-msg"></div>
     <p id="update-time" class="update-time">資料讀取中...</p>
+
+    <div id="market-bar" class="market-bar">
+        </div>
 
     <div class="container">
         <div class="news-section" id="news-box"></div>
 
         <div class="data-section">
             <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                <h3 style="margin-top:0">📅 本週重要數據 (US)</h3>
+                <h3 style="margin-top:0">📅 未來一週重要數據 (US)</h3>
                 <table id="calendar-table">
                     <thead>
                         <tr><th>事件</th><th>前值</th><th>預測</th></tr>
                     </thead>
-                    <tbody id="calendar-box">
-                        </tbody>
+                    <tbody id="calendar-box"></tbody>
                 </table>
                 <p id="no-data-msg" style="display:none; text-align:center; color:#999; font-size:0.8em; padding:10px;">暫無數據</p>
             </div>
@@ -60,38 +75,44 @@
     </div>
 
     <script>
-        // 顯示錯誤訊息的工具
-        function showError(msg) {
-            const el = document.getElementById('error-msg');
-            el.style.display = 'block';
-            el.innerHTML = "⚠️ 錯誤: " + msg;
-        }
-
+        // 加入時間戳記避免緩存
         fetch('daily_news.json?t=' + new Date().getTime())
-            .then(r => {
-                if (!r.ok) throw new Error("找不到 daily_news.json 檔案");
-                return r.json();
-            })
+            .then(r => r.json())
             .then(data => {
-                // 1. 更新時間
-                document.getElementById('update-time').textContent = "最後更新: " + (data.update_time || "未知時間");
+                // 更新時間
+                document.getElementById('update-time').textContent = "最後更新: " + (data.update_time || "--");
 
-                // 2. 渲染新聞
-                const newsBox = document.getElementById('news-box');
-                if (!data.news || data.news.length === 0) {
-                    newsBox.innerHTML = "<p>今日無新聞。</p>";
+                // ================= Render 1: 市場行情 =================
+                const marketBox = document.getElementById('market-bar');
+                if (data.market && data.market.length > 0) {
+                    data.market.forEach(item => {
+                        // 判斷漲跌顏色 (Green up, Red down)
+                        const isUp = item.change >= 0;
+                        const colorClass = isUp ? 'up' : 'down';
+                        const sign = isUp ? '+' : '';
+                        
+                        marketBox.innerHTML += `
+                            <div class="market-item ${colorClass}">
+                                <span class="market-name">${item.name}</span>
+                                <span class="market-price">${item.price.toFixed(2)}</span><br>
+                                <span class="market-change">${sign}${item.percent.toFixed(2)}%</span>
+                            </div>
+                        `;
+                    });
                 } else {
-                    data.news.forEach(item => {
-                        // 根據分數決定顏色
-                        let scoreClass = '';
-                        if (item.score >= 8) scoreClass = 'score-high';
-                        else if (item.score >= 5) scoreClass = 'score-med';
+                    marketBox.style.display = 'none';
+                }
 
+                // ================= Render 2: 新聞 =================
+                const newsBox = document.getElementById('news-box');
+                if (data.news && data.news.length > 0) {
+                    data.news.forEach(item => {
+                        let scoreClass = item.score >= 8 ? 'score-high' : (item.score >= 5 ? 'score-med' : '');
                         newsBox.innerHTML += `
                             <div class="card ${scoreClass}">
                                 <div>
                                     <span class="category-tag">${item.category}</span>
-                                    <span class="impact-tag">影響: ${item.impact} (分數: ${item.score})</span>
+                                    <span class="impact-tag">${item.impact} (${item.score})</span>
                                 </div>
                                 <h3>${item.title}</h3>
                                 <p>${item.summary}</p>
@@ -99,14 +120,13 @@
                             </div>
                         `;
                     });
+                } else {
+                    newsBox.innerHTML = "<p>暫無新聞。</p>";
                 }
 
-                // 3. 渲染財經日曆 (處理空資料情況)
+                // ================= Render 3: 日曆 =================
                 const calBox = document.getElementById('calendar-box');
-                if (!data.calendar || data.calendar.length === 0) {
-                    document.getElementById('calendar-table').style.display = 'none';
-                    document.getElementById('no-data-msg').style.display = 'block';
-                } else {
+                if (data.calendar && data.calendar.length > 0) {
                     data.calendar.forEach(item => {
                         calBox.innerHTML += `
                             <tr>
@@ -116,16 +136,12 @@
                             </tr>
                         `;
                     });
+                } else {
+                     document.getElementById('calendar-table').style.display = 'none';
+                     document.getElementById('no-data-msg').style.display = 'block';
                 }
             })
-            .catch(e => {
-                console.error("Error:", e);
-                showError(`
-                    讀取失敗。<br>
-                    1. 如果你在電腦直接打開 index.html，請改用 VS Code Live Server 或上傳到 GitHub Pages。<br>
-                    2. 錯誤詳情: ${e.message}
-                `);
-            });
+            .catch(e => console.error("Error:", e));
     </script>
 </body>
 </html>
