@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 17:51",
+  "update_time": "2025-12-06 17:58",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -24,93 +24,147 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89695.01,
-      "change": 307.25,
-      "percent": 0.34,
+      "price": 89700.37,
+      "change": 312.61,
+      "percent": 0.35,
       "is_macro": false
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "Netflix與華納兄弟探索潛在合併案",
-      "link": "https://nypost.com/2025/12/05/business/heres-everything-you-need-to-know-about-the-netflix-warner-bros-deal/",
-      "date": "2025-12-05",
-      "summary": "Netflix可能收購華納兄弟探索的影視工作室與HBO，合併後用戶數將超過4億，內容庫龐大。",
+      "title": "比特幣反彈突破 8.4 萬美元，聯準會威廉姆斯將 12 月降息重新提上議程",
+      "link": "https://www.coindesk.com/markets/2025/11/21/bitcoin-bounces-above-usd84k-as-fed-s-williams-puts-december-rate-cut-back-on-table",
+      "date": "2025-11-21",
+      "summary": "聯準會官員暗示可能於 12 月降息，市場預期降息機率超過 70%，比特幣因此受到提振，價格反彈突破 8.4 萬美元。",
       "impact": "利多",
-      "score": 8
+      "score": 9
     },
     {
       "category": "🤖 人工智慧",
-      "title": "AI複雜性推動對更深入可觀測性框架的新需求",
-      "link": "https://siliconangle.com/2025/12/05/honeycomb-observability-platform-ai-awsreinvent/",
-      "date": "2025-12-05",
-      "summary": "隨著AI系統日趨複雜，可觀測性變得至關重要。Honeycomb.io利用OpenTelemetry提供使用者可視化和分析AI模型結果的途徑，滿足市場對深入洞察的需求。",
+      "title": "輝達財報超預期，前景看好，比特幣重回 9 萬美元",
+      "link": "https://www.coindesk.com/markets/2025/11/19/nvidia-earnings-beat-strong-outlook-calms-jittery-markets-bitcoin-re-takes-usd90k",
+      "date": "2025-11-19",
+      "summary": "輝達 Blackwell 銷售火爆，雲端 GPU 售罄，執行長黃仁勳表示樂觀。比特幣價格回升至 9 萬美元以上，市場情緒受到提振。",
       "impact": "利多",
-      "score": 8
+      "score": 9
     },
     {
-      "category": "💰 加密貨幣",
-      "title": "比特幣價格暴跌至 88,000 美元：加密貨幣市場蒸發 800 億美元，清算額達 5 億美元",
-      "link": "https://economictimes.indiatimes.com/news/international/us/bitcoin-price-today-crashes-to-88000-why-btc-usd-is-falling-as-the-crypto-market-loses-80-billion-and-liquidations-hit-500-million/articleshow/125792691.cms",
-      "date": "2025-12-05",
-      "summary": "比特幣短暫突破 90,000 美元後暴跌至 88,000 美元，創五日新低，引發超過 5 億美元的清算，並波及以太坊等主要替代幣。",
+      "category": "🔥 市場頭條",
+      "title": "股市持續下滑... 持續發展...",
+      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
+      "date": "2025-11-18",
+      "summary": "股市持續下跌，情況仍在發展中。考慮到相關文章提及AI泡沫、Thiel出售NVIDIA股份等，市場可能面臨重大調整風險。",
       "impact": "利空",
       "score": 8
     },
     {
       "category": "🔥 市場頭條",
-      "title": "Aritzia 採用 Nedap RFID 平台強化店面營運",
-      "link": "https://sourcingjournal.com/topics/technology/aritzia-nedap-rfid-enhances-store-operations-efficiency-1234791778/",
-      "date": "2025-12-05",
-      "summary": "Aritzia 採用 Nedap 的 RFID 平台，旨在簡化店面營運、提高庫存準確性，並提供更流暢的購物體驗。此舉預計將提升營運效率。",
+      "title": "德意志銀行稱：比特幣市值蒸發一兆美元，暴露脆弱的市場結構",
+      "link": "https://www.coindesk.com/markets/2025/11/24/bitcoin-s-usd1t-rout-exposes-fragile-market-structure-deutsche-bank-says",
+      "date": "2025-11-24",
+      "summary": "比特幣價格跌破8萬美元，反映宏觀壓力、監管動能減弱和流動性不足，考驗了比特幣的成熟度，市值蒸發一兆美元。",
+      "impact": "利空",
+      "score": 8
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "加密貨幣股暴跌，比特幣隨週四股市拋售回落至 10 萬美元",
+      "link": "https://www.coindesk.com/markets/2025/11/06/crypto-shares-slammed-thursday-alongside-stock-market-selloff",
+      "date": "2025-11-06",
+      "summary": "7月開始的急劇下跌持續，Michael Saylor 的 Strategy 現在按年下降。加密貨幣股暴跌，比特幣價格下跌，可能反映市場對加密貨幣的擔憂情緒。",
+      "impact": "利空",
+      "score": 8
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "股市持續下跌...發展中...",
+      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
+      "date": "2025-11-18",
+      "summary": "股市持續下跌，情況仍在發展中。相關文章暗示AI泡沫可能破裂，以及科技業可能存在問題，整體市場情緒偏向負面。",
+      "impact": "利空",
+      "score": 8
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "輝達財報亮眼，帶動AI與HPC比特幣礦商盤前大漲",
+      "link": "https://www.coindesk.com/markets/2025/11/20/ai-and-hpc-bitcoin-miners-surge-pre-market-following-stellar-nvidia-earnings",
+      "date": "2025-11-20",
+      "summary": "輝達財測強勁提振市場情緒，比特幣礦商盤前上漲。NAKA延遲發布第三季度虧損報告。",
+      "impact": "利多",
+      "score": 8
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "股市持續下滑...發展中...",
+      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
+      "date": "2025-11-18",
+      "summary": "股市持續下滑，後續發展不明，可能引發市場恐慌情緒，需密切關注相關新聞和市場反應。",
+      "impact": "利空",
+      "score": 8
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "加密貨幣漲勢受阻，比特幣回落至 9.2 萬美元，微軟降低 AI 銷售目標",
+      "link": "https://www.coindesk.com/markets/2025/12/03/crypto-rally-stumbles-bitcoin-slips-back-to-usd92k-as-microsoft-lowers-ai-sales-goals",
+      "date": "2025-12-03",
+      "summary": "微軟 AI 部門未達 2025 年目標，下調預期。加密貨幣市場受影響，比特幣下跌。整體市場情緒謹慎。",
+      "impact": "利空",
+      "score": 7
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "比特幣巨鯨於數月低點累積BTC",
+      "link": "https://videos.coindesk.com/previews/JF8HgXML",
+      "date": "2025-11-17",
+      "summary": "比特幣價格跌至數月低點，低於100,000美元，精明資金正在採取行動，巨鯨大量買入。",
       "impact": "利多",
       "score": 7
     },
     {
       "category": "🤖 人工智慧",
-      "title": "獨家：Dr. Squatch 與《怪奇物語》演員布雷特·吉爾曼合作推出限量版系列和宣傳活動",
-      "link": "http://wwd.com/pop-culture/new-fashion-releases/dr-squatch-stranger-things-collection-1238385474/",
-      "date": "2025-12-05",
-      "summary": "Dr. Squatch與《怪奇物語》演員布雷特·吉爾曼合作，在第五季首映後推出限量版產品。這次合作有望吸引更多關注。",
-      "impact": "利多",
-      "score": 7
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "軟銀洽談收購 DigitalBridge 集團：報導",
-      "link": "https://cryptobriefing.com/softbank-digitalbridge-acquisition-talks/",
-      "date": "2025-12-05",
-      "summary": "軟銀收購 DigitalBridge 可能加速科技基礎設施整合，提升其在數位投資領域的影響力。此舉可能增強軟銀在數位資產領域的地位。",
-      "impact": "利多",
-      "score": 7
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "國際貨幣基金組織報告警告穩定幣風險，引發專家批評",
-      "link": "https://www.coindesk.com/policy/2025/12/05/new-imf-report-warns-of-stablecoin-risk-sparking-criticism-from-experts",
-      "date": "2025-12-05",
-      "summary": "國際貨幣基金組織報告支持央行數位貨幣，警告穩定幣風險，引發加密貨幣專家批評。",
-      "impact": "利空",
-      "score": 7
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "Harbor Freight Tools刮痕與凹痕特賣：高達45%折扣+免運",
-      "link": "https://www.dealnews.com/Harbor-Freight-Tools-Scratch-and-Dent-Sale-Up-to-45-off-free-shipping/21793264.html",
-      "date": "2025-12-05",
-      "summary": "Harbor Freight Tools推出刮痕與凹痕商品特賣，工具收納櫃和不鏽鋼工作檯面最高可享45%折扣。ICON 73吋專業工作中心櫥櫃特價549美元，庫存有限，免運但需自行拆卸和設置。",
+      "title": "輝達CEO黃仁勳告訴喬·羅根人工智慧競賽是真實的，但不會有明確的贏家",
+      "link": "https://www.coindesk.com/tech/2025/12/03/nvidia-ceo-jensen-huang-tells-joe-rogan-ai-race-is-real-but-it-won-t-have-a-clear-winner",
+      "date": "2025-12-03",
+      "summary": "黃仁勳在訪談中聲稱，人工智慧的成長是漸進的、強大的，並且已經在改變全球權力動態。此言論暗示AI發展長期且影響深遠。",
       "impact": "中性",
       "score": 6
     },
     {
-      "category": "🤖 人工智慧",
-      "title": "冠軍聯賽：路易斯·迪亞茲的禁賽令減少",
-      "link": "https://onefootball.com/en/news/champions-league-luis-diazs-ban-reduced-42053323",
-      "date": "2025-12-05",
-      "summary": "路易斯·迪亞茲的歐冠禁賽令減少。拜仁慕尼黑週五晚間有重大宣布！最初因對哈基米犯規的紅牌而被禁賽三場。",
+      "category": "💰 加密貨幣",
+      "title": "比特幣跌破 9.3 萬美元，加密貨幣疲軟加劇，但分析師稱可能接近局部底部",
+      "link": "https://www.coindesk.com/markets/2025/11/17/bitcoin-slips-below-usd93k-as-crypto-weakness-worsens-but-local-bottom-could-be-near-analysts-say",
+      "date": "2025-11-17",
+      "summary": "比特幣跌破 9.3 萬美元，加密貨幣市場持續疲軟。分析師認為可能已接近局部底部，但整體趨勢仍不明朗。",
+      "impact": "利空",
+      "score": 6
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "比特幣 ETF 資金流出達 12 億美元，華爾街加深加密貨幣投資",
+      "link": "https://www.coindesk.com/markets/2025/11/10/bitcoin-etf-outflows-hit-usd1-2b-even-as-wall-street-deepens-its-crypto-bets",
+      "date": "2025-11-10",
+      "summary": "比特幣 ETF 資金流出顯示機構降低風險，但並未放棄加密貨幣。交易維持鏈下，流動性開始改善。",
+      "impact": "中性",
+      "score": 6
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "微型生技公司募資 2.12 億美元用於預測市場代幣國庫策略",
+      "link": "https://www.coindesk.com/business/2025/11/24/microcap-biotech-firm-raises-usd212m-for-prediction-market-token-treasury-strategy",
+      "date": "2025-11-24",
+      "summary": "Enlivex Therapeutics 募資 2.12 億美元投資於 RAIN 代幣，該代幣為基於區塊鏈的預測市場，將成為其主要的國庫儲備資產。此舉具有高度投機性，可能影響公司股價。",
       "impact": "中性",
       "score": 4
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Tom Lee的以太坊投資公司BitMine Immersion任命Chi Tsang為CEO",
+      "link": "https://www.coindesk.com/business/2025/11/14/tom-lee-s-ethereum-treasury-firm-bitmine-immersion-appoints-chi-tsang-as-ceo",
+      "date": "2025-11-14",
+      "summary": "BitMine Immersion公司CEO換人，Tsang接替Bates。公司由比特幣挖礦轉向以太坊投資策略。",
+      "impact": "中性",
+      "score": 3
     }
   ],
   "macro": [
