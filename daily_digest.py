@@ -84,7 +84,7 @@ def get_ai_news():
             請回傳一個單一 JSON 物件 (不要列表 List)：
             {{
                 "title_zh": "中文標題",
-                "summary_zh": "50字內中文摘要",
+                "summary_zh": "100字內中文摘要",
                 "impact": "利多 / 利空 / 中性",
                 "score": 8
             }}
@@ -131,7 +131,7 @@ def get_economic_calendar():
     if not FINNHUB_API_KEY: return []
     print("📅 抓取日曆...")
     start = datetime.now().strftime("%Y-%m-%d")
-    end = (datetime.now() + timedelta(days=14)).strftime("%Y-%m-%d")
+    end = (datetime.now() + timedelta(days=30)).strftime("%Y-%m-%d")
     url = f"https://finnhub.io/api/v1/calendar/economic?from={start}&to={end}&token={FINNHUB_API_KEY}"
     try:
         res = requests.get(url).json()
