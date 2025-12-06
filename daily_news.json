@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 16:15",
+  "update_time": "2025-12-06 16:20",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,36 +15,45 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89965.95,
-      "change": 690.6,
-      "percent": 0.7736
+      "price": 89914,
+      "change": 761.19,
+      "percent": 0.8538
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "Why CONMED (CNMD) Shares Are Plunging Today",
-      "link": "https://finance.yahoo.com/news/why-conmed-cnmd-shares-plunging-161101640.html",
+      "title": "2022 Rolls-Royce Cullinan",
+      "link": "https://bringatrailer.com/listing/2022-rolls-royce-cullinan-14/",
       "date": "2025-12-05",
-      "summary": "Shares of medical tech company CONMED (NYSE:CNMD) fell 6.2% in the morning session after the company announced its plan to exit its gastroenterology product ...",
+      "summary": "This 2022 Rolls-Royce Cullinan has 7k miles and is powered by a twin-turbocharged 6.75-liter V12 linked with an eight-speed automatic transmission and an all-wheel-drive system. Finished in white over orange leather, the vehicle is equipped with a self-leveli…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "Say goodbye to Toronto and hello to Caribbean bliss with this Grenada travel guide",
-      "link": "https://www.blogto.com/sponsored/2025/12/toronto-grenada-vacation-travel-guide/",
+      "title": "I'm a dietitian who loves Aldi. I rely on these 11 items to feed my family of 4 on a budget.",
+      "link": "https://www.businessinsider.com/best-aldi-items-save-money-dietitian-mom-recommendations-2025-12",
       "date": "2025-12-05",
-      "summary": "Exploring other parts of the world is one of life's true joys. Whether you prefer a fast-paced and adventurous vacation or a more relaxed and scenic getaway, having an idea of what you would like to experience is always handy when planning a trip.Lucky for To…",
+      "summary": "The budget grocer carries nutrient-packed, affordable foods like raw nuts, frozen berries, canned fish, Greek yogurt, chia seeds, and fresh produce.",
       "impact": "無分析",
       "score": 0
     },
     {
-      "category": "🔥 市場頭條",
-      "title": "Palantir CEO Says Legalizing War Crimes Would Be Good for Business",
-      "link": "http://futurism.com/future-society/palantir-ceo-war-crimes",
+      "category": "🤖 人工智慧",
+      "title": "NYT, Chicago Tribune Sue Perplexity AI As Copyright War Rages On",
+      "link": "https://www.ndtvprofit.com/technology/nyt-chicago-tribune-sue-perplexity-ai-as-copyright-war-rages-on",
       "date": "2025-12-05",
-      "summary": "\"So you keep pushing on making it constitutional. I'm totally supportive of that.\"\nThe post Palantir CEO Says Legalizing War Crimes Would Be Good for Business appeared first on Futurism.",
+      "summary": "The New York Times Co. and the Chicago Tribune sued Perplexity AI Inc., saying the artificial intelligence search startup is copying and distributing their exclusive content, the latest in a wave of lawsuits against AI developers. The New York Times complaint…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "Rangers' title hopes distant 'but not impossible'",
+      "link": "https://www.bbc.com/sport/football/articles/cr5zvrdz64no?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "date": "2025-12-05",
+      "summary": "Rangers' route to Scottish Premiership title success \"is a long way but it's not impossible\", says head coach Danny Rohl.",
       "impact": "無分析",
       "score": 0
     },
@@ -54,24 +63,6 @@
       "link": "https://fortune.com/2025/12/05/robert-f-kennedy-jr-turns-to-ai-to-make-america-healthy-again/",
       "date": "2025-12-05",
       "summary": "The U.S. Department of Health and Human Services on Thursday has outlined a \"first step\" strategy to expand its use of AI.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "The character of international law: A Festschrift for Rob Cryer",
-      "link": "https://eprints.lse.ac.uk/130459/",
-      "date": "2025-12-05",
-      "summary": "Breeze, Emma J., Drumbl, Mark A., Simpson, Gerry ORCID: 0009-0004-2380-3735 and Wade, M. L. (2025) The character of international law: A Festschrift for Rob Cryer. Bloomsbury Publishing Plc.. ISBN 9781509983377",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "U.S. stocks set for double-digit gains in 2026, say Wall Street banks",
-      "link": "https://financialpost.com/financial-times/u-s-stocks-double-digit-gains-2026",
-      "date": "2025-12-05",
-      "summary": "Bullish forecasts for U.S. stock markets come despite recent investor jitters over tech spending and potential bubble in AI sector. Read on.",
       "impact": "無分析",
       "score": 0
     },
