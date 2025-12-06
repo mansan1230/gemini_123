@@ -143,3 +143,19 @@ def get_economic_calendar():
                     "actual": str(item['actual'] or "待公布"),
                     "estimate": str(item['estimate'] or "-"),
                     "prev": str(item['prev'] or "-")
+                })
+        return data[:10]
+    except: return []
+
+# ================= 3. 主程式 =================
+if __name__ == "__main__":
+    print("🚀 啟動 v9.0 修正列表錯誤版...")
+    final_output = {
+        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "market": get_market_data(),
+        "news": get_ai_news(),
+        "calendar": get_economic_calendar()
+    }
+    with open("daily_news.json", "w", encoding="utf-8") as f:
+        json.dump(final_output, f, ensure_ascii=False, indent=2)
+    print("🎉 完成！")
