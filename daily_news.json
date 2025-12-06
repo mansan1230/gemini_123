@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 16:41",
+  "update_time": "2025-12-06 16:47",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,90 +15,90 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89872.52,
-      "change": 1428.16,
-      "percent": 1.6148
+      "price": 89810.64,
+      "change": 1142.02,
+      "percent": 1.288
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "Netflix’s $59 Billion Loan for Warner Bros. Among Biggest Ever",
-      "link": "https://finance.yahoo.com/news/netflix-lines-59-billion-debt-125547191.html",
+      "title": "(英) Tesla launches cheaper Standard EVs in Europe to blunt sales drop, Musk backlash",
+      "link": "https://finance.yahoo.com/news/tesla-launches-cheaper-standard-evs-in-europe-to-blunt-sales-drop-musk-backlash-164639812.html",
       "date": "2025-12-05",
-      "summary": "Wells Fargo & Co., BNP Paribas SA and HSBC Plc are providing the unsecured bridge loan, according to a statement and filing on Friday.  Wells Fargo’s $29.5...",
+      "summary": "AI 暫時無法翻譯。原文: Tesla launched the cheaper Standard versions of the Model 3 and Model Y in Europe as sales lag in the region due to competition and the political antics of...",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "Jamie Oliver revives Italian chain six years after collapse",
-      "link": "https://financialpost.com/news/retail-marketing/jamie-oliver-revives-italian-chain",
+      "title": "(英) Moore Threads jumps 425% as investors chase AI chips",
+      "link": "https://rollingout.com/2025/12/05/moore-threads-surged-425/",
       "date": "2025-12-05",
-      "summary": "Jamie Oliver is bringing his Italian restaurants back to the UK six years after the chain collapsed into insolvency. Find out more here",
+      "summary": "AI 暫時無法翻譯。原文: A Chinese artificial intelligence chipmaker burst onto the Shanghai stock exchange Friday with a stunning 425% surge, delivering the biggest first day pop for a major initial public offering since China reformed its market rules in 2019. Moore Threads Technol…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "Roma not keen on Niccolo Pisilli exit despite Serie A interest",
-      "link": "https://www.getfootballnewsitaly.com/2025/roma-not-keen-on-niccolo-pisilli-exit-despite-serie-a-interest/",
+      "title": "(英) Stay Calm & Carry On: WBD’s David Zaslav & Netflix’s Greg Peters Tell Nervous Staff To Stay Focused Amidst “The Beginning Of New Possibilities” Merger",
+      "link": "http://deadline.com/2025/12/netflix-warner-bros-ceo-staff-memos-1236637404/",
       "date": "2025-12-05",
-      "summary": "AS Roma are not keen on allowing young talent Niccolò Pisilli to depart on loan in January, as the club is focused on maintaining squad depth while challenging for European qualification. This stance...",
+      "summary": "AI 暫時無法翻譯。原文: Netflix’s roundhouse $82.7 billion acquisition of Warner Bros. Discovery’s studio, HBO and streaming assets has proved a corkscrew punch for Hollywood this morning, but the CEOs in the ring are respectively telling their staff to chill, for now. Both WBD’s Da…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "From lift-and-shift to one-and-done: Inside AWS’ agentic cloud modernization push",
-      "link": "https://siliconangle.com/2025/12/05/aws-rise-agentic-cloud-modernization-awsreinvent/",
+      "title": "(英) Skepticism grows over DR Congo-Rwanda peace deal",
+      "link": "https://www.dw.com/en/skepticism-grows-over-dr-congo-rwanda-peace-deal/a-75035195",
       "date": "2025-12-05",
-      "summary": "The historic delay between moving workloads to the cloud and optimizing them for use is disappearing, thanks in large part to the emergence of agentic cloud modernization. Enterprises are no longer content with multi-year timelines for digital transformation.…",
+      "summary": "AI 暫時無法翻譯。原文: Washington hails a \"historic\" US-brokered Rwanda-DR Congo peace deal, but renewed clashes, mistrust between leaders, and warnings of US mineral ambitions reveal a fragile reality on the ground.",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "What’s up with… Lumen Technologies, Euro AI funds, HPE",
-      "link": "https://www.telecomtv.com/content/access-evolution/what-s-up-with-lumen-technologies-euro-ai-funds-hpe-54463/",
+      "title": "(英) Wall Street races to protect itself from AI bubble",
+      "link": "https://rollingout.com/2025/12/05/wall-street-protects-itself-ai-bubble/",
       "date": "2025-12-05",
-      "summary": "Lumen Technologies has a new CTOThe EC’s AI gigafactory funding process slips into 2026HPE reports 14% sales hike for fiscal Q4",
+      "summary": "AI 暫時無法翻譯。原文: Wall Street finds itself in an unusual position as it prepares to lend staggering amounts to artificial intelligence companies. Even as banks facilitate what may become the largest borrowing binge in technology history, they are simultaneously deploying an ar…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "Why You Get Stomach Pain After Eating — Doctors' First Checks for Indigestion and Food Intolerance",
-      "link": "https://www.medicaldaily.com/why-you-get-stomach-pain-after-eating-doctors-first-checks-indigestion-food-intolerance-474172",
+      "title": "(英) Moore Threads jumps 425% as investors chase AI chips",
+      "link": "https://rollingout.com/2025/12/05/moore-threads-surged-425/",
       "date": "2025-12-05",
-      "summary": "Stomach pain after eating often stems from indigestion causes or food intolerance. Learn what doctors check first, key triggers, diagnostic steps, and effective relief.",
+      "summary": "AI 暫時無法翻譯。原文: A Chinese artificial intelligence chipmaker burst onto the Shanghai stock exchange Friday with a stunning 425% surge, delivering the biggest first day pop for a major initial public offering since China reformed its market rules in 2019. Moore Threads Technol…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "💰 加密貨幣",
-      "title": "Indiana Lawmaker Pushes for Bitcoin in Pensions, Crypto Payment Protections",
+      "title": "(英) BlackRock Bitcoin ETF bleeds $2.7 billion in exodus",
+      "link": "https://rollingout.com/2025/12/05/blackrock-bitcoin-etf-bleeds-billions/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: Institutional investors are fleeing BlackRock’s flagship Bitcoin investment vehicle at an unprecedented pace, marking the longest sustained withdrawal period since the fund launched in January 2024. The exodus suggests that appetite for the world’s largest cr…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) U.S. savings drop as inflation holds steady: What it means for Bitcoin’s 2026 outlook",
+      "link": "https://ambcrypto.com/?p=551583",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: The latest U.S. Personal Income & Outlays report shows flat real spending and sticky inflation, creating near-term pressure on crypto flows.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) Indiana Lawmaker Pushes for Bitcoin in Pensions, Crypto Payment Protections",
       "link": "https://decrypt.co/351112/indiana-lawmaker-pushes-bitcoin-pensions-crypto-payment-protections",
       "date": "2025-12-05",
-      "summary": "A lawmaker in Indiana introduced legislation that would broaden access to Bitcoin and crypto exposure for savers in the Midwestern state.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "Another U.S. state pushes bill to allow Bitcoin in retirement funds",
-      "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_282e5c82-08ba-4eb0-959d-75c3de6def9f",
-      "date": "2025-12-05",
-      "summary": null,
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "Good Morning, News: City Afraid of 'Big PR Problem' Over Unspent Funds, Attorney Caught Filing Fake Case Law in AI Briefs, Trump/Hegseth Doing More War Crimes (Spotify CEO Votes  With His Dollar)",
-      "link": "https://www.portlandmercury.com/good-morning-news/2025/12/05/48167843/good-morning-news-city-afraid-of-big-pr-problem-over-unspent-funds-attorney-caught-filing-fake-case-law-in-ai-briefs-trumphegseth-doing",
-      "date": "2025-12-05",
-      "summary": "by Jeremiah Hayden\n \n \n \n If you appreciate the Mercury's interesting and useful news & culture reporting, consider making a small monthly contribution to support our editorial team. Your donation is tax-deductible. You can also subscribe and have our papers …",
+      "summary": "AI 暫時無法翻譯。原文: A lawmaker in Indiana introduced legislation that would broaden access to Bitcoin and crypto exposure for savers in the Midwestern state.",
       "impact": "無分析",
       "score": 0
     }
