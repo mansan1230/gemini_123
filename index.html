@@ -5,96 +5,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI 財經情報站</title>
     <style>
-        body { font-family: "Segoe UI", sans-serif; background-color: #f4f4f9; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        body { font-family: "Segoe UI", sans-serif; background-color: #f4f4f9; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
         h1 { text-align: center; color: #2c3e50; }
         .update-time { text-align: center; color: #7f8c8d; margin-bottom: 30px; }
         
-        /* 佈局：左右兩欄 */
         .container { display: flex; gap: 20px; flex-wrap: wrap; }
         .news-section { flex: 2; min-width: 300px; }
         .data-section { flex: 1; min-width: 250px; }
 
         /* 新聞卡片 */
-        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #3498db; }
-        .card.score-high { border-left-color: #e74c3c; } /* 高分新聞轉紅色 */
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #bdc3c7; }
+        .card.score-high { border-left-color: #e74c3c; } /* 高分紅色 */
+        .card.score-med { border-left-color: #f1c40f; }  /* 中分黃色 */
+        
         .category-tag { background: #ecf0f1; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; color: #555; font-weight: bold; }
-        .impact-tag { float: right; color: #e67e22; font-weight: bold; font-size: 0.9em; }
+        .impact-tag { float: right; font-weight: bold; font-size: 0.9em; color: #7f8c8d; }
+        
         h3 { margin: 10px 0 5px; }
-        p { line-height: 1.6; color: #555; }
-        a { text-decoration: none; color: #3498db; font-weight: bold; }
+        p { line-height: 1.6; color: #555; font-size: 0.95em; }
+        a { text-decoration: none; color: #3498db; font-weight: bold; font-size: 0.9em; }
 
-        /* 數據表格 */
+        /* 表格 */
         table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         th { background: #2c3e50; color: white; padding: 10px; text-align: left; font-size: 0.9em; }
         td { padding: 10px; border-bottom: 1px solid #eee; font-size: 0.85em; }
-        tr:last-child td { border-bottom: none; }
         .num { font-family: monospace; font-weight: bold; }
+        
+        /* 錯誤訊息框 */
+        #error-msg { background: #ffebee; color: #c62828; padding: 10px; border-radius: 5px; display: none; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
     <h1>🚀 AI 每日財經情報</h1>
-    <p id="update-time" class="update-time">載入中...</p>
+    <div id="error-msg"></div>
+    <p id="update-time" class="update-time">資料讀取中...</p>
 
     <div class="container">
-        <div class="news-section" id="news-box">
-            </div>
+        <div class="news-section" id="news-box"></div>
 
         <div class="data-section">
             <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
                 <h3 style="margin-top:0">📅 本週重要數據 (US)</h3>
-                <table>
+                <table id="calendar-table">
                     <thead>
-                        <tr>
-                            <th>事件</th>
-                            <th>前值</th>
-                            <th>預測</th>
-                        </tr>
+                        <tr><th>事件</th><th>前值</th><th>預測</th></tr>
                     </thead>
                     <tbody id="calendar-box">
                         </tbody>
                 </table>
+                <p id="no-data-msg" style="display:none; text-align:center; color:#999; font-size:0.8em; padding:10px;">暫無數據</p>
             </div>
         </div>
     </div>
 
     <script>
+        // 顯示錯誤訊息的工具
+        function showError(msg) {
+            const el = document.getElementById('error-msg');
+            el.style.display = 'block';
+            el.innerHTML = "⚠️ 錯誤: " + msg;
+        }
+
         fetch('daily_news.json')
-            .then(r => r.json())
+            .then(r => {
+                if (!r.ok) throw new Error("找不到 daily_news.json 檔案");
+                return r.json();
+            })
             .then(data => {
                 // 1. 更新時間
-                document.getElementById('update-time').textContent = "最後更新: " + data.update_time;
+                document.getElementById('update-time').textContent = "最後更新: " + (data.update_time || "未知時間");
 
                 // 2. 渲染新聞
                 const newsBox = document.getElementById('news-box');
-                data.news.forEach(item => {
-                    const isHighImpact = item.score >= 8 ? 'score-high' : '';
-                    newsBox.innerHTML += `
-                        <div class="card ${isHighImpact}">
-                            <div>
-                                <span class="category-tag">${item.category}</span>
-                                <span class="impact-tag">${item.impact}</span>
-                            </div>
-                            <h3>${item.title}</h3>
-                            <p>${item.summary}</p>
-                            <a href="${item.link}" target="_blank">閱讀原文 →</a>
-                        </div>
-                    `;
-                });
+                if (!data.news || data.news.length === 0) {
+                    newsBox.innerHTML = "<p>今日無新聞。</p>";
+                } else {
+                    data.news.forEach(item => {
+                        // 根據分數決定顏色
+                        let scoreClass = '';
+                        if (item.score >= 8) scoreClass = 'score-high';
+                        else if (item.score >= 5) scoreClass = 'score-med';
 
-                // 3. 渲染財經日曆
+                        newsBox.innerHTML += `
+                            <div class="card ${scoreClass}">
+                                <div>
+                                    <span class="category-tag">${item.category}</span>
+                                    <span class="impact-tag">影響: ${item.impact} (分數: ${item.score})</span>
+                                </div>
+                                <h3>${item.title}</h3>
+                                <p>${item.summary}</p>
+                                <a href="${item.link}" target="_blank">閱讀原文 →</a>
+                            </div>
+                        `;
+                    });
+                }
+
+                // 3. 渲染財經日曆 (處理空資料情況)
                 const calBox = document.getElementById('calendar-box');
-                data.calendar.forEach(item => {
-                    calBox.innerHTML += `
-                        <tr>
-                            <td>${item.event}</td>
-                            <td class="num">${item.prev}</td>
-                            <td class="num" style="color:#e67e22">${item.estimate}</td>
-                        </tr>
-                    `;
-                });
+                if (!data.calendar || data.calendar.length === 0) {
+                    document.getElementById('calendar-table').style.display = 'none';
+                    document.getElementById('no-data-msg').style.display = 'block';
+                } else {
+                    data.calendar.forEach(item => {
+                        calBox.innerHTML += `
+                            <tr>
+                                <td>${item.event}</td>
+                                <td class="num">${item.prev}</td>
+                                <td class="num" style="color:#e67e22">${item.estimate}</td>
+                            </tr>
+                        `;
+                    });
+                }
             })
-            .catch(e => console.error("Error:", e));
+            .catch(e => {
+                console.error("Error:", e);
+                showError(`
+                    讀取失敗。<br>
+                    1. 如果你在電腦直接打開 index.html，請改用 VS Code Live Server 或上傳到 GitHub Pages。<br>
+                    2. 錯誤詳情: ${e.message}
+                `);
+            });
     </script>
 </body>
 </html>
