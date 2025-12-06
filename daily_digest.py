@@ -18,7 +18,7 @@ print(f"- FINNHUB_API_KEY: {'✅ Found' if FINNHUB_API_KEY else '❌ Missing'}")
 
 # 【修正 1】改用 gemini-1.5-pro (目前最穩定且支援中文最強的版本)
 # 注意：gemini-2.0-pro 目前 API 尚未開放，用了一定會報錯
-print(genai.ListModels())
+print(genai.list_models())
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
