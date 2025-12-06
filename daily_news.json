@@ -1,6 +1,25 @@
 {
-  "update_time": "2025-12-06 16:11",
-  "market": [],
+  "update_time": "2025-12-06 16:15",
+  "market": [
+    {
+      "name": "🇺🇸 S&P 500",
+      "price": 685.69,
+      "change": 1.3,
+      "percent": 0.19
+    },
+    {
+      "name": "🇺🇸 Nasdaq",
+      "price": 625.48,
+      "change": 2.54,
+      "percent": 0.4077
+    },
+    {
+      "name": "🪙 Bitcoin",
+      "price": 89965.95,
+      "change": 690.6,
+      "percent": 0.7736
+    }
+  ],
   "news": [
     {
       "category": "🔥 市場頭條",
