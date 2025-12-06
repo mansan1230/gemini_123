@@ -27,7 +27,8 @@ def get_ai_news():
     
     for category, query in CATEGORIES.items():
         print(f"正在抓取: {category}...")
-        url = f"https://newsapi.org/v2/everything?q={query}&language=en&sortBy=publishedAt&pageSize=3&apiKey={NEWS_API_KEY}"
+        # 加入 &excludeDomains=biztoc.com 來過濾掉這個網站
+        url = f"https://newsapi.org/v2/everything?q={query}&language=en&excludeDomains=biztoc.com&sortBy=publishedAt&pageSize=3&apiKey={NEWS_API_KEY}"
         response = requests.get(url).json()
         
         articles = response.get("articles", [])
