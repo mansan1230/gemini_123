@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 17:02",
+  "update_time": "2025-12-06 17:05",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,9 +15,9 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89638.22,
-      "change": 745.99,
-      "percent": 0.8392
+      "price": 89761.9,
+      "change": 894.81,
+      "percent": 1.0069
     }
   ],
   "news": [
