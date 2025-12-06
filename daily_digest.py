@@ -4,9 +4,8 @@ import json
 import google.generativeai as genai
 from datetime import datetime
 
-# 設定 API Keys (建議放在 .env 檔案)
-NEWS_API_KEY = "你的_NEWSAPI_KEY" # 申請 NewsAPI.org
-GEMINI_API_KEY = "你的_GEMINI_API_KEY" # 申請 Google AI Studio
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # 設定 Gemini
 genai.configure(api_key=GEMINI_API_KEY)
