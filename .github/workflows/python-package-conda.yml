@@ -1,0 +1,39 @@
+name: Daily Finance Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 時間 00:00 (香港時間早上 8 點) 執行
+  workflow_dispatch: # 允許手動按按鈕執行
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install requests google-generativeai python-dotenv
+
+      - name: Run script
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python daily_digest.py
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add daily_news.json
+          git commit -m "Auto-update daily news" || exit 0
+          git push
