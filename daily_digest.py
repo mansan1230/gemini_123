@@ -122,10 +122,10 @@ def get_ai_news():
                 # 失敗時的回退 (Fallback)
                 final_news.append({
                     "category": category,
-                    "title": f"(英文原文) {art['title']}",
+                    "title_zh": f"(英文原文) {art['title']}",
                     "link": art['url'],
                     "date": art['publishedAt'][:10],
-                    "summary": f"AI 暫時無法分析，請直接閱讀原文。({art['description']})",
+                    "summary_zh": f"AI 暫時無法分析，請直接閱讀原文。({art['description']})",
                     "impact": "無分析",
                     "score": 0
                 })
