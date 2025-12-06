@@ -99,7 +99,7 @@ def get_ai_news():
         print(f"🔍 處理新聞: {category}...")
         
         # 抓取 15 篇，讓我們有更多選擇來過濾
-        url = f"https://newsapi.org/v2/everything?q={query}&language=en&domains={trusted_domains}&sortBy=popularity&pageSize=15&apiKey={NEWS_API_KEY}"
+        url = f"https://newsapi.org/v2/everything?q={query}&language=en&domains={trusted_domains}&sortBy=popularity&pageSize=4&apiKey={NEWS_API_KEY}"
         
         try:
             response = requests.get(url).json()
