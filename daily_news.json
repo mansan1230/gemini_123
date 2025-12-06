@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 17:13",
+  "update_time": "2025-12-06 17:17",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,38 +15,38 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89672.43,
-      "change": 981.55,
-      "percent": 1.1067
+      "price": 89659.01,
+      "change": 783.83,
+      "percent": 0.8819
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "CNN打開了潘朵拉的盒子，其後果比任何假新聞騙局都更糟",
+      "title": "(英) CNN Just Cracked Open Pandora’s Box That’s Worse Than Any Fake News Hoax",
       "link": "https://dailycaller.com/2025/12/05/cnn-partnership-kalshi-prediction-markets-betting-breaking-news-events/",
       "date": "2025-12-05",
-      "summary": "CNN宣布與線上博弈平台Kalshi建立官方合作夥伴關係，允許用戶對未來事件下注，引發市場對媒體公正性的嚴重擔憂。",
-      "impact": "利空",
-      "score": 8
+      "summary": "AI 暫時無法翻譯。原文: CNN announced Tuesday an \"official partnership\" with the online platform Kalshi, which allows users to wager on future events.",
+      "impact": "無分析",
+      "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "美光股價為何反彈上漲",
+      "title": "(英) Why Micron Stock Bounced Higher",
       "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_85a70e70-66de-4db2-9267-c94a32448eeb",
       "date": "2025-12-05",
-      "summary": "受惠於市場預期記憶體報價觸底回升，以及AI伺服器對高頻寬記憶體(HBM)需求強勁的利多消息，激勵美光股價強勢反彈。",
-      "impact": "利多",
-      "score": 8
+      "summary": "AI 暫時無法翻譯。原文: None",
+      "impact": "無分析",
+      "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "民生必需品股因轉向加密貨幣而飆漲1,600%",
+      "title": "(英) Consumer staples stock surges 1,600% amid crypto pivot",
       "link": "https://www.thestreet.com/crypto/investing/consumer-staples-stock-surges-1600",
       "date": "2025-12-05",
-      "summary": "小型民生必需品與包裝食品公司CIMG Inc.於12月4日宣布進行20比1的反向股票分割後，股價單日飆漲超過1600%。",
-      "impact": "利多",
-      "score": 8
+      "summary": "AI 暫時無法翻譯。原文: CIMG Inc. a small-cap consumer staples and packaged-foods company surges more than 1600% on Dec. 4, after announcing a 20-for-1 reverse stock split aimed at ...",
+      "impact": "無分析",
+      "score": 0
     },
     {
       "category": "🤖 人工智慧",
