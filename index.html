@@ -1,57 +1,100 @@
 <!DOCTYPE html>
-<html lang="zh-HK">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>每日財富情報 (AI Daily Digest)</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>AI 財經情報站</title>
+    <style>
+        body { font-family: "Segoe UI", sans-serif; background-color: #f4f4f9; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; color: #2c3e50; }
+        .update-time { text-align: center; color: #7f8c8d; margin-bottom: 30px; }
+        
+        /* 佈局：左右兩欄 */
+        .container { display: flex; gap: 20px; flex-wrap: wrap; }
+        .news-section { flex: 2; min-width: 300px; }
+        .data-section { flex: 1; min-width: 250px; }
+
+        /* 新聞卡片 */
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 5px solid #3498db; }
+        .card.score-high { border-left-color: #e74c3c; } /* 高分新聞轉紅色 */
+        .category-tag { background: #ecf0f1; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; color: #555; font-weight: bold; }
+        .impact-tag { float: right; color: #e67e22; font-weight: bold; font-size: 0.9em; }
+        h3 { margin: 10px 0 5px; }
+        p { line-height: 1.6; color: #555; }
+        a { text-decoration: none; color: #3498db; font-weight: bold; }
+
+        /* 數據表格 */
+        table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        th { background: #2c3e50; color: white; padding: 10px; text-align: left; font-size: 0.9em; }
+        td { padding: 10px; border-bottom: 1px solid #eee; font-size: 0.85em; }
+        tr:last-child td { border-bottom: none; }
+        .num { font-family: monospace; font-weight: bold; }
+    </style>
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body>
 
-    <div class="max-w-2xl mx-auto p-6">
-        <header class="mb-8 text-center">
-            <h1 class="text-3xl font-bold text-yellow-400">💰 每日市場風向</h1>
-            <p class="text-gray-400 mt-2" id="date-display">載入中...</p>
-        </header>
+    <h1>🚀 AI 每日財經情報</h1>
+    <p id="update-time" class="update-time">載入中...</p>
 
-        <div id="news-container" class="space-y-6">
+    <div class="container">
+        <div class="news-section" id="news-box">
             </div>
+
+        <div class="data-section">
+            <div style="background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <h3 style="margin-top:0">📅 本週重要數據 (US)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>事件</th>
+                            <th>前值</th>
+                            <th>預測</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-box">
+                        </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <script>
-        async function loadNews() {
-            try {
-                // 讀取 Python 生成的 JSON 檔案
-                const response = await fetch('daily_news.json');
-                const data = await response.json();
-                
-                document.getElementById('date-display').innerText = `更新日期: ${data.date}`;
-                const container = document.getElementById('news-container');
+        fetch('daily_news.json')
+            .then(r => r.json())
+            .then(data => {
+                // 1. 更新時間
+                document.getElementById('update-time').textContent = "最後更新: " + data.update_time;
 
-                data.analysis.forEach(item => {
-                    // 根據影響力分數決定顏色
-                    let scoreColor = item.impact_score >= 8 ? 'text-red-500' : 'text-green-400';
-                    
-                    const card = `
-                        <div class="bg-gray-800 p-5 rounded-lg border border-gray-700 hover:border-yellow-500 transition">
-                            <div class="flex justify-between items-start mb-2">
-                                <span class="text-xs font-bold uppercase tracking-wider bg-gray-700 px-2 py-1 rounded text-gray-300">${item.market_type}</span>
-                                <span class="text-sm font-bold ${scoreColor}">影響力: ${item.impact_score}/10</span>
+                // 2. 渲染新聞
+                const newsBox = document.getElementById('news-box');
+                data.news.forEach(item => {
+                    const isHighImpact = item.score >= 8 ? 'score-high' : '';
+                    newsBox.innerHTML += `
+                        <div class="card ${isHighImpact}">
+                            <div>
+                                <span class="category-tag">${item.category}</span>
+                                <span class="impact-tag">${item.impact}</span>
                             </div>
-                            <h2 class="text-xl font-semibold mb-3">${item.title}</h2>
-                            <p class="text-gray-300 leading-relaxed text-sm bg-gray-900/50 p-3 rounded">
-                                💡 <strong>分析：</strong> ${item.summary}
-                            </p>
+                            <h3>${item.title}</h3>
+                            <p>${item.summary}</p>
+                            <a href="${item.link}" target="_blank">閱讀原文 →</a>
                         </div>
                     `;
-                    container.innerHTML += card;
                 });
-            } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('news-container').innerHTML = '<p class="text-center text-red-400">無法讀取今日新聞數據，請確認 JSON 是否存在。</p>';
-            }
-        }
-        loadNews();
+
+                // 3. 渲染財經日曆
+                const calBox = document.getElementById('calendar-box');
+                data.calendar.forEach(item => {
+                    calBox.innerHTML += `
+                        <tr>
+                            <td>${item.event}</td>
+                            <td class="num">${item.prev}</td>
+                            <td class="num" style="color:#e67e22">${item.estimate}</td>
+                        </tr>
+                    `;
+                });
+            })
+            .catch(e => console.error("Error:", e));
     </script>
 </body>
 </html>
