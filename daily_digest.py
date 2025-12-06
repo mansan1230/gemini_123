@@ -21,7 +21,7 @@ print(f"- FINNHUB_API_KEY: {'✅ Found' if FINNHUB_API_KEY else '❌ Missing'}")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
-        'gemini-1.5-pro', 
+        'gemini-1.5-flash', 
         generation_config={"response_mime_type": "application/json"}
     )
 
