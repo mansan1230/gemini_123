@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 16:20",
+  "update_time": "2025-12-06 16:27",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,81 +15,90 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89914,
-      "change": 761.19,
-      "percent": 0.8538
+      "price": 89918.87,
+      "change": 696.32,
+      "percent": 0.7804
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "2022 Rolls-Royce Cullinan",
-      "link": "https://bringatrailer.com/listing/2022-rolls-royce-cullinan-14/",
+      "title": "(原文) Sahkar Taxi to become the largest cooperative taxi company in some years :Amit Shah",
+      "link": "https://economictimes.indiatimes.com/news/politics-and-nation/sahkar-taxi-to-become-the-largest-cooperative-taxi-company-in-some-years-amit-shah/articleshow/125792362.cms",
       "date": "2025-12-05",
-      "summary": "This 2022 Rolls-Royce Cullinan has 7k miles and is powered by a twin-turbocharged 6.75-liter V12 linked with an eight-speed automatic transmission and an all-wheel-drive system. Finished in white over orange leather, the vehicle is equipped with a self-leveli…",
+      "summary": "Union Minister Amit Shah announced plans for 'Sahakar Taxi' to become India's largest cooperative taxi company. He detailed a vision to establish a cooperative in every Panchayat, creating over 50 crore members. This initiative aims to boost the cooperative s…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🔥 市場頭條",
-      "title": "I'm a dietitian who loves Aldi. I rely on these 11 items to feed my family of 4 on a budget.",
-      "link": "https://www.businessinsider.com/best-aldi-items-save-money-dietitian-mom-recommendations-2025-12",
+      "title": "(原文) AmEast Roundup: 1 Month In",
+      "link": "https://www.midmajormadness.com/america-east-conference/32170/ameast-roundup-1-month-in",
       "date": "2025-12-05",
-      "summary": "The budget grocer carries nutrient-packed, affordable foods like raw nuts, frozen berries, canned fish, Greek yogurt, chia seeds, and fresh produce.",
+      "summary": "Tanner provides some news and notes on the America East.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🔥 市場頭條",
+      "title": "(原文) Nicos Christodoulides reshuffles the government in Cyprus",
+      "link": "https://en.protothema.gr/2025/12/05/nicos-christodoulides-reshuffles-the-government-in-cyprus/",
+      "date": "2025-12-05",
+      "summary": "Who are the new members of the government\nThe post Nicos Christodoulides reshuffles the government in Cyprus appeared first on ProtoThema English.",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "NYT, Chicago Tribune Sue Perplexity AI As Copyright War Rages On",
-      "link": "https://www.ndtvprofit.com/technology/nyt-chicago-tribune-sue-perplexity-ai-as-copyright-war-rages-on",
+      "title": "(原文) ⚖️ Supreme Court sides with Real Madrid in TV rights row with LaLiga",
+      "link": "https://onefootball.com/en/news/supreme-court-sides-with-real-madrid-in-tv-rights-row-with-laliga-42052945",
       "date": "2025-12-05",
-      "summary": "The New York Times Co. and the Chicago Tribune sued Perplexity AI Inc., saying the artificial intelligence search startup is copying and distributing their exclusive content, the latest in a wave of lawsuits against AI developers. The New York Times complaint…",
+      "summary": "The Supreme Court (TS) has dealt a blow to LaLiga by annulling a crucial part of its statutes that regulated the distribution of audiovisual rights for the 2015/2016 season, according to Europa Press....",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "Rangers' title hopes distant 'but not impossible'",
-      "link": "https://www.bbc.com/sport/football/articles/cr5zvrdz64no?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "title": "(原文) Trump Administration elevates India's role in Indo-Pacific strategy",
+      "link": "https://economictimes.indiatimes.com/news/defence/trump-administration-elevates-indias-role-in-indo-pacific-strategy/articleshow/125792361.cms",
       "date": "2025-12-05",
-      "summary": "Rangers' route to Scottish Premiership title success \"is a long way but it's not impossible\", says head coach Danny Rohl.",
+      "summary": "The Trump Administration's National Security Strategy identifies India as a crucial partner, emphasizing deepened cooperation in economic, technological, and defense sectors. The document highlights the Indo-Pacific as a key geopolitical battleground and call…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "🤖 人工智慧",
-      "title": "Robert F. Kennedy Jr. turns to AI to make America healthy again",
-      "link": "https://fortune.com/2025/12/05/robert-f-kennedy-jr-turns-to-ai-to-make-america-healthy-again/",
+      "title": "(原文) This Startup Makes Ammonia By Turning The Planet Into A Chemical Reactor",
+      "link": "https://www.forbes.com/sites/the-prototype/2025/12/05/this-startup-makes-ammonia-by-turning-the-planet-into-a-chemical-reactor/",
       "date": "2025-12-05",
-      "summary": "The U.S. Department of Health and Human Services on Thursday has outlined a \"first step\" strategy to expand its use of AI.",
+      "summary": "In this week’s edition of The Prototype, we look at a cleaner way to make ammonia, the brightest young scientists in North America, magnetically charging your care, and more.",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "💰 加密貨幣",
-      "title": "Maryland Man Sentenced for Helping North Korea Infiltrate U.S. Tech Firms",
-      "link": "https://decrypt.co/351103/maryland-man-sentenced-for-helping-north-korea-infiltrate-u-s-tech-firms",
+      "title": "(原文) Bitcoin mining stocks MARA, CleanSpark rise as network difficulty eases",
+      "link": "https://blockspace.media/insight/bitcoin-mining-stocks-mara-cleanspark-rise-as-network-difficulty-eases/",
       "date": "2025-12-05",
-      "summary": "The scheme enabled overseas DPRK operatives to access sensitive government systems through fraudulent IT jobs.",
+      "summary": "Publicly traded bitcoin miners saw a split in weekly returns, with some operators edging higher while others slipped, as the sector continued to absorb...",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "💰 加密貨幣",
-      "title": "Yen Carry Trade Collision: Bank of Japan’s Rate Shock Aims at Bitcoin | US Crypto News",
-      "link": "https://beincrypto.com/japan-rate-hike-crypto-liquidations-us-crypto-news/",
+      "title": "(原文) Glassnode introduces interpolated implied volatility metrics for crypto options",
+      "link": "https://cryptobriefing.com/glassnode-interpolated-implied-volatility-metrics-crypto-options/",
       "date": "2025-12-05",
-      "summary": "What is the biggest crypto news today? BoJ’s rate shift risks unwinding the yen carry trade, pressuring Bitcoin as global liquidity tightens.",
+      "summary": "Glassnode's new metrics enhance crypto market analysis, enabling traders to better assess risk and identify strategic opportunities across assets.\nThe post Glassnode introduces interpolated implied volatility metrics for crypto options appeared first on Crypt…",
       "impact": "無分析",
       "score": 0
     },
     {
       "category": "💰 加密貨幣",
-      "title": "2-4% Crypto Dip! Sovereign Wealth Funds Buying BTC! CTFC approves U.S. Spot Crypto!",
-      "link": "https://decrypt.co/videos/interviews/tUN6hCk7/2-4-crypto-dip-sovereign-wealth-funds-buying-btc-ctfc-approves-us-spot-crypto",
+      "title": "(原文) py-geth 6.4.0",
+      "link": "https://pypi.org/project/py-geth/6.4.0/",
       "date": "2025-12-05",
-      "summary": "Crypto majors were broadly lower, falling 2–4% with BTC down 2% at $91,400, ETH down 2% at $3,130, BNB down 2% at $893, and SOL down 4% at $136, while ZEC (+4%) and TRX (+2%) led the day’s top movers. BlackRock CEO Larry Fink said sovereign wealth funds have …",
+      "summary": "py-geth: Run Go-Ethereum as a subprocess",
       "impact": "無分析",
       "score": 0
     }
