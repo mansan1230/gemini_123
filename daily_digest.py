@@ -2,69 +2,127 @@ import os
 import requests
 import json
 import google.generativeai as genai
-from datetime import datetime
+from datetime import datetime, timedelta
 
+# ================= 設定區 =================
+# 從環境變數讀取 Keys
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY") # 新增這個
 
 # 設定 Gemini
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash') # 使用 Flash 模型省錢且快
+genai.configure(api_key=GEMINI_API_KEY.strip())
+model = genai.GenerativeModel('gemini-pro')
 
-def fetch_crypto_news():
-    """從 CoinGecko 或 NewsAPI 抓取加密貨幣新聞"""
-    url = f"https://newsapi.org/v2/everything?q=crypto OR bitcoin OR ethereum&sortBy=publishedAt&language=en&apiKey={NEWS_API_KEY}"
-    response = requests.get(url)
-    return response.json().get('articles', [])[:10] # 取最新的 10 條作為範例
+# 定義你想抓的新聞分類 (關鍵字)
+CATEGORIES = {
+    "🔥 市場頭條": "finance OR stock market OR economy",
+    "🤖 人工智慧": "Artificial Intelligence OR Nvidia OR OpenAI",
+    "💰 加密貨幣": "Bitcoin OR Ethereum OR Crypto"
+}
 
-def fetch_stock_news():
-    """抓取股市宏觀新聞 (Fed, rate hike, S&P500)"""
-    url = f"https://newsapi.org/v2/top-headlines?category=business&language=en&apiKey={NEWS_API_KEY}"
-    response = requests.get(url)
-    return response.json().get('articles', [])[:10]
+# ================= 函數 1: 抓新聞並用 AI 分析 =================
+def get_ai_news():
+    final_news = []
+    
+    for category, query in CATEGORIES.items():
+        print(f"正在抓取: {category}...")
+        url = f"https://newsapi.org/v2/everything?q={query}&language=en&sortBy=publishedAt&pageSize=3&apiKey={NEWS_API_KEY}"
+        response = requests.get(url).json()
+        
+        articles = response.get("articles", [])
+        
+        for art in articles:
+            # 讓 Gemini 變身專業分析師
+            prompt = f"""
+            你是一位專業的華爾街分析師。請閱讀以下新聞並以繁體中文 (Traditional Chinese) 回覆。
+            
+            新聞標題: {art['title']}
+            內容: {art['description']}
+            
+            請輸出一段 JSON 格式 (不要 Markdown)，包含以下欄位：
+            1. summary: 簡短摘要 (50字內)
+            2. impact: 這則新聞對市場的影響 (例如：利好美股、利空科技股、中性)
+            3. score: 重要性評分 (1-10分)
+            """
+            
+            try:
+                # 呼叫 Gemini
+                ai_response = model.generate_content(prompt)
+                ai_text = ai_response.text.strip().replace("```json", "").replace("```", "")
+                analysis = json.loads(ai_text) # 嘗試轉成 JSON
+                
+                final_news.append({
+                    "category": category,
+                    "title": art['title'],
+                    "link": art['url'],
+                    "date": art['publishedAt'][:10],
+                    "summary": analysis.get("summary", "無法生成摘要"),
+                    "impact": analysis.get("impact", "一般"),
+                    "score": analysis.get("score", 5)
+                })
+            except Exception as e:
+                print(f"AI 分析失敗: {e}")
+                # 失敗時的回退方案
+                final_news.append({
+                    "category": category,
+                    "title": art['title'],
+                    "link": art['url'],
+                    "date": art['publishedAt'][:10],
+                    "summary": art['description'],
+                    "impact": "無分析",
+                    "score": 0
+                })
+                
+    # 根據分數排序，重要的放前面
+    return sorted(final_news, key=lambda x: x['score'], reverse=True)
 
-def analyze_with_ai(news_data):
-    """將新聞餵給 AI 進行分析與過濾"""
+# ================= 函數 2: 抓財經日曆 (Finnhub) =================
+def get_economic_calendar():
+    if not FINNHUB_API_KEY:
+        return []
     
-    prompt = f"""
-    You are a professional financial analyst. Here is a list of recent news headlines:
-    {json.dumps(news_data)}
+    # 抓今天到未來 3 天的數據
+    start_date = datetime.now().strftime("%Y-%m-%d")
+    end_date = (datetime.now() + timedelta(days=3)).strftime("%Y-%m-%d")
+    
+    url = f"https://finnhub.io/api/v1/calendar/economic?from={start_date}&to={end_date}&token={FINNHUB_API_KEY}"
+    
+    try:
+        res = requests.get(url).json()
+        economic_data = res.get("economicCalendar", [])
+        
+        # 只過濾重要數據 (例如 impact 比較高的，或者只要 US 數據)
+        important_data = []
+        for item in economic_data:
+            if item['country'] == 'US': # 只看美國數據
+                important_data.append({
+                    "event": item['event'],
+                    "time": item['time'],
+                    "actual": item['actual'] if item['actual'] else "待公布",
+                    "estimate": item['estimate'] if item['estimate'] else "-",
+                    "prev": item['prev'] if item['prev'] else "-"
+                })
+        return important_data
+    except Exception as e:
+        print(f"抓取日曆失敗: {e}")
+        return []
 
-    Task:
-    1. Filter out noise. Pick the TOP 3 stories that will genuinely impact the Market (Stocks or Crypto) in the next 24 hours.
-    2. Format the output strictly as a JSON list.
-    3. Each item must have: 'title', 'impact_score' (1-10), 'market_type' (Crypto/Stock/Both), and 'summary' (Explain WHY it moves the market in Traditional Chinese 繁體中文).
+# ================= 主程式 =================
+if __name__ == "__main__":
+    print("開始執行...")
     
-    JSON Output only:
-    """
+    news_data = get_ai_news()
+    calendar_data = get_economic_calendar()
     
-    response = model.generate_content(prompt)
-    # 這裡通常需要清理 markdown 格式，簡單起見直接回傳 text
-    return response.text.strip().replace('```json', '').replace('```', '')
-
-def main():
-    print("正在抓取新聞...")
-    crypto_news = fetch_crypto_news()
-    stock_news = fetch_stock_news()
-    
-    combined_news = []
-    # 提取標題以減少 token 消耗
-    for n in crypto_news + stock_news:
-        combined_news.append({"title": n['title'], "source": n['source']['name']})
-    
-    print("正在進行 AI 分析...")
-    analysis_json = analyze_with_ai(combined_news)
-    
-    # 儲存結果為 JSON 供網頁讀取
-    output_data = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
-        "analysis": json.loads(analysis_json)
+    final_output = {
+        "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "news": news_data,
+        "calendar": calendar_data
     }
     
-    with open("daily_news.json", "w", encoding='utf-8') as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
+    # 存檔
+    with open("daily_news.json", "w", encoding="utf-8") as f:
+        json.dump(final_output, f, ensure_ascii=False, indent=2)
     
-    print("完成！報告已生成: daily_news.json")
-
-if __name__ == "__main__":
-    main()
+    print("完成！資料已更新。")
