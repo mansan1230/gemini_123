@@ -1,23 +1,87 @@
 {
-  "date": "2025-12-06",
-  "analysis": [
+  "update_time": "2025-12-06 15:55",
+  "news": [
     {
-      "title": "Consumer sentiment rises, September inflation data rose as expected",
-      "impact_score": 8,
-      "market_type": "Stock",
-      "summary": "消費者信心增強和符合預期的九月通脹數據，將直接影響聯準會的利率決策。若信心持續上升且通脹受控，可能降低升息壓力，有利股市。反之，超預期的通膨數據可能導致聯準會繼續升息，進而打壓股市表現。（消費者信心增強和通膨數據的微妙平衡將在短期內主導股市走向。）"
+      "category": "🔥 市場頭條",
+      "title": "SoFi Stock Tumbles On $1.5 Billion Public Offering News",
+      "link": "https://biztoc.com/x/34112dd7b1d377a4",
+      "date": "2025-12-05",
+      "summary": "Access to this page has been denied because we believe you are using automation tools to browse the website.\nThis may happen as a result of the following:\n- Javascript is disabled or blocked by an extension (ad blockers for example)\n- Your browser does not su…",
+      "impact": "無分析",
+      "score": 0
     },
     {
-      "title": "China’s Answer to Nvidia Soars 425% in Market Debut - The Wall Street Journal",
-      "impact_score": 7,
-      "market_type": "Stock",
-      "summary": "中國本土晶片公司股價飆升，表明中國在晶片自主化方面的進展。這可能會影響全球晶片供應鏈，並對Nvidia等美國晶片巨頭構成潛在競爭壓力。投資者可能會重新評估相關科技股的估值，並關注中美科技競爭的發展。（中國晶片產業的崛起，可能重塑全球半導體產業格局，影響相關公司的股價。）"
+      "category": "🔥 市場頭條",
+      "title": "In Colorado town built on coal, some families are moving on, even as Trump tries to boost industry",
+      "link": "https://biztoc.com/x/0cd18cb3772ec197",
+      "date": "2025-12-05",
+      "summary": "",
+      "impact": "無分析",
+      "score": 0
     },
     {
-      "title": "Crypto Sector Lit Up Bright Red as Bitcoin Slips Back to $90K",
-      "impact_score": 6,
-      "market_type": "Crypto",
-      "summary": "比特幣價格大幅下跌至9萬美元以下，將引發市場恐慌性拋售，並可能對其他加密貨幣產生連鎖反應。市場參與者會關注比特幣是否能守住關鍵支撐位，以及宏觀經濟因素對加密貨幣市場的影響。（比特幣價格的劇烈波動，會直接影響整個加密貨幣市場的情緒和交易活動。）"
+      "category": "🔥 市場頭條",
+      "title": "Plug Power Secures NASA Contract And French Hydrogen Deal: What Investors Need To Know",
+      "link": "https://biztoc.com/x/a0abca8cb114649f",
+      "date": "2025-12-05",
+      "summary": "Plug Power Inc (NASDAQ:PLUG) shares are trading marginally higher Friday morning as investors digest a series of strategic wins that bolster the hydrogen fuel cell maker’s global footprint and financial outlook. Here’s what investors need to know.\nPlug Power …",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "fastpyvectordb added to PyPI",
+      "link": "https://pypi.org/project/fastpyvectordb/",
+      "date": "2025-12-05",
+      "summary": "A high-performance Python vector database for semantic search and RAG applications",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "Paula Hammond named dean of the School of Engineering",
+      "link": "https://news.mit.edu/2025/paula-hammond-dean-school-engineering-1205",
+      "date": "2025-12-05",
+      "summary": "Paula Hammond, an Institute Professor and MIT’s executive vice provost, has been named dean of MIT’s School of Engineering, effective Jan. 16.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "🤖 人工智慧",
+      "title": "Reflections from the TED Countdown House at COP30 in Belém",
+      "link": "https://blog.ted.com/reflections-from-the-ted-countdown-house-at-cop30-in-belem/",
+      "date": "2025-12-05",
+      "summary": "TED Countdown is a global initiative to accelerate solutions to the climate crisis. Watch climate talks on our website and look for news about upcoming events, including local TEDxCountdown events near you. I’ve just returned from hosting two weeks of convers…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Turkey's Paribu Buys CoinMENA in $240M Deal, Expanding Into High-Growth Crypto Markets",
+      "link": "https://biztoc.com/x/c36b7f3c2742b6c1",
+      "date": "2025-12-05",
+      "summary": "Turkey's Paribu Buys CoinMENA in $240M Deal, Expanding Into High-Growth Crypto Markets\nWith the acquisition, Paribu gains regulatory foothold in Bahrain and Dubai and access to the region's fast-growing crypto user base.\nWhat to know:\n- Paribu acquires Bahrai…",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Turkey's Paribu Buys CoinMENA in $240M Deal, Expanding Into High-Growth Crypto Markets",
+      "link": "https://www.coindesk.com/business/2025/12/05/turkey-s-paribu-buys-coinmena-in-usd240m-deal-expanding-into-high-growth-crypto-markets",
+      "date": "2025-12-05",
+      "summary": "With the acquisition, Paribu gains regulatory foothold in Bahrain and Dubai and access to the region's fast-growing crypto user base.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "Polish lawmakers fail to override the president's veto on a crypto assets regulation bill; Poland is the last EU country not to adopt EU's crypto regulation (Bloomberg)",
+      "link": "https://www.techmeme.com/251205/p21",
+      "date": "2025-12-05",
+      "summary": "Bloomberg:\nPolish lawmakers fail to override the president's veto on a crypto assets regulation bill; Poland is the last EU country not to adopt EU's crypto regulation  —  Polish lawmakers failed to overturn a veto on a bill regulating digital assets, dealing…",
+      "impact": "無分析",
+      "score": 0
     }
-  ]
+  ],
+  "calendar": []
 }
