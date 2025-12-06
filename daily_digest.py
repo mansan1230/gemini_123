@@ -29,7 +29,7 @@ except Exception as e:
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
-        'gemini-2.5-pro', 
+        'gemini-2.0-flash-lite', 
         generation_config={"response_mime_type": "application/json"}
     )
 
