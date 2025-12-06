@@ -1,6 +1,7 @@
 import os
 import requests
 import json
+import time  # <--- 新增這個，用 Pro 模型必須要識得「抖氣」
 import google.generativeai as genai
 from datetime import datetime, timedelta
 
@@ -9,11 +10,12 @@ NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY")
 
-# 【關鍵修正 1】設定 Gemini 強制輸出 JSON 格式，這是解決「無分析」的關鍵
+# 【升級重點】改用 gemini-1.5-pro (最勁模型)
+# 強制 JSON 模式依然要保留，保證格式正確
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY.strip())
     model = genai.GenerativeModel(
-        'gemini-1.5-flash',
+        'gemini-3-pro-preview',  # <--- 改左呢度！由 flash 變 pro
         generation_config={"response_mime_type": "application/json"}
     )
 
@@ -53,12 +55,12 @@ def get_market_data():
             print(f"❌ 指數失敗 {name}: {e}")
     return market_data
 
-# ================= 函數 2: 抓新聞 + AI 強制中文分析 =================
+# ================= 函數 2: 抓新聞 + AI Pro 分析 =================
 def get_ai_news():
     final_news = []
     
     for category, query in CATEGORIES.items():
-        print(f"正在處理: {category}...")
+        print(f"正在處理: {category} (使用 Pro 模型)...")
         
         # 排除垃圾網站
         url = f"https://newsapi.org/v2/everything?q={query}&language=en&excludeDomains=biztoc.com&sortBy=publishedAt&pageSize=3&apiKey={NEWS_API_KEY}"
@@ -70,49 +72,52 @@ def get_ai_news():
             continue
 
         for art in articles:
-            # 【關鍵修正 2】Prompt 明確要求「翻譯」與「JSON」
+            # Prompt 微調：既然用 Pro，要求可以更高一點
             prompt = f"""
-            你是一個專業的財經新聞編輯。請閱讀以下英文新聞：
+            你是一位華爾街資深分析師。請閱讀以下英文新聞：
             標題: {art['title']}
             內容: {art['description']}
 
             請完成以下任務並輸出 JSON：
-            1. 將標題翻譯成繁體中文 (title_zh)。
-            2. 將內容總結為 50 字內的繁體中文摘要 (summary_zh)。
-            3. 分析對市場影響 (利多/利空/中性) (impact)。
-            4. 給予重要性評分 1-10 (score)。
+            1. title_zh: 將標題翻譯成專業的「繁體中文」。
+            2. summary_zh: 用「繁體中文」撰寫 50 字內的深度摘要，重點在於背後的商業邏輯。
+            3. impact: 判斷對市場影響 (利多/利空/中性)。
+            4. score: 給予重要性評分 1-10。
 
-            JSON 格式範例：
+            JSON 範例：
             {{
                 "title_zh": "中文標題",
-                "summary_zh": "中文摘要內容...",
+                "summary_zh": "中文深度摘要...",
                 "impact": "利多",
-                "score": 8
+                "score": 9
             }}
             """
             
             try:
-                # 呼叫 AI (因為設定了 json mode，這裡一定會回傳 json)
+                # 呼叫 AI
                 ai_response = model.generate_content(prompt)
                 analysis = json.loads(ai_response.text)
                 
                 final_news.append({
                     "category": category,
-                    "title": analysis.get("title_zh", art['title']), # 用 AI 翻譯的標題
+                    "title": analysis.get("title_zh", art['title']),
                     "link": art['url'],
                     "date": art['publishedAt'][:10],
-                    "summary": analysis.get("summary_zh", "無摘要"), # 用 AI 寫的中文摘要
+                    "summary": analysis.get("summary_zh", "無摘要"),
                     "impact": analysis.get("impact", "中性"),
                     "score": analysis.get("score", 5)
                 })
-                print(f"✅ 成功分析: {analysis.get('title_zh')}")
+                print(f"✅ Pro 分析成功: {analysis.get('title_zh')}")
+                
+                # 【重要】Pro 模型限制較嚴，每跑完一次休息 2 秒，避免被 Google Block
+                time.sleep(2) 
                 
             except Exception as e:
-                print(f"⚠️ AI 失敗: {e}")
-                # 失敗時的回退 (至少顯示原文)
+                print(f"⚠️ Pro 分析失敗: {e}")
+                # 失敗時的回退
                 final_news.append({
                     "category": category,
-                    "title": art['title'],
+                    "title": f"(原文) {art['title']}",
                     "link": art['url'],
                     "date": art['publishedAt'][:10],
                     "summary": art['description'],
@@ -126,7 +131,7 @@ def get_ai_news():
 def get_economic_calendar():
     if not FINNHUB_API_KEY: return []
     
-    # 【關鍵修正 3】抓未來 14 天 (避免週末沒數據)
+    # 抓未來 14 天
     start = datetime.now().strftime("%Y-%m-%d")
     end = (datetime.now() + timedelta(days=14)).strftime("%Y-%m-%d")
     
@@ -136,7 +141,6 @@ def get_economic_calendar():
         res = requests.get(url).json()
         data = []
         for item in res.get("economicCalendar", []):
-            # 只顯示美國 (US) 且重要性較高 (impact > 2) 或特定的重要數據
             if item['country'] == 'US': 
                 data.append({
                     "event": item['event'],
@@ -145,13 +149,13 @@ def get_economic_calendar():
                     "estimate": str(item['estimate'] if item['estimate'] is not None else "-"),
                     "prev": str(item['prev'] if item['prev'] is not None else "-")
                 })
-        return data[:10] # 只回傳前 10 筆，避免太長
+        return data[:10]
     except:
         return []
 
 # ================= 主程式 =================
 if __name__ == "__main__":
-    print("🚀 程式啟動...")
+    print("🚀 啟動 Pro 模型分析引擎...")
     
     final_output = {
         "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
