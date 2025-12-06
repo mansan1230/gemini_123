@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 17:11",
+  "update_time": "2025-12-06 17:13",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -15,38 +15,38 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89643.99,
-      "change": 1004.71,
-      "percent": 1.1335
+      "price": 89672.43,
+      "change": 981.55,
+      "percent": 1.1067
     }
   ],
   "news": [
     {
       "category": "🔥 市場頭條",
-      "title": "(英) Dyson’s No-Profit Play on Its Heater and Fan Combo Is Still Active to Offload Stock Even After Black Friday",
-      "link": "https://kotaku.com/dysons-no-profit-play-on-its-heater-and-fan-combo-is-still-active-to-offload-stock-even-after-black-friday-2000650900",
+      "title": "CNN打開了潘朵拉的盒子，其後果比任何假新聞騙局都更糟",
+      "link": "https://dailycaller.com/2025/12/05/cnn-partnership-kalshi-prediction-markets-betting-breaking-news-events/",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: Keep yourself warm and cozy without putting a dent in your wallet.\nThe post Dyson’s No-Profit Play on Its Heater and Fan Combo Is Still Active to Offload Stock Even After Black Friday appeared first on Kotaku.",
-      "impact": "無分析",
-      "score": 0
+      "summary": "CNN宣布與線上博弈平台Kalshi建立官方合作夥伴關係，允許用戶對未來事件下注，引發市場對媒體公正性的嚴重擔憂。",
+      "impact": "利空",
+      "score": 8
     },
     {
       "category": "🔥 市場頭條",
-      "title": "(英) RXO vs. C.H. Robinson: the growing financial divide widens some more",
-      "link": "https://finance.yahoo.com/news/rxo-vs-c-h-robinson-170517401.html",
+      "title": "美光股價為何反彈上漲",
+      "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_85a70e70-66de-4db2-9267-c94a32448eeb",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: RXO credit rating faces challenges, while C.H. Robinson continues to shine. The post RXO vs. C.H. Robinson: the growing financial divide widens some more...",
-      "impact": "無分析",
-      "score": 0
+      "summary": "受惠於市場預期記憶體報價觸底回升，以及AI伺服器對高頻寬記憶體(HBM)需求強勁的利多消息，激勵美光股價強勢反彈。",
+      "impact": "利多",
+      "score": 8
     },
     {
       "category": "🔥 市場頭條",
-      "title": "(英) Meet the Supercharged Growth Stock That Could Join Apple, Nvidia, Microsoft, and Alphabet in the $2 Trillion Club by 2028",
-      "link": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e9c0ed81-781f-4620-8c61-4cd97a57a8be",
+      "title": "民生必需品股因轉向加密貨幣而飆漲1,600%",
+      "link": "https://www.thestreet.com/crypto/investing/consumer-staples-stock-surges-1600",
       "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: None",
-      "impact": "無分析",
-      "score": 0
+      "summary": "小型民生必需品與包裝食品公司CIMG Inc.於12月4日宣布進行20比1的反向股票分割後，股價單日飆漲超過1600%。",
+      "impact": "利多",
+      "score": 8
     },
     {
       "category": "🤖 人工智慧",
@@ -77,28 +77,28 @@
     },
     {
       "category": "💰 加密貨幣",
+      "title": "(英) Fidelity Investments CEO Abigail Johnson confirms Bitcoin ownership",
+      "link": "https://cryptobriefing.com/fidelity-ceo-abigail-johnson-bitcoin-ownership-confirmation/",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: Johnson's Bitcoin ownership highlights growing institutional confidence in digital assets, influencing broader acceptance in traditional finance.\nThe post Fidelity Investments CEO Abigail Johnson confirms Bitcoin ownership appeared first on Crypto Briefing.",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
+      "title": "(英) Consumer staples stock surges 1,600% amid crypto pivot",
+      "link": "https://www.thestreet.com/crypto/investing/consumer-staples-stock-surges-1600",
+      "date": "2025-12-05",
+      "summary": "AI 暫時無法翻譯。原文: CIMG Inc. a small-cap consumer staples and packaged-foods company surges more than 1600% on Dec. 4, after announcing a 20-for-1 reverse stock split aimed at ...",
+      "impact": "無分析",
+      "score": 0
+    },
+    {
+      "category": "💰 加密貨幣",
       "title": "(英) Hedera Drops Alongside Broader Crypto Market Amid Volume Spike",
       "link": "https://www.coindesk.com/markets/2025/12/05/hedera-drops-alongside-broader-crypto-market-amid-volume-spike",
       "date": "2025-12-05",
       "summary": "AI 暫時無法翻譯。原文: Hedera's token retreats despite fresh institutional product speculation driving broader altcoin momentum.",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "(英) CFTC leverage ruling finally opens the door for $25 trillion giants to enter the crypto market",
-      "link": "https://cryptoslate.com/cftc-leverage-ruling-finally-opens-the-door-for-25-trillion-giants-to-enter-the-crypto-market/",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: On Dec. 4, the United States Commodity Futures Trading Commission (CFTC) approved leveraged spot crypto trading on federally regulated exchanges. For the first time in American history, spot Bitcoin and other crypto assets can trade with margin inside the CFT…",
-      "impact": "無分析",
-      "score": 0
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "(英) $194.6M outflows hit Bitcoin ETFs – What it means for BTC",
-      "link": "https://ambcrypto.com/?p=551495",
-      "date": "2025-12-05",
-      "summary": "AI 暫時無法翻譯。原文: What contradiction in the market is driving this unusual behavior?",
       "impact": "無分析",
       "score": 0
     }
