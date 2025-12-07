@@ -18,31 +18,36 @@ WATCHLIST = {
         "🇺🇸 Nasdaq": "^IXIC",
         "🇭🇰 恒生指數": "^HSI",
         "🇯🇵 日經 225": "^N225",
-        "🏁 VIX 恐慌": "^VIX"
-    },
-    "futures": { # 新增：盤前/盤後必看
-        "📈 標普期貨": "ES=F",
-        "💻 納指期貨": "NQ=F",
-        "🛑 道指期貨": "YM=F"
+        "🇪🇺 德國 DAX": "^GDAXI"
     },
     "crypto": {
         "🟠 Bitcoin": "BTC-USD",
         "🔵 Ethereum": "ETH-USD",
-        "☀️ Solana": "SOL-USD",
-        "⚖️ ETH/BTC (山寨季)": "ETH-BTC" # 新增：看 Altseason 指標
+        "☀️ Solana": "SOL-USD"
+    },
+    "shipping": { # 🔥 新增：航運數據 (運價替代指標)
+        "🚢 乾散貨 ETF (BDI)": "BDRY",
+        "🌊 全球航運 ETF": "BOAT",
+        "📦 ZIM (集裝箱)": "ZIM",
+        "⚓ Maersk (馬士基)": "AMKBY"
+    },
+    "futures": {
+        "📈 標普期貨": "ES=F",
+        "💻 納指期貨": "NQ=F",
+        "🛑 道指期貨": "YM=F"
     },
     "macro": {
+        "😰 恐慌指數 (VIX)": "^VIX",
         "🇺🇸 10年美債": "^TNX",
         "💵 美元指數": "DX-Y.NYB",
-        "💴 USD/JPY": "JPY=X",
-        "🥇 黃金": "GC=F",
-        "🛢️ 原油": "CL=F"
+        "💴 USD/JPY": "JPY=X"
     },
-    "sectors": { # 新增：資金流向
-        "📱 科技 (XLK)": "XLK",
-        "🏦 金融 (XLF)": "XLF",
-        "⚡ 能源 (XLE)": "XLE",
-        "💊 醫療 (XLV)": "XLV"
+    "commodities": {
+        "🥇 黃金": "GC=F",
+        "🛢️ 原油 (WTI)": "CL=F",
+        "🏭 銅": "HG=F",
+        "💻 科技 (XLK)": "XLK",
+        "🏦 金融 (XLF)": "XLF"
     }
 }
 
@@ -53,7 +58,7 @@ def calculate_technicals(ticker_symbol):
         hist = ticker.history(period="3mo")
         if len(hist) < SMA_PERIOD: return None
 
-        # 數據計算
+        # 數據
         price = hist['Close'].iloc[-1]
         change = price - hist['Close'].iloc[-2]
         pct_change = (change / hist['Close'].iloc[-2]) * 100
@@ -65,9 +70,8 @@ def calculate_technicals(ticker_symbol):
         rs = gain / loss
         current_rsi = (100 - (100 / (1 + rs))).iloc[-1]
 
-        # SMA 趨勢
+        # SMA Trend
         current_sma = hist['Close'].rolling(window=SMA_PERIOD).mean().iloc[-1]
-        
         trend = "震盪"
         if price > current_sma * 1.01: trend = "📈 多頭"
         elif price < current_sma * 0.99: trend = "📉 空頭"
@@ -89,17 +93,14 @@ def get_trader_data():
         for name, symbol in items.items():
             data = calculate_technicals(symbol)
             if data:
-                # VIX 與 匯率 不算趨勢/RSI
                 if "VIX" in name or "=" in symbol: 
                     data["trend"] = "-"
-                    # data["rsi"] = "-" # 其實 VIX 看 RSI 也有用，保留
                 
                 all_data[category].append({"name": name, **data})
                 print(f"   ✅ {name} Done")
-                
     return all_data
 
-# ================= 2. 恐慌指數 (Crypto) =================
+# ================= 2. 恐慌指數 =================
 def get_crypto_sentiment():
     try:
         res = requests.get("https://api.alternative.me/fng/").json()
@@ -110,15 +111,16 @@ def get_crypto_sentiment():
 def get_quick_news():
     if not NEWS_API_KEY: return []
     print("📰 抓新聞...")
-    queries = ["market crash", "bitcoin", "nvidia", "federal reserve", "inflation", "recession"]
+    # 加入 shipping, freight 關鍵字
+    queries = ["market crash", "bitcoin", "nvidia", "federal reserve", "inflation", "shipping rates", "freight cost"]
     query_str = " OR ".join(queries)
-    domains = "bloomberg.com,reuters.com,cnbc.com,coindesk.com,wsj.com"
-    url = f"https://newsapi.org/v2/everything?q={query_str}&domains={domains}&sortBy=publishedAt&pageSize=15&apiKey={NEWS_API_KEY}"
+    domains = "bloomberg.com,reuters.com,cnbc.com,coindesk.com,wsj.com,finance.yahoo.com,gcaptain.com"
+    url = f"https://newsapi.org/v2/everything?q={query_str}&domains={domains}&sortBy=publishedAt&pageSize=30&apiKey={NEWS_API_KEY}"
     
     news_list = []
     try:
         res = requests.get(url).json()
-        for art in res.get("articles", [])[:12]: 
+        for art in res.get("articles", [])[:20]: 
             try:
                 title_zh = translator.translate(art['title'])
                 news_list.append({
@@ -131,12 +133,12 @@ def get_quick_news():
 
 # ================= 4. 主程式 =================
 if __name__ == "__main__":
-    print("🚀 啟動 God Mode...")
+    print("🚀 啟動 God Mode v21 (Shipping)...")
     data = get_trader_data()
     final_output = {
         "update_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "crypto_fng": get_crypto_sentiment(),
-        "data": data, # 所有分類都在這
+        "data": data,
         "news": get_quick_news()
     }
     with open("daily_news.json", "w", encoding="utf-8") as f:
