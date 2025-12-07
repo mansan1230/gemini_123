@@ -1,179 +1,191 @@
 {
-  "update_time": "2025-12-07 08:57",
+  "update_time": "2025-12-07 09:08",
   "crypto_fng": {
     "value": "20",
-    "status": "Extreme Fear"
+    "value_classification": "Extreme Fear",
+    "timestamp": "1765065600",
+    "time_until_update": "53506"
   },
-  "indices": [
-    {
-      "name": "🇺🇸 S&P 500",
-      "price": 6870.4,
-      "change": 13.28,
-      "percent": 0.19,
-      "rsi": "60.5",
-      "trend": "📈 多頭",
-      "sma": "6744.21"
-    },
-    {
-      "name": "🇺🇸 Nasdaq",
-      "price": 23578.13,
-      "change": 72.99,
-      "percent": 0.31,
-      "rsi": "62.3",
-      "trend": "📈 多頭",
-      "sma": "23029.66"
-    },
-    {
-      "name": "🇭🇰 恒生指數",
-      "price": 26085.08,
-      "change": 149.18,
-      "percent": 0.58,
-      "rsi": "44.8",
-      "trend": "震盪",
-      "sma": "26203.06"
-    },
-    {
-      "name": "🇯🇵 日經 225",
-      "price": 50491.87,
-      "change": -536.55,
-      "percent": -1.05,
-      "rsi": "50.6",
-      "trend": "📈 多頭",
-      "sma": "48923.43"
-    },
-    {
-      "name": "🇪🇺 德國 DAX",
-      "price": 24028.14,
-      "change": 146.11,
-      "percent": 0.61,
-      "rsi": "60.0",
-      "trend": "震盪",
-      "sma": "23973.34"
-    }
-  ],
-  "crypto": [
-    {
-      "name": "🟠 Bitcoin",
-      "price": 89469.3,
-      "change": 196.92,
-      "percent": 0.22,
-      "rsi": "55.8",
-      "trend": "📉 空頭",
-      "sma": "99145.12"
-    },
-    {
-      "name": "🔵 Ethereum",
-      "price": 3041.05,
-      "change": 0.84,
-      "percent": 0.03,
-      "rsi": "61.2",
-      "trend": "📉 空頭",
-      "sma": "3371.49"
-    },
-    {
-      "name": "☀️ Solana",
-      "price": 132.41,
-      "change": 0.06,
-      "percent": 0.05,
-      "rsi": "51.4",
-      "trend": "📉 空頭",
-      "sma": "157.19"
-    }
-  ],
-  "macro": [
-    {
-      "name": "😰 恐慌指數 (VIX)",
-      "price": 15.41,
-      "change": -0.37,
-      "percent": -2.34,
-      "rsi": "-",
-      "trend": "-",
-      "sma": "18.46"
-    },
-    {
-      "name": "🇺🇸 10年美債",
-      "price": 4.14,
-      "change": 0.03,
-      "percent": 0.75,
-      "rsi": "48.8",
-      "trend": "📈 多頭",
-      "sma": "4.08"
-    },
-    {
-      "name": "💵 美元指數",
-      "price": 98.99,
-      "change": -0.0,
-      "percent": -0.0,
-      "rsi": "44.5",
-      "trend": "震盪",
-      "sma": "99.12"
-    },
-    {
-      "name": "💴 USD/JPY",
-      "price": 155.14,
-      "change": 0.04,
-      "percent": 0.02,
-      "rsi": "54.5",
-      "trend": "📈 多頭",
-      "sma": "153.15"
-    },
-    {
-      "name": "💶 EUR/USD",
-      "price": 1.16,
-      "change": -0.0,
-      "percent": -0.21,
-      "rsi": "54.6",
-      "trend": "震盪",
-      "sma": "1.16"
-    }
-  ],
-  "commodities": [
-    {
-      "name": "🥇 黃金",
-      "price": 4212.9,
-      "change": 1.1,
-      "percent": 0.03,
-      "rsi": "69.2",
-      "trend": "📈 多頭",
-      "sma": "4061.35"
-    },
-    {
-      "name": "🛢️ 原油 (WTI)",
-      "price": 60.08,
-      "change": 0.41,
-      "percent": 0.69,
-      "rsi": "49.9",
-      "trend": "震盪",
-      "sma": "60.00"
-    },
-    {
-      "name": "🏭 銅",
-      "price": 5.38,
-      "change": 0.09,
-      "percent": 1.71,
-      "rsi": "69.7",
-      "trend": "📈 多頭",
-      "sma": "5.03"
-    },
-    {
-      "name": "💻 科技 (XLK)",
-      "price": 146.6,
-      "change": 1.07,
-      "percent": 0.73,
-      "rsi": "56.2",
-      "trend": "📈 多頭",
-      "sma": "143.95"
-    },
-    {
-      "name": "🏦 金融 (XLF)",
-      "price": 53.68,
-      "change": 0.02,
-      "percent": 0.04,
-      "rsi": "61.7",
-      "trend": "📈 多頭",
-      "sma": "52.81"
-    }
-  ],
+  "data": {
+    "indices": [
+      {
+        "name": "🇺🇸 S&P 500",
+        "price": 6870.4,
+        "change": 13.28,
+        "percent": 0.19,
+        "rsi": "60.5",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "🇺🇸 Nasdaq",
+        "price": 23578.13,
+        "change": 72.99,
+        "percent": 0.31,
+        "rsi": "62.3",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "🇭🇰 恒生指數",
+        "price": 26085.08,
+        "change": 149.18,
+        "percent": 0.58,
+        "rsi": "44.8",
+        "trend": "震盪"
+      },
+      {
+        "name": "🇯🇵 日經 225",
+        "price": 50491.87,
+        "change": -536.55,
+        "percent": -1.05,
+        "rsi": "50.6",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "🏁 VIX 恐慌",
+        "price": 15.41,
+        "change": -0.37,
+        "percent": -2.34,
+        "rsi": "39.7",
+        "trend": "-"
+      }
+    ],
+    "futures": [
+      {
+        "name": "📈 標普期貨",
+        "price": 6878.25,
+        "change": 11.5,
+        "percent": 0.17,
+        "rsi": "59.8",
+        "trend": "-"
+      },
+      {
+        "name": "💻 納指期貨",
+        "price": 25732.0,
+        "change": 109.25,
+        "percent": 0.43,
+        "rsi": "60.4",
+        "trend": "-"
+      },
+      {
+        "name": "🛑 道指期貨",
+        "price": 48001.0,
+        "change": 85.0,
+        "percent": 0.18,
+        "rsi": "58.6",
+        "trend": "-"
+      }
+    ],
+    "crypto": [
+      {
+        "name": "🟠 Bitcoin",
+        "price": 89358.77,
+        "change": 86.39,
+        "percent": 0.1,
+        "rsi": "55.6",
+        "trend": "📉 空頭"
+      },
+      {
+        "name": "🔵 Ethereum",
+        "price": 3037.81,
+        "change": -2.4,
+        "percent": -0.08,
+        "rsi": "61.1",
+        "trend": "📉 空頭"
+      },
+      {
+        "name": "☀️ Solana",
+        "price": 132.09,
+        "change": -0.26,
+        "percent": -0.19,
+        "rsi": "51.2",
+        "trend": "📉 空頭"
+      },
+      {
+        "name": "⚖️ ETH/BTC (山寨季)",
+        "price": 0.03,
+        "change": -0.0,
+        "percent": -0.23,
+        "rsi": "63.5",
+        "trend": "震盪"
+      }
+    ],
+    "macro": [
+      {
+        "name": "🇺🇸 10年美債",
+        "price": 4.14,
+        "change": 0.03,
+        "percent": 0.75,
+        "rsi": "48.8",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "💵 美元指數",
+        "price": 98.99,
+        "change": -0.0,
+        "percent": -0.0,
+        "rsi": "44.5",
+        "trend": "震盪"
+      },
+      {
+        "name": "💴 USD/JPY",
+        "price": 155.14,
+        "change": 0.04,
+        "percent": 0.02,
+        "rsi": "54.5",
+        "trend": "-"
+      },
+      {
+        "name": "🥇 黃金",
+        "price": 4212.9,
+        "change": 1.1,
+        "percent": 0.03,
+        "rsi": "69.2",
+        "trend": "-"
+      },
+      {
+        "name": "🛢️ 原油",
+        "price": 60.08,
+        "change": 0.41,
+        "percent": 0.69,
+        "rsi": "49.9",
+        "trend": "-"
+      }
+    ],
+    "sectors": [
+      {
+        "name": "📱 科技 (XLK)",
+        "price": 146.6,
+        "change": 1.07,
+        "percent": 0.73,
+        "rsi": "56.2",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "🏦 金融 (XLF)",
+        "price": 53.68,
+        "change": 0.02,
+        "percent": 0.04,
+        "rsi": "61.7",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "⚡ 能源 (XLE)",
+        "price": 45.92,
+        "change": -0.19,
+        "percent": -0.41,
+        "rsi": "49.3",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "💊 醫療 (XLV)",
+        "price": 153.26,
+        "change": -0.64,
+        "percent": -0.42,
+        "rsi": "54.3",
+        "trend": "📈 多頭"
+      }
+    ]
+  },
   "news": [
     {
       "title": "英國希望開啟“核能黃金時代”，但在恢復歷史領先地位方面面臨關鍵挑戰",
@@ -188,82 +200,64 @@
       "link": "https://www.bloomberg.com/news/articles/2025-12-06/russia-s-vital-oil-trade-with-india-is-down-but-not-out"
     },
     {
+      "title": "日本利率上升使比特幣成為日元利差的瞄準目標",
+      "source": "CoinDesk",
+      "time": "03:30",
+      "link": "https://www.coindesk.com/markets/2025/12/05/japan-s-higher-rates-puts-bitcoin-in-the-crosshairs-of-a-yen-carry-unwind"
+    },
+    {
+      "title": "法官最終確定谷歌反壟斷案的補救措施",
+      "source": "CNBC",
+      "time": "22:52",
+      "link": "https://www.cnbc.com/2025/12/05/judge-finalize-remedies-in-google-antitrust-case.html"
+    },
+    {
+      "title": "Netflix 和華納兄弟交易的監管路徑可能會變得充滿風險",
+      "source": "CNBC",
+      "time": "20:41",
+      "link": "https://www.cnbc.com/2025/12/05/netflix-warner-bros-deal-regulatory-questions.html"
+    },
+    {
+      "title": "在公佈盈利並提高指導後，Rubrik 股價上漲 25%",
+      "source": "CNBC",
+      "time": "18:14",
+      "link": "https://www.cnbc.com/2025/12/05/rubrik-rbrk-stock-earnings-q3.html"
+    },
+    {
+      "title": "特朗普的國家安全戰略對加密貨幣的低利率痴迷進行了現實檢驗",
+      "source": "CoinDesk",
+      "time": "17:25",
+      "link": "https://www.coindesk.com/markets/2025/12/05/trump-s-national-strategy-gives-reality-check-to-crypto-s-low-rate-obsession"
+    },
+    {
+      "title": "代幣化股票為投資者提供了新的機會，但也帶來了獨特的風險",
+      "source": "CNBC",
+      "time": "17:22",
+      "link": "https://www.cnbc.com/2025/12/05/tokenized-stocks-offer-new-opportunities-for-investors-but-carry-unique-risks.html"
+    },
+    {
+      "title": "Netflix 收購華納兄弟的計劃讓影院行業陷入劇變",
+      "source": "CNBC",
+      "time": "17:08",
+      "link": "https://www.cnbc.com/2025/12/05/netflix-warner-bros-deal-theater-industry-upheaval.html"
+    },
+    {
       "title": "由於交易量激增，Hedera 與更廣泛的加密貨幣市場一起下跌",
       "source": "CoinDesk",
       "time": "17:05",
       "link": "https://www.coindesk.com/markets/2025/12/05/hedera-drops-alongside-broader-crypto-market-amid-volume-spike"
     },
     {
-      "title": "在暴跌迫使價格目標大幅下調後，Cantor 仍買入策略股",
+      "title": "美國檢察官在加密貨幣欺詐案中尋求 Terraform 創始人 Do Kwon 12 年徒刑",
       "source": "CoinDesk",
-      "time": "15:20",
-      "link": "https://www.coindesk.com/markets/2025/12/05/cantor-slashes-mstr-price-target-but-stays-bullish-on-bitcoin-strategy-amid-market-pressures"
+      "time": "16:58",
+      "link": "https://www.coindesk.com/policy/2025/12/05/us-prosecutors-seek-12-year-sentence-for-terraform-founder-do-kwon-in-crypto-fraud-case"
     },
     {
-      "title": "隨著技術崩潰加速，Aptos 下跌 6% 至 1.85 美元",
+      "title": "考慮到其債務因素，MARA 的交易價格是溢價，而不是折扣：VanEck 的 Sigel",
       "source": "CoinDesk",
-      "time": "13:39",
-      "link": "https://www.coindesk.com/markets/2025/12/05/aptos-drops-6-to-usd1-85-as-technical-breakdown-accelerates"
-    },
-    {
-      "title": "比特幣真的是數字黃金嗎？ 2025 年，領先的加密貨幣未能回答這個問題",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2025/12/05/bitcoin-digital-gold-crypto-store-of-value.html"
-    },
-    {
-      "title": "轉向長期思維：美洲加密日記",
-      "source": "CoinDesk",
-      "time": "12:29",
-      "link": "https://www.coindesk.com/daybook-us/2025/12/05/switch-to-long-term-thinking-crypto-daybook-americas"
-    },
-    {
-      "title": "今日加密貨幣市場：隨著 ETF 流出加劇市場焦慮，比特幣跌至 9.1 萬美元",
-      "source": "CoinDesk",
-      "time": "11:46",
-      "link": "https://www.coindesk.com/markets/2025/12/05/crypto-markets-today-bitcoin-slides-to-usd91k-as-etf-outflows-deepen-market-anxiety"
-    },
-    {
-      "title": "隨著比特幣努力恢復牛市趨勢，貝萊德的 IBIT 面臨創紀錄的資金外流",
-      "source": "CoinDesk",
-      "time": "10:53",
-      "link": "https://www.coindesk.com/markets/2025/12/05/blackrock-s-ibit-faces-record-outflow-run-as-bitcoin-struggles-to-reclaim-bull-trend"
-    },
-    {
-      "title": "全球股市大多先於美國關鍵通脹數據上漲",
-      "source": "The Wall Street Journal",
-      "time": "09:25",
-      "link": "https://www.wsj.com/finance/stocks/global-stock-markets-mostly-rise-ahead-of-key-u-s-inflation-data-40ddb772"
-    },
-    {
-      "title": "CNBC 每日公開賽：這是一個豐富的 Nvidia 世界",
-      "source": "CNBC",
-      "time": "07:30",
-      "link": "https://www.cnbc.com/2025/12/05/cnbc-daily-open-its-a-rich-nvidias-world.html"
-    },
-    {
-      "title": "Solana、XRP、ETH 擴大跌幅，比特幣 9.1 萬美元支撐位重新成為焦點",
-      "source": "CoinDesk",
-      "time": "05:57",
-      "link": "https://www.coindesk.com/markets/2025/12/05/solana-xrp-eth-extend-losses-as-bitcoin-s-usd91k-support-back-in-focus"
-    },
-    {
-      "title": "DOGE ETF 熱議與看跌現實相遇，狗狗幣創下新低",
-      "source": "CoinDesk",
-      "time": "04:47",
-      "link": "https://www.coindesk.com/markets/2025/12/05/doge-etf-buzz-meets-bearish-reality-as-dogecoin-prints-fresh-lower-lows"
-    },
-    {
-      "title": "印度本月可能尋求競標 IDBI 銀行 70 億美元的股份",
-      "source": "Bloomberg",
-      "time": "04:24",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-05/india-may-seek-bids-for-7-billion-idbi-bank-stake-this-month"
-    },
-    {
-      "title": "CNBC 每日公開賽：英偉達的世界裡有錢，有錢，有錢",
-      "source": "CNBC",
-      "time": "01:14",
-      "link": "https://www.cnbc.com/2025/12/05/cnbc-daily-open-money-money-money-in-nvidias-world.html"
+      "time": "15:38",
+      "link": "https://www.coindesk.com/markets/2025/12/05/mara-trades-at-a-premium-factoring-in-its-debt-not-a-discount-vaneck-s-sigel"
     }
   ]
 }
