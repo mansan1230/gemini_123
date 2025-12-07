@@ -1,3 +1,38 @@
+<button id="refresh-btn" class="btn-refresh" onclick="triggerUpdate()">
+    🔄 立即更新數據
+</button>
+<p id="status-msg" style="font-size:0.8em; color:#888; margin-top:5px;"></p>
+
+<script>
+    function triggerUpdate() {
+        const btn = document.getElementById('refresh-btn');
+        const msg = document.getElementById('status-msg');
+        
+        // 1. 鎖住按鈕，避免狂按
+        btn.disabled = true;
+        btn.innerHTML = "⏳ 請求發送中...";
+        btn.style.backgroundColor = "#555";
+
+        // 2. 呼叫你的 Cloudflare Worker
+        // 把下面換成你真正的 Cloudflare 網址
+        fetch('https://dashboard.mansantamm.workers.dev', { method: 'POST' })
+            .then(response => {
+                if (response.ok) {
+                    btn.innerHTML = "✅ 已觸發更新";
+                    msg.innerHTML = "指令已發送！GitHub Actions 正在後台啟動，請約 1-2 分鐘後重新整理頁面。";
+                } else {
+                    throw new Error("Server Error");
+                }
+            })
+            .catch(err => {
+                btn.innerHTML = "❌ 失敗";
+                btn.disabled = false;
+                btn.style.backgroundColor = "#c0392b";
+                msg.innerHTML = "連線失敗，請檢查網路或 Cloudflare 設定。";
+                console.error(err);
+            });
+    }
+</script>
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
