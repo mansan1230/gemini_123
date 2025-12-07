@@ -3,103 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trader 每日聚合器</title>
+    <title>Global Macro Trader Terminal</title>
     <style>
-        /* Dark Mode Trader Style */
-        body { font-family: "Roboto", "Segoe UI", sans-serif; background-color: #0f1115; color: #e0e0e0; margin: 0; padding: 20px; }
-        h1, h2, h3 { color: #ffffff; margin-top: 0; }
+        /* Dark Mode Professional Style */
+        body { font-family: "Roboto", "Segoe UI", sans-serif; background-color: #0b0e11; color: #c9d1d9; margin: 0; padding: 20px; }
         
-        .header { text-align: center; margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 15px; }
-        .timestamp { color: #888; font-size: 0.9em; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #21262d; padding-bottom: 15px; margin-bottom: 20px; }
+        h1 { margin: 0; font-size: 1.5em; color: #58a6ff; }
+        .timestamp { color: #8b949e; font-family: monospace; }
 
-        .container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; max-width: 1400px; margin: 0 auto; }
+        /* 佈局：左邊數據 (2欄)，右邊新聞 (1欄) */
+        .main-container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; max-width: 1600px; margin: 0 auto; }
         
-        /* 區塊樣式 */
-        .box { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 15px; margin-bottom: 20px; }
-        .box-title { font-size: 1.1em; font-weight: bold; margin-bottom: 15px; color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 5px; }
+        /* 數據網格：左邊再分兩欄 */
+        .data-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 
-        /* 表格樣式 */
-        table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
-        th { text-align: left; color: #8b949e; padding: 8px; border-bottom: 1px solid #30363d; }
-        td { padding: 8px; border-bottom: 1px solid #21262d; }
+        .box { background: #161b22; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; }
+        .box-header { background: #21262d; padding: 10px 15px; font-weight: bold; font-size: 0.9em; color: #e0e0e0; border-bottom: 1px solid #30363d; display: flex; justify-content: space-between; }
         
-        .price { font-family: "Courier New", monospace; font-weight: bold; }
-        .up { color: #3fb950; }   /* 綠漲 */
-        .down { color: #f85149; } /* 紅跌 */
+        /* 表格優化 */
+        table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+        th { text-align: left; color: #8b949e; padding: 8px 15px; background: #1c2128; font-weight: normal; }
+        td { padding: 8px 15px; border-bottom: 1px solid #21262d; }
+        tr:last-child td { border-bottom: none; }
         
-        .rsi-high { color: #f85149; font-weight: bold; } /* 超買 */
-        .rsi-low { color: #3fb950; font-weight: bold; }  /* 超賣 */
+        .price { font-family: "Courier New", monospace; font-weight: bold; color: #fff; }
+        .up { color: #3fb950; }
+        .down { color: #f85149; }
         
-        /* 新聞列表 */
-        .news-item { padding: 10px 0; border-bottom: 1px solid #21262d; }
-        .news-time { color: #8b949e; font-size: 0.8em; margin-right: 10px; }
-        .news-source { background: #30363d; color: #fff; padding: 2px 5px; border-radius: 4px; font-size: 0.7em; margin-right: 5px; }
-        .news-title a { color: #c9d1d9; text-decoration: none; transition: 0.2s; }
+        /* RSI 顏色標記 */
+        .rsi-val { font-family: monospace; }
+        .rsi-high { color: #f85149; font-weight: bold; } /* >70 */
+        .rsi-low { color: #3fb950; font-weight: bold; }  /* <30 */
+        .rsi-neu { color: #8b949e; }
+
+        /* 新聞區塊 (Scrollable) */
+        .news-scroll { max-height: 800px; overflow-y: auto; padding: 0; }
+        .news-item { padding: 12px 15px; border-bottom: 1px solid #21262d; transition: background 0.2s; }
+        .news-item:hover { background: #1c2128; }
+        .news-meta { display: flex; justify-content: space-between; font-size: 0.75em; color: #8b949e; margin-bottom: 4px; }
+        .news-source { color: #58a6ff; font-weight: bold; }
+        .news-title a { color: #e0e0e0; text-decoration: none; font-size: 0.95em; line-height: 1.4; display: block; }
         .news-title a:hover { color: #58a6ff; }
 
-        /* 響應式 */
-        @media (max-width: 768px) {
-            .container { grid-template-columns: 1fr; }
+        /* Scrollbar Style */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0b0e11; }
+        ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #58a6ff; }
+
+        @media (max-width: 1000px) {
+            .main-container { grid-template-columns: 1fr; }
+            .data-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>📈 Daily Trader Dashboard</h1>
-        <div id="update-time" class="timestamp">Loading...</div>
+        <h1>📊 Global Macro Trader Terminal</h1>
+        <div id="update-time" class="timestamp">Initializing...</div>
     </div>
 
-    <div class="container">
-        <div class="left-col">
+    <div class="main-container">
+        
+        <div class="data-grid">
             
             <div class="box">
-                <div class="box-title">🌏 全球指數 & 技術指標</div>
+                <div class="box-header">🌏 全球指數 (Indices)</div>
                 <table>
-                    <thead>
-                        <tr><th>商品</th><th>價格</th><th>漲跌 %</th><th>RSI (14)</th><th>訊號</th></tr>
-                    </thead>
+                    <thead><tr><th>名稱</th><th>現價</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
                     <tbody id="indices-box"></tbody>
                 </table>
             </div>
 
             <div class="box">
-                <div class="box-title">🪙 Crypto 市場</div>
+                <div class="box-header">🪙 加密貨幣 (Crypto)</div>
                 <table>
-                    <thead>
-                        <tr><th>幣種</th><th>價格 (USD)</th><th>漲跌 %</th><th>RSI (14)</th><th>訊號</th></tr>
-                    </thead>
+                    <thead><tr><th>幣種</th><th>價格</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
                     <tbody id="crypto-box"></tbody>
                 </table>
             </div>
 
-             <div class="box">
-                <div class="box-title">🌊 宏觀經濟 (Macro)</div>
+            <div class="box">
+                <div class="box-header">🌊 宏觀 & 外匯 (Macro/FX)</div>
                 <table>
-                    <thead>
-                        <tr><th>指標</th><th>數值</th><th>變動</th></tr>
-                    </thead>
+                    <thead><tr><th>指標</th><th>數值</th><th>變動</th><th>狀態</th></tr></thead>
                     <tbody id="macro-box"></tbody>
                 </table>
             </div>
+
+            <div class="box">
+                <div class="box-header">🛢️ 商品 & 板塊 (Commodities)</div>
+                <table>
+                    <thead><tr><th>資產</th><th>現價</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
+                    <tbody id="commodities-box"></tbody>
+                </table>
+            </div>
+
         </div>
 
-        <div class="right-col">
-            <div class="box">
-                <div class="box-title">⚡ 市場快訊 (Real-time News)</div>
-                <div id="news-box"></div>
+        <div class="box">
+            <div class="box-header">
+                <span>⚡ 市場快訊 (Live News)</span>
+                <span style="font-size:0.8em; color:#8b949e">Top 20</span>
             </div>
+            <div id="news-box" class="news-scroll">
+                </div>
         </div>
+
     </div>
 
     <script>
         fetch('daily_news.json?t=' + new Date().getTime())
             .then(r => r.json())
             .then(data => {
-                document.getElementById('update-time').textContent = "Last Updated: " + data.update_time;
+                document.getElementById('update-time').textContent = "DATA TIME: " + data.update_time + " (HKT)";
 
-                // 渲染函數
-                function renderTable(id, list, showRsi=false) {
+                // 通用渲染表格
+                function renderTable(id, list) {
                     const el = document.getElementById(id);
                     if(!list) return;
                     list.forEach(item => {
@@ -107,15 +129,13 @@
                         const colorClass = isUp ? 'up' : 'down';
                         const sign = isUp ? '+' : '';
                         
-                        let rsiHtml = '';
-                        if(showRsi) {
-                            let rsiClass = '';
-                            if (item.rsi > 70) rsiClass = 'rsi-high';
-                            if (item.rsi < 30) rsiClass = 'rsi-low';
-                            rsiHtml = `<td class="${rsiClass}">${item.rsi}</td><td><span class="${rsiClass}">${item.signal}</span></td>`;
-                        } else {
-                            // 宏觀數據沒有 RSI
-                            rsiHtml = '';
+                        // RSI 處理
+                        let rsiHtml = '<td class="rsi-neu">-</td>';
+                        if(item.rsi && item.rsi !== "-") {
+                            let rsiColor = 'rsi-neu';
+                            if(item.rsi > 70) rsiColor = 'rsi-high'; // 超買
+                            if(item.rsi < 30) rsiColor = 'rsi-low';  // 超賣
+                            rsiHtml = `<td class="rsi-val ${rsiColor}">${item.rsi}</td>`;
                         }
 
                         el.innerHTML += `
@@ -129,19 +149,24 @@
                     });
                 }
 
-                renderTable('indices-box', data.indices, true);
-                renderTable('crypto-box', data.crypto, true);
-                renderTable('macro-box', data.macro, false);
+                renderTable('indices-box', data.indices);
+                renderTable('crypto-box', data.crypto);
+                renderTable('macro-box', data.macro);
+                renderTable('commodities-box', data.commodities);
 
-                // 渲染新聞
+                // 渲染新聞 (帶 Scrollbar)
                 const newsEl = document.getElementById('news-box');
                 if(data.news) {
                     data.news.forEach(n => {
                         newsEl.innerHTML += `
                             <div class="news-item">
-                                <span class="news-time">${n.time}</span>
-                                <span class="news-source">${n.source}</span>
-                                <span class="news-title"><a href="${n.link}" target="_blank">${n.title}</a></span>
+                                <div class="news-meta">
+                                    <span class="news-source">${n.source}</span>
+                                    <span>${n.time}</span>
+                                </div>
+                                <div class="news-title">
+                                    <a href="${n.link}" target="_blank">${n.title}</a>
+                                </div>
                             </div>
                         `;
                     });
