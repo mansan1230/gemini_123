@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-07 00:50",
+  "update_time": "2025-12-07 07:41",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -24,9 +24,9 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89481.23,
-      "change": 93.47,
-      "percent": 0.1,
+      "price": 89272.97,
+      "change": 0.59,
+      "percent": 0.0,
       "is_macro": false
     }
   ],
@@ -49,8 +49,8 @@
     {
       "name": "💵 美元指數",
       "price": 98.99,
-      "change": 0.0,
-      "percent": 0.0,
+      "change": -0.0,
+      "percent": -0.0,
       "is_macro": true
     },
     {
