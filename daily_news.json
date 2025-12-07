@@ -1,5 +1,9 @@
 {
-  "update_time": "2025-12-07 08:09",
+  "update_time": "2025-12-07 08:30",
+  "crypto_fng": {
+    "value": "20",
+    "status": "Extreme Fear"
+  },
   "indices": [
     {
       "name": "🇺🇸 S&P 500",
@@ -7,7 +11,8 @@
       "change": 13.28,
       "percent": 0.19,
       "rsi": "60.5",
-      "signal": "強勢"
+      "trend": "📈 多頭",
+      "sma": "6744.21"
     },
     {
       "name": "🇺🇸 Nasdaq",
@@ -15,7 +20,8 @@
       "change": 72.99,
       "percent": 0.31,
       "rsi": "62.3",
-      "signal": "強勢"
+      "trend": "📈 多頭",
+      "sma": "23029.66"
     },
     {
       "name": "🇭🇰 恒生指數",
@@ -23,7 +29,8 @@
       "change": 149.18,
       "percent": 0.58,
       "rsi": "44.8",
-      "signal": "中性"
+      "trend": "震盪",
+      "sma": "26203.06"
     },
     {
       "name": "🇯🇵 日經 225",
@@ -31,7 +38,8 @@
       "change": -536.55,
       "percent": -1.05,
       "rsi": "50.6",
-      "signal": "中性"
+      "trend": "📈 多頭",
+      "sma": "48923.43"
     },
     {
       "name": "🇪🇺 德國 DAX",
@@ -39,33 +47,37 @@
       "change": 146.11,
       "percent": 0.61,
       "rsi": "60.0",
-      "signal": "中性"
+      "trend": "震盪",
+      "sma": "23973.34"
     }
   ],
   "crypto": [
     {
       "name": "🟠 Bitcoin",
-      "price": 89320.49,
-      "change": 48.12,
-      "percent": 0.05,
-      "rsi": "55.5",
-      "signal": "中性"
+      "price": 89360.03,
+      "change": 87.66,
+      "percent": 0.1,
+      "rsi": "55.6",
+      "trend": "📉 空頭",
+      "sma": "99142.94"
     },
     {
       "name": "🔵 Ethereum",
-      "price": 3034.56,
-      "change": -5.65,
-      "percent": -0.19,
+      "price": 3034.22,
+      "change": -5.99,
+      "percent": -0.2,
       "rsi": "60.9",
-      "signal": "強勢"
+      "trend": "📉 空頭",
+      "sma": "3371.35"
     },
     {
       "name": "☀️ Solana",
-      "price": 132.11,
-      "change": -0.23,
-      "percent": -0.18,
-      "rsi": "51.2",
-      "signal": "中性"
+      "price": 131.96,
+      "change": -0.39,
+      "percent": -0.29,
+      "rsi": "51.0",
+      "trend": "📉 空頭",
+      "sma": "157.18"
     }
   ],
   "macro": [
@@ -75,7 +87,8 @@
       "change": -0.37,
       "percent": -2.34,
       "rsi": "-",
-      "signal": "中性"
+      "trend": "-",
+      "sma": "18.46"
     },
     {
       "name": "🇺🇸 10年美債",
@@ -83,7 +96,8 @@
       "change": 0.03,
       "percent": 0.75,
       "rsi": "48.8",
-      "signal": "中性"
+      "trend": "📈 多頭",
+      "sma": "4.08"
     },
     {
       "name": "💵 美元指數",
@@ -91,23 +105,26 @@
       "change": -0.0,
       "percent": -0.0,
       "rsi": "44.5",
-      "signal": "中性"
+      "trend": "震盪",
+      "sma": "99.12"
     },
     {
-      "name": "💴 USD/JPY (日圓)",
+      "name": "💴 USD/JPY",
       "price": 155.14,
       "change": 0.04,
       "percent": 0.02,
       "rsi": "54.5",
-      "signal": "中性"
+      "trend": "📈 多頭",
+      "sma": "153.15"
     },
     {
-      "name": "💶 EUR/USD (歐元)",
+      "name": "💶 EUR/USD",
       "price": 1.16,
       "change": -0.0,
       "percent": -0.21,
       "rsi": "54.6",
-      "signal": "中性"
+      "trend": "震盪",
+      "sma": "1.16"
     }
   ],
   "commodities": [
@@ -117,7 +134,8 @@
       "change": 1.1,
       "percent": 0.03,
       "rsi": "69.2",
-      "signal": "強勢"
+      "trend": "📈 多頭",
+      "sma": "4061.35"
     },
     {
       "name": "🛢️ 原油 (WTI)",
@@ -125,45 +143,97 @@
       "change": 0.41,
       "percent": 0.69,
       "rsi": "49.9",
-      "signal": "中性"
+      "trend": "震盪",
+      "sma": "60.00"
     },
     {
-      "name": "🏭 銅 (經濟指標)",
+      "name": "🏭 銅",
       "price": 5.38,
       "change": 0.09,
       "percent": 1.71,
       "rsi": "69.7",
-      "signal": "強勢"
+      "trend": "📈 多頭",
+      "sma": "5.03"
     },
     {
-      "name": "💻 美股科技 (XLK)",
+      "name": "💻 科技 (XLK)",
       "price": 146.6,
       "change": 1.07,
       "percent": 0.73,
       "rsi": "56.2",
-      "signal": "中性"
+      "trend": "📈 多頭",
+      "sma": "143.95"
     },
     {
-      "name": "🏦 美股金融 (XLF)",
+      "name": "🏦 金融 (XLF)",
       "price": 53.68,
       "change": 0.02,
       "percent": 0.04,
       "rsi": "61.7",
-      "signal": "強勢"
+      "trend": "📈 多頭",
+      "sma": "52.81"
     }
   ],
   "news": [
     {
-      "title": "美元正在崩潰。接下來是法定貨幣支持的穩定幣",
-      "source": "CoinDesk",
-      "time": "15:23",
-      "link": "https://www.coindesk.com/opinion/2025/12/05/the-dollar-is-crumbling-fiat-backed-stablecoins-are-next"
+      "title": "英國希望開啟“核能黃金時代”，但在恢復歷史領先地位方面面臨關鍵挑戰",
+      "source": "CNBC",
+      "time": "07:55",
+      "link": "https://www.cnbc.com/2025/12/06/the-history-of-nuclear-energy-lies-on-british-soil-does-its-future-.html"
     },
     {
-      "title": "“特朗普賬戶”最多可以免費為您的孩子提供 1,000 美元。您最關心的問題已得到解答",
+      "title": "俄羅斯與印度的重要石油貿易有所下降，但並未結束",
+      "source": "Bloomberg",
+      "time": "04:39",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-06/russia-s-vital-oil-trade-with-india-is-down-but-not-out"
+    },
+    {
+      "title": "由於交易量激增，Hedera 與更廣泛的加密貨幣市場一起下跌",
+      "source": "CoinDesk",
+      "time": "17:05",
+      "link": "https://www.coindesk.com/markets/2025/12/05/hedera-drops-alongside-broader-crypto-market-amid-volume-spike"
+    },
+    {
+      "title": "在暴跌迫使價格目標大幅下調後，Cantor 仍買入策略股",
+      "source": "CoinDesk",
+      "time": "15:20",
+      "link": "https://www.coindesk.com/markets/2025/12/05/cantor-slashes-mstr-price-target-but-stays-bullish-on-bitcoin-strategy-amid-market-pressures"
+    },
+    {
+      "title": "隨著技術崩潰加速，Aptos 下跌 6% 至 1.85 美元",
+      "source": "CoinDesk",
+      "time": "13:39",
+      "link": "https://www.coindesk.com/markets/2025/12/05/aptos-drops-6-to-usd1-85-as-technical-breakdown-accelerates"
+    },
+    {
+      "title": "比特幣真的是數字黃金嗎？ 2025 年，領先的加密貨幣未能回答這個問題",
       "source": "CNBC",
-      "time": "13:35",
-      "link": "https://www.cnbc.com/2025/12/05/trump-accounts-free-money.html"
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2025/12/05/bitcoin-digital-gold-crypto-store-of-value.html"
+    },
+    {
+      "title": "轉向長期思維：美洲加密日記",
+      "source": "CoinDesk",
+      "time": "12:29",
+      "link": "https://www.coindesk.com/daybook-us/2025/12/05/switch-to-long-term-thinking-crypto-daybook-americas"
+    },
+    {
+      "title": "今日加密貨幣市場：隨著 ETF 流出加劇市場焦慮，比特幣跌至 9.1 萬美元",
+      "source": "CoinDesk",
+      "time": "11:46",
+      "link": "https://www.coindesk.com/markets/2025/12/05/crypto-markets-today-bitcoin-slides-to-usd91k-as-etf-outflows-deepen-market-anxiety"
+    },
+    {
+      "title": "隨著比特幣努力恢復牛市趨勢，貝萊德的 IBIT 面臨創紀錄的資金外流",
+      "source": "CoinDesk",
+      "time": "10:53",
+      "link": "https://www.coindesk.com/markets/2025/12/05/blackrock-s-ibit-faces-record-outflow-run-as-bitcoin-struggles-to-reclaim-bull-trend"
+    },
+    {
+      "title": "全球股市大多先於美國關鍵通脹數據上漲",
+      "source": "The Wall Street Journal",
+      "time": "09:25",
+      "link": "https://www.wsj.com/finance/stocks/global-stock-markets-mostly-rise-ahead-of-key-u-s-inflation-data-40ddb772"
     },
     {
       "title": "CNBC 每日公開賽：這是一個豐富的 Nvidia 世界",
@@ -172,106 +242,28 @@
       "link": "https://www.cnbc.com/2025/12/05/cnbc-daily-open-its-a-rich-nvidias-world.html"
     },
     {
-      "title": "亞洲早間簡報：Hashed 表示，加密貨幣的下一次突破將來自基礎設施，而不是敘事",
+      "title": "Solana、XRP、ETH 擴大跌幅，比特幣 9.1 萬美元支撐位重新成為焦點",
       "source": "CoinDesk",
-      "time": "02:29",
-      "link": "https://www.coindesk.com/markets/2025/12/05/asia-morning-briefing-crypto-s-next-breakout-will-come-from-infrastructure-not-narratives-hashed-says"
+      "time": "05:57",
+      "link": "https://www.coindesk.com/markets/2025/12/05/solana-xrp-eth-extend-losses-as-bitcoin-s-usd91k-support-back-in-focus"
+    },
+    {
+      "title": "DOGE ETF 熱議與看跌現實相遇，狗狗幣創下新低",
+      "source": "CoinDesk",
+      "time": "04:47",
+      "link": "https://www.coindesk.com/markets/2025/12/05/doge-etf-buzz-meets-bearish-reality-as-dogecoin-prints-fresh-lower-lows"
+    },
+    {
+      "title": "印度本月可能尋求競標 IDBI 銀行 70 億美元的股份",
+      "source": "Bloomberg",
+      "time": "04:24",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-05/india-may-seek-bids-for-7-billion-idbi-bank-stake-this-month"
     },
     {
       "title": "CNBC 每日公開賽：英偉達的世界裡有錢，有錢，有錢",
       "source": "CNBC",
       "time": "01:14",
       "link": "https://www.cnbc.com/2025/12/05/cnbc-daily-open-money-money-money-in-nvidias-world.html"
-    },
-    {
-      "title": "理財規劃師稱，政治現在是美國人頭號金錢憂慮",
-      "source": "CNBC",
-      "time": "15:00",
-      "link": "https://www.cnbc.com/2025/12/04/politics-is-now-the-no-1-money-worry-financial-planners-say.html"
-    },
-    {
-      "title": "Challenger 稱，今年裁員公告數量已達 110 萬份，為 2020 年疫情爆發以來最多",
-      "source": "CNBC",
-      "time": "12:48",
-      "link": "https://www.cnbc.com/2025/12/04/layoff-announcements-this-year-top-1point1-million-the-most-since-2020-when-pandemic-hit-challenger-says.html"
-    },
-    {
-      "title": "Plume 首次推出 Nest Vaults，為 Solana 帶來機構 RWA 收益",
-      "source": "CoinDesk",
-      "time": "11:00",
-      "link": "https://www.coindesk.com/business/2025/12/04/plume-brings-institutional-rwa-yield-to-solana-with-debut-of-nest-vaults"
-    },
-    {
-      "title": "CNBC 的印度內部時事通訊：一款國營應用程序如何引發一場關於數字過度擴張的新鬥爭",
-      "source": "CNBC",
-      "time": "10:34",
-      "link": "https://www.cnbc.com/2025/12/04/cnbc-inside-india-newsletter-how-a-state-run-app-sparked-a-fresh-fight-over-digital-overreach.html"
-    },
-    {
-      "title": "烏克蘭、貿易、熊貓：中國習近平和法國馬克龍在北京討論的內容",
-      "source": "CNBC",
-      "time": "09:06",
-      "link": "https://www.cnbc.com/2025/12/04/china-france-xi-macron-meeting-beijing-ukraine.html"
-    },
-    {
-      "title": "牢記 1987 年 10 月黑色星期一崩盤：前財政部長、高盛董事長羅伯特·魯賓向市場傳達的信息",
-      "source": "CNBC",
-      "time": "01:12",
-      "link": "https://www.cnbc.com/2025/12/03/stock-market-crash-risk-black-monday-october-1987.html"
-    },
-    {
-      "title": "吉姆·克萊默 (Jim Cramer) 解析週三市場反彈的不同方面",
-      "source": "CNBC",
-      "time": "23:52",
-      "link": "https://www.cnbc.com/2025/12/03/market-rally-wednesday-jim-cramer.html"
-    },
-    {
-      "title": "貝萊德在人工智能報告中表示，美國債務增長將推動加密貨幣的上漲",
-      "source": "CoinDesk",
-      "time": "16:01",
-      "link": "https://www.coindesk.com/business/2025/12/03/u-s-debt-growth-will-drive-crypto-s-gains-blackrock-says-in-report-on-ai"
-    },
-    {
-      "title": "加密多空：暫時不要註銷歐元穩定幣",
-      "source": "CoinDesk",
-      "time": "15:49",
-      "link": "https://www.coindesk.com/coindesk-indices/2025/12/03/crypto-long-and-short-don-t-write-off-euro-stablecoins-just-yet"
-    },
-    {
-      "title": "匯豐銀行表示，標普下調 Tether 評級重啟了“脫鉤”風險警告",
-      "source": "CoinDesk",
-      "time": "14:55",
-      "link": "https://www.coindesk.com/markets/2025/12/03/s-and-p-s-tether-downgrade-revives-de-pegging-risk-warning-hsbc-says"
-    },
-    {
-      "title": "上週抵押貸款利率最終下降，但這對需求影響不大",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2025/12/03/mortgage-rates-finally-moved-lower-last-week-but-that-didnt-do-much-for-demand.html"
-    },
-    {
-      "title": "一線明星和相關性之戰：American Eagle、Gap 和 Levi 如何引發一場新的“牛仔布戰爭”",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2025/12/03/american-eagle-gap-levi-beyonce-sydney-sweeney-denim-ads.html"
-    },
-    {
-      "title": "印度將接待俄羅斯總統普京，深化貿易關係，不受美國懲罰性關稅的影響",
-      "source": "CNBC",
-      "time": "08:29",
-      "link": "https://www.cnbc.com/2025/12/03/india-russia-putin-meeting-tariffs-new-delhi-moscow-trade.html"
-    },
-    {
-      "title": "CNBC 的《中國連線》時事通訊：2026 年的三個經濟熱點",
-      "source": "CNBC",
-      "time": "06:36",
-      "link": "https://www.cnbc.com/2025/12/03/cnbc-china-connection-newsletter-three-economic-flashpoints-2026-property-consumption-deflation.html"
-    },
-    {
-      "title": "澳大利亞經濟增長未達預期，第三季度增長2.1%",
-      "source": "CNBC",
-      "time": "00:48",
-      "link": "https://www.cnbc.com/2025/12/03/australia-q3-gdp-september.html"
     }
   ]
 }
