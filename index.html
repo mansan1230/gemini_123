@@ -1,44 +1,9 @@
-<button id="refresh-btn" class="btn-refresh" onclick="triggerUpdate()">
-    🔄 立即更新數據
-</button>
-<p id="status-msg" style="font-size:0.8em; color:#888; margin-top:5px;"></p>
-
-<script>
-    function triggerUpdate() {
-        const btn = document.getElementById('refresh-btn');
-        const msg = document.getElementById('status-msg');
-        
-        // 1. 鎖住按鈕，避免狂按
-        btn.disabled = true;
-        btn.innerHTML = "⏳ 請求發送中...";
-        btn.style.backgroundColor = "#555";
-
-        // 2. 呼叫你的 Cloudflare Worker
-        // 把下面換成你真正的 Cloudflare 網址
-        fetch('https://dashboard.mansantamm.workers.dev', { method: 'POST' })
-            .then(response => {
-                if (response.ok) {
-                    btn.innerHTML = "✅ 已觸發更新";
-                    msg.innerHTML = "指令已發送！GitHub Actions 正在後台啟動，請約 1-2 分鐘後重新整理頁面。";
-                } else {
-                    throw new Error("Server Error");
-                }
-            })
-            .catch(err => {
-                btn.innerHTML = "❌ 失敗";
-                btn.disabled = false;
-                btn.style.backgroundColor = "#c0392b";
-                msg.innerHTML = "連線失敗，請檢查網路或 Cloudflare 設定。";
-                console.error(err);
-            });
-    }
-</script>
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Trader Terminal v18</title>
+    <title>God Mode Trader Terminal</title>
     <style>
         :root {
             --bg-color: #0b0e11;
@@ -70,7 +35,7 @@
         .header-title h1 { margin: 0; font-size: 1.6em; color: var(--accent); }
         .timestamp { color: var(--text-dim); font-family: monospace; margin-top: 5px; }
 
-        /* 恐慌指數卡片 (新) */
+        /* 恐慌指數卡片 */
         .fng-card {
             background: #1c2128;
             border: 1px solid var(--border-color);
@@ -89,19 +54,23 @@
             border: 1px solid rgba(240,246,252,0.1);
             padding: 8px 16px; border-radius: 6px;
             font-weight: bold; font-size: 0.9em;
+            cursor: pointer;
             transition: 0.2s;
         }
         .btn-refresh:hover { background-color: #2ea043; }
+        .btn-refresh:disabled { background-color: #555; cursor: not-allowed; }
 
-        /* Grid System */
+        /* 狀態訊息 */
+        #status-msg { position: absolute; top: 70px; right: 20px; font-size: 0.8em; color: #888; }
+
+        /* 三欄式 Grid System (God Mode) */
         .main-container {
             display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 25px;
-            max-width: 1600px;
+            grid-template-columns: 1fr 1fr 1fr; /* 三等份 */
+            gap: 20px;
+            max-width: 1800px;
             margin: 0 auto;
         }
-        .data-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 
         .box {
             background: var(--card-bg);
@@ -109,62 +78,61 @@
             border-radius: 8px;
             overflow: hidden;
             display: flex; flex-direction: column;
+            margin-bottom: 20px;
         }
         .box-header {
-            padding: 12px 15px; background: #21262d;
+            padding: 10px 15px; background: #21262d;
             border-bottom: 1px solid var(--border-color);
             font-weight: bold; font-size: 0.95em;
         }
 
         /* Table */
-        table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
-        th { text-align: left; padding: 10px 12px; color: var(--text-dim); font-weight: normal; background: #1c2128; }
-        td { padding: 10px 12px; border-bottom: 1px solid var(--border-color); }
+        table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+        th { text-align: left; padding: 8px 10px; color: var(--text-dim); font-weight: normal; background: #1c2128; }
+        td { padding: 8px 10px; border-bottom: 1px solid var(--border-color); }
         tr:last-child td { border-bottom: none; }
 
         .price { font-family: "Courier New", monospace; font-weight: bold; }
         .up { color: var(--rsi-oversold); }
         .down { color: var(--rsi-overbought); }
         
-        /* 趨勢標籤 (新) */
-        .trend-tag { 
-            padding: 2px 6px; border-radius: 4px; font-size: 0.8em; font-weight: bold; 
-        }
+        /* 趨勢標籤 */
+        .trend-tag { padding: 2px 5px; border-radius: 4px; font-size: 0.75em; font-weight: bold; }
         .trend-bull { background: rgba(63, 185, 80, 0.2); color: #3fb950; }
         .trend-bear { background: rgba(248, 81, 73, 0.2); color: #f85149; }
         .trend-flat { background: rgba(110, 118, 129, 0.2); color: #8b949e; }
 
         /* RSI Bar */
         .rsi-wrapper { display: flex; align-items: center; }
-        .rsi-bar-bg { flex: 1; height: 5px; background: #30363d; border-radius: 3px; margin-right: 8px; }
+        .rsi-bar-bg { flex: 1; height: 4px; background: #30363d; border-radius: 3px; margin-right: 6px; }
         .rsi-bar-fill { height: 100%; border-radius: 3px; }
-        .rsi-val { font-weight: bold; font-family: monospace; width: 25px; text-align: right; font-size: 0.9em; }
+        .rsi-val { font-weight: bold; font-family: monospace; width: 22px; text-align: right; font-size: 0.85em; }
 
         /* News */
-        .news-box { height: 100%; max-height: 85vh; }
-        .news-scroll { flex: 1; overflow-y: auto; padding: 0; }
-        .news-item { padding: 15px; border-bottom: 1px solid var(--border-color); transition: background 0.2s; }
+        .news-box { height: 400px; overflow-y: auto; }
+        .news-item { padding: 10px 12px; border-bottom: 1px solid var(--border-color); transition: background 0.2s; }
         .news-item:hover { background: #1c2128; }
-        .news-meta { display: flex; justify-content: space-between; font-size: 0.8em; color: var(--text-dim); margin-bottom: 6px; }
-        .news-source { color: var(--accent); font-weight: bold; background: #1f242e; padding: 2px 6px; border-radius: 4px; }
-        .news-title a { color: var(--text-main); font-weight: 500; line-height: 1.5; font-size: 0.95em; }
+        .news-meta { display: flex; justify-content: space-between; font-size: 0.75em; color: var(--text-dim); margin-bottom: 4px; }
+        .news-source { color: var(--accent); font-weight: bold; }
+        .news-title a { color: var(--text-main); font-weight: 500; line-height: 1.4; font-size: 0.9em; }
         .news-title a:hover { color: var(--accent); }
 
-        ::-webkit-scrollbar { width: 8px; }
+        /* Calendar Widget Container */
+        .calendar-container { height: 400px; position: relative; }
+
+        ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: var(--bg-color); }
         ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
 
-        @media (max-width: 1024px) {
-            .main-container { grid-template-columns: 1fr; }
-            .data-panel { grid-template-columns: 1fr; }
-        }
+        @media (max-width: 1200px) { .main-container { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 800px) { .main-container { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
 
     <div class="header">
         <div class="header-title">
-            <h1>📊 Market Dashboard</h1>
+            <h1>🚀 God Mode Terminal</h1>
             <div id="update-time" class="timestamp">Loading Data...</div>
         </div>
         
@@ -173,51 +141,110 @@
                 <div class="fng-label">Crypto Fear & Greed</div>
                 <div class="fng-value" id="fng-val">--</div>
             </div>
+
+            <button id="refresh-btn" class="btn-refresh" onclick="triggerUpdate()">
+                🔄 Update Data
+            </button>
         </div>
     </div>
+    <p id="status-msg"></p>
 
     <div class="main-container">
-        <div class="data-panel">
+        
+        <div>
             <div class="box">
-                <div class="box-header">🌏 指數 (Indices)</div>
+                <div class="box-header">🌏 主要指數 (Indices)</div>
                 <table><thead><tr><th>名稱</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="indices-box"></tbody></table>
             </div>
             <div class="box">
                 <div class="box-header">🪙 加密貨幣 (Crypto)</div>
                 <table><thead><tr><th>幣種</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="crypto-box"></tbody></table>
             </div>
+        </div>
+
+        <div>
             <div class="box">
-                <div class="box-header">🌊 宏觀 (Macro)</div>
-                <table><thead><tr><th>指標</th><th>數值/變動</th><th>趨勢</th><th>狀態</th></tr></thead><tbody id="macro-box"></tbody></table>
+                <div class="box-header">🔮 美股期貨 (Futures)</div>
+                <table><thead><tr><th>合約</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="futures-box"></tbody></table>
             </div>
             <div class="box">
-                <div class="box-header">🛢️ 商品 (Commodities)</div>
-                <table><thead><tr><th>資產</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="commodities-box"></tbody></table>
+                <div class="box-header">🌊 宏觀 & 外匯 (Macro/FX)</div>
+                <table><thead><tr><th>指標</th><th>數值/變動</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="macro-box"></tbody></table>
+            </div>
+            <div class="box">
+                <div class="box-header">🏭 板塊流向 (Sectors)</div>
+                <table><thead><tr><th>板塊</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="sectors-box"></tbody></table>
             </div>
         </div>
 
-        <div class="box news-box">
-            <div class="box-header">⚡ 市場快訊 (Live News)</div>
-            <div id="news-box" class="news-scroll"></div>
+        <div>
+            <div class="box">
+                <div class="box-header">⚡ 市場快訊 (News)</div>
+                <div id="news-box" class="news-box"></div>
+            </div>
+
+            <div class="box calendar-container">
+                <div class="box-header">📅 財經日曆 (Events)</div>
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                    {
+                    "width": "100%",
+                    "height": "360",
+                    "colorTheme": "dark",
+                    "isTransparent": true,
+                    "locale": "en",
+                    "importanceFilter": "0,1",
+                    "currencyFilter": "USD"
+                    }
+                    </script>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <script>
+        // Cloudflare Trigger Logic
+        function triggerUpdate() {
+            const btn = document.getElementById('refresh-btn');
+            const msg = document.getElementById('status-msg');
+            btn.disabled = true;
+            btn.innerHTML = "⏳ Sending...";
+            btn.style.backgroundColor = "#555";
+
+            // 請填入你的 Cloudflare Worker 網址
+            fetch('https://dashboard.mansantamm.workers.dev', { method: 'POST' })
+                .then(response => {
+                    if (response.ok) {
+                        btn.innerHTML = "✅ Sent";
+                        msg.innerHTML = "指令已發送！GitHub Actions 正在後台啟動，請約 1 分鐘後 F5。";
+                    } else { throw new Error("Server Error"); }
+                })
+                .catch(err => {
+                    btn.innerHTML = "❌ Error";
+                    btn.disabled = false;
+                    btn.style.backgroundColor = "#c0392b";
+                    console.error(err);
+                });
+        }
+
+        // Render Data
         fetch('daily_news.json?t=' + new Date().getTime())
             .then(r => r.json())
             .then(data => {
                 document.getElementById('update-time').textContent = "LAST UPDATE: " + data.update_time;
 
-                // 更新恐慌指數
+                // F&G Index
                 if(data.crypto_fng) {
                     const fngEl = document.getElementById('fng-val');
                     fngEl.textContent = `${data.crypto_fng.value} (${data.crypto_fng.status})`;
-                    // 顏色邏輯：恐慌(低分)=紅, 貪婪(高分)=綠
                     if(data.crypto_fng.value < 30) fngEl.style.color = 'var(--rsi-overbought)';
                     else if(data.crypto_fng.value > 70) fngEl.style.color = 'var(--rsi-oversold)';
                     else fngEl.style.color = 'white';
                 }
 
+                // Table Render Function
                 function renderTable(id, list) {
                     const el = document.getElementById(id);
                     if(!list) return;
@@ -226,13 +253,13 @@
                         const colorClass = isUp ? 'up' : 'down';
                         const sign = isUp ? '+' : '';
                         
-                        // 趨勢標籤
+                        // Trend Tag
                         let trendHtml = '<span class="trend-tag trend-flat">震盪</span>';
                         if(item.trend.includes("多頭")) trendHtml = '<span class="trend-tag trend-bull">📈 多頭</span>';
                         if(item.trend.includes("空頭")) trendHtml = '<span class="trend-tag trend-bear">📉 空頭</span>';
                         if(item.trend === "-") trendHtml = '<span style="color:#555">-</span>';
 
-                        // RSI 處理
+                        // RSI Bar
                         let rsiHtml = '<td style="color:#555">-</td>';
                         if(item.rsi && item.rsi !== "-") {
                             let barColor = 'var(--rsi-neutral)'; 
@@ -252,7 +279,7 @@
 
                         el.innerHTML += `
                             <tr>
-                                <td>${item.name.replace(/^[^\s]+\s/, '')}</td>
+                                <td>${item.name.split(' ')[1] || item.name}</td>
                                 <td>
                                     <div class="price">${item.price.toLocaleString()}</div>
                                     <div style="font-size:0.8em" class="${colorClass}">${sign}${item.percent}%</div>
@@ -264,11 +291,24 @@
                     });
                 }
 
-                renderTable('indices-box', data.indices);
-                renderTable('crypto-box', data.crypto);
-                renderTable('macro-box', data.macro);
-                renderTable('commodities-box', data.commodities);
+                // Render all sections
+                if(data.data) {
+                    renderTable('indices-box', data.data.indices);
+                    renderTable('crypto-box', data.data.crypto);
+                    renderTable('futures-box', data.data.futures); // 新增
+                    renderTable('macro-box', data.data.macro);
+                    renderTable('sectors-box', data.data.sectors); // 新增
+                    // 把 Commodities 也放在 Macro 區塊或另開一格，這裡我把它合併進 macro 顯示比較省位
+                    renderTable('macro-box', data.data.commodities);
+                } else {
+                    // 相容舊版 JSON 結構 (如果你還沒跑 v19.0 python)
+                    renderTable('indices-box', data.indices);
+                    renderTable('crypto-box', data.crypto);
+                    renderTable('macro-box', data.macro);
+                    renderTable('commodities-box', data.commodities);
+                }
 
+                // News
                 const newsEl = document.getElementById('news-box');
                 if(data.news) {
                     data.news.forEach(n => {
