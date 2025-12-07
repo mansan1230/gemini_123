@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-06 18:07",
+  "update_time": "2025-12-07 00:50",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
@@ -24,95 +24,13 @@
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89674.23,
-      "change": 286.48,
-      "percent": 0.32,
+      "price": 89481.23,
+      "change": 93.47,
+      "percent": 0.1,
       "is_macro": false
     }
   ],
-  "news": [
-    {
-      "category": "🔥 市場頭條",
-      "title": "聯準會官員暗示降息，比特幣重回 8.4 萬美元",
-      "link": "https://www.coindesk.com/markets/2025/11/21/bitcoin-bounces-above-usd84k-as-fed-s-williams-puts-december-rate-cut-back-on-table",
-      "date": "2025-11-21",
-      "summary": "聯準會威廉姆斯暗示可能在 12 月降息，利率交易員預期降息機率超過 70%，比特幣價格應聲上漲，突破 8.4 萬美元。",
-      "impact": "利多",
-      "score": 9
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "德意志銀行：比特幣一兆美元跌勢暴露市場結構脆弱性",
-      "link": "https://www.coindesk.com/markets/2025/11/24/bitcoin-s-usd1t-rout-exposes-fragile-market-structure-deutsche-bank-says",
-      "date": "2025-11-24",
-      "summary": "德意志銀行表示，比特幣價格跌破8萬美元，反映宏觀壓力、監管動能減弱和流動性不足，考驗比特幣市場的成熟度。與先前報導價格的新聞角度不同，此新聞著重市場結構問題。",
-      "impact": "利空",
-      "score": 9
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "輝達財報亮眼，AI與HPC比特幣礦商盤前大漲",
-      "link": "https://www.coindesk.com/markets/2025/11/20/ai-and-hpc-bitcoin-miners-surge-pre-market-following-stellar-nvidia-earnings",
-      "date": "2025-11-20",
-      "summary": "輝達的強勁財測提振了比特幣礦商的盤前情緒，同時NAKA公佈了延遲的第三季度虧損。",
-      "impact": "利多",
-      "score": 9
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "比特幣巨鯨在數月低點持續囤積",
-      "link": "https://videos.coindesk.com/previews/JF8HgXML",
-      "date": "2025-11-17",
-      "summary": "儘管比特幣價格跌至數月低點，低於10萬美元，但「聰明錢」正在採取行動，圖表顯示比特幣巨鯨正在積極累積BTC。",
-      "impact": "中性",
-      "score": 9
-    },
-    {
-      "category": "🔥 市場頭條",
-      "title": "股市持續下跌...發展中...",
-      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
-      "date": "2025-11-18",
-      "summary": "股市持續下滑，事態仍在發展中。由於缺乏具體細節，目前難以評估其影響。",
-      "impact": "利空",
-      "score": 8
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "股市持續下滑...發展中...",
-      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
-      "date": "2025-11-18",
-      "summary": "股市持續下跌，情況仍在發展中，投資者需密切關注。",
-      "impact": "利空",
-      "score": 8
-    },
-    {
-      "category": "🤖 人工智慧",
-      "title": "輝達執行長黃仁勳：AI競賽真實存在，但不會有明顯贏家",
-      "link": "https://www.coindesk.com/tech/2025/12/03/nvidia-ceo-jensen-huang-tells-joe-rogan-ai-race-is-real-but-it-won-t-have-a-clear-winner",
-      "date": "2025-12-03",
-      "summary": "黃仁勳在訪談中表示，AI發展是漸進的、強大的，並且已經在改變全球力量平衡。這暗示了AI領域的長期競爭態勢。",
-      "impact": "中性",
-      "score": 8
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "股市持續下滑",
-      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
-      "date": "2025-11-18",
-      "summary": "股市持續下跌，情況仍在發展中。市場可能面臨進一步波動，投資者應謹慎。",
-      "impact": "利空",
-      "score": 8
-    },
-    {
-      "category": "💰 加密貨幣",
-      "title": "Tom Lee旗下以太幣公司BitMine Immersion任命Chi Tsang為CEO",
-      "link": "https://www.coindesk.com/business/2025/11/14/tom-lee-s-ethereum-treasury-firm-bitmine-immersion-appoints-chi-tsang-as-ceo",
-      "date": "2025-11-14",
-      "summary": "前比特幣礦業公司BitMine Immersion轉型為以太幣金庫策略，並任命Chi Tsang接替Jonathan Bates擔任CEO。",
-      "impact": "中性",
-      "score": 8
-    }
-  ],
+  "news": [],
   "macro": [
     {
       "name": "😰 恐慌指數 (VIX)",
