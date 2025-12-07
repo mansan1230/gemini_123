@@ -1,64 +1,53 @@
 {
-  "update_time": "2025-12-07 07:41",
+  "update_time": "2025-12-07 07:48",
   "market": [
     {
       "name": "🇺🇸 S&P 500",
-      "price": 6870.4,
-      "change": 13.28,
-      "percent": 0.19,
-      "is_macro": false
+      "price": 685.69,
+      "change": 1.3,
+      "percent": 0.19
     },
     {
       "name": "🇺🇸 Nasdaq",
-      "price": 23578.13,
-      "change": 72.99,
-      "percent": 0.31,
-      "is_macro": false
-    },
-    {
-      "name": "🇭🇰 恒生指數",
-      "price": 26085.08,
-      "change": 149.18,
-      "percent": 0.58,
-      "is_macro": false
+      "price": 625.48,
+      "change": 2.54,
+      "percent": 0.4077
     },
     {
       "name": "🪙 Bitcoin",
-      "price": 89272.97,
-      "change": 0.59,
-      "percent": 0.0,
-      "is_macro": false
+      "price": 89298.13,
+      "change": -385.28,
+      "percent": -0.4296
     }
   ],
-  "news": [],
-  "macro": [
+  "news": [
     {
-      "name": "😰 恐慌指數 (VIX)",
-      "price": 15.41,
-      "change": -0.37,
-      "percent": -2.34,
-      "is_macro": true
+      "category": "🔥 市場頭條",
+      "title": "STOCKS CONTINUE SLIDE... DEVELOPING...",
+      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
+      "date": "2025-11-18",
+      "summary": "AI 忙碌中，請看原文。",
+      "impact": "無分析",
+      "score": 0
     },
     {
-      "name": "🇺🇸 10年美債",
-      "price": 4.14,
-      "change": 0.03,
-      "percent": 0.75,
-      "is_macro": true
+      "category": "🤖 人工智慧",
+      "title": "STOCKS CONTINUE SLIDE... DEVELOPING...",
+      "link": "https://www.cnbc.com/2025/11/17/stock-market-today-live-updates.html",
+      "date": "2025-11-18",
+      "summary": "AI 忙碌中，請看原文。",
+      "impact": "無分析",
+      "score": 0
     },
     {
-      "name": "💵 美元指數",
-      "price": 98.99,
-      "change": -0.0,
-      "percent": -0.0,
-      "is_macro": true
-    },
-    {
-      "name": "🛢️ 原油 (WTI)",
-      "price": 60.08,
-      "change": 0.41,
-      "percent": 0.69,
-      "is_macro": true
+      "category": "💰 加密貨幣",
+      "title": "Bitcoin Whales Are Accumulating BTC at Multi-Month Lows",
+      "link": "https://videos.coindesk.com/previews/JF8HgXML",
+      "date": "2025-11-17",
+      "summary": "AI 忙碌中，請看原文。",
+      "impact": "無分析",
+      "score": 0
     }
-  ]
+  ],
+  "calendar": []
 }
