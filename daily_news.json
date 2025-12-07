@@ -1,5 +1,5 @@
 {
-  "update_time": "2025-12-07 08:30",
+  "update_time": "2025-12-07 08:53",
   "crypto_fng": {
     "value": "20",
     "status": "Extreme Fear"
@@ -54,30 +54,30 @@
   "crypto": [
     {
       "name": "🟠 Bitcoin",
-      "price": 89360.03,
-      "change": 87.66,
-      "percent": 0.1,
-      "rsi": "55.6",
+      "price": 89465.1,
+      "change": 192.73,
+      "percent": 0.22,
+      "rsi": "55.8",
       "trend": "📉 空頭",
-      "sma": "99142.94"
+      "sma": "99145.04"
     },
     {
       "name": "🔵 Ethereum",
-      "price": 3034.22,
-      "change": -5.99,
-      "percent": -0.2,
-      "rsi": "60.9",
+      "price": 3041.71,
+      "change": 1.5,
+      "percent": 0.05,
+      "rsi": "61.3",
       "trend": "📉 空頭",
-      "sma": "3371.35"
+      "sma": "3371.50"
     },
     {
       "name": "☀️ Solana",
-      "price": 131.96,
-      "change": -0.39,
-      "percent": -0.29,
-      "rsi": "51.0",
+      "price": 132.47,
+      "change": 0.13,
+      "percent": 0.1,
+      "rsi": "51.5",
       "trend": "📉 空頭",
-      "sma": "157.18"
+      "sma": "157.19"
     }
   ],
   "macro": [
@@ -130,12 +130,12 @@
   "commodities": [
     {
       "name": "🥇 黃金",
-      "price": 4212.9,
-      "change": 1.1,
-      "percent": 0.03,
-      "rsi": "69.2",
+      "price": 4227.7,
+      "change": 15.9,
+      "percent": 0.38,
+      "rsi": "70.6",
       "trend": "📈 多頭",
-      "sma": "4061.35"
+      "sma": "4061.65"
     },
     {
       "name": "🛢️ 原油 (WTI)",
