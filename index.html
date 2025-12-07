@@ -3,124 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Macro Trader Terminal</title>
+    <title>AI Trader Terminal Pro</title>
+    <script src="https://s3.tradingview.com/tv.js"></script>
     <style>
-        /* Dark Mode Professional Style */
-        body { font-family: "Roboto", "Segoe UI", sans-serif; background-color: #0b0e11; color: #c9d1d9; margin: 0; padding: 20px; }
-        
-        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #21262d; padding-bottom: 15px; margin-bottom: 20px; }
-        h1 { margin: 0; font-size: 1.5em; color: #58a6ff; }
-        .timestamp { color: #8b949e; font-family: monospace; }
+        /* === 1. 全局設定 (Bloomberg Dark Mode) === */
+        :root {
+            --bg-color: #000000;
+            --card-bg: #131722;
+            --border-color: #2a2e39;
+            --text-main: #d1d4dc;
+            --text-dim: #787b86;
+            --up-color: #2962ff; /* 專業藍/綠 */
+            --down-color: #f23645; /* 專業紅 */
+            --accent: #2962ff;
+        }
 
-        /* 佈局：左邊數據 (2欄)，右邊新聞 (1欄) */
-        .main-container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; max-width: 1600px; margin: 0 auto; }
-        
-        /* 數據網格：左邊再分兩欄 */
-        .data-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-main); 
+            margin: 0; 
+            padding: 0; 
+            overflow-x: hidden;
+        }
 
-        .box { background: #161b22; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; }
-        .box-header { background: #21262d; padding: 10px 15px; font-weight: bold; font-size: 0.9em; color: #e0e0e0; border-bottom: 1px solid #30363d; display: flex; justify-content: space-between; }
+        a { text-decoration: none; color: inherit; }
+
+        /* === 2. 頂部跑馬燈 (Ticker Tape) === */
+        .ticker-wrap {
+            width: 100%;
+            background-color: #1c2030;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border-color);
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .ticker {
+            display: inline-block;
+            padding-left: 100%;
+            animation: ticker 60s linear infinite; /* 60秒跑完一圈 */
+        }
+
+        .ticker-item {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        @keyframes ticker {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-100%, 0, 0); }
+        }
+
+        /* === 3. 主要佈局 === */
+        .header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 30px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .header h1 { margin: 0; font-size: 1.8em; color: var(--accent); letter-spacing: 1px; }
+        .timestamp { color: var(--text-dim); font-family: monospace; }
         
-        /* 表格優化 */
+        .btn-refresh {
+            background: var(--card-bg); border: 1px solid var(--accent); color: var(--accent);
+            padding: 8px 20px; border-radius: 4px; font-weight: bold; transition: 0.3s;
+        }
+        .btn-refresh:hover { background: var(--accent); color: white; }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 2.5fr 1fr; /* 左邊大圖表，右邊新聞 */
+            gap: 20px;
+            padding: 20px;
+            height: calc(100vh - 150px);
+        }
+
+        /* === 4. 左側：數據區 === */
+        .left-panel { display: flex; flex-direction: column; gap: 20px; overflow-y: auto; }
+        
+        /* TradingView 圖表容器 */
+        .chart-container {
+            height: 400px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 10px;
+        }
+
+        /* 數據表格網格 */
+        .metrics-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;
+        }
+
+        .box { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 6px; }
+        .box-header { 
+            padding: 12px 15px; font-weight: bold; color: var(--text-main); 
+            border-bottom: 1px solid var(--border-color); 
+            display: flex; justify-content: space-between;
+        }
+
         table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
-        th { text-align: left; color: #8b949e; padding: 8px 15px; background: #1c2128; font-weight: normal; }
-        td { padding: 8px 15px; border-bottom: 1px solid #21262d; }
+        td, th { padding: 10px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
+        th { color: var(--text-dim); font-weight: normal; }
         tr:last-child td { border-bottom: none; }
         
-        .price { font-family: "Courier New", monospace; font-weight: bold; color: #fff; }
-        .up { color: #3fb950; }
-        .down { color: #f85149; }
+        .price-text { font-family: 'Consolas', monospace; font-weight: bold; }
+        .up { color: var(--up-color); }
+        .down { color: var(--down-color); }
+
+        /* RSI Progress Bar */
+        .rsi-bar-bg { width: 60px; height: 6px; background: #2a2e39; border-radius: 3px; display: inline-block; vertical-align: middle; margin-right: 8px; }
+        .rsi-bar-fill { height: 100%; border-radius: 3px; }
         
-        /* RSI 顏色標記 */
-        .rsi-val { font-family: monospace; }
-        .rsi-high { color: #f85149; font-weight: bold; } /* >70 */
-        .rsi-low { color: #3fb950; font-weight: bold; }  /* <30 */
-        .rsi-neu { color: #8b949e; }
+        /* === 5. 右側：新聞串流 === */
+        .news-panel {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            display: flex; flex-direction: column;
+            overflow: hidden;
+        }
+        .news-scroll { flex: 1; overflow-y: auto; }
+        .news-item { padding: 15px; border-bottom: 1px solid var(--border-color); transition: 0.2s; }
+        .news-item:hover { background: #1e222d; }
+        .news-meta { font-size: 0.75em; color: var(--text-dim); margin-bottom: 5px; display: flex; justify-content: space-between; }
+        .news-source { color: var(--accent); font-weight: bold; text-transform: uppercase; }
+        .news-title { font-size: 0.95em; line-height: 1.5; font-weight: 500; }
+        
+        /* 自訂 Scrollbar */
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-color); }
+        ::-webkit-scrollbar-thumb { background: #434651; border-radius: 3px; }
 
-        /* 新聞區塊 (Scrollable) */
-        .news-scroll { max-height: 800px; overflow-y: auto; padding: 0; }
-        .news-item { padding: 12px 15px; border-bottom: 1px solid #21262d; transition: background 0.2s; }
-        .news-item:hover { background: #1c2128; }
-        .news-meta { display: flex; justify-content: space-between; font-size: 0.75em; color: #8b949e; margin-bottom: 4px; }
-        .news-source { color: #58a6ff; font-weight: bold; }
-        .news-title a { color: #e0e0e0; text-decoration: none; font-size: 0.95em; line-height: 1.4; display: block; }
-        .news-title a:hover { color: #58a6ff; }
-
-        /* Scrollbar Style */
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #0b0e11; }
-        ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #58a6ff; }
-
-        @media (max-width: 1000px) {
-            .main-container { grid-template-columns: 1fr; }
-            .data-grid { grid-template-columns: 1fr; }
+        @media (max-width: 1024px) {
+            .main-grid { grid-template-columns: 1fr; height: auto; }
+            .chart-container { height: 300px; }
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <h1>📊 Global Macro Trader Terminal</h1>
-        <div id="update-time" class="timestamp">Initializing...</div>
+    <div class="ticker-wrap">
+        <div class="ticker" id="ticker-box">
+            <span class="ticker-item">Loading Market Data...</span>
+        </div>
     </div>
 
-    <div class="main-container">
+    <div class="header">
+        <div>
+            <h1>TERMINAL <span style="font-size:0.5em; vertical-align:middle; color:#555">PRO v16</span></h1>
+            <div id="update-time" class="timestamp">--:--</div>
+        </div>
         
-        <div class="data-grid">
+        <a href="https://github.com/你的ID/你的REPO/actions" target="_blank" class="btn-refresh">
+            🔄 REFRESH DATA
+        </a>
+    </div>
+
+    <div class="main-grid">
+        
+        <div class="left-panel">
             
-            <div class="box">
-                <div class="box-header">🌏 全球指數 (Indices)</div>
-                <table>
-                    <thead><tr><th>名稱</th><th>現價</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
-                    <tbody id="indices-box"></tbody>
-                </table>
-            </div>
+            <div class="chart-container" id="tv-chart"></div>
 
-            <div class="box">
-                <div class="box-header">🪙 加密貨幣 (Crypto)</div>
-                <table>
-                    <thead><tr><th>幣種</th><th>價格</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
-                    <tbody id="crypto-box"></tbody>
-                </table>
-            </div>
-
-            <div class="box">
-                <div class="box-header">🌊 宏觀 & 外匯 (Macro/FX)</div>
-                <table>
-                    <thead><tr><th>指標</th><th>數值</th><th>變動</th><th>狀態</th></tr></thead>
-                    <tbody id="macro-box"></tbody>
-                </table>
-            </div>
-
-            <div class="box">
-                <div class="box-header">🛢️ 商品 & 板塊 (Commodities)</div>
-                <table>
-                    <thead><tr><th>資產</th><th>現價</th><th>漲跌</th><th>RSI(14)</th></tr></thead>
-                    <tbody id="commodities-box"></tbody>
-                </table>
-            </div>
-
-        </div>
-
-        <div class="box">
-            <div class="box-header">
-                <span>⚡ 市場快訊 (Live News)</span>
-                <span style="font-size:0.8em; color:#8b949e">Top 20</span>
-            </div>
-            <div id="news-box" class="news-scroll">
+            <div class="metrics-grid">
+                
+                <div class="box">
+                    <div class="box-header">GLOBAL INDICES</div>
+                    <table>
+                        <thead><tr><th>Asset</th><th>Price</th><th>%</th><th>RSI</th></tr></thead>
+                        <tbody id="indices-box"></tbody>
+                    </table>
                 </div>
+
+                <div class="box">
+                    <div class="box-header">CRYPTO ASSETS</div>
+                    <table>
+                        <thead><tr><th>Asset</th><th>Price</th><th>%</th><th>RSI</th></tr></thead>
+                        <tbody id="crypto-box"></tbody>
+                    </table>
+                </div>
+
+                <div class="box">
+                    <div class="box-header">MACRO & COMMODITIES</div>
+                    <table>
+                        <thead><tr><th>Indicator</th><th>Value</th><th>%</th></tr></thead>
+                        <tbody id="macro-box"></tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
+        <div class="news-panel">
+            <div class="box-header">LIVE NEWS FEED</div>
+            <div id="news-box" class="news-scroll"></div>
+        </div>
     </div>
 
     <script>
+        // 初始化 TradingView 圖表
+        new TradingView.widget({
+            "width": "100%",
+            "height": "100%",
+            "symbol": "SP:SPX", // 預設顯示標普500
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "dark",
+            "style": "1",
+            "locale": "en",
+            "toolbar_bg": "#f1f3f6",
+            "enable_publishing": false,
+            "allow_symbol_change": true, // 允許你手動換股票代碼
+            "container_id": "tv-chart"
+        });
+
+        // 讀取 JSON 數據
         fetch('daily_news.json?t=' + new Date().getTime())
             .then(r => r.json())
             .then(data => {
-                document.getElementById('update-time').textContent = "DATA TIME: " + data.update_time + " (HKT)";
+                document.getElementById('update-time').textContent = "LAST UPDATE: " + data.update_time;
 
-                // 通用渲染表格
+                // 1. 更新跑馬燈 (Ticker)
+                const tickerBox = document.getElementById('ticker-box');
+                let tickerHtml = '';
+                // 合併所有數據到跑馬燈
+                const allItems = [...(data.indices||[]), ...(data.crypto||[]), ...(data.commodities||[])];
+                allItems.forEach(item => {
+                    const color = item.change >= 0 ? '#2962ff' : '#f23645';
+                    const sign = item.change >= 0 ? '+' : '';
+                    tickerHtml += `<span class="ticker-item" style="color:${color}">${item.name}: ${item.price} (${sign}${item.percent}%)</span>`;
+                });
+                tickerBox.innerHTML = tickerHtml;
+
+                // 2. 渲染表格函數
                 function renderTable(id, list) {
                     const el = document.getElementById(id);
                     if(!list) return;
@@ -129,19 +247,24 @@
                         const colorClass = isUp ? 'up' : 'down';
                         const sign = isUp ? '+' : '';
                         
-                        // RSI 處理
-                        let rsiHtml = '<td class="rsi-neu">-</td>';
+                        // RSI 可視化 (Bar)
+                        let rsiHtml = '<td>-</td>';
                         if(item.rsi && item.rsi !== "-") {
-                            let rsiColor = 'rsi-neu';
-                            if(item.rsi > 70) rsiColor = 'rsi-high'; // 超買
-                            if(item.rsi < 30) rsiColor = 'rsi-low';  // 超賣
-                            rsiHtml = `<td class="rsi-val ${rsiColor}">${item.rsi}</td>`;
+                            let barColor = '#787b86'; // 中性灰
+                            if(item.rsi > 70) barColor = '#f23645'; // 超買紅
+                            if(item.rsi < 30) barColor = '#2962ff'; // 超賣藍
+                            
+                            rsiHtml = `
+                                <td>
+                                    <div class="rsi-bar-bg"><div class="rsi-bar-fill" style="width:${item.rsi}%; background:${barColor}"></div></div>
+                                    <span style="color:${barColor}; font-weight:bold">${item.rsi}</span>
+                                </td>
+                            `;
                         }
 
                         el.innerHTML += `
                             <tr>
-                                <td>${item.name}</td>
-                                <td class="price">${item.price.toLocaleString()}</td>
+                                <td>${item.name.replace(/^[^\s]+\s/, '')}</td> <td class="price-text">${item.price.toLocaleString()}</td>
                                 <td class="${colorClass}">${sign}${item.percent}%</td>
                                 ${rsiHtml}
                             </tr>
@@ -149,12 +272,15 @@
                     });
                 }
 
+                // 渲染各區塊 (Macro 欄位我們把 Commodities 也合併進去顯示)
                 renderTable('indices-box', data.indices);
                 renderTable('crypto-box', data.crypto);
-                renderTable('macro-box', data.macro);
-                renderTable('commodities-box', data.commodities);
+                
+                // 合併 Macro 和 Commodities 顯示在同一格
+                const mixedMacro = [...(data.macro||[]), ...(data.commodities||[])];
+                renderTable('macro-box', mixedMacro);
 
-                // 渲染新聞 (帶 Scrollbar)
+                // 3. 渲染新聞
                 const newsEl = document.getElementById('news-box');
                 if(data.news) {
                     data.news.forEach(n => {
