@@ -8,17 +8,19 @@ from deep_translator import GoogleTranslator
 
 # ================= 設定區 =================
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
-
-# 初始化翻譯器
 translator = GoogleTranslator(source='auto', target='zh-TW')
 
-# Trader 關注清單
+# RSI 設定：標準為 14 天
+RSI_PERIOD = 14 
+
+# Trader 全球戰情室關注清單
 WATCHLIST = {
     "indices": {
         "🇺🇸 S&P 500": "^GSPC",
         "🇺🇸 Nasdaq": "^IXIC",
         "🇭🇰 恒生指數": "^HSI",
-        "🇯🇵 日經 225": "^N225"
+        "🇯🇵 日經 225": "^N225",
+        "🇪🇺 德國 DAX": "^GDAXI"  # 新增歐洲指標
     },
     "crypto": {
         "🟠 Bitcoin": "BTC-USD",
@@ -26,15 +28,22 @@ WATCHLIST = {
         "☀️ Solana": "SOL-USD"
     },
     "macro": {
-        "😰 VIX 恐慌指數": "^VIX",
-        "💵 美元指數 (DXY)": "DX-Y.NYB",
+        "😰 恐慌指數 (VIX)": "^VIX",
         "🇺🇸 10年美債": "^TNX",
+        "💵 美元指數": "DX-Y.NYB",
+        "💴 USD/JPY (日圓)": "JPY=X",   # 新增匯率
+        "💶 EUR/USD (歐元)": "EURUSD=X" # 新增匯率
+    },
+    "commodities": { # 新增商品與板塊
+        "🥇 黃金": "GC=F",
         "🛢️ 原油 (WTI)": "CL=F",
-        "🥇 黃金": "GC=F"
+        "🏭 銅 (經濟指標)": "HG=F",
+        "💻 美股科技 (XLK)": "XLK",
+        "🏦 美股金融 (XLF)": "XLF"
     }
 }
 
-# ================= 1. 技術分析函數 (RSI) =================
+# ================= 1. 技術分析函數 =================
 def calculate_rsi(series, period=14):
     delta = series.diff(1)
     gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
@@ -43,15 +52,15 @@ def calculate_rsi(series, period=14):
     return 100 - (100 / (1 + rs))
 
 def get_trader_data():
-    print("📊 正在計算技術指標 & 抓取報價...")
-    all_data = {"indices": [], "crypto": [], "macro": []}
+    print("📊 正在計算全球市場數據 & RSI...")
+    all_data = {"indices": [], "crypto": [], "macro": [], "commodities": []}
     
     for category, items in WATCHLIST.items():
         for name, symbol in items.items():
             try:
-                # 抓取過去 30 天數據來算 RSI
+                # 抓取過去 2 個月數據 (確保夠算 RSI)
                 ticker = yf.Ticker(symbol)
-                hist = ticker.history(period="1mo")
+                hist = ticker.history(period="2mo")
                 
                 if len(hist) < 2: continue
                 
@@ -61,19 +70,21 @@ def get_trader_data():
                 change = price - prev_close
                 pct_change = (change / prev_close) * 100
                 
-                # 計算 RSI (只針對指數和加密貨幣)
+                # 計算 RSI
                 rsi_val = "-"
-                signal = "觀望"
+                signal = "中性"
                 
-                if category in ["indices", "crypto"]:
-                    hist['RSI'] = calculate_rsi(hist['Close'])
+                # 所有資產都算 RSI，除了 VIX (VIX 算 RSI 意義不大)
+                if "VIX" not in name:
+                    hist['RSI'] = calculate_rsi(hist['Close'], period=RSI_PERIOD)
                     current_rsi = hist['RSI'].iloc[-1]
                     
                     if not pd.isna(current_rsi):
                         rsi_val = f"{current_rsi:.1f}"
-                        if current_rsi > 70: signal = "⚠️ 超買 (高風險)"
-                        elif current_rsi < 30: signal = "🟢 超賣 (反彈機會)"
-                        else: signal = "中性"
+                        if current_rsi > 70: signal = "⚠️ 超買"
+                        elif current_rsi < 30: signal = "🟢 超賣"
+                        elif current_rsi > 60: signal = "強勢"
+                        elif current_rsi < 40: signal = "弱勢"
 
                 all_data[category].append({
                     "name": name,
@@ -90,37 +101,38 @@ def get_trader_data():
                 
     return all_data
 
-# ================= 2. 快速新聞 (純翻譯) =================
+# ================= 2. 快速新聞 (加量版) =================
 def get_quick_news():
     if not NEWS_API_KEY: return []
-    print("📰 正在抓取市場快訊...")
+    print("📰 正在抓取大量市場快訊...")
     
-    # Trader 關注的關鍵字
+    # 增加關鍵字廣度
     queries = [
-        "crypto market", "bitcoin price", "stock market", 
-        "federal reserve", "inflation", "earnings"
+        "market crash", "bitcoin", "nvidia", "federal reserve", 
+        "inflation", "recession", "gold price", "oil price", "china economy"
     ]
     query_str = " OR ".join(queries)
     
     # 權威媒體
-    domains = "bloomberg.com,reuters.com,cnbc.com,coindesk.com,cointelegraph.com"
+    domains = "bloomberg.com,reuters.com,cnbc.com,coindesk.com,wsj.com,finance.yahoo.com"
     
-    url = f"https://newsapi.org/v2/everything?q={query_str}&domains={domains}&sortBy=publishedAt&pageSize=10&apiKey={NEWS_API_KEY}"
+    # pageSize 改成 30 (抓多一點)
+    url = f"https://newsapi.org/v2/everything?q={query_str}&domains={domains}&sortBy=publishedAt&pageSize=30&apiKey={NEWS_API_KEY}"
     
     news_list = []
     try:
         res = requests.get(url).json()
         articles = res.get("articles", [])
         
-        for art in articles[:8]: # 只取前 8 篇最新
+        # 處理前 20 篇 (太多會翻譯太久)
+        for art in articles[:20]: 
             try:
-                # 直接翻譯標題，不做 AI 分析
                 title_zh = translator.translate(art['title'])
                 
                 news_list.append({
                     "title": title_zh,
                     "source": art['source']['name'],
-                    "time": art['publishedAt'][11:16], # 只取時間 HH:MM
+                    "time": art['publishedAt'][11:16], 
                     "link": art['url']
                 })
             except: continue
@@ -132,7 +144,7 @@ def get_quick_news():
 
 # ================= 3. 主程式 =================
 if __name__ == "__main__":
-    print("🚀 啟動 Trader Dashboard (No-AI)...")
+    print("🚀 啟動 v14.0 宏觀 Trader 面板...")
     
     trader_data = get_trader_data()
     
@@ -141,6 +153,7 @@ if __name__ == "__main__":
         "indices": trader_data["indices"],
         "crypto": trader_data["crypto"],
         "macro": trader_data["macro"],
+        "commodities": trader_data["commodities"], # 新增這欄
         "news": get_quick_news()
     }
     
