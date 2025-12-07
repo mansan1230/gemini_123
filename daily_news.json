@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-07 09:08",
+  "update_time": "2025-12-07 09:15",
   "crypto_fng": {
     "value": "20",
     "value_classification": "Extreme Fear",
     "timestamp": "1765065600",
-    "time_until_update": "53506"
+    "time_until_update": "53092"
   },
   "data": {
     "indices": [
@@ -41,12 +41,72 @@
         "trend": "📈 多頭"
       },
       {
-        "name": "🏁 VIX 恐慌",
-        "price": 15.41,
+        "name": "🇪🇺 德國 DAX",
+        "price": 24028.14,
+        "change": 146.11,
+        "percent": 0.61,
+        "rsi": "60.0",
+        "trend": "震盪"
+      }
+    ],
+    "crypto": [
+      {
+        "name": "🟠 Bitcoin",
+        "price": 89391.04,
+        "change": 118.66,
+        "percent": 0.13,
+        "rsi": "55.7",
+        "trend": "📉 空頭"
+      },
+      {
+        "name": "🔵 Ethereum",
+        "price": 3037.46,
+        "change": -2.75,
+        "percent": -0.09,
+        "rsi": "61.0",
+        "trend": "📉 空頭"
+      },
+      {
+        "name": "☀️ Solana",
+        "price": 132.06,
+        "change": -0.29,
+        "percent": -0.22,
+        "rsi": "51.1",
+        "trend": "📉 空頭"
+      }
+    ],
+    "shipping": [
+      {
+        "name": "🚢 乾散貨 ETF (BDI)",
+        "price": 9.0,
+        "change": -0.27,
+        "percent": -2.91,
+        "rsi": "58.8",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "🌊 全球航運 ETF",
+        "price": 32.72,
+        "change": -0.05,
+        "percent": -0.16,
+        "rsi": "53.9",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "📦 ZIM (集裝箱)",
+        "price": 20.03,
         "change": -0.37,
-        "percent": -2.34,
-        "rsi": "39.7",
-        "trend": "-"
+        "percent": -1.81,
+        "rsi": "76.8",
+        "trend": "📈 多頭"
+      },
+      {
+        "name": "⚓ Maersk (馬士基)",
+        "price": 10.29,
+        "change": 0.03,
+        "percent": 0.29,
+        "rsi": "61.1",
+        "trend": "📈 多頭"
       }
     ],
     "futures": [
@@ -75,41 +135,15 @@
         "trend": "-"
       }
     ],
-    "crypto": [
-      {
-        "name": "🟠 Bitcoin",
-        "price": 89358.77,
-        "change": 86.39,
-        "percent": 0.1,
-        "rsi": "55.6",
-        "trend": "📉 空頭"
-      },
-      {
-        "name": "🔵 Ethereum",
-        "price": 3037.81,
-        "change": -2.4,
-        "percent": -0.08,
-        "rsi": "61.1",
-        "trend": "📉 空頭"
-      },
-      {
-        "name": "☀️ Solana",
-        "price": 132.09,
-        "change": -0.26,
-        "percent": -0.19,
-        "rsi": "51.2",
-        "trend": "📉 空頭"
-      },
-      {
-        "name": "⚖️ ETH/BTC (山寨季)",
-        "price": 0.03,
-        "change": -0.0,
-        "percent": -0.23,
-        "rsi": "63.5",
-        "trend": "震盪"
-      }
-    ],
     "macro": [
+      {
+        "name": "😰 恐慌指數 (VIX)",
+        "price": 15.41,
+        "change": -0.37,
+        "percent": -2.34,
+        "rsi": "39.7",
+        "trend": "-"
+      },
       {
         "name": "🇺🇸 10年美債",
         "price": 4.14,
@@ -133,7 +167,9 @@
         "percent": 0.02,
         "rsi": "54.5",
         "trend": "-"
-      },
+      }
+    ],
+    "commodities": [
       {
         "name": "🥇 黃金",
         "price": 4212.9,
@@ -143,17 +179,23 @@
         "trend": "-"
       },
       {
-        "name": "🛢️ 原油",
+        "name": "🛢️ 原油 (WTI)",
         "price": 60.08,
         "change": 0.41,
         "percent": 0.69,
         "rsi": "49.9",
         "trend": "-"
-      }
-    ],
-    "sectors": [
+      },
       {
-        "name": "📱 科技 (XLK)",
+        "name": "🏭 銅",
+        "price": 5.38,
+        "change": 0.09,
+        "percent": 1.71,
+        "rsi": "69.7",
+        "trend": "-"
+      },
+      {
+        "name": "💻 科技 (XLK)",
         "price": 146.6,
         "change": 1.07,
         "percent": 0.73,
@@ -166,22 +208,6 @@
         "change": 0.02,
         "percent": 0.04,
         "rsi": "61.7",
-        "trend": "📈 多頭"
-      },
-      {
-        "name": "⚡ 能源 (XLE)",
-        "price": 45.92,
-        "change": -0.19,
-        "percent": -0.41,
-        "rsi": "49.3",
-        "trend": "📈 多頭"
-      },
-      {
-        "name": "💊 醫療 (XLV)",
-        "price": 153.26,
-        "change": -0.64,
-        "percent": -0.42,
-        "rsi": "54.3",
         "trend": "📈 多頭"
       }
     ]
@@ -200,64 +226,112 @@
       "link": "https://www.bloomberg.com/news/articles/2025-12-06/russia-s-vital-oil-trade-with-india-is-down-but-not-out"
     },
     {
-      "title": "日本利率上升使比特幣成為日元利差的瞄準目標",
-      "source": "CoinDesk",
-      "time": "03:30",
-      "link": "https://www.coindesk.com/markets/2025/12/05/japan-s-higher-rates-puts-bitcoin-in-the-crosshairs-of-a-yen-carry-unwind"
-    },
-    {
-      "title": "法官最終確定谷歌反壟斷案的補救措施",
-      "source": "CNBC",
-      "time": "22:52",
-      "link": "https://www.cnbc.com/2025/12/05/judge-finalize-remedies-in-google-antitrust-case.html"
-    },
-    {
-      "title": "Netflix 和華納兄弟交易的監管路徑可能會變得充滿風險",
-      "source": "CNBC",
-      "time": "20:41",
-      "link": "https://www.cnbc.com/2025/12/05/netflix-warner-bros-deal-regulatory-questions.html"
-    },
-    {
-      "title": "在公佈盈利並提高指導後，Rubrik 股價上漲 25%",
-      "source": "CNBC",
-      "time": "18:14",
-      "link": "https://www.cnbc.com/2025/12/05/rubrik-rbrk-stock-earnings-q3.html"
-    },
-    {
       "title": "特朗普的國家安全戰略對加密貨幣的低利率痴迷進行了現實檢驗",
       "source": "CoinDesk",
       "time": "17:25",
       "link": "https://www.coindesk.com/markets/2025/12/05/trump-s-national-strategy-gives-reality-check-to-crypto-s-low-rate-obsession"
     },
     {
-      "title": "代幣化股票為投資者提供了新的機會，但也帶來了獨特的風險",
+      "title": "37 歲的她將節儉的副業變成了一項年收入 7 位數的生意：“任何人都可以做到”",
       "source": "CNBC",
-      "time": "17:22",
-      "link": "https://www.cnbc.com/2025/12/05/tokenized-stocks-offer-new-opportunities-for-investors-but-carry-unique-risks.html"
+      "time": "13:57",
+      "link": "https://www.cnbc.com/2025/12/04/youtuber-district-host-how-i-turned-thrifting-side-hustle-into-full-time-work.html"
     },
     {
-      "title": "Netflix 收購華納兄弟的計劃讓影院行業陷入劇變",
+      "title": "Salesforce首席執行官稱人工智能為“商品功能”，稱該技術支持企業軟件",
       "source": "CNBC",
-      "time": "17:08",
-      "link": "https://www.cnbc.com/2025/12/05/netflix-warner-bros-deal-theater-industry-upheaval.html"
+      "time": "23:31",
+      "link": "https://www.cnbc.com/2025/12/04/salesforce-ai-commodity-enterprise-software-technology.html"
     },
     {
-      "title": "由於交易量激增，Hedera 與更廣泛的加密貨幣市場一起下跌",
-      "source": "CoinDesk",
-      "time": "17:05",
-      "link": "https://www.coindesk.com/markets/2025/12/05/hedera-drops-alongside-broader-crypto-market-amid-volume-spike"
+      "title": "“我們在一起”：這些朋友選擇“共同購買”來實現住房所有權——他們如何讓共同的生活和抵押貸款發揮作用",
+      "source": "CNBC",
+      "time": "19:24",
+      "link": "https://www.cnbc.com/2025/12/04/these-friends-chose-co-buying-to-achieve-homeownership.html"
     },
     {
-      "title": "美國檢察官在加密貨幣欺詐案中尋求 Terraform 創始人 Do Kwon 12 年徒刑",
-      "source": "CoinDesk",
-      "time": "16:58",
-      "link": "https://www.coindesk.com/policy/2025/12/05/us-prosecutors-seek-12-year-sentence-for-terraform-founder-do-kwon-in-crypto-fraud-case"
+      "title": "理財規劃師稱，政治現在是美國人頭號金錢憂慮",
+      "source": "CNBC",
+      "time": "15:00",
+      "link": "https://www.cnbc.com/2025/12/04/politics-is-now-the-no-1-money-worry-financial-planners-say.html"
     },
     {
-      "title": "考慮到其債務因素，MARA 的交易價格是溢價，而不是折扣：VanEck 的 Sigel",
+      "title": "Morning Squawk 中就業數據疲軟、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
+      "source": "CNBC",
+      "time": "13:15",
+      "link": "https://www.cnbc.com/2025/12/04/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "CZ 預告新的 BNB 鏈原生預測市場 Predict.Fun",
       "source": "CoinDesk",
-      "time": "15:38",
-      "link": "https://www.coindesk.com/markets/2025/12/05/mara-trades-at-a-premium-factoring-in-its-debt-not-a-discount-vaneck-s-sigel"
+      "time": "07:09",
+      "link": "https://www.coindesk.com/markets/2025/12/04/cz-teases-new-bnb-chain-native-prediction-market-predict-fun"
+    },
+    {
+      "title": "遠程靜修、體驗給印度酒店新的增長動力",
+      "source": "Bloomberg",
+      "time": "04:21",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-04/dophin-watching-to-remote-treks-rich-indians-lured-by-niche-travel-experiences"
+    },
+    {
+      "title": "隨著牛熊線收緊，比特幣徘徊在生產成本附近",
+      "source": "CoinDesk",
+      "time": "20:48",
+      "link": "https://www.coindesk.com/markets/2025/12/03/bitcoin-hovers-near-production-cost-as-bull-bear-line-tightens"
+    },
+    {
+      "title": "烏克蘭船隻襲擊後黑海戰爭保險飆升 250%",
+      "source": "gcaptain.com",
+      "time": "17:25",
+      "link": "https://gcaptain.com/black-sea-war-insurance-soars-250-after-ukraine-ship-attacks/"
+    },
+    {
+      "title": "比特幣期貨回到 FTX 崩潰以來的最深逆價差",
+      "source": "CoinDesk",
+      "time": "16:54",
+      "link": "https://www.coindesk.com/markets/2025/12/03/bitcoin-futures-return-to-deepest-backwardation-since-ftx-collapse"
+    },
+    {
+      "title": "如果人工智能數據中心的繁榮破滅，家庭將如何承擔更高的電費",
+      "source": "CNBC",
+      "time": "16:49",
+      "link": "https://www.cnbc.com/2025/12/03/families-could-get-see-higher-electric-bills-if-ai-data-boom-goes-bust.html"
+    },
+    {
+      "title": "印度將接待俄羅斯總統普京，深化貿易關係，不受美國懲罰性關稅的影響",
+      "source": "CNBC",
+      "time": "08:29",
+      "link": "https://www.cnbc.com/2025/12/03/india-russia-putin-meeting-tariffs-new-delhi-moscow-trade.html"
+    },
+    {
+      "title": "CNBC 的《中國連線》時事通訊：2026 年的三個經濟熱點",
+      "source": "CNBC",
+      "time": "06:36",
+      "link": "https://www.cnbc.com/2025/12/03/cnbc-china-connection-newsletter-three-economic-flashpoints-2026-property-consumption-deflation.html"
+    },
+    {
+      "title": "Marvell 將以 55 億美元收購 Celestial AI",
+      "source": "CNBC",
+      "time": "22:16",
+      "link": "https://www.cnbc.com/2025/12/02/mrvl-earnings-q3-2026-acquires-celestial-ai.html"
+    },
+    {
+      "title": "Bybit、Mantle 集成將 DeFi 貸方與 7000 萬用戶連接起來，AAVE 上漲 14%",
+      "source": "CoinDesk",
+      "time": "20:16",
+      "link": "https://www.coindesk.com/markets/2025/12/02/aave-rallies-14-as-bybit-mantle-integration-connects-defi-lender-to-70m-users"
+    },
+    {
+      "title": "延遲關稅影響開始顯現，可能導致企業在 2026 年裁員",
+      "source": "CNBC",
+      "time": "19:20",
+      "link": "https://www.cnbc.com/2025/12/02/tariff-impact-starting-to-hit-could-cause-reduced-headcount-in-2026.html"
+    },
+    {
+      "title": "亞馬遜允許雲客戶在培訓中途定制人工智能模型，每年 10 萬美元",
+      "source": "CNBC",
+      "time": "16:00",
+      "link": "https://www.cnbc.com/2025/12/02/amazon-nova-forge-lets-clients-customize-ai-models-for-100000-a-year.html"
     }
   ]
 }
