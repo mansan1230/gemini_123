@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Trader Terminal Lite</title>
+    <title>AI Trader Terminal v18</title>
     <style>
-        /* === 1. 全局設定 (Clean Dark Mode) === */
         :root {
             --bg-color: #0b0e11;
             --card-bg: #161b22;
@@ -13,31 +12,43 @@
             --text-main: #e0e0e0;
             --text-dim: #8b949e;
             --accent: #58a6ff;
-            /* RSI 顏色設定 */
-            --rsi-overbought: #f85149; /* 紅色 (超買/危險) */
-            --rsi-oversold: #3fb950;   /* 綠色 (超賣/機會) */
-            --rsi-neutral: #787b86;    /* 灰色 (中性) */
+            --rsi-overbought: #f85149;
+            --rsi-oversold: #3fb950;
+            --rsi-neutral: #787b86;
         }
 
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
             background-color: var(--bg-color); 
             color: var(--text-main); 
-            margin: 0; 
-            padding: 20px; 
+            margin: 0; padding: 20px; 
         }
-
         a { text-decoration: none; color: inherit; }
 
-        /* === 2. 頂部 Header === */
+        /* Header */
         .header {
             display: flex; justify-content: space-between; align-items: center;
             padding-bottom: 20px; border-bottom: 2px solid var(--border-color);
             margin-bottom: 25px;
         }
-        .header h1 { margin: 0; font-size: 1.6em; color: var(--accent); }
-        .timestamp { color: var(--text-dim); font-family: monospace; margin-top: 5px; }
         
+        .header-title h1 { margin: 0; font-size: 1.6em; color: var(--accent); }
+        .timestamp { color: var(--text-dim); font-family: monospace; margin-top: 5px; }
+
+        /* 恐慌指數卡片 (新) */
+        .fng-card {
+            background: #1c2128;
+            border: 1px solid var(--border-color);
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .fng-label { font-size: 0.8em; color: var(--text-dim); }
+        .fng-value { font-size: 1.2em; font-weight: bold; }
+        
+        .header-actions { display: flex; align-items: center; }
+
         .btn-refresh {
             background-color: #238636; color: white;
             border: 1px solid rgba(240,246,252,0.1);
@@ -47,23 +58,16 @@
         }
         .btn-refresh:hover { background-color: #2ea043; }
 
-        /* === 3. 主要佈局 (Grid System) === */
+        /* Grid System */
         .main-container {
             display: grid;
-            grid-template-columns: 2fr 1fr; /* 左邊數據 (2等份)，右邊新聞 (1等份) */
+            grid-template-columns: 2fr 1fr;
             gap: 25px;
             max-width: 1600px;
             margin: 0 auto;
         }
+        .data-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 
-        /* 左側數據區：內部再分兩欄 */
-        .data-panel {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        /* 卡片樣式 */
         .box {
             background: var(--card-bg);
             border: 1px solid var(--border-color);
@@ -71,125 +75,100 @@
             overflow: hidden;
             display: flex; flex-direction: column;
         }
-        
         .box-header {
-            padding: 12px 15px;
-            background: #21262d;
+            padding: 12px 15px; background: #21262d;
             border-bottom: 1px solid var(--border-color);
-            font-weight: bold;
-            font-size: 0.95em;
-            color: var(--text-main);
-            display: flex; justify-content: space-between;
+            font-weight: bold; font-size: 0.95em;
         }
 
-        /* 表格樣式 */
+        /* Table */
         table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
-        th { text-align: left; padding: 10px 15px; color: var(--text-dim); font-weight: normal; background: #1c2128; }
-        td { padding: 12px 15px; border-bottom: 1px solid var(--border-color); }
+        th { text-align: left; padding: 10px 12px; color: var(--text-dim); font-weight: normal; background: #1c2128; }
+        td { padding: 10px 12px; border-bottom: 1px solid var(--border-color); }
         tr:last-child td { border-bottom: none; }
 
-        .price { font-family: "Courier New", monospace; font-weight: bold; letter-spacing: 0.5px; }
-        .up { color: var(--rsi-oversold); }   /* 綠漲 */
-        .down { color: var(--rsi-overbought); } /* 紅跌 */
+        .price { font-family: "Courier New", monospace; font-weight: bold; }
+        .up { color: var(--rsi-oversold); }
+        .down { color: var(--rsi-overbought); }
+        
+        /* 趨勢標籤 (新) */
+        .trend-tag { 
+            padding: 2px 6px; border-radius: 4px; font-size: 0.8em; font-weight: bold; 
+        }
+        .trend-bull { background: rgba(63, 185, 80, 0.2); color: #3fb950; }
+        .trend-bear { background: rgba(248, 81, 73, 0.2); color: #f85149; }
+        .trend-flat { background: rgba(110, 118, 129, 0.2); color: #8b949e; }
 
-        /* RSI Progress Bar */
+        /* RSI Bar */
         .rsi-wrapper { display: flex; align-items: center; }
-        .rsi-bar-bg { flex: 1; height: 6px; background: #30363d; border-radius: 3px; margin-right: 10px; overflow: hidden; }
+        .rsi-bar-bg { flex: 1; height: 5px; background: #30363d; border-radius: 3px; margin-right: 8px; }
         .rsi-bar-fill { height: 100%; border-radius: 3px; }
-        .rsi-val { font-weight: bold; font-family: monospace; width: 30px; text-align: right; }
+        .rsi-val { font-weight: bold; font-family: monospace; width: 25px; text-align: right; font-size: 0.9em; }
 
-        /* === 4. 右側新聞區 === */
-        .news-box { height: 100%; max-height: 85vh; } /* 讓新聞欄跟左邊差不多高 */
+        /* News */
+        .news-box { height: 100%; max-height: 85vh; }
         .news-scroll { flex: 1; overflow-y: auto; padding: 0; }
-        
-        .news-item {
-            padding: 15px;
-            border-bottom: 1px solid var(--border-color);
-            transition: background 0.2s;
-        }
+        .news-item { padding: 15px; border-bottom: 1px solid var(--border-color); transition: background 0.2s; }
         .news-item:hover { background: #1c2128; }
-        
-        .news-meta {
-            display: flex; justify-content: space-between;
-            font-size: 0.8em; color: var(--text-dim);
-            margin-bottom: 6px;
-        }
+        .news-meta { display: flex; justify-content: space-between; font-size: 0.8em; color: var(--text-dim); margin-bottom: 6px; }
         .news-source { color: var(--accent); font-weight: bold; background: #1f242e; padding: 2px 6px; border-radius: 4px; }
-        .news-title a {
-            color: var(--text-main); font-weight: 500; line-height: 1.5; font-size: 0.95em;
-        }
+        .news-title a { color: var(--text-main); font-weight: 500; line-height: 1.5; font-size: 0.95em; }
         .news-title a:hover { color: var(--accent); }
 
-        /* Scrollbar 美化 */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: var(--bg-color); }
         ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #58a6ff; }
 
         @media (max-width: 1024px) {
             .main-container { grid-template-columns: 1fr; }
             .data-panel { grid-template-columns: 1fr; }
-            .news-box { max-height: 500px; }
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <div>
+        <div class="header-title">
             <h1>📊 Market Dashboard</h1>
             <div id="update-time" class="timestamp">Loading Data...</div>
         </div>
         
-        <a href="https://github.com/你的用戶名/你的REPO/actions" target="_blank" class="btn-refresh">
-            🔄 更新數據
-        </a>
+        <div class="header-actions">
+            <div class="fng-card">
+                <div class="fng-label">Crypto Fear & Greed</div>
+                <div class="fng-value" id="fng-val">--</div>
+            </div>
+
+            <a href="https://github.com/YOUR_NAME/YOUR_REPO/actions" target="_blank" class="btn-refresh">
+                🔄 Update
+            </a>
+        </div>
     </div>
 
     <div class="main-container">
-        
         <div class="data-panel">
-            
             <div class="box">
-                <div class="box-header">🌏 全球指數 (Indices)</div>
-                <table>
-                    <thead><tr><th>名稱</th><th>現價</th><th>漲跌</th><th>RSI (14)</th></tr></thead>
-                    <tbody id="indices-box"></tbody>
-                </table>
+                <div class="box-header">🌏 指數 (Indices)</div>
+                <table><thead><tr><th>名稱</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="indices-box"></tbody></table>
             </div>
-
             <div class="box">
                 <div class="box-header">🪙 加密貨幣 (Crypto)</div>
-                <table>
-                    <thead><tr><th>幣種</th><th>價格</th><th>漲跌</th><th>RSI (14)</th></tr></thead>
-                    <tbody id="crypto-box"></tbody>
-                </table>
+                <table><thead><tr><th>幣種</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="crypto-box"></tbody></table>
             </div>
-
             <div class="box">
-                <div class="box-header">🌊 宏觀 & 外匯 (Macro/FX)</div>
-                <table>
-                    <thead><tr><th>指標</th><th>數值</th><th>變動</th><th>狀態</th></tr></thead>
-                    <tbody id="macro-box"></tbody>
-                </table>
+                <div class="box-header">🌊 宏觀 (Macro)</div>
+                <table><thead><tr><th>指標</th><th>數值/變動</th><th>趨勢</th><th>狀態</th></tr></thead><tbody id="macro-box"></tbody></table>
             </div>
-
             <div class="box">
-                <div class="box-header">🛢️ 商品 & 板塊 (Commodities)</div>
-                <table>
-                    <thead><tr><th>資產</th><th>現價</th><th>漲跌</th><th>RSI (14)</th></tr></thead>
-                    <tbody id="commodities-box"></tbody>
-                </table>
+                <div class="box-header">🛢️ 商品 (Commodities)</div>
+                <table><thead><tr><th>資產</th><th>價/跌</th><th>趨勢</th><th>RSI</th></tr></thead><tbody id="commodities-box"></tbody></table>
             </div>
-
         </div>
 
         <div class="box news-box">
             <div class="box-header">⚡ 市場快訊 (Live News)</div>
-            <div id="news-box" class="news-scroll">
-                </div>
+            <div id="news-box" class="news-scroll"></div>
         </div>
-
     </div>
 
     <script>
@@ -198,38 +177,42 @@
             .then(data => {
                 document.getElementById('update-time').textContent = "LAST UPDATE: " + data.update_time;
 
+                // 更新恐慌指數
+                if(data.crypto_fng) {
+                    const fngEl = document.getElementById('fng-val');
+                    fngEl.textContent = `${data.crypto_fng.value} (${data.crypto_fng.status})`;
+                    // 顏色邏輯：恐慌(低分)=紅, 貪婪(高分)=綠
+                    if(data.crypto_fng.value < 30) fngEl.style.color = 'var(--rsi-overbought)';
+                    else if(data.crypto_fng.value > 70) fngEl.style.color = 'var(--rsi-oversold)';
+                    else fngEl.style.color = 'white';
+                }
+
                 function renderTable(id, list) {
                     const el = document.getElementById(id);
                     if(!list) return;
                     list.forEach(item => {
-                        // 價格顏色 (綠漲紅跌)
                         const isUp = item.change >= 0;
                         const colorClass = isUp ? 'up' : 'down';
                         const sign = isUp ? '+' : '';
                         
+                        // 趨勢標籤
+                        let trendHtml = '<span class="trend-tag trend-flat">震盪</span>';
+                        if(item.trend.includes("多頭")) trendHtml = '<span class="trend-tag trend-bull">📈 多頭</span>';
+                        if(item.trend.includes("空頭")) trendHtml = '<span class="trend-tag trend-bear">📉 空頭</span>';
+                        if(item.trend === "-") trendHtml = '<span style="color:#555">-</span>';
+
                         // RSI 處理
                         let rsiHtml = '<td style="color:#555">-</td>';
                         if(item.rsi && item.rsi !== "-") {
-                            // 預設顏色 (中性灰)
                             let barColor = 'var(--rsi-neutral)'; 
                             let valColor = 'var(--rsi-neutral)';
-
-                            // 依照你的要求：紅色超買，綠色超賣
-                            if(item.rsi > 70) { 
-                                barColor = 'var(--rsi-overbought)'; // 紅
-                                valColor = 'var(--rsi-overbought)';
-                            }
-                            if(item.rsi < 30) { 
-                                barColor = 'var(--rsi-oversold)';   // 綠
-                                valColor = 'var(--rsi-oversold)';
-                            }
+                            if(item.rsi > 70) { barColor = 'var(--rsi-overbought)'; valColor = 'var(--rsi-overbought)'; }
+                            if(item.rsi < 30) { barColor = 'var(--rsi-oversold)'; valColor = 'var(--rsi-oversold)'; }
                             
                             rsiHtml = `
                                 <td>
                                     <div class="rsi-wrapper">
-                                        <div class="rsi-bar-bg">
-                                            <div class="rsi-bar-fill" style="width:${item.rsi}%; background:${barColor}"></div>
-                                        </div>
+                                        <div class="rsi-bar-bg"><div class="rsi-bar-fill" style="width:${item.rsi}%; background:${barColor}"></div></div>
                                         <span class="rsi-val" style="color:${valColor}">${Math.round(item.rsi)}</span>
                                     </div>
                                 </td>
@@ -239,8 +222,11 @@
                         el.innerHTML += `
                             <tr>
                                 <td>${item.name.replace(/^[^\s]+\s/, '')}</td>
-                                <td class="price">${item.price.toLocaleString()}</td>
-                                <td class="${colorClass}">${sign}${item.percent}%</td>
+                                <td>
+                                    <div class="price">${item.price.toLocaleString()}</div>
+                                    <div style="font-size:0.8em" class="${colorClass}">${sign}${item.percent}%</div>
+                                </td>
+                                <td>${trendHtml}</td>
                                 ${rsiHtml}
                             </tr>
                         `;
@@ -249,14 +235,9 @@
 
                 renderTable('indices-box', data.indices);
                 renderTable('crypto-box', data.crypto);
-                
-                // Macro 需要特殊處理，因為它可能沒有 RSI
-                const mixedMacro = [...(data.macro||[])];
-                renderTable('macro-box', mixedMacro);
-                
+                renderTable('macro-box', data.macro);
                 renderTable('commodities-box', data.commodities);
 
-                // 渲染新聞
                 const newsEl = document.getElementById('news-box');
                 if(data.news) {
                     data.news.forEach(n => {
@@ -266,9 +247,7 @@
                                     <span class="news-source">${n.source}</span>
                                     <span>${n.time}</span>
                                 </div>
-                                <div class="news-title">
-                                    <a href="${n.link}" target="_blank">${n.title}</a>
-                                </div>
+                                <div class="news-title"><a href="${n.link}" target="_blank">${n.title}</a></div>
                             </div>
                         `;
                     });
