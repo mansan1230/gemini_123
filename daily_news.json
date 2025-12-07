@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-07 09:15",
+  "update_time": "2025-12-07 09:59",
   "crypto_fng": {
     "value": "20",
     "value_classification": "Extreme Fear",
     "timestamp": "1765065600",
-    "time_until_update": "53092"
+    "time_until_update": "50431"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 89391.04,
-        "change": 118.66,
-        "percent": 0.13,
-        "rsi": "55.7",
+        "price": 89098.27,
+        "change": -174.1,
+        "percent": -0.2,
+        "rsi": "55.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3037.46,
-        "change": -2.75,
-        "percent": -0.09,
-        "rsi": "61.0",
+        "price": 3029.44,
+        "change": -10.77,
+        "percent": -0.35,
+        "rsi": "60.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 132.06,
-        "change": -0.29,
-        "percent": -0.22,
-        "rsi": "51.1",
+        "price": 131.85,
+        "change": -0.5,
+        "percent": -0.38,
+        "rsi": "51.0",
         "trend": "📉 空頭"
       }
     ],
@@ -256,7 +256,7 @@
       "link": "https://www.cnbc.com/2025/12/04/politics-is-now-the-no-1-money-worry-financial-planners-say.html"
     },
     {
-      "title": "Morning Squawk 中就業數據疲軟、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
+      "title": "Morning Squawk 中就業數據疲弱、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
       "source": "CNBC",
       "time": "13:15",
       "link": "https://www.cnbc.com/2025/12/04/5-things-to-know-before-the-stock-market-opens.html"
