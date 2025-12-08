@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-07 09:59",
+  "update_time": "2025-12-08 00:45",
   "crypto_fng": {
     "value": "20",
     "value_classification": "Extreme Fear",
-    "timestamp": "1765065600",
-    "time_until_update": "50431"
+    "timestamp": "1765152000",
+    "time_until_update": "83670"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 50491.87,
-        "change": -536.55,
-        "percent": -1.05,
-        "rsi": "50.6",
+        "price": 50365.95,
+        "change": -125.92,
+        "percent": -0.25,
+        "rsi": "50.2",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 89098.27,
-        "change": -174.1,
-        "percent": -0.2,
-        "rsi": "55.0",
+        "price": 90444.43,
+        "change": 1172.05,
+        "percent": 1.31,
+        "rsi": "57.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3029.44,
-        "change": -10.77,
-        "percent": -0.35,
-        "rsi": "60.6",
+        "price": 3070.53,
+        "change": 30.32,
+        "percent": 1.0,
+        "rsi": "62.3",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 131.85,
-        "change": -0.5,
-        "percent": -0.38,
-        "rsi": "51.0",
+        "price": 132.31,
+        "change": -0.03,
+        "percent": -0.03,
+        "rsi": "51.4",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6878.25,
-        "change": 11.5,
-        "percent": 0.17,
-        "rsi": "59.8",
+        "price": 6879.25,
+        "change": 1.0,
+        "percent": 0.01,
+        "rsi": "66.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25732.0,
-        "change": 109.25,
-        "percent": 0.43,
-        "rsi": "60.4",
+        "price": 25739.75,
+        "change": 7.75,
+        "percent": 0.03,
+        "rsi": "65.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48001.0,
-        "change": 85.0,
-        "percent": 0.18,
-        "rsi": "58.6",
+        "price": 47990.0,
+        "change": -11.0,
+        "percent": -0.02,
+        "rsi": "66.8",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.99,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "44.5",
+        "price": 98.95,
+        "change": -0.04,
+        "percent": -0.04,
+        "rsi": "36.2",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.14,
-        "change": 0.04,
-        "percent": 0.02,
-        "rsi": "54.5",
+        "price": 155.13,
+        "change": -0.02,
+        "percent": -0.01,
+        "rsi": "48.7",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4212.9,
-        "change": 1.1,
-        "percent": 0.03,
-        "rsi": "69.2",
+        "price": 4236.4,
+        "change": 23.5,
+        "percent": 0.56,
+        "rsi": "75.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 60.08,
-        "change": 0.41,
-        "percent": 0.69,
-        "rsi": "49.9",
+        "price": 60.14,
+        "change": 0.06,
+        "percent": 0.1,
+        "rsi": "51.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.38,
-        "change": 0.09,
-        "percent": 1.71,
-        "rsi": "69.7",
+        "price": 5.45,
+        "change": 0.07,
+        "percent": 1.22,
+        "rsi": "76.0",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "“可怕”：為什麼擔任高級情報職務的美國參議員希望對中國公司進行更多間諜活動",
+      "source": "CNBC",
+      "time": "15:24",
+      "link": "https://www.cnbc.com/2025/12/06/china-us-technology-spying-senate-concerns.html"
+    },
+    {
+      "title": "奶奶測試：當你的媽媽可以使用 DePIN 時，大規模採用已經到來",
+      "source": "CoinDesk",
+      "time": "15:00",
+      "link": "https://www.coindesk.com/opinion/2025/12/05/the-grandma-test-when-your-mom-can-use-depin-mass-adoption-has-arrived"
+    },
+    {
+      "title": "財務專家提供的 4 項“足夠好”的財務舉措，可幫助您以“更少的時間和麻煩”實現您的目標",
+      "source": "CNBC",
+      "time": "14:40",
+      "link": "https://www.cnbc.com/2025/12/06/4-good-enough-financial-moves-to-reach-your-goals-with-less-time-and-hassle-from-a-money-expert.html"
+    },
+    {
+      "title": "巴里克礦業 (Barrick Mining) 的股價在 6 個月內上漲了一倍多。為什麼埃利奧特的激進主義可以帶來更多好處",
+      "source": "CNBC",
+      "time": "13:52",
+      "link": "https://www.cnbc.com/2025/12/06/elliotts-activism-could-drive-upside-as-barrick-mining-hunts-for-new-ceo.html"
+    },
     {
       "title": "英國希望開啟“核能黃金時代”，但在恢復歷史領先地位方面面臨關鍵挑戰",
       "source": "CNBC",
@@ -256,7 +280,7 @@
       "link": "https://www.cnbc.com/2025/12/04/politics-is-now-the-no-1-money-worry-financial-planners-say.html"
     },
     {
-      "title": "Morning Squawk 中就業數據疲弱、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
+      "title": "Morning Squawk 中就業數據疲軟、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
       "source": "CNBC",
       "time": "13:15",
       "link": "https://www.cnbc.com/2025/12/04/5-things-to-know-before-the-stock-market-opens.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "06:36",
       "link": "https://www.cnbc.com/2025/12/03/cnbc-china-connection-newsletter-three-economic-flashpoints-2026-property-consumption-deflation.html"
-    },
-    {
-      "title": "Marvell 將以 55 億美元收購 Celestial AI",
-      "source": "CNBC",
-      "time": "22:16",
-      "link": "https://www.cnbc.com/2025/12/02/mrvl-earnings-q3-2026-acquires-celestial-ai.html"
-    },
-    {
-      "title": "Bybit、Mantle 集成將 DeFi 貸方與 7000 萬用戶連接起來，AAVE 上漲 14%",
-      "source": "CoinDesk",
-      "time": "20:16",
-      "link": "https://www.coindesk.com/markets/2025/12/02/aave-rallies-14-as-bybit-mantle-integration-connects-defi-lender-to-70m-users"
-    },
-    {
-      "title": "延遲關稅影響開始顯現，可能導致企業在 2026 年裁員",
-      "source": "CNBC",
-      "time": "19:20",
-      "link": "https://www.cnbc.com/2025/12/02/tariff-impact-starting-to-hit-could-cause-reduced-headcount-in-2026.html"
-    },
-    {
-      "title": "亞馬遜允許雲客戶在培訓中途定制人工智能模型，每年 10 萬美元",
-      "source": "CNBC",
-      "time": "16:00",
-      "link": "https://www.cnbc.com/2025/12/02/amazon-nova-forge-lets-clients-customize-ai-models-for-100000-a-year.html"
     }
   ]
 }
