@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-08 00:45",
+  "update_time": "2025-12-08 07:25",
   "crypto_fng": {
     "value": "20",
     "value_classification": "Extreme Fear",
     "timestamp": "1765152000",
-    "time_until_update": "83670"
+    "time_until_update": "59698"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26085.08,
-        "change": 149.18,
-        "percent": 0.58,
-        "rsi": "44.8",
-        "trend": "震盪"
+        "price": 25796.81,
+        "change": -288.27,
+        "percent": -1.11,
+        "rsi": "47.5",
+        "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 50365.95,
-        "change": -125.92,
-        "percent": -0.25,
-        "rsi": "50.2",
+        "price": 50581.94,
+        "change": 90.07,
+        "percent": 0.18,
+        "rsi": "51.4",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 90444.43,
-        "change": 1172.05,
-        "percent": 1.31,
-        "rsi": "57.6",
+        "price": 91498.02,
+        "change": 1092.38,
+        "percent": 1.21,
+        "rsi": "56.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3070.53,
-        "change": 30.32,
-        "percent": 1.0,
-        "rsi": "62.3",
+        "price": 3126.95,
+        "change": 65.65,
+        "percent": 2.14,
+        "rsi": "58.7",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 132.31,
-        "change": -0.03,
-        "percent": -0.03,
-        "rsi": "51.4",
+        "price": 135.1,
+        "change": 3.0,
+        "percent": 2.27,
+        "rsi": "47.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6879.25,
-        "change": 1.0,
-        "percent": 0.01,
-        "rsi": "66.6",
+        "price": 6889.0,
+        "change": 10.75,
+        "percent": 0.16,
+        "rsi": "67.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25739.75,
-        "change": 7.75,
-        "percent": 0.03,
-        "rsi": "65.1",
+        "price": 25794.5,
+        "change": 62.5,
+        "percent": 0.24,
+        "rsi": "65.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 47990.0,
-        "change": -11.0,
-        "percent": -0.02,
-        "rsi": "66.8",
+        "price": 48018.0,
+        "change": 17.0,
+        "percent": 0.04,
+        "rsi": "67.2",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.95,
-        "change": -0.04,
-        "percent": -0.04,
-        "rsi": "36.2",
+        "price": 98.84,
+        "change": -0.15,
+        "percent": -0.15,
+        "rsi": "34.6",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.13,
-        "change": -0.02,
-        "percent": -0.01,
-        "rsi": "48.7",
+        "price": 155.23,
+        "change": 0.09,
+        "percent": 0.06,
+        "rsi": "49.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4236.4,
-        "change": 23.5,
-        "percent": 0.56,
-        "rsi": "75.5",
+        "price": 4243.0,
+        "change": 30.1,
+        "percent": 0.71,
+        "rsi": "76.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 60.14,
-        "change": 0.06,
-        "percent": 0.1,
-        "rsi": "51.3",
+        "price": 60.19,
+        "change": 0.11,
+        "percent": 0.18,
+        "rsi": "51.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.45,
-        "change": 0.07,
-        "percent": 1.22,
-        "rsi": "76.0",
+        "price": 5.47,
+        "change": 0.09,
+        "percent": 1.64,
+        "rsi": "76.6",
         "trend": "-"
       },
       {
@@ -280,7 +280,7 @@
       "link": "https://www.cnbc.com/2025/12/04/politics-is-now-the-no-1-money-worry-financial-planners-say.html"
     },
     {
-      "title": "Morning Squawk 中就業數據疲軟、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
+      "title": "Morning Squawk 中就業數據疲弱、Salesforce 盈利、通用汽車的“矽谷牛仔”等",
       "source": "CNBC",
       "time": "13:15",
       "link": "https://www.cnbc.com/2025/12/04/5-things-to-know-before-the-stock-market-opens.html"
