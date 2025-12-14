@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-13 00:42",
+  "update_time": "2025-12-14 00:50",
   "crypto_fng": {
-    "value": "23",
+    "value": "21",
     "value_classification": "Extreme Fear",
-    "timestamp": "1765584000",
-    "time_until_update": "83832"
+    "timestamp": "1765670400",
+    "time_until_update": "83362"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 90332.7,
-        "change": -2178.63,
-        "percent": -2.35,
-        "rsi": "48.7",
+        "price": 90490.2,
+        "change": 219.78,
+        "percent": 0.24,
+        "rsi": "49.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3086.91,
-        "change": -150.14,
-        "percent": -4.64,
-        "rsi": "52.1",
+        "price": 3120.7,
+        "change": 36.52,
+        "percent": 1.18,
+        "rsi": "54.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 132.75,
-        "change": -3.62,
-        "percent": -2.65,
-        "rsi": "45.6",
+        "price": 133.59,
+        "change": 1.27,
+        "percent": 0.96,
+        "rsi": "47.7",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6833.5,
-        "change": -73.75,
-        "percent": -1.07,
-        "rsi": "71.9",
+        "price": 6830.75,
+        "change": -76.5,
+        "percent": -1.11,
+        "rsi": "71.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25202.5,
-        "change": -511.0,
-        "percent": -1.99,
-        "rsi": "68.1",
+        "price": 25213.5,
+        "change": -500.0,
+        "percent": -1.94,
+        "rsi": "68.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48517.0,
-        "change": -229.0,
-        "percent": -0.47,
-        "rsi": "75.6",
+        "price": 48474.0,
+        "change": -272.0,
+        "percent": -0.56,
+        "rsi": "74.9",
         "trend": "-"
       }
     ],
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4302.7,
-        "change": 17.2,
-        "percent": 0.4,
-        "rsi": "78.0",
+        "price": 4300.1,
+        "change": 14.6,
+        "percent": 0.34,
+        "rsi": "77.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 57.53,
-        "change": -0.07,
-        "percent": -0.12,
-        "rsi": "46.8",
+        "price": 57.44,
+        "change": -0.16,
+        "percent": -0.28,
+        "rsi": "46.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 5.28,
         "change": -0.14,
-        "percent": -2.63,
-        "rsi": "62.7",
+        "percent": -2.64,
+        "rsi": "62.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "炙手可熱的德克薩斯州收到如此多的數據中心請求，專家們認為存在泡沫",
+      "source": "CNBC",
+      "time": "16:35",
+      "link": "https://www.cnbc.com/2025/12/12/ai-data-center-flood-texas-on-massive-scale.html"
+    },
+    {
+      "title": "Rivian 的人工智能和自主性給華爾街留下了深刻的印象，但電動汽車和資本問題仍然存在",
+      "source": "CNBC",
+      "time": "16:33",
+      "link": "https://www.cnbc.com/2025/12/12/rivian-rivn-ai-ev.html"
+    },
+    {
+      "title": "分析師表示，單一股票 ETF 可以放大回報，但存在“押注出錯的重大風險”",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2025/12/12/single-stock-etfs.html"
+    },
+    {
+      "title": "10 年前，Altman 和 Musk 創立了非營利組織 OpenAI。現在他們是萬億美元市場的競爭對手",
+      "source": "CNBC",
+      "time": "02:31",
+      "link": "https://www.cnbc.com/2025/12/11/openai-began-decade-ago-as-nonprofit-lab-musk-and-altman-now-rivals.html"
+    },
     {
       "title": "專家表示，為什麼單收入家庭已成為“過去的時代”",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "15:00",
       "link": "https://www.coindesk.com/policy/2025/12/05/most-influential-sen-bill-hagerty"
-    },
-    {
-      "title": "隨著 Saylor 公司恢復大宗採購，Strategy 上週購買了近 10 億美元的比特幣",
-      "source": "CoinDesk",
-      "time": "13:15",
-      "link": "https://www.coindesk.com/markets/2025/12/08/strategy-bought-nearly-usd1b-in-bitcoin-last-week-as-saylor-s-company-returns-to-big-purchases"
-    },
-    {
-      "title": "分析師稱，隨著美聯儲降息迫在眉睫，美國國債收益率上升，比特幣保持穩定",
-      "source": "CoinDesk",
-      "time": "10:38",
-      "link": "https://www.coindesk.com/markets/2025/12/08/btc-holds-steady-as-fed-rate-cut-looms-rising-treasury-yields-suggest-caution-analysts"
-    },
-    {
-      "title": "已婚千禧一代，加密貨幣離婚懸崖來了",
-      "source": "CNBC",
-      "time": "14:26",
-      "link": "https://www.cnbc.com/2025/12/07/millennials-bitcoin-crypto-divorce-law.html"
-    },
-    {
-      "title": "隨著鏈上壓力的增加，比特幣市場與 2022 年初相呼應：Glassnode",
-      "source": "CoinDesk",
-      "time": "13:00",
-      "link": "https://www.coindesk.com/markets/2025/12/05/bitcoin-market-echoes-early-2022-as-onchain-stress-mounts-glassnode"
     }
   ]
 }
