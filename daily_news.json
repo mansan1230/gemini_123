@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-14 00:50",
+  "update_time": "2025-12-15 00:49",
   "crypto_fng": {
-    "value": "21",
+    "value": "16",
     "value_classification": "Extreme Fear",
-    "timestamp": "1765670400",
-    "time_until_update": "83362"
+    "timestamp": "1765756800",
+    "time_until_update": "83452"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 50836.55,
-        "change": 687.73,
-        "percent": 1.37,
-        "rsi": "67.8",
+        "price": 50337.27,
+        "change": 188.45,
+        "percent": 0.38,
+        "rsi": "65.0",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 90490.2,
-        "change": 219.78,
-        "percent": 0.24,
-        "rsi": "49.2",
+        "price": 88233.98,
+        "change": -2064.73,
+        "percent": -2.29,
+        "rsi": "45.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3120.7,
-        "change": 36.52,
-        "percent": 1.18,
-        "rsi": "54.9",
+        "price": 3060.43,
+        "change": -56.27,
+        "percent": -1.81,
+        "rsi": "52.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 133.59,
-        "change": 1.27,
-        "percent": 0.96,
-        "rsi": "47.7",
+        "price": 129.97,
+        "change": -3.28,
+        "percent": -2.46,
+        "rsi": "46.6",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6830.75,
-        "change": -76.5,
-        "percent": -1.11,
-        "rsi": "71.5",
+        "price": 6839.75,
+        "change": 9.0,
+        "percent": 0.13,
+        "rsi": "64.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25213.5,
-        "change": -500.0,
-        "percent": -1.94,
-        "rsi": "68.4",
+        "price": 25212.75,
+        "change": -0.75,
+        "percent": -0.0,
+        "rsi": "57.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48474.0,
-        "change": -272.0,
-        "percent": -0.56,
-        "rsi": "74.9",
+        "price": 48585.0,
+        "change": 111.0,
+        "percent": 0.23,
+        "rsi": "74.4",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.39,
-        "change": 0.04,
-        "percent": 0.04,
-        "rsi": "15.8",
+        "price": 98.46,
+        "change": 0.11,
+        "percent": 0.11,
+        "rsi": "17.8",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.57,
-        "change": -0.22,
-        "percent": -0.14,
-        "rsi": "40.2",
+        "price": 155.95,
+        "change": 0.39,
+        "percent": 0.25,
+        "rsi": "41.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4300.1,
-        "change": 14.6,
-        "percent": 0.34,
-        "rsi": "77.9",
+        "price": 4337.9,
+        "change": 37.8,
+        "percent": 0.88,
+        "rsi": "79.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 57.44,
-        "change": -0.16,
-        "percent": -0.28,
-        "rsi": "46.3",
+        "price": 57.65,
+        "change": 0.21,
+        "percent": 0.37,
+        "rsi": "42.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.28,
-        "change": -0.14,
-        "percent": -2.64,
-        "rsi": "62.6",
+        "price": 5.35,
+        "change": 0.07,
+        "percent": 1.32,
+        "rsi": "67.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "這三個指標顯示比特幣在 80,000 美元附近找到了強有力的支撐",
+      "source": "CoinDesk",
+      "time": "19:00",
+      "link": "https://www.coindesk.com/markets/2025/12/12/these-three-metrics-show-bitcoin-found-strong-support-near-usd80-000"
+    },
+    {
+      "title": "隨著科技公司審查其選擇權，激進分子 Starboard 透露將持有 Clearwater 5% 的股份",
+      "source": "CNBC",
+      "time": "14:21",
+      "link": "https://www.cnbc.com/2025/12/13/activist-starboard-reveals-5percent-stake-in-clearwater-as-tech-company-reviews-its-options.html"
+    },
+    {
+      "title": "“伯克希爾之路”的終結？隨著巴菲特過渡期的臨近，庫姆斯的離開不僅是一個重大變化",
+      "source": "CNBC",
+      "time": "14:11",
+      "link": "https://www.cnbc.com/2025/12/13/end-of-the-berkshire-way-combs-departure-isnt-only-big-change-as-buffett-transition-nears-.html"
+    },
+    {
+      "title": "派拉蒙 540 億美元債務在華納競購中扮演主角",
+      "source": "Bloomberg",
+      "time": "04:22",
+      "link": "https://www.bloomberg.com/news/articles/2025-12-12/paramount-s-54-billion-debt-plays-a-starring-role-in-warner-bid"
+    },
     {
       "title": "炙手可熱的德克薩斯州收到如此多的數據中心請求，專家們認為存在泡沫",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "12:45",
       "link": "https://www.cnbc.com/2025/12/09/cvs-forecasts-2026-profit-above-estimates-as-turnaround-plan-takes-effect.html"
-    },
-    {
-      "title": "Blinkit首席執行官警告印度快速的商業泡沫可能即將破裂",
-      "source": "Bloomberg",
-      "time": "06:42",
-      "link": "https://www.bloomberg.com/news/articles/2025-12-09/blinkit-ceo-warns-india-s-quick-commerce-bubble-may-be-close-to-bursting"
-    },
-    {
-      "title": "隨著深度虛值期權受到關注，比特幣交易者的目標是 2 萬美元的比特幣罷工",
-      "source": "CoinDesk",
-      "time": "04:28",
-      "link": "https://www.coindesk.com/markets/2025/12/08/bitcoin-traders-target-usd20k-bitcoin-strike-as-deep-out-of-the-money-options-gain-traction"
-    },
-    {
-      "title": "隨著黃金和其他貴金屬價格飆升，珠寶所有者可能需要檢查其房主保險範圍",
-      "source": "CNBC",
-      "time": "15:12",
-      "link": "https://www.cnbc.com/2025/12/08/jewelry-owners-may-want-to-check-their-insurance-coverage-as-godprice-remains-elevated.html"
-    },
-    {
-      "title": "最有影響力：參議員比爾·哈格蒂",
-      "source": "CoinDesk",
-      "time": "15:00",
-      "link": "https://www.coindesk.com/policy/2025/12/05/most-influential-sen-bill-hagerty"
     }
   ]
 }
