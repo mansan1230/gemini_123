@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-20 00:43",
+  "update_time": "2025-12-21 00:50",
   "crypto_fng": {
     "value": "20",
     "value_classification": "Extreme Fear",
-    "timestamp": "1766188800",
-    "time_until_update": "83813"
+    "timestamp": "1766275200",
+    "time_until_update": "83370"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 88041.07,
-        "change": 2578.56,
-        "percent": 3.02,
-        "rsi": "46.1",
+        "price": 88302.55,
+        "change": 199.17,
+        "percent": 0.23,
+        "rsi": "47.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2974.47,
-        "change": 147.4,
-        "percent": 5.21,
-        "rsi": "47.5",
+        "price": 2977.21,
+        "change": -0.76,
+        "percent": -0.03,
+        "rsi": "46.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 125.95,
-        "change": 6.38,
-        "percent": 5.34,
-        "rsi": "39.9",
+        "price": 125.78,
+        "change": -0.42,
+        "percent": -0.33,
+        "rsi": "40.9",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.25,
-        "change": -0.04,
-        "percent": -0.35,
-        "rsi": "73.2",
+        "price": 11.24,
+        "change": -0.05,
+        "percent": -0.44,
+        "rsi": "72.9",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6893.5,
-        "change": 115.25,
-        "percent": 1.7,
-        "rsi": "56.8",
+        "price": 6796.54,
+        "change": 18.29,
+        "percent": 0.27,
+        "rsi": "46.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25597.5,
-        "change": 569.25,
-        "percent": 2.27,
-        "rsi": "53.7",
+        "price": 25132.79,
+        "change": 104.54,
+        "percent": 0.42,
+        "rsi": "44.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48490.0,
-        "change": 502.0,
-        "percent": 1.05,
-        "rsi": "65.5",
+        "price": 48090.0,
+        "change": 102.0,
+        "percent": 0.21,
+        "rsi": "61.3",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.72,
-        "change": 0.29,
-        "percent": 0.29,
-        "rsi": "37.0",
+        "price": 98.6,
+        "change": 0.17,
+        "percent": 0.17,
+        "rsi": "34.1",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.59,
-        "change": 0.09,
-        "percent": 0.06,
-        "rsi": "47.4",
+        "price": 157.75,
+        "change": 2.16,
+        "percent": 1.39,
+        "rsi": "63.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4368.7,
-        "change": 29.2,
-        "percent": 0.67,
-        "rsi": "69.8",
+        "price": 4361.4,
+        "change": 21.9,
+        "percent": 0.5,
+        "rsi": "69.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 56.54,
-        "change": 0.39,
-        "percent": 0.69,
-        "rsi": "33.9",
+        "price": 56.66,
+        "change": 0.51,
+        "percent": 0.91,
+        "rsi": "34.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.48,
-        "change": 0.12,
-        "percent": 2.18,
-        "rsi": "62.2",
+        "price": 5.44,
+        "change": 0.07,
+        "percent": 1.36,
+        "rsi": "60.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,12 @@
     ]
   },
   "news": [
+    {
+      "title": "英特爾位於亞利桑那州的新工廠內部，這家芯片製造商的命運懸而未決",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2025/12/19/intel-aims-to-find-clients-and-catch-tsmc-with-new-chip-fab-in-arizona.html"
+    },
     {
       "title": "比特幣“已實現上限”維持在1萬億美元以上的歷史高位，引發對四年周期的質疑",
       "source": "CoinDesk",
@@ -292,7 +298,7 @@
       "link": "https://www.cnbc.com/2025/12/16/hyperscaler-ai-spending-could-slow-down-if-oracle-shows-discipline.html"
     },
     {
-      "title": "為什麼中國的年輕人湧向政府工作的人數創歷史新高",
+      "title": "為什麼中國的年輕人湧入政府工作的人數創歷史新高",
       "source": "CNBC",
       "time": "22:59",
       "link": "https://www.cnbc.com/2025/12/17/china-youth-unemployment-civil-service-jobs-economy-slowdown.html"
@@ -326,12 +332,6 @@
       "source": "CoinDesk",
       "time": "06:38",
       "link": "https://www.coindesk.com/markets/2025/12/16/straitx-to-debut-singapore-and-u-s-dollar-stablecoins-on-solana-for-quick-sgd-usd-swaps"
-    },
-    {
-      "title": "Baron Capital推出五隻活躍ETF，SpaceX成為該公司最大的投資",
-      "source": "CNBC",
-      "time": "21:07",
-      "link": "https://www.cnbc.com/2025/12/15/baron-capital-rolls-out-five-active-etfs-spacex-becomes-the-firms-biggest-investment-.html"
     }
   ]
 }
