@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-21 00:50",
+  "update_time": "2025-12-22 00:49",
   "crypto_fng": {
-    "value": "20",
+    "value": "25",
     "value_classification": "Extreme Fear",
-    "timestamp": "1766275200",
-    "time_until_update": "83370"
+    "timestamp": "1766361600",
+    "time_until_update": "83439"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 49507.21,
-        "change": 505.71,
-        "percent": 1.03,
-        "rsi": "51.6",
+        "price": 50284.67,
+        "change": 777.46,
+        "percent": 1.57,
+        "rsi": "57.0",
         "trend": "震盪"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 88302.55,
-        "change": 199.17,
-        "percent": 0.23,
-        "rsi": "47.2",
+        "price": 89077.91,
+        "change": 733.91,
+        "percent": 0.83,
+        "rsi": "46.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2977.21,
-        "change": -0.76,
-        "percent": -0.03,
-        "rsi": "46.9",
+        "price": 3031.16,
+        "change": 53.57,
+        "percent": 1.8,
+        "rsi": "48.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 125.78,
-        "change": -0.42,
-        "percent": -0.33,
-        "rsi": "40.9",
+        "price": 126.91,
+        "change": 1.1,
+        "percent": 0.87,
+        "rsi": "43.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6796.54,
-        "change": 18.29,
-        "percent": 0.27,
-        "rsi": "46.1",
+        "price": 6901.75,
+        "change": 105.21,
+        "percent": 1.55,
+        "rsi": "56.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25132.79,
-        "change": 104.54,
-        "percent": 0.42,
-        "rsi": "44.4",
+        "price": 25655.75,
+        "change": 522.96,
+        "percent": 2.08,
+        "rsi": "51.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48090.0,
-        "change": 102.0,
-        "percent": 0.21,
-        "rsi": "61.3",
+        "price": 48514.0,
+        "change": 424.0,
+        "percent": 0.88,
+        "rsi": "63.9",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.6,
-        "change": 0.17,
-        "percent": 0.17,
-        "rsi": "34.1",
+        "price": 98.69,
+        "change": 0.09,
+        "percent": 0.09,
+        "rsi": "37.0",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.75,
-        "change": 2.16,
-        "percent": 1.39,
-        "rsi": "63.1",
+        "price": 157.56,
+        "change": 1.97,
+        "percent": 1.27,
+        "rsi": "62.3",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4361.4,
-        "change": 21.9,
-        "percent": 0.5,
-        "rsi": "69.1",
+        "price": 4395.5,
+        "change": 34.1,
+        "percent": 0.78,
+        "rsi": "84.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 56.66,
-        "change": 0.51,
-        "percent": 0.91,
-        "rsi": "34.8",
+        "price": 56.88,
+        "change": 0.22,
+        "percent": 0.39,
+        "rsi": "39.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.44,
-        "change": 0.07,
-        "percent": 1.36,
-        "rsi": "60.6",
+        "price": 5.5,
+        "change": 0.06,
+        "percent": 1.1,
+        "rsi": "66.2",
         "trend": "-"
       },
       {
@@ -213,6 +213,48 @@
     ]
   },
   "news": [
+    {
+      "title": "Tom Lee 回應圍繞 Fundstrat 不同比特幣前景的爭議",
+      "source": "CoinDesk",
+      "time": "21:30",
+      "link": "https://www.coindesk.com/markets/2025/12/20/tom-lee-responds-as-x-debates-fundstrat-s-differing-bitcoin-outlooks"
+    },
+    {
+      "title": "聖誕電影《精靈》能讓我們了解當今的生活成本",
+      "source": "CNBC",
+      "time": "14:45",
+      "link": "https://www.cnbc.com/2025/12/20/what-the-christmas-movie-elf-can-teach-us-about-todays-cost-of-living.html"
+    },
+    {
+      "title": "Roomba 的破產可能會摧毀不止一家掃地機器人製造商",
+      "source": "CNBC",
+      "time": "14:21",
+      "link": "https://www.cnbc.com/2025/12/20/roomba-bankruptcy-robot-vacuum-maker.html"
+    },
+    {
+      "title": "激進分子 Ananym Capital 敦促 LKQ 出售其歐洲汽車零部件業務",
+      "source": "CNBC",
+      "time": "13:39",
+      "link": "https://www.cnbc.com/2025/12/20/activist-ananym-capital-urges-lkq-to-sell-its-european-auto-parts-business.html"
+    },
+    {
+      "title": "Lucid 的大型 SUV 帶著很高的期望和巨大的風險到來",
+      "source": "CNBC",
+      "time": "13:30",
+      "link": "https://www.cnbc.com/2025/12/20/lucids-gravity-suv-arrives-with-high-expectations-and-big-risks.html"
+    },
+    {
+      "title": "英國的加密貨幣規則手冊終於成形",
+      "source": "CoinDesk",
+      "time": "12:00",
+      "link": "https://www.coindesk.com/policy/2025/12/20/the-uk-s-crypto-rulebook-is-finally-taking-shape"
+    },
+    {
+      "title": "我住在一家 40 美元的膠囊旅館裡，因為重返辦公室的要求迫使員工返回城市",
+      "source": "CNBC",
+      "time": "08:55",
+      "link": "https://www.cnbc.com/2025/12/20/zedwell-capsule-hotel-i-stayed-in-a-40-dollar-capsule-hotel-in-london.html"
+    },
     {
       "title": "英特爾位於亞利桑那州的新工廠內部，這家芯片製造商的命運懸而未決",
       "source": "CNBC",
@@ -290,48 +332,6 @@
       "source": "Bloomberg",
       "time": "04:08",
       "link": "https://www.bloomberg.com/news/articles/2025-12-17/bumper-it-buyback-helps-india-etf-pull-off-rare-index-beat"
-    },
-    {
-      "title": "如果甲骨文表現出“紀律”，超大規模人工智能支出可能會放緩",
-      "source": "CNBC",
-      "time": "23:22",
-      "link": "https://www.cnbc.com/2025/12/16/hyperscaler-ai-spending-could-slow-down-if-oracle-shows-discipline.html"
-    },
-    {
-      "title": "為什麼中國的年輕人湧入政府工作的人數創歷史新高",
-      "source": "CNBC",
-      "time": "22:59",
-      "link": "https://www.cnbc.com/2025/12/17/china-youth-unemployment-civil-service-jobs-economy-slowdown.html"
-    },
-    {
-      "title": "健康回報：2026 年將是諾和諾德、禮來公司減肥藥的一年",
-      "source": "CNBC",
-      "time": "19:29",
-      "link": "https://www.cnbc.com/2025/12/16/healthy-returns-obesity-pills-from-novo-nordisk-eli-lilly-are-coming.html"
-    },
-    {
-      "title": "特朗普對大麻和 CBD 的重新分類對老年人、研究和股票意味著什麼",
-      "source": "CNBC",
-      "time": "16:45",
-      "link": "https://www.cnbc.com/2025/12/16/trump-medicare-pot-seniors-marijuana-reclassification.html"
-    },
-    {
-      "title": "輝瑞公司對 2026 年前景的溫和展望表明，其巨額投資需要時間才能獲得回報",
-      "source": "CNBC",
-      "time": "15:12",
-      "link": "https://www.cnbc.com/2025/12/16/pfizer-2026-guidance-metsera-seagen-deals.html"
-    },
-    {
-      "title": "人工智能芯片短缺可能會導致智能手機價格上漲——新研究闡明了上漲幅度",
-      "source": "CNBC",
-      "time": "08:37",
-      "link": "https://www.cnbc.com/2025/12/16/smartphone-prices-to-rise-in-2026-due-to-ai-fueled-chip-shortage.html"
-    },
-    {
-      "title": "StraitX 將在 Solana 上推出新加坡和美元穩定幣，以實現快速貨幣兌換",
-      "source": "CoinDesk",
-      "time": "06:38",
-      "link": "https://www.coindesk.com/markets/2025/12/16/straitx-to-debut-singapore-and-u-s-dollar-stablecoins-on-solana-for-quick-sgd-usd-swaps"
     }
   ]
 }
