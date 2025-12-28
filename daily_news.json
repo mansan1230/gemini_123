@@ -1,10 +1,10 @@
 {
-  "update_time": "2025-12-27 00:44",
+  "update_time": "2025-12-28 00:53",
   "crypto_fng": {
-    "value": "23",
+    "value": "24",
     "value_classification": "Extreme Fear",
-    "timestamp": "1766793600",
-    "time_until_update": "83709"
+    "timestamp": "1766880000",
+    "time_until_update": "83198"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 87296.92,
-        "change": 62.18,
-        "percent": 0.07,
-        "rsi": "38.3",
+        "price": 87834.62,
+        "change": 533.19,
+        "percent": 0.61,
+        "rsi": "40.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2925.96,
-        "change": 22.38,
-        "percent": 0.77,
-        "rsi": "37.4",
+        "price": 2947.32,
+        "change": 21.57,
+        "percent": 0.74,
+        "rsi": "36.2",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 121.93,
-        "change": 1.98,
-        "percent": 1.65,
-        "rsi": "34.1",
+        "price": 124.45,
+        "change": 2.25,
+        "percent": 1.84,
+        "rsi": "37.2",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.45,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "79.0",
+        "price": 11.41,
+        "change": -0.04,
+        "percent": -0.35,
+        "rsi": "77.5",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6977.0,
-        "change": -5.5,
-        "percent": -0.08,
-        "rsi": "59.3",
+        "price": 6979.25,
+        "change": -3.25,
+        "percent": -0.05,
+        "rsi": "59.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25856.0,
-        "change": -24.5,
-        "percent": -0.09,
-        "rsi": "52.3",
+        "price": 25863.25,
+        "change": -17.25,
+        "percent": -0.07,
+        "rsi": "52.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49002.0,
-        "change": -27.0,
+        "price": 48998.0,
+        "change": -31.0,
         "percent": -0.06,
-        "rsi": "64.3",
+        "rsi": "64.2",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.05,
-        "change": 0.07,
-        "percent": 0.08,
-        "rsi": "32.2",
+        "price": 98.02,
+        "change": 0.04,
+        "percent": 0.04,
+        "rsi": "31.3",
         "trend": "📉 空頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4562.0,
-        "change": 81.4,
-        "percent": 1.82,
-        "rsi": "89.1",
+        "price": 4529.1,
+        "change": 48.5,
+        "percent": 1.08,
+        "rsi": "88.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 56.93,
-        "change": -1.42,
-        "percent": -2.43,
-        "rsi": "33.9",
+        "price": 56.74,
+        "change": -1.61,
+        "percent": -2.76,
+        "rsi": "33.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.85,
-        "change": 0.35,
-        "percent": 6.42,
-        "rsi": "70.5",
+        "price": 5.77,
+        "change": 0.27,
+        "percent": 4.87,
+        "rsi": "68.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "隨著生活成本不斷攀升，美國人“試圖克服”負擔能力危機......",
+      "source": "CNBC",
+      "time": "21:00",
+      "link": "https://www.cnbc.com/2025/12/26/how-americans-are-responding-to-the-affordability-crisis.html"
+    },
+    {
+      "title": "專家表示，進入 2026 年，美國主要城市的租金將下降，這是十年來“對租房者更加友好的時期”之一",
+      "source": "CNBC",
+      "time": "16:53",
+      "link": "https://www.cnbc.com/2025/12/26/rents-are-falling-in-these-major-us-cities-heading-into-2026.html"
+    },
     {
       "title": "為什麼購買伯克希爾是沃倫·巴菲特最大的錯誤",
       "source": "CNBC",
@@ -238,7 +250,7 @@
       "link": "https://www.cnbc.com/2025/12/23/expiring-aca-subsidies-most-affected.html"
     },
     {
-      "title": "Facebook 前隱私主管表示，人工智能的下一個重點將是提高效率和降低成本",
+      "title": "Facebook 前隱私負責人表示，人工智能的下一個重點將是提高效率和降低成本",
       "source": "CNBC",
       "time": "15:26",
       "link": "https://www.cnbc.com/2025/12/23/ai-cost-efficiency-facebook-privacy.html"
@@ -304,7 +316,7 @@
       "link": "https://www.cnbc.com/2025/12/21/xbox-console-war-playstation-switch.html"
     },
     {
-      "title": "2025 年人工智能導致超過 50,000 人裁員——以下是引用人工智能進行裁員的頂級公司",
+      "title": "2025 年，AI 導致了超過 50,000 名裁員——以下是引用 AI 進行裁員的頂級公司",
       "source": "CNBC",
       "time": "08:10",
       "link": "https://www.cnbc.com/2025/12/21/ai-job-cuts-amazon-microsoft-and-more-cite-ai-for-2025-layoffs.html"
@@ -320,18 +332,6 @@
       "source": "CoinDesk",
       "time": "21:30",
       "link": "https://www.coindesk.com/markets/2025/12/20/tom-lee-responds-as-x-debates-fundstrat-s-differing-bitcoin-outlooks"
-    },
-    {
-      "title": "聖誕電影《精靈》能讓我們了解當今的生活成本",
-      "source": "CNBC",
-      "time": "14:45",
-      "link": "https://www.cnbc.com/2025/12/20/what-the-christmas-movie-elf-can-teach-us-about-todays-cost-of-living.html"
-    },
-    {
-      "title": "Roomba 的破產可能會摧毀不止一家掃地機器人製造商",
-      "source": "CNBC",
-      "time": "14:21",
-      "link": "https://www.cnbc.com/2025/12/20/roomba-bankruptcy-robot-vacuum-maker.html"
     }
   ]
 }
