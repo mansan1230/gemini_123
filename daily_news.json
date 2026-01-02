@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-01 00:54",
+  "update_time": "2026-01-02 00:47",
   "crypto_fng": {
-    "value": "20",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1767225600",
-    "time_until_update": "83155"
+    "value": "28",
+    "value_classification": "Fear",
+    "timestamp": "1767312000",
+    "time_until_update": "83554"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 87656.92,
-        "change": -773.21,
-        "percent": -0.87,
-        "rsi": "58.4",
+        "price": 88537.16,
+        "change": 1028.33,
+        "percent": 1.18,
+        "rsi": "66.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2976.88,
-        "change": 5.46,
-        "percent": 0.18,
-        "rsi": "68.7",
-        "trend": "📉 空頭"
+        "price": 2994.11,
+        "change": 27.07,
+        "percent": 0.91,
+        "rsi": "70.4",
+        "trend": "震盪"
       },
       {
         "name": "☀️ Solana",
-        "price": 124.9,
-        "change": -0.03,
-        "percent": -0.02,
-        "rsi": "53.4",
+        "price": 126.4,
+        "change": 1.92,
+        "percent": 1.54,
+        "rsi": "63.8",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.4,
-        "change": -0.06,
-        "percent": -0.52,
-        "rsi": "64.1",
+        "price": 11.44,
+        "change": -0.02,
+        "percent": -0.17,
+        "rsi": "66.0",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6893.75,
-        "change": -50.5,
-        "percent": -0.73,
-        "rsi": "50.2",
+        "price": 6903.5,
+        "change": 11.0,
+        "percent": 0.16,
+        "rsi": "49.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25434.75,
-        "change": -240.5,
-        "percent": -0.94,
-        "rsi": "43.7",
+        "price": 25504.0,
+        "change": 47.25,
+        "percent": 0.19,
+        "rsi": "46.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48351.0,
-        "change": -299.0,
-        "percent": -0.61,
-        "rsi": "53.7",
+        "price": 48407.0,
+        "change": 71.0,
+        "percent": 0.15,
+        "rsi": "43.8",
         "trend": "-"
       }
     ],
@@ -162,36 +162,36 @@
       },
       {
         "name": "💴 USD/JPY",
-        "price": 156.75,
-        "change": 0.73,
-        "percent": 0.47,
-        "rsi": "49.5",
+        "price": 156.64,
+        "change": 0.22,
+        "percent": 0.14,
+        "rsi": "55.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4332.1,
-        "change": -38.0,
-        "percent": -0.87,
-        "rsi": "60.5",
+        "price": 4361.7,
+        "change": 36.1,
+        "percent": 0.83,
+        "rsi": "56.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 57.41,
-        "change": -0.54,
-        "percent": -0.93,
-        "rsi": "44.7",
+        "price": 57.43,
+        "change": 0.01,
+        "percent": 0.02,
+        "rsi": "49.1",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.69,
-        "change": -0.03,
-        "percent": -0.58,
-        "rsi": "64.6",
+        "price": 5.75,
+        "change": 0.12,
+        "percent": 2.21,
+        "rsi": "61.2",
         "trend": "-"
       },
       {
@@ -214,13 +214,31 @@
   },
   "news": [
     {
+      "title": "2026 年房地產市場有何預期，以及房價跌幅最大的 10 個主要城市",
+      "source": "CNBC",
+      "time": "17:20",
+      "link": "https://www.cnbc.com/2025/12/31/housing-market-outlook-for-2026and-10-cities-where-prices-may-fall.html"
+    },
+    {
+      "title": "定義 2025 年商業和市場的 5 個主題：Morning Squawk",
+      "source": "CNBC",
+      "time": "13:20",
+      "link": "https://www.cnbc.com/2025/12/31/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "Winklevoss 支持的 Cypherpunk 購買了 2800 萬美元的 zcash，目前擁有 1.7% 的供應量",
+      "source": "CoinDesk",
+      "time": "09:50",
+      "link": "https://www.coindesk.com/business/2025/12/31/winklevoss-backed-cypherpunk-buys-usd28-million-of-zcash-now-owns-1-7-of-supply"
+    },
+    {
       "title": "以下是 2026 年商業地產的預期",
       "source": "CNBC",
       "time": "14:17",
       "link": "https://www.cnbc.com/2025/12/30/commercial-real-estate-2026-what-to-expect.html"
     },
     {
-      "title": "埃隆·馬斯克設想人形機器人無處不在。中國可能是第一個將其變為現實的",
+      "title": "埃隆·馬斯克設想人形機器人無處不在。中國可能是第一個將其變為現實的國家",
       "source": "CNBC",
       "time": "06:10",
       "link": "https://www.cnbc.com/2025/12/30/elon-musk-wants-robots-everywhere-china-is-making-that-a-reality.html"
@@ -286,7 +304,7 @@
       "link": "https://www.cnbc.com/2025/12/24/affordability-is-a-buzzword-right-now-these-charts-show-why.html"
     },
     {
-      "title": "這 5 只基礎設施股今年在人工智能領域的漲幅超過兩倍",
+      "title": "這 5 只基礎設施股票今年在人工智能交易中上漲了兩倍多",
       "source": "CNBC",
       "time": "13:00",
       "link": "https://www.cnbc.com/2025/12/24/ai-infrastructure-stocks-lumentum-celestica-seagate-beat-nvidia-2025.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "09:57",
       "link": "https://www.cnbc.com/2025/12/23/what-a-russia-ukraine-peace-deal-could-mean-for-europes-gas-supplies.html"
-    },
-    {
-      "title": "Aave 一周下跌 18%，因爭議導致代幣跌幅超過主要加密代幣",
-      "source": "CoinDesk",
-      "time": "06:45",
-      "link": "https://www.coindesk.com/markets/2025/12/23/aave-falls-18-over-week-as-dispute-pulls-down-token-deeper-than-major-crypto-tokens"
-    },
-    {
-      "title": "FDA 批准諾和諾德首款治療肥胖症的 GLP-1 藥物",
-      "source": "CNBC",
-      "time": "23:20",
-      "link": "https://www.cnbc.com/2025/12/22/fda-approves-first-glp-1-pill-for-obesity-from-novo-nordisk.html"
-    },
-    {
-      "title": "徵收加密貨幣稅收損失的時間正在流逝",
-      "source": "CoinDesk",
-      "time": "14:35",
-      "link": "https://www.coindesk.com/opinion/2025/12/22/the-clock-is-ticking-for-crypto-tax-loss-harvesting"
     }
   ]
 }
