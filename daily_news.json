@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-03 00:44",
+  "update_time": "2026-01-04 00:53",
   "crypto_fng": {
-    "value": "29",
-    "value_classification": "Fear",
-    "timestamp": "1767398400",
-    "time_until_update": "83743"
+    "value": "25",
+    "value_classification": "Extreme Fear",
+    "timestamp": "1767484800",
+    "time_until_update": "83170"
   },
   "data": {
     "indices": [
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 90008.98,
-        "change": 1276.99,
-        "percent": 1.44,
-        "rsi": "61.5",
-        "trend": "震盪"
+        "price": 91165.52,
+        "change": 1220.82,
+        "percent": 1.36,
+        "rsi": "65.3",
+        "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3127.42,
-        "change": 127.02,
-        "percent": 4.23,
-        "rsi": "69.1",
+        "price": 3146.13,
+        "change": 21.71,
+        "percent": 0.69,
+        "rsi": "70.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 132.71,
-        "change": 5.95,
-        "percent": 4.69,
-        "rsi": "63.3",
-        "trend": "震盪"
+        "price": 134.17,
+        "change": 2.03,
+        "percent": 1.54,
+        "rsi": "66.4",
+        "trend": "📈 多頭"
       }
     ],
     "shipping": [
@@ -102,10 +102,10 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.5,
-        "change": 0.06,
-        "percent": 0.52,
-        "rsi": "42.2",
+        "price": 11.49,
+        "change": 0.05,
+        "percent": 0.44,
+        "rsi": "41.5",
         "trend": "📈 多頭"
       }
     ],
@@ -120,18 +120,18 @@
       },
       {
         "name": "💻 納指期貨",
-        "price": 25394.5,
-        "change": -62.25,
-        "percent": -0.24,
-        "rsi": "44.4",
+        "price": 25385.25,
+        "change": -71.5,
+        "percent": -0.28,
+        "rsi": "44.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48598.0,
-        "change": 262.0,
-        "percent": 0.54,
-        "rsi": "47.5",
+        "price": 48616.0,
+        "change": 280.0,
+        "percent": 0.58,
+        "rsi": "47.8",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.43,
-        "change": 0.15,
-        "percent": 0.16,
-        "rsi": "52.2",
+        "price": 98.42,
+        "change": 0.14,
+        "percent": 0.14,
+        "rsi": "51.9",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4341.9,
-        "change": 16.3,
-        "percent": 0.38,
-        "rsi": "54.9",
+        "price": 4314.4,
+        "change": -11.2,
+        "percent": -0.26,
+        "rsi": "52.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 57.33,
-        "change": -0.09,
-        "percent": -0.16,
+        "price": 57.32,
+        "change": -0.1,
+        "percent": -0.17,
         "rsi": "48.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.7,
-        "change": 0.07,
-        "percent": 1.21,
-        "rsi": "59.6",
+        "price": 5.64,
+        "change": 0.01,
+        "percent": 0.18,
+        "rsi": "57.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "分析師表示，一些 ETF 會在價格上展開競爭，但費用不應總是“推動投資決策”",
+      "source": "CNBC",
+      "time": "19:17",
+      "link": "https://www.cnbc.com/2026/01/02/etf-fees.html"
+    },
+    {
+      "title": "他會留下還是會走？鮑威爾沒有透露主席任期結束後是否會留在美聯儲董事會",
+      "source": "CNBC",
+      "time": "12:35",
+      "link": "https://www.cnbc.com/2026/01/02/fed-chair-powell-staying-on-fed-board-or-going.html"
+    },
+    {
+      "title": "網幕背後：為何2026年航空公司階級戰爭將愈演愈烈",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/01/02/airline-industry-2026.html"
+    },
     {
       "title": "特朗普將增加軟墊家具、廚櫃和梳妝台的關稅推遲一年",
       "source": "CNBC",
@@ -256,7 +274,7 @@
       "link": "https://www.cnbc.com/2025/12/30/commercial-real-estate-2026-what-to-expect.html"
     },
     {
-      "title": "埃隆·馬斯克設想人形機器人無處不在。中國可能是第一個將其變為現實的國家",
+      "title": "埃隆·馬斯克設想人形機器人無處不在。中國可能是第一個將其變為現實的",
       "source": "CNBC",
       "time": "06:10",
       "link": "https://www.cnbc.com/2025/12/30/elon-musk-wants-robots-everywhere-china-is-making-that-a-reality.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "13:12",
       "link": "https://www.cnbc.com/2025/12/25/why-buying-berkshire-was-warren-buffetts-biggest-mistake.html"
-    },
-    {
-      "title": "可負擔性現在是一個流行詞——這些圖表說明了原因",
-      "source": "CNBC",
-      "time": "13:40",
-      "link": "https://www.cnbc.com/2025/12/24/affordability-is-a-buzzword-right-now-these-charts-show-why.html"
-    },
-    {
-      "title": "這 5 只基礎設施股今年在人工智能領域的漲幅超過兩倍",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2025/12/24/ai-infrastructure-stocks-lumentum-celestica-seagate-beat-nvidia-2025.html"
-    },
-    {
-      "title": "ACA 補貼即將到期。這是這次失誤對誰打擊最嚴重的人",
-      "source": "CNBC",
-      "time": "15:35",
-      "link": "https://www.cnbc.com/2025/12/23/expiring-aca-subsidies-most-affected.html"
     }
   ]
 }
