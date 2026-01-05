@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-04 00:53",
+  "update_time": "2026-01-05 00:53",
   "crypto_fng": {
-    "value": "25",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1767484800",
-    "time_until_update": "83170"
+    "value": "26",
+    "value_classification": "Fear",
+    "timestamp": "1767571200",
+    "time_until_update": "83217"
   },
   "data": {
     "indices": [
@@ -34,11 +34,11 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 50339.48,
-        "change": -187.44,
-        "percent": -0.37,
-        "rsi": "47.6",
-        "trend": "震盪"
+        "price": 51601.47,
+        "change": 1261.99,
+        "percent": 2.51,
+        "rsi": "61.5",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 91165.52,
-        "change": 1220.82,
-        "percent": 1.36,
-        "rsi": "65.3",
+        "price": 92225.72,
+        "change": 1622.53,
+        "percent": 1.79,
+        "rsi": "68.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3146.13,
-        "change": 21.71,
-        "percent": 0.69,
-        "rsi": "70.5",
+        "price": 3167.89,
+        "change": 41.97,
+        "percent": 1.34,
+        "rsi": "70.4",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 134.17,
-        "change": 2.03,
-        "percent": 1.54,
-        "rsi": "66.4",
+        "price": 135.0,
+        "change": 1.71,
+        "percent": 1.28,
+        "rsi": "67.2",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6900.5,
-        "change": 8.0,
-        "percent": 0.12,
-        "rsi": "49.4",
+        "price": 6904.25,
+        "change": 3.75,
+        "percent": 0.05,
+        "rsi": "58.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25385.25,
-        "change": -71.5,
-        "percent": -0.28,
-        "rsi": "44.2",
+        "price": 25447.0,
+        "change": 61.75,
+        "percent": 0.24,
+        "rsi": "54.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48616.0,
-        "change": 280.0,
-        "percent": 0.58,
-        "rsi": "47.8",
+        "price": 48596.0,
+        "change": -20.0,
+        "percent": -0.04,
+        "rsi": "52.3",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.42,
+        "price": 98.56,
         "change": 0.14,
         "percent": 0.14,
-        "rsi": "51.9",
+        "rsi": "54.1",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 156.73,
-        "change": 0.32,
-        "percent": 0.2,
-        "rsi": "56.1",
+        "price": 157.21,
+        "change": 0.48,
+        "percent": 0.31,
+        "rsi": "60.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4314.4,
-        "change": -11.2,
-        "percent": -0.26,
-        "rsi": "52.5",
+        "price": 4398.8,
+        "change": 84.4,
+        "percent": 1.96,
+        "rsi": "57.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 57.32,
-        "change": -0.1,
-        "percent": -0.17,
-        "rsi": "48.5",
+        "price": 57.39,
+        "change": 0.07,
+        "percent": 0.12,
+        "rsi": "49.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.64,
-        "change": 0.01,
-        "percent": 0.18,
-        "rsi": "57.9",
+        "price": 5.73,
+        "change": 0.09,
+        "percent": 1.6,
+        "rsi": "67.2",
         "trend": "-"
       },
       {
@@ -214,6 +214,24 @@
   },
   "news": [
     {
+      "title": "特朗普認為美國石油生產商在委內瑞拉花費數十億美元",
+      "source": "gcaptain.com",
+      "time": "00:40",
+      "link": "https://gcaptain.com/trump-sees-us-oil-producers-spending-billions-in-venezuela/"
+    },
+    {
+      "title": "在經歷了 2025 年的艱難之後，美聯儲在未來一年將面臨一系列挑戰",
+      "source": "CNBC",
+      "time": "14:37",
+      "link": "https://www.cnbc.com/2026/01/03/federal-reserve-powell-face-challenges-in-2026.html"
+    },
+    {
+      "title": "Daniela Amodei 告訴 CNBC，Anthropic 的“少花錢多辦事”賭注使其始終處於人工智能前沿",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/01/03/anthropic-daniela-amodei-do-more-with-less-bet.html"
+    },
+    {
       "title": "分析師表示，一些 ETF 會在價格上展開競爭，但費用不應總是“推動投資決策”",
       "source": "CNBC",
       "time": "19:17",
@@ -226,7 +244,7 @@
       "link": "https://www.cnbc.com/2026/01/02/fed-chair-powell-staying-on-fed-board-or-going.html"
     },
     {
-      "title": "網幕背後：為何2026年航空公司階級戰爭將愈演愈烈",
+      "title": "網狀幕布背後：為何2026年航空公司階級戰爭將愈演愈烈",
       "source": "CNBC",
       "time": "12:30",
       "link": "https://www.cnbc.com/2026/01/02/airline-industry-2026.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "07:09",
       "link": "https://www.cnbc.com/2025/12/27/europe-at-fork-in-the-road-between-ai-competition-and-climate.html"
-    },
-    {
-      "title": "隨著生活成本不斷攀升，美國人“試圖克服”負擔能力危機......",
-      "source": "CNBC",
-      "time": "21:00",
-      "link": "https://www.cnbc.com/2025/12/26/how-americans-are-responding-to-the-affordability-crisis.html"
-    },
-    {
-      "title": "專家表示，進入 2026 年，美國主要城市的租金將下降，這是十年來“對租房者更加友好的時期”之一",
-      "source": "CNBC",
-      "time": "16:53",
-      "link": "https://www.cnbc.com/2025/12/26/rents-are-falling-in-these-major-us-cities-heading-into-2026.html"
-    },
-    {
-      "title": "為什麼購買伯克希爾是沃倫·巴菲特最大的錯誤",
-      "source": "CNBC",
-      "time": "13:12",
-      "link": "https://www.cnbc.com/2025/12/25/why-buying-berkshire-was-warren-buffetts-biggest-mistake.html"
     }
   ]
 }
