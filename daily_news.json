@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-10 00:45",
+  "update_time": "2026-01-11 00:53",
   "crypto_fng": {
-    "value": "25",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1768003200",
-    "time_until_update": "83643"
+    "value": "29",
+    "value_classification": "Fear",
+    "timestamp": "1768089600",
+    "time_until_update": "83196"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 90500.61,
-        "change": -526.52,
-        "percent": -0.58,
-        "rsi": "62.1",
+        "price": 90496.22,
+        "change": -16.88,
+        "percent": -0.02,
+        "rsi": "60.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3082.44,
-        "change": -21.94,
-        "percent": -0.71,
-        "rsi": "62.6",
+        "price": 3086.18,
+        "change": 3.13,
+        "percent": 0.1,
+        "rsi": "61.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 135.85,
-        "change": -2.44,
-        "percent": -1.76,
-        "rsi": "70.6",
+        "price": 136.11,
+        "change": 0.35,
+        "percent": 0.26,
+        "rsi": "68.4",
         "trend": "📈 多頭"
       }
     ],
@@ -102,35 +102,35 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.7,
-        "change": -0.07,
-        "percent": -0.59,
-        "rsi": "63.2",
+        "price": 11.73,
+        "change": -0.04,
+        "percent": -0.34,
+        "rsi": "64.5",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7004.0,
-        "change": 42.0,
-        "percent": 0.6,
+        "price": 7005.0,
+        "change": 43.0,
+        "percent": 0.62,
         "rsi": "74.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25931.75,
-        "change": 244.25,
-        "percent": 0.95,
-        "rsi": "70.6",
+        "price": 25938.25,
+        "change": 250.75,
+        "percent": 0.98,
+        "rsi": "70.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49733.0,
-        "change": 240.0,
-        "percent": 0.48,
+        "price": 49726.0,
+        "change": 233.0,
+        "percent": 0.47,
         "rsi": "71.3",
         "trend": "-"
       }
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.14,
-        "change": 0.21,
-        "percent": 0.21,
-        "rsi": "65.2",
+        "price": 99.13,
+        "change": 0.2,
+        "percent": 0.2,
+        "rsi": "65.1",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4518.4,
-        "change": 68.7,
-        "percent": 1.54,
-        "rsi": "61.6",
+        "price": 4490.3,
+        "change": 40.6,
+        "percent": 0.91,
+        "rsi": "60.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 58.78,
-        "change": 1.02,
-        "percent": 1.77,
-        "rsi": "60.9",
+        "price": 59.12,
+        "change": 1.36,
+        "percent": 2.35,
+        "rsi": "61.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.89,
-        "change": 0.14,
-        "percent": 2.51,
-        "rsi": "64.5",
+        "price": 5.86,
+        "change": 0.11,
+        "percent": 1.9,
+        "rsi": "63.8",
         "trend": "-"
       },
       {
@@ -214,7 +214,31 @@
   },
   "news": [
     {
-      "title": "由於電動汽車撤退和中國重組，通用汽車將在第四季度錄得 71 億美元的費用",
+      "title": "在特朗普最近推動住房負擔能力之後，抵押貸款利率正在發生以下變化",
+      "source": "CNBC",
+      "time": "16:17",
+      "link": "https://www.cnbc.com/2026/01/09/heres-whats-happening-now-with-mortgage-rates-.html"
+    },
+    {
+      "title": "就業數據、潛在的關稅裁決、委內瑞拉的最新消息以及 Morning Squawk 的更多內容",
+      "source": "CNBC",
+      "time": "13:08",
+      "link": "https://www.cnbc.com/2026/01/09/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "前CEA稱印度經濟面臨更高關稅的風險",
+      "source": "Bloomberg",
+      "time": "08:38",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-09/india-s-economy-at-risk-from-higher-tariffs-says-former-adviser"
+    },
+    {
+      "title": "在三月份關鍵會議之前，中國房地產支持的希望上升",
+      "source": "CNBC",
+      "time": "06:21",
+      "link": "https://www.cnbc.com/2026/01/09/china-property-slump-policy-shift-qiushi-2026-ahead-march-meeting.html"
+    },
+    {
+      "title": "由於電動汽車撤退和中國重組，通用汽車第四季度將錄得 71 億美元的費用",
       "source": "CNBC",
       "time": "21:05",
       "link": "https://www.cnbc.com/2026/01/08/gm-q4-charges-ev-china.html"
@@ -232,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/01/08/cnbc-housing-market-survey-agents-balance-out.html"
     },
     {
-      "title": "CNBC 的 Inside India 時事通訊：新航空公司能否治愈印度航空業的所有問題？",
+      "title": "CNBC 的印度內部時事通訊：新航空公司能否治愈印度航空業的所有問題？",
       "source": "CNBC",
       "time": "09:26",
       "link": "https://www.cnbc.com/2026/01/08/cnbcs-inside-india-newsletter-can-new-airlines-cure-all-that-ails-indias-aviation-sector.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "12:20",
       "link": "https://www.cnbc.com/2026/01/04/top-wall-street-analysts-suggest-these-3-stocks-for-their-growth-prospects.html"
-    },
-    {
-      "title": "特朗普認為美國石油生產商在委內瑞拉花費數十億美元",
-      "source": "gcaptain.com",
-      "time": "00:40",
-      "link": "https://gcaptain.com/trump-sees-us-oil-producers-spending-billions-in-venezuela/"
-    },
-    {
-      "title": "在經歷了 2025 年的艱難之後，美聯儲在未來一年將面臨一系列挑戰",
-      "source": "CNBC",
-      "time": "14:37",
-      "link": "https://www.cnbc.com/2026/01/03/federal-reserve-powell-face-challenges-in-2026.html"
-    },
-    {
-      "title": "Daniela Amodei 告訴 CNBC，Anthropic 的“少花錢多辦事”賭注使其始終處於人工智能前沿",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/01/03/anthropic-daniela-amodei-do-more-with-less-bet.html"
-    },
-    {
-      "title": "分析師表示，一些 ETF 會在價格上展開競爭，但費用不應總是“推動投資決策”",
-      "source": "CNBC",
-      "time": "19:17",
-      "link": "https://www.cnbc.com/2026/01/02/etf-fees.html"
     }
   ]
 }
