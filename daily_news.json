@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-17 00:45",
+  "update_time": "2026-01-18 00:52",
   "crypto_fng": {
-    "value": "50",
+    "value": "49",
     "value_classification": "Neutral",
-    "timestamp": "1768608000",
-    "time_until_update": "83692"
+    "timestamp": "1768694400",
+    "time_until_update": "83229"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 95449.22,
-        "change": -101.97,
-        "percent": -0.11,
-        "rsi": "67.8",
+        "price": 95056.72,
+        "change": -468.4,
+        "percent": -0.49,
+        "rsi": "64.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3290.5,
-        "change": -26.6,
-        "percent": -0.8,
-        "rsi": "60.7",
+        "price": 3303.18,
+        "change": 7.7,
+        "percent": 0.23,
+        "rsi": "61.4",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 144.36,
-        "change": 2.02,
-        "percent": 1.42,
-        "rsi": "66.8",
+        "price": 143.44,
+        "change": -1.42,
+        "percent": -0.98,
+        "rsi": "63.6",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6977.75,
-        "change": -4.0,
-        "percent": -0.06,
-        "rsi": "49.8",
+        "price": 6976.75,
+        "change": -5.0,
+        "percent": -0.07,
+        "rsi": "49.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25681.25,
-        "change": -24.5,
-        "percent": -0.1,
-        "rsi": "44.9",
+        "price": 25689.0,
+        "change": -16.75,
+        "percent": -0.07,
+        "rsi": "45.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49554.0,
-        "change": -85.0,
-        "percent": -0.17,
-        "rsi": "57.1",
+        "price": 49547.0,
+        "change": -92.0,
+        "percent": -0.19,
+        "rsi": "57.0",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.38,
-        "change": 0.06,
-        "percent": 0.06,
-        "rsi": "80.9",
+        "price": 99.39,
+        "change": 0.07,
+        "percent": 0.07,
+        "rsi": "81.0",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4601.1,
-        "change": -15.2,
-        "percent": -0.33,
-        "rsi": "54.9",
+        "price": 4588.4,
+        "change": -27.9,
+        "percent": -0.6,
+        "rsi": "54.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 59.22,
-        "change": 0.03,
-        "percent": 0.05,
-        "rsi": "58.7",
+        "price": 59.44,
+        "change": 0.25,
+        "percent": 0.42,
+        "rsi": "59.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.85,
-        "change": -0.1,
-        "percent": -1.67,
-        "rsi": "52.4",
+        "price": 5.79,
+        "change": -0.16,
+        "percent": -2.68,
+        "rsi": "50.6",
         "trend": "-"
       },
       {
@@ -214,6 +214,18 @@
   },
   "news": [
     {
+      "title": "專家表示，提高美國生物技術相對於中國生物技術的競爭力可能有助於罕見病患者",
+      "source": "CNBC",
+      "time": "14:58",
+      "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
+    },
+    {
+      "title": "《Morning Squawk》中的 AI 芯片貿易、Saks 破產困境、特朗普的醫療保健計劃等",
+      "source": "CNBC",
+      "time": "13:06",
+      "link": "https://www.cnbc.com/2026/01/16/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
       "title": "谷歌 DeepMind 首席執行官表示，中國人工智能模型僅落後美國“幾個月”",
       "source": "CNBC",
       "time": "23:30",
@@ -226,13 +238,13 @@
       "link": "https://www.cnbc.com/2026/01/15/four-year-college-loses-ground-community-college-gains-steam.html"
     },
     {
-      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，而特斯拉是其中的重要參與者",
+      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，特斯拉是其中的重要參與者",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/01/15/ford-gm-tesla-energy-storage.html"
     },
     {
-      "title": "特朗普在民意調查中的支持率下降，將共和黨人拉向經濟民粹主義。它可能無法拯救他們",
+      "title": "特朗普在民意調查中的支持率下降，將共和黨人推向經濟民粹主義。它可能無法拯救他們",
       "source": "CNBC",
       "time": "21:54",
       "link": "https://www.cnbc.com/2026/01/14/trump-republicans-economic-populism.html"
@@ -262,7 +274,7 @@
       "link": "https://www.cnbc.com/2026/01/13/meta-lays-off-vr-employees-underscoring-zuckerbergs-pivot-to-ai.html"
     },
     {
-      "title": "阿里巴巴支持的 PixVerse 推出實時人工智能視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
+      "title": "阿里巴巴支持的 PixVerse 推出實時 AI 視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
       "source": "CNBC",
       "time": "14:00",
       "link": "https://www.cnbc.com/2026/01/13/alibaba-backed-pixverse-real-time-ai-video-generation-tool-investors-startup-openai-sora.html"
@@ -298,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/01/12/trump-credit-card-interest-rate-cap.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "鮑威爾調查和全球熱點引發避險熱潮，金價突破 4,600 美元新高",
       "source": "CNBC",
       "time": "08:41",
       "link": "https://www.cnbc.com/2026/01/12/gold-record-haven-powell-venezuela-iran.html"
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "15:06",
       "link": "https://www.cnbc.com/2026/01/10/bitcoin-crypto-atm-scam-fraud-regulation.html"
-    },
-    {
-      "title": "活動人士埃利奧特 (Elliott) 重組了 Lululemon 的領導層。公司如何幫助重振這家運動休閒巨頭",
-      "source": "CNBC",
-      "time": "13:01",
-      "link": "https://www.cnbc.com/2026/01/10/how-activist-elliott-can-help-reinvigorate-athleisure-giant-lululemon.html"
-    },
-    {
-      "title": "2026年是減肥藥年。他們將如何重塑 GLP-1 市場",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/01/10/2026-is-the-year-of-obesity-pills-from-novo-nordisk-eli-lilly-.html"
     }
   ]
 }
