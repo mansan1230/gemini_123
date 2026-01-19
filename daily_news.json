@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-18 00:52",
+  "update_time": "2026-01-19 00:52",
   "crypto_fng": {
-    "value": "49",
-    "value_classification": "Neutral",
-    "timestamp": "1768694400",
-    "time_until_update": "83229"
+    "value": "44",
+    "value_classification": "Fear",
+    "timestamp": "1768780800",
+    "time_until_update": "83273"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53936.17,
-        "change": -174.33,
-        "percent": -0.32,
-        "rsi": "71.8",
+        "price": 53212.19,
+        "change": -723.98,
+        "percent": -1.34,
+        "rsi": "66.4",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 95056.72,
-        "change": -468.4,
-        "percent": -0.49,
-        "rsi": "64.7",
+        "price": 92804.27,
+        "change": -2295.65,
+        "percent": -2.41,
+        "rsi": "54.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3303.18,
-        "change": 7.7,
-        "percent": 0.23,
-        "rsi": "61.4",
+        "price": 3218.1,
+        "change": -90.77,
+        "percent": -2.74,
+        "rsi": "54.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 143.44,
-        "change": -1.42,
-        "percent": -0.98,
-        "rsi": "63.6",
+        "price": 134.0,
+        "change": -9.73,
+        "percent": -6.77,
+        "rsi": "50.1",
         "trend": "📈 多頭"
       }
     ],
@@ -113,25 +113,25 @@
       {
         "name": "📈 標普期貨",
         "price": 6976.75,
-        "change": -5.0,
-        "percent": -0.07,
-        "rsi": "49.6",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "53.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
         "price": 25689.0,
-        "change": -16.75,
-        "percent": -0.07,
-        "rsi": "45.1",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "48.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
         "price": 49547.0,
-        "change": -92.0,
-        "percent": -0.19,
-        "rsi": "57.0",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "60.8",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.39,
-        "change": 0.07,
-        "percent": 0.07,
-        "rsi": "81.0",
+        "price": 99.1,
+        "change": -0.29,
+        "percent": -0.3,
+        "rsi": "71.3",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.6,
-        "change": 0.19,
-        "percent": 0.12,
-        "rsi": "70.8",
+        "price": 157.56,
+        "change": -1.04,
+        "percent": -0.66,
+        "rsi": "58.2",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4588.4,
-        "change": -27.9,
-        "percent": -0.6,
-        "rsi": "54.0",
+        "price": 4595.4,
+        "change": 7.0,
+        "percent": 0.15,
+        "rsi": "74.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 59.44,
-        "change": 0.25,
-        "percent": 0.42,
-        "rsi": "59.3",
+        "price": 59.34,
+        "change": -0.1,
+        "percent": -0.17,
+        "rsi": "54.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.79,
-        "change": -0.16,
-        "percent": -2.68,
-        "rsi": "50.6",
+        "price": 5.83,
+        "change": 0.04,
+        "percent": 0.73,
+        "rsi": "61.1",
         "trend": "-"
       },
       {
@@ -214,13 +214,31 @@
   },
   "news": [
     {
+      "title": "以德克薩斯州、新罕布什爾州為首的美國各州競相證明他們可以將比特幣納入公共資產負債表",
+      "source": "CNBC",
+      "time": "15:35",
+      "link": "https://www.cnbc.com/2026/01/17/texas-us-states-budgets-bitcoin-crypto-strategic-reserve.html"
+    },
+    {
+      "title": "小公司正在迅速崛起，挑戰大型科技公司，成為人工智能的最佳行業",
+      "source": "CNBC",
+      "time": "15:28",
+      "link": "https://www.cnbc.com/2026/01/17/ai-power-demand-markets-investor-risk.html"
+    },
+    {
+      "title": "活動人士 Irenic 持有 Integer 股份。這是該公司下一步可能採取的行動",
+      "source": "CNBC",
+      "time": "14:18",
+      "link": "https://www.cnbc.com/2026/01/17/activist-irenic-takes-a-stake-in-integer-heres-what-could-be-next-for-the-company.html"
+    },
+    {
       "title": "專家表示，提高美國生物技術相對於中國生物技術的競爭力可能有助於罕見病患者",
       "source": "CNBC",
       "time": "14:58",
       "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
     },
     {
-      "title": "《Morning Squawk》中的 AI 芯片貿易、Saks 破產困境、特朗普的醫療保健計劃等",
+      "title": "《Morning Squawk》中的 AI 芯片貿易、薩克斯 (Saks) 破產困境、特朗普的醫療保健計劃等",
       "source": "CNBC",
       "time": "13:06",
       "link": "https://www.cnbc.com/2026/01/16/5-things-to-know-before-the-stock-market-opens.html"
@@ -238,13 +256,13 @@
       "link": "https://www.cnbc.com/2026/01/15/four-year-college-loses-ground-community-college-gains-steam.html"
     },
     {
-      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，特斯拉是其中的重要參與者",
+      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，而特斯拉是其中的重要參與者",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/01/15/ford-gm-tesla-energy-storage.html"
     },
     {
-      "title": "特朗普在民意調查中的支持率下降，將共和黨人推向經濟民粹主義。它可能無法拯救他們",
+      "title": "在民意調查中，特朗普將共和黨人拉向經濟民粹主義。它可能無法拯救他們",
       "source": "CNBC",
       "time": "21:54",
       "link": "https://www.cnbc.com/2026/01/14/trump-republicans-economic-populism.html"
@@ -274,7 +292,7 @@
       "link": "https://www.cnbc.com/2026/01/13/meta-lays-off-vr-employees-underscoring-zuckerbergs-pivot-to-ai.html"
     },
     {
-      "title": "阿里巴巴支持的 PixVerse 推出實時 AI 視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
+      "title": "阿里巴巴支持的 PixVerse 推出實時人工智能視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
       "source": "CNBC",
       "time": "14:00",
       "link": "https://www.cnbc.com/2026/01/13/alibaba-backed-pixverse-real-time-ai-video-generation-tool-investors-startup-openai-sora.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "08:41",
       "link": "https://www.cnbc.com/2026/01/12/gold-record-haven-powell-venezuela-iran.html"
-    },
-    {
-      "title": "英偉達和特斯拉通過不同的路徑追逐相同的自動駕駛目標",
-      "source": "Bloomberg",
-      "time": "04:09",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-10/nvidia-and-tesla-chase-same-self-driving-goal-via-varying-paths"
-    },
-    {
-      "title": "每個求職者面試時都應該準備回答的人工智能問題",
-      "source": "CNBC",
-      "time": "15:46",
-      "link": "https://www.cnbc.com/2026/01/10/jobs-careers-ai.html"
-    },
-    {
-      "title": "加密貨幣 ATM 在美國的日子可能屈指可數了",
-      "source": "CNBC",
-      "time": "15:06",
-      "link": "https://www.cnbc.com/2026/01/10/bitcoin-crypto-atm-scam-fraud-regulation.html"
     }
   ]
 }
