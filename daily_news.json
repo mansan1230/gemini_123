@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-19 00:52",
+  "update_time": "2026-01-20 00:45",
   "crypto_fng": {
-    "value": "44",
+    "value": "32",
     "value_classification": "Fear",
-    "timestamp": "1768780800",
-    "time_until_update": "83273"
+    "timestamp": "1768867200",
+    "time_until_update": "83653"
   },
   "data": {
     "indices": [
@@ -26,53 +26,53 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26844.96,
-        "change": -78.66,
-        "percent": -0.29,
-        "rsi": "65.7",
+        "price": 26563.9,
+        "change": -281.06,
+        "percent": -1.05,
+        "rsi": "63.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53212.19,
-        "change": -723.98,
-        "percent": -1.34,
-        "rsi": "66.4",
+        "price": 53005.85,
+        "change": -930.32,
+        "percent": -1.72,
+        "rsi": "64.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25297.13,
-        "change": -55.26,
-        "percent": -0.22,
-        "rsi": "86.4",
+        "price": 24959.06,
+        "change": -338.07,
+        "percent": -1.34,
+        "rsi": "68.5",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 92804.27,
-        "change": -2295.65,
-        "percent": -2.41,
-        "rsi": "54.2",
+        "price": 92674.03,
+        "change": -960.4,
+        "percent": -1.03,
+        "rsi": "45.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3218.1,
-        "change": -90.77,
-        "percent": -2.74,
-        "rsi": "54.5",
+        "price": 3189.49,
+        "change": -91.67,
+        "percent": -2.79,
+        "rsi": "47.7",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 134.0,
-        "change": -9.73,
-        "percent": -6.77,
-        "rsi": "50.1",
-        "trend": "📈 多頭"
+        "price": 133.71,
+        "change": -4.28,
+        "percent": -3.1,
+        "rsi": "44.9",
+        "trend": "震盪"
       }
     ],
     "shipping": [
@@ -112,36 +112,36 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6976.75,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "53.5",
+        "price": 6902.25,
+        "change": -74.5,
+        "percent": -1.07,
+        "rsi": "43.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25689.0,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "48.5",
+        "price": 25362.0,
+        "change": -327.0,
+        "percent": -1.27,
+        "rsi": "40.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49547.0,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "60.8",
+        "price": 49071.0,
+        "change": -476.0,
+        "percent": -0.96,
+        "rsi": "53.9",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.86,
-        "change": 0.02,
-        "percent": 0.13,
-        "rsi": "65.7",
+        "price": 18.84,
+        "change": 2.98,
+        "percent": 18.79,
+        "rsi": "74.3",
         "trend": "-"
       },
       {
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.1,
-        "change": -0.29,
-        "percent": -0.3,
-        "rsi": "71.3",
+        "price": 99.39,
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "80.8",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.56,
-        "change": -1.04,
-        "percent": -0.66,
-        "rsi": "58.2",
+        "price": 158.23,
+        "change": 0.69,
+        "percent": 0.44,
+        "rsi": "65.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4595.4,
-        "change": 7.0,
-        "percent": 0.15,
-        "rsi": "74.4",
+        "price": 4671.3,
+        "change": 82.9,
+        "percent": 1.81,
+        "rsi": "77.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 59.34,
-        "change": -0.1,
-        "percent": -0.17,
-        "rsi": "54.7",
+        "price": 59.47,
+        "change": 0.03,
+        "percent": 0.05,
+        "rsi": "55.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.83,
-        "change": 0.04,
-        "percent": 0.73,
-        "rsi": "61.1",
+        "price": 5.89,
+        "change": 0.1,
+        "percent": 1.72,
+        "rsi": "62.5",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "為什麼韓國麵條公司押注於海外的增長需求",
+      "source": "CNBC",
+      "time": "23:14",
+      "link": "https://www.cnbc.com/2026/01/19/south-korea-instant-noodles-ramyun-food-ramyeon-nongshim-samyang-buldak-ottogi-jin-ramen.html"
+    },
+    {
+      "title": "華爾街頂級分析師對這三隻股票的長期前景充滿信心",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/01/18/top-wall-street-analysts-are-confident-about-these-three-stocks-for-the-long-term.html"
+    },
     {
       "title": "以德克薩斯州、新罕布什爾州為首的美國各州競相證明他們可以將比特幣納入公共資產負債表",
       "source": "CNBC",
@@ -238,7 +250,7 @@
       "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
     },
     {
-      "title": "《Morning Squawk》中的 AI 芯片貿易、薩克斯 (Saks) 破產困境、特朗普的醫療保健計劃等",
+      "title": "《Morning Squawk》中的 AI 芯片貿易、Saks 破產困境、特朗普的醫療保健計劃等",
       "source": "CNBC",
       "time": "13:06",
       "link": "https://www.cnbc.com/2026/01/16/5-things-to-know-before-the-stock-market-opens.html"
@@ -256,13 +268,13 @@
       "link": "https://www.cnbc.com/2026/01/15/four-year-college-loses-ground-community-college-gains-steam.html"
     },
     {
-      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，而特斯拉是其中的重要參與者",
+      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，特斯拉是其中的重要參與者",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/01/15/ford-gm-tesla-energy-storage.html"
     },
     {
-      "title": "在民意調查中，特朗普將共和黨人拉向經濟民粹主義。它可能無法拯救他們",
+      "title": "特朗普在民意調查中的支持率下降，將共和黨人推向經濟民粹主義。它可能無法拯救他們",
       "source": "CNBC",
       "time": "21:54",
       "link": "https://www.cnbc.com/2026/01/14/trump-republicans-economic-populism.html"
@@ -292,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/01/13/meta-lays-off-vr-employees-underscoring-zuckerbergs-pivot-to-ai.html"
     },
     {
-      "title": "阿里巴巴支持的 PixVerse 推出實時人工智能視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
+      "title": "阿里巴巴支持的 PixVerse 推出實時 AI 視頻工具，中國競爭對手在速度和成本上超越 OpenAI",
       "source": "CNBC",
       "time": "14:00",
       "link": "https://www.cnbc.com/2026/01/13/alibaba-backed-pixverse-real-time-ai-video-generation-tool-investors-startup-openai-sora.html"
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "23:08",
       "link": "https://www.cnbc.com/2026/01/12/stock-market-today-live-updates.html"
-    },
-    {
-      "title": "特朗普設定 1 年期 10% 的信用卡利率上限——這對你的錢意味著什麼",
-      "source": "CNBC",
-      "time": "20:51",
-      "link": "https://www.cnbc.com/2026/01/12/trump-credit-card-interest-rate-cap.html"
-    },
-    {
-      "title": "鮑威爾調查和全球熱點引發避險熱潮，金價突破 4,600 美元新高",
-      "source": "CNBC",
-      "time": "08:41",
-      "link": "https://www.cnbc.com/2026/01/12/gold-record-haven-powell-venezuela-iran.html"
     }
   ]
 }
