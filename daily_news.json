@@ -1,110 +1,110 @@
 {
-  "update_time": "2026-01-22 00:48",
+  "update_time": "2026-01-23 00:48",
   "crypto_fng": {
-    "value": "20",
+    "value": "24",
     "value_classification": "Extreme Fear",
-    "timestamp": "1769040000",
-    "time_until_update": "83505"
+    "timestamp": "1769126400",
+    "time_until_update": "83481"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6875.62,
-        "change": 78.76,
-        "percent": 1.16,
-        "rsi": "48.0",
-        "trend": "震盪"
+        "price": 6913.35,
+        "change": 37.73,
+        "percent": 0.55,
+        "rsi": "56.6",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 23224.82,
-        "change": 270.5,
-        "percent": 1.18,
-        "rsi": "45.3",
+        "price": 23436.02,
+        "change": 211.2,
+        "percent": 0.91,
+        "rsi": "54.6",
         "trend": "震盪"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26585.06,
-        "change": 97.55,
-        "percent": 0.37,
-        "rsi": "65.4",
+        "price": 26629.96,
+        "change": 44.9,
+        "percent": 0.17,
+        "rsi": "56.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53401.75,
-        "change": 410.65,
-        "percent": 0.77,
-        "rsi": "64.8",
+        "price": 53749.7,
+        "change": 975.06,
+        "percent": 1.85,
+        "rsi": "66.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24560.98,
-        "change": -142.14,
-        "percent": -0.58,
-        "rsi": "51.8",
+        "price": 24856.47,
+        "change": 295.49,
+        "percent": 1.2,
+        "rsi": "57.3",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 89861.65,
-        "change": 1550.74,
-        "percent": 1.76,
-        "rsi": "45.9",
+        "price": 89444.87,
+        "change": 67.91,
+        "percent": 0.08,
+        "rsi": "45.3",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 3005.69,
-        "change": 70.09,
-        "percent": 2.39,
-        "rsi": "41.3",
+        "price": 2945.88,
+        "change": -33.02,
+        "percent": -1.11,
+        "rsi": "40.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 130.07,
-        "change": 4.36,
-        "percent": 3.47,
-        "rsi": "43.3",
+        "price": 128.15,
+        "change": -1.23,
+        "percent": -0.95,
+        "rsi": "38.8",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 10.07,
-        "change": -0.17,
-        "percent": -1.66,
-        "rsi": "71.5",
+        "price": 10.0,
+        "change": -0.07,
+        "percent": -0.7,
+        "rsi": "69.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 33.95,
-        "change": 0.65,
-        "percent": 1.96,
-        "rsi": "74.7",
+        "price": 34.05,
+        "change": 0.1,
+        "percent": 0.3,
+        "rsi": "77.8",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 22.47,
-        "change": 0.94,
-        "percent": 4.37,
-        "rsi": "57.5",
+        "price": 22.06,
+        "change": -0.41,
+        "percent": -1.82,
+        "rsi": "54.2",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.64,
-        "change": 0.09,
-        "percent": 0.78,
+        "price": 11.62,
+        "change": -0.02,
+        "percent": -0.17,
         "rsi": "52.7",
         "trend": "📈 多頭"
       }
@@ -112,107 +112,113 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6924.5,
-        "change": 95.0,
-        "percent": 1.39,
-        "rsi": "48.2",
+        "price": 6947.25,
+        "change": 37.25,
+        "percent": 0.54,
+        "rsi": "55.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25555.5,
-        "change": 426.25,
-        "percent": 1.7,
-        "rsi": "47.7",
+        "price": 25640.25,
+        "change": 169.25,
+        "percent": 0.66,
+        "rsi": "53.8",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49318.0,
-        "change": 652.0,
-        "percent": 1.34,
-        "rsi": "56.5",
+        "price": 49559.0,
+        "change": 294.0,
+        "percent": 0.6,
+        "rsi": "62.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.9,
-        "change": -3.19,
-        "percent": -15.88,
-        "rsi": "59.3",
+        "price": 15.64,
+        "change": -1.26,
+        "percent": -7.46,
+        "rsi": "52.4",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
         "price": 4.25,
-        "change": -0.04,
-        "percent": -0.98,
-        "rsi": "63.6",
+        "change": -0.0,
+        "percent": -0.09,
+        "rsi": "60.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.79,
-        "change": 0.15,
-        "percent": 0.15,
-        "rsi": "59.5",
+        "price": 98.27,
+        "change": -0.49,
+        "percent": -0.5,
+        "rsi": "49.8",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.3,
-        "change": 0.13,
-        "percent": 0.09,
-        "rsi": "62.4",
+        "price": 158.53,
+        "change": 0.08,
+        "percent": 0.05,
+        "rsi": "62.2",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4786.0,
-        "change": 26.4,
-        "percent": 0.55,
-        "rsi": "79.7",
+        "price": 4955.2,
+        "change": 123.4,
+        "percent": 2.55,
+        "rsi": "88.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 60.5,
-        "change": 0.16,
-        "percent": 0.27,
-        "rsi": "59.0",
+        "price": 59.65,
+        "change": -0.97,
+        "percent": -1.6,
+        "rsi": "57.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.78,
-        "change": 0.01,
-        "percent": 0.18,
-        "rsi": "52.2",
+        "price": 5.81,
+        "change": 0.08,
+        "percent": 1.47,
+        "rsi": "57.1",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 143.81,
-        "change": 1.97,
-        "percent": 1.39,
-        "rsi": "45.5",
+        "price": 144.88,
+        "change": 1.07,
+        "percent": 0.74,
+        "rsi": "52.6",
         "trend": "震盪"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 53.46,
-        "change": 0.26,
-        "percent": 0.49,
-        "rsi": "37.1",
+        "price": 53.81,
+        "change": 0.35,
+        "percent": 0.65,
+        "rsi": "42.7",
         "trend": "震盪"
       }
     ]
   },
   "news": [
+    {
+      "title": "健康回報：Structure Therapeutics 首席執行官談其減肥藥、GLP-1 的組合和未來",
+      "source": "CNBC",
+      "time": "15:05",
+      "link": "https://www.cnbc.com/2026/01/21/healthy-returns-structure-therapeutics-ceo-on-obesity-pill-and-more.html"
+    },
     {
       "title": "藥品定價、專利損失和交易：以下是製藥公司高管對行業未來的看法",
       "source": "CNBC",
@@ -274,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/01/17/ai-power-demand-markets-investor-risk.html"
     },
     {
-      "title": "活動人士 Irenic 持有 Integer 股份。這是該公司下一步可能採取的行動",
+      "title": "活動家 Irenic 持有 Integer 股份。以下是該公司下一步可能採取的行動",
       "source": "CNBC",
       "time": "14:18",
       "link": "https://www.cnbc.com/2026/01/17/activist-irenic-takes-a-stake-in-integer-heres-what-could-be-next-for-the-company.html"
@@ -286,7 +292,7 @@
       "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
     },
     {
-      "title": "《Morning Squawk》中的 AI 芯片貿易、薩克斯 (Saks) 破產困境、特朗普的醫療保健計劃等",
+      "title": "《Morning Squawk》中的 AI 芯片貿易、Saks 破產困境、特朗普的醫療保健計劃等",
       "source": "CNBC",
       "time": "13:06",
       "link": "https://www.cnbc.com/2026/01/16/5-things-to-know-before-the-stock-market-opens.html"
@@ -304,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/01/15/four-year-college-loses-ground-community-college-gains-steam.html"
     },
     {
-      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，而特斯拉是其中的重要參與者",
+      "title": "福特和通用汽車等汽車製造商正在涉足一個全新的業務，特斯拉是其中的重要參與者",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/01/15/ford-gm-tesla-energy-storage.html"
@@ -326,12 +332,6 @@
       "source": "CNBC",
       "time": "18:10",
       "link": "https://www.cnbc.com/2026/01/14/google-launches-personal-intelligence-in-gemini-app-challenging-apple.html"
-    },
-    {
-      "title": "銀礦股上漲，金屬價格突破 90 美元里程碑",
-      "source": "CNBC",
-      "time": "11:32",
-      "link": "https://www.cnbc.com/2026/01/14/silver-mining-stocks-jump-as-metal-holds-above-90-milestone.html"
     }
   ]
 }
