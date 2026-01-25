@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-24 00:45",
+  "update_time": "2026-01-25 00:54",
   "crypto_fng": {
     "value": "25",
     "value_classification": "Extreme Fear",
-    "timestamp": "1769212800",
-    "time_until_update": "83642"
+    "timestamp": "1769299200",
+    "time_until_update": "83157"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 89410.67,
-        "change": -51.78,
-        "percent": -0.06,
-        "rsi": "46.7",
-        "trend": "震盪"
+        "price": 89141.17,
+        "change": -362.7,
+        "percent": -0.41,
+        "rsi": "46.3",
+        "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2949.8,
-        "change": 0.17,
-        "percent": 0.01,
-        "rsi": "42.1",
+        "price": 2951.85,
+        "change": -1.41,
+        "percent": -0.05,
+        "rsi": "42.3",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 127.4,
-        "change": -0.89,
-        "percent": -0.69,
-        "rsi": "40.4",
+        "price": 126.98,
+        "change": -0.39,
+        "percent": -0.3,
+        "rsi": "40.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6933.75,
-        "change": -11.25,
-        "percent": -0.16,
-        "rsi": "53.2",
+        "price": 6945.75,
+        "change": 0.75,
+        "percent": 0.01,
+        "rsi": "54.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25680.5,
-        "change": 22.25,
-        "percent": 0.09,
-        "rsi": "56.1",
+        "price": 25738.25,
+        "change": 80.0,
+        "percent": 0.31,
+        "rsi": "57.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49180.0,
-        "change": -378.0,
-        "percent": -0.76,
-        "rsi": "55.5",
+        "price": 49263.0,
+        "change": -295.0,
+        "percent": -0.6,
+        "rsi": "56.4",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.46,
-        "change": -0.9,
-        "percent": -0.92,
-        "rsi": "37.9",
+        "price": 97.6,
+        "change": -0.76,
+        "percent": -0.77,
+        "rsi": "39.3",
         "trend": "📉 空頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4983.1,
-        "change": 74.3,
-        "percent": 1.51,
-        "rsi": "89.8",
+        "price": 4976.2,
+        "change": 67.4,
+        "percent": 1.37,
+        "rsi": "89.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 61.28,
-        "change": 1.92,
-        "percent": 3.23,
-        "rsi": "61.8",
+        "price": 61.07,
+        "change": 1.71,
+        "percent": 2.88,
+        "rsi": "61.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.94,
-        "change": 0.19,
-        "percent": 3.39,
-        "rsi": "60.5",
+        "price": 5.91,
+        "change": 0.17,
+        "percent": 2.93,
+        "rsi": "59.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,48 @@
     ]
   },
   "news": [
+    {
+      "title": "特朗普推動格陵蘭礦權可能會阻止中國獲取稀土",
+      "source": "CNBC",
+      "time": "14:03",
+      "link": "https://www.cnbc.com/2026/01/23/trump-greenland-china-rare-earth-mineral.html"
+    },
+    {
+      "title": "為什麼商業地產貸款的利基類別突然出現創紀錄的交易",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/01/23/c-pace-cre-lending-record-deals.html"
+    },
+    {
+      "title": "肥胖藥物製造商接下來在市場上看到的是什麼：更多的藥物、更容易獲得和藥物組合",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/01/23/weight-loss-glp-1-drugs-next-steps-for-eli-lilly-novo-nordisk-pfizer.html"
+    },
+    {
+      "title": "印度最大的航空公司因外彙和其他撥備而盈利暴跌 78%，股價下跌",
+      "source": "CNBC",
+      "time": "08:29",
+      "link": "https://www.cnbc.com/2026/01/23/indias-largest-airlines-sees-shares-drop-after-earnings-plunge-78percent-.html"
+    },
+    {
+      "title": "歐洲市場開盤低迷；烏克蘭總統澤倫斯基稱歐洲“迷失了”",
+      "source": "CNBC",
+      "time": "07:31",
+      "link": "https://www.cnbc.com/2026/01/23/european-markets-set-for-a-lackluster-open-geopolitics-in-focus-.html"
+    },
+    {
+      "title": "競爭和成本壓力拖累股價 小米宣布25億港元回購",
+      "source": "CNBC",
+      "time": "07:14",
+      "link": "https://www.cnbc.com/2026/01/23/xiaomi-321-million-shares-rise-stock-buyback-ev-chip-pressure.html"
+    },
+    {
+      "title": "日本央行在提前大選前上調經濟增長預期，維持利率在 0.75%",
+      "source": "CNBC",
+      "time": "03:24",
+      "link": "https://www.cnbc.com/2026/01/23/boj-rate-decision-snap-election-takaichi-gdp.html"
+    },
     {
       "title": "派拉蒙打賭歐洲監管機構不會批准 WBD-Netflix。這是它的運作方式",
       "source": "CNBC",
@@ -290,48 +332,6 @@
       "source": "CNBC",
       "time": "12:30",
       "link": "https://www.cnbc.com/2026/01/18/top-wall-street-analysts-are-confident-about-these-three-stocks-for-the-long-term.html"
-    },
-    {
-      "title": "以德克薩斯州、新罕布什爾州為首的美國各州競相證明他們可以將比特幣納入公共資產負債表",
-      "source": "CNBC",
-      "time": "15:35",
-      "link": "https://www.cnbc.com/2026/01/17/texas-us-states-budgets-bitcoin-crypto-strategic-reserve.html"
-    },
-    {
-      "title": "小公司正在迅速崛起，挑戰大型科技公司，成為人工智能的最佳行業",
-      "source": "CNBC",
-      "time": "15:28",
-      "link": "https://www.cnbc.com/2026/01/17/ai-power-demand-markets-investor-risk.html"
-    },
-    {
-      "title": "活動人士 Irenic 持有 Integer 股份。這是該公司下一步可能採取的行動",
-      "source": "CNBC",
-      "time": "14:18",
-      "link": "https://www.cnbc.com/2026/01/17/activist-irenic-takes-a-stake-in-integer-heres-what-could-be-next-for-the-company.html"
-    },
-    {
-      "title": "專家表示，提高美國生物技術相對於中國生物技術的競爭力可能有助於罕見病患者",
-      "source": "CNBC",
-      "time": "14:58",
-      "link": "https://www.cnbc.com/2026/01/16/keeping-us-biotech-ahead-of-china-could-aid-rare-disease-patients-experts.html"
-    },
-    {
-      "title": "《Morning Squawk》中的 AI 芯片貿易、Saks 破產困境、特朗普的醫療保健計劃等",
-      "source": "CNBC",
-      "time": "13:06",
-      "link": "https://www.cnbc.com/2026/01/16/5-things-to-know-before-the-stock-market-opens.html"
-    },
-    {
-      "title": "谷歌 DeepMind 首席執行官表示，中國人工智能模型僅落後美國“幾個月”",
-      "source": "CNBC",
-      "time": "23:30",
-      "link": "https://www.cnbc.com/2026/01/16/google-deepmind-china-ai-demis-hassabis.html"
-    },
-    {
-      "title": "越來越多的學生選擇社區大學或證書而不是四年制學位",
-      "source": "CNBC",
-      "time": "17:38",
-      "link": "https://www.cnbc.com/2026/01/15/four-year-college-loses-ground-community-college-gains-steam.html"
     }
   ]
 }
