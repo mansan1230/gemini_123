@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-25 00:54",
+  "update_time": "2026-01-26 00:53",
   "crypto_fng": {
-    "value": "25",
+    "value": "20",
     "value_classification": "Extreme Fear",
-    "timestamp": "1769299200",
-    "time_until_update": "83157"
+    "timestamp": "1769385600",
+    "time_until_update": "83200"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53846.87,
-        "change": 157.98,
-        "percent": 0.29,
-        "rsi": "68.6",
+        "price": 53031.84,
+        "change": -815.03,
+        "percent": -1.51,
+        "rsi": "56.8",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 89141.17,
-        "change": -362.7,
-        "percent": -0.41,
-        "rsi": "46.3",
+        "price": 86608.76,
+        "change": -2501.98,
+        "percent": -2.81,
+        "rsi": "38.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2951.85,
-        "change": -1.41,
-        "percent": -0.05,
-        "rsi": "42.3",
+        "price": 2833.62,
+        "change": -115.12,
+        "percent": -3.9,
+        "rsi": "34.7",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 126.98,
-        "change": -0.39,
-        "percent": -0.3,
-        "rsi": "40.0",
+        "price": 119.0,
+        "change": -8.06,
+        "percent": -6.34,
+        "rsi": "28.7",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6945.75,
-        "change": 0.75,
-        "percent": 0.01,
-        "rsi": "54.5",
+        "price": 6918.25,
+        "change": -27.5,
+        "percent": -0.4,
+        "rsi": "47.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25738.25,
-        "change": 80.0,
-        "percent": 0.31,
-        "rsi": "57.2",
+        "price": 25575.25,
+        "change": -163.0,
+        "percent": -0.63,
+        "rsi": "49.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49263.0,
-        "change": -295.0,
-        "percent": -0.6,
-        "rsi": "56.4",
+        "price": 49152.0,
+        "change": -111.0,
+        "percent": -0.23,
+        "rsi": "49.2",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.6,
-        "change": -0.76,
-        "percent": -0.77,
-        "rsi": "39.3",
+        "price": 97.22,
+        "change": -0.38,
+        "percent": -0.39,
+        "rsi": "37.1",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.5,
-        "change": 0.05,
-        "percent": 0.03,
-        "rsi": "62.1",
+        "price": 154.74,
+        "change": -3.76,
+        "percent": -2.37,
+        "rsi": "40.2",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4976.2,
-        "change": 67.4,
-        "percent": 1.37,
-        "rsi": "89.7",
+        "price": 5049.8,
+        "change": 73.6,
+        "percent": 1.48,
+        "rsi": "89.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 61.07,
-        "change": 1.71,
-        "percent": 2.88,
-        "rsi": "61.3",
+        "price": 61.12,
+        "change": 0.05,
+        "percent": 0.08,
+        "rsi": "59.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.91,
-        "change": 0.17,
-        "percent": 2.93,
-        "rsi": "59.8",
+        "price": 5.99,
+        "change": 0.08,
+        "percent": 1.34,
+        "rsi": "52.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "人工智能的擔憂出現在治療過程中：“擔心被淘汰”",
+      "source": "CNBC",
+      "time": "14:43",
+      "link": "https://www.cnbc.com/2026/01/24/ai-artificial-intelligence-worries-therapy.html"
+    },
+    {
+      "title": "31 歲的移動便盆公司每年收入 430 萬美元：我們建立了“一家低技術、不受人工智能影響的企業”",
+      "source": "CNBC",
+      "time": "14:30",
+      "link": "https://www.cnbc.com/2026/01/24/porta-potty-company-owner-how-i-built-a-low-tech-ai-proof-business.html"
+    },
+    {
+      "title": "Activist Engaged Capital 準備對 BlackLine 董事會進行改組。事情將如何展開",
+      "source": "CNBC",
+      "time": "13:54",
+      "link": "https://www.cnbc.com/2026/01/24/activist-engaged-capital-is-poised-to-shake-up-the-board-at-blackline.html"
+    },
     {
       "title": "特朗普推動格陵蘭礦權可能會阻止中國獲取稀土",
       "source": "CNBC",
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "13:50",
       "link": "https://www.cnbc.com/2026/01/19/venezuelans-turned-to-tether-issued-usdt-stablecoin-as-its-government-wobbled.html"
-    },
-    {
-      "title": "吉普車製造商五歲生日，實施扭虧為盈，Stellantis 股價下跌 43%",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/01/19/stellantis-stock-stla-five-year-anniversary.html"
-    },
-    {
-      "title": "為什麼韓國麵條公司押注於海外的增長需求",
-      "source": "CNBC",
-      "time": "23:14",
-      "link": "https://www.cnbc.com/2026/01/19/south-korea-instant-noodles-ramyun-food-ramyeon-nongshim-samyang-buldak-ottogi-jin-ramen.html"
-    },
-    {
-      "title": "華爾街頂級分析師對這三隻股票的長期前景充滿信心",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2026/01/18/top-wall-street-analysts-are-confident-about-these-three-stocks-for-the-long-term.html"
     }
   ]
 }
