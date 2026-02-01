@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-01-31 00:53",
+  "update_time": "2026-02-01 01:06",
   "crypto_fng": {
-    "value": "20",
+    "value": "14",
     "value_classification": "Extreme Fear",
-    "timestamp": "1769817600",
-    "time_until_update": "83178"
+    "timestamp": "1769904000",
+    "time_until_update": "82419"
   },
   "data": {
     "indices": [
@@ -42,36 +42,36 @@
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24558.2,
-        "change": 248.74,
-        "percent": 1.02,
-        "rsi": "31.2",
+        "price": 24538.81,
+        "change": 229.35,
+        "percent": 0.94,
+        "rsi": "30.6",
         "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 84008.59,
-        "change": -553.0,
-        "percent": -0.65,
-        "rsi": "19.9",
+        "price": 78754.45,
+        "change": -5374.21,
+        "percent": -6.39,
+        "rsi": "15.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2705.03,
-        "change": -113.21,
-        "percent": -4.02,
-        "rsi": "23.7",
+        "price": 2446.43,
+        "change": -255.95,
+        "percent": -9.47,
+        "rsi": "18.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 117.6,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "23.4",
+        "price": 105.6,
+        "change": -11.76,
+        "percent": -10.02,
+        "rsi": "19.3",
         "trend": "📉 空頭"
       }
     ],
@@ -102,62 +102,62 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.35,
-        "change": -0.16,
-        "percent": -1.28,
-        "rsi": "58.2",
+        "price": 12.33,
+        "change": -0.18,
+        "percent": -1.44,
+        "rsi": "57.9",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6975.5,
-        "change": -17.25,
-        "percent": -0.25,
-        "rsi": "46.7",
+        "price": 6965.75,
+        "change": -27.0,
+        "percent": -0.39,
+        "rsi": "45.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25859.25,
-        "change": -140.0,
-        "percent": -0.54,
-        "rsi": "48.3",
+        "price": 25670.0,
+        "change": -329.25,
+        "percent": -1.27,
+        "rsi": "44.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49053.0,
-        "change": -117.0,
-        "percent": -0.24,
-        "rsi": "41.2",
+        "price": 49008.0,
+        "change": -162.0,
+        "percent": -0.33,
+        "rsi": "40.7",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 17.01,
-        "change": 0.13,
-        "percent": 0.77,
-        "rsi": "59.5",
+        "price": 17.44,
+        "change": 0.56,
+        "percent": 3.32,
+        "rsi": "60.8",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.25,
-        "change": 0.02,
-        "percent": 0.52,
-        "rsi": "60.2",
+        "price": 4.24,
+        "change": 0.01,
+        "percent": 0.33,
+        "rsi": "59.3",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 97.15,
-        "change": 0.87,
-        "percent": 0.9,
-        "rsi": "31.9",
+        "price": 96.99,
+        "change": 0.71,
+        "percent": 0.74,
+        "rsi": "29.9",
         "trend": "📉 空頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5067.5,
-        "change": -250.9,
-        "percent": -4.72,
-        "rsi": "74.4",
+        "price": 4713.9,
+        "change": -604.5,
+        "percent": -11.37,
+        "rsi": "57.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 65.55,
-        "change": 0.13,
-        "percent": 0.2,
-        "rsi": "70.8",
+        "price": 65.21,
+        "change": -0.21,
+        "percent": -0.32,
+        "rsi": "69.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.01,
-        "change": -0.16,
-        "percent": -2.6,
-        "rsi": "55.8",
+        "price": 5.9,
+        "change": -0.28,
+        "percent": -4.51,
+        "rsi": "51.4",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "埃克森美孚和雪佛龍年度利潤創 2021 年以來最低水平",
+      "source": "The Wall Street Journal",
+      "time": "16:38",
+      "link": "https://www.wsj.com/business/earnings/exxon-chevron-post-slimmest-annual-profits-since-2021-b9b2e7aa"
+    },
+    {
+      "title": "特朗普提名凱文·沃什接替杰羅姆·鮑威爾擔任美聯儲主席",
+      "source": "CNBC",
+      "time": "11:54",
+      "link": "https://www.cnbc.com/2026/01/30/trump-nominates-kevin-warsh-for-federal-reserve-chair-to-succeed-jerome-powell.html"
+    },
+    {
+      "title": "創紀錄的亞洲ETF流入引發人們對黃金漲勢可持續性的擔憂",
+      "source": "Bloomberg",
+      "time": "04:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-30/gold-s-record-inflows-from-asian-etfs-seen-by-some-as-warning"
+    },
+    {
+      "title": "阿達尼希望在未來 3 年內籌集 100 億盧比",
+      "source": "Bloomberg",
+      "time": "03:42",
+      "link": "https://www.bloomberg.com/news/articles/2026-01-29/adani-pivots-to-local-debt-with-ambition-of-raising-10-billion"
+    },
     {
       "title": "約克太空公司以每股 38 美元的價格開始交易，首席執行官吹捧“金頂”潛力",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "06:44",
       "link": "https://www.coindesk.com/markets/2026/01/28/btc-eth-sol-move-higher-as-markets-eye-fed-mag-7-earnings-and-weaker-dollar"
-    },
-    {
-      "title": "隨著核能發展的增長，印度可能會訂購更多國產反應堆",
-      "source": "Bloomberg",
-      "time": "03:53",
-      "link": "https://www.bloomberg.com/news/articles/2026-01-28/india-could-order-more-homegrown-reactors-as-nuclear-push-grows"
-    },
-    {
-      "title": "DeepSeek 一年後，從阿里巴巴到 Moonshot 等中國人工智能公司競相發布新模型",
-      "source": "CNBC",
-      "time": "02:49",
-      "link": "https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html"
-    },
-    {
-      "title": "Mozilla 正在建立人工智能“反叛聯盟”，以對抗行業重量級 OpenAI、Anthropic",
-      "source": "CNBC",
-      "time": "17:00",
-      "link": "https://www.cnbc.com/2026/01/27/mozilla-building-an-ai-rebel-alliance-to-take-on-openai-anthropic-.html"
-    },
-    {
-      "title": "比特幣看漲押注現在很划算，每週損失 7% 凸顯看跌趨勢",
-      "source": "CoinDesk",
-      "time": "12:29",
-      "link": "https://www.coindesk.com/daybook-us/2026/01/27/bitcoin-bullish-bets-now-a-bargain-as-7-weekly-loss-underlines-bearish-trend"
     }
   ]
 }
