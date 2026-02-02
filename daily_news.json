@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-01 01:06",
+  "update_time": "2026-02-02 00:59",
   "crypto_fng": {
     "value": "14",
     "value_classification": "Extreme Fear",
-    "timestamp": "1769904000",
-    "time_until_update": "82419"
+    "timestamp": "1769990400",
+    "time_until_update": "82825"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 78754.45,
-        "change": -5374.21,
-        "percent": -6.39,
-        "rsi": "15.9",
+        "price": 77586.71,
+        "change": -1034.41,
+        "percent": -1.32,
+        "rsi": "16.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2446.43,
-        "change": -255.95,
-        "percent": -9.47,
-        "rsi": "18.5",
+        "price": 2292.76,
+        "change": -152.33,
+        "percent": -6.23,
+        "rsi": "16.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 105.6,
-        "change": -11.76,
-        "percent": -10.02,
-        "rsi": "19.3",
+        "price": 102.25,
+        "change": -3.19,
+        "percent": -3.03,
+        "rsi": "20.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6965.75,
-        "change": -27.0,
-        "percent": -0.39,
-        "rsi": "45.7",
+        "price": 6975.5,
+        "change": -17.25,
+        "percent": -0.25,
+        "rsi": "46.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25670.0,
-        "change": -329.25,
-        "percent": -1.27,
-        "rsi": "44.7",
+        "price": 25859.25,
+        "change": -140.0,
+        "percent": -0.54,
+        "rsi": "48.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49008.0,
-        "change": -162.0,
-        "percent": -0.33,
-        "rsi": "40.7",
+        "price": 49053.0,
+        "change": -117.0,
+        "percent": -0.24,
+        "rsi": "41.2",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 96.99,
-        "change": 0.71,
-        "percent": 0.74,
-        "rsi": "29.9",
+        "price": 97.08,
+        "change": 0.1,
+        "percent": 0.1,
+        "rsi": "32.8",
         "trend": "📉 空頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4713.9,
-        "change": -604.5,
-        "percent": -11.37,
-        "rsi": "57.3",
+        "price": 5067.5,
+        "change": -250.9,
+        "percent": -4.72,
+        "rsi": "74.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 65.21,
-        "change": -0.21,
-        "percent": -0.32,
-        "rsi": "69.6",
+        "price": 65.55,
+        "change": 0.13,
+        "percent": 0.2,
+        "rsi": "70.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.9,
-        "change": -0.28,
-        "percent": -4.51,
-        "rsi": "51.4",
+        "price": 6.01,
+        "change": -0.16,
+        "percent": -2.6,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,36 @@
     ]
   },
   "news": [
+    {
+      "title": "邁克爾·塞勒 (Michael Saylor) 的比特幣堆棧正式被淹沒，但這就是為什麼他可能不會按下緊急按鈕",
+      "source": "CoinDesk",
+      "time": "21:08",
+      "link": "https://www.coindesk.com/business/2026/01/31/michael-saylor-s-bitcoin-stack-is-officially-underwater-but-here-s-why-he-likely-won-t-reach-for-the-panic-button"
+    },
+    {
+      "title": "去中心化人工智能培訓將如何為數字智能創造新的資產類別",
+      "source": "CoinDesk",
+      "time": "18:20",
+      "link": "https://www.coindesk.com/opinion/2026/01/31/how-decentralized-ai-training-will-create-a-new-asset-class-for-digital-intelligence"
+    },
+    {
+      "title": "Glassnode 警告價格進一步崩潰，比特幣突破關鍵支撐位",
+      "source": "CoinDesk",
+      "time": "17:14",
+      "link": "https://www.coindesk.com/markets/2026/01/31/bitcoin-breakdown-opens-path-to-usd80-000-true-market-mean-glassnode-says"
+    },
+    {
+      "title": "活動人士 Dan Loeb 撣掉毒筆上的灰塵，尋求 CoStar Group 董事會的更新",
+      "source": "CNBC",
+      "time": "14:09",
+      "link": "https://www.cnbc.com/2026/01/31/activist-dan-loeb-dusts-off-his-poison-pen-as-he-seeks-a-board-refresh-at-costar-group.html"
+    },
+    {
+      "title": "隨著消費者不再購買包裝零食，大型食品公司通過資產剝離和分拆而變得更加精簡",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/01/31/kraft-heinz-kellogg-breakups-show-big-food-is-getting-smaller.html"
+    },
     {
       "title": "埃克森美孚和雪佛龍年度利潤創 2021 年以來最低水平",
       "source": "The Wall Street Journal",
@@ -302,36 +332,6 @@
       "source": "CoinDesk",
       "time": "17:28",
       "link": "https://www.coindesk.com/markets/2026/01/28/circle-shares-rise-after-mizuho-upgrades-stock-on-polymarket-driven-usdc-growth"
-    },
-    {
-      "title": "富達投資推出自己的穩定幣，押注銀行業的未來取決於區塊鏈",
-      "source": "CoinDesk",
-      "time": "13:30",
-      "link": "https://www.coindesk.com/markets/2026/01/28/fidelity-investments-starts-its-own-stablecoin-in-a-massive-bet-that-future-of-banking-is-on-blockchain"
-    },
-    {
-      "title": "芯片股在豐厚的盈利和有關中國批准英偉達改變遊戲規則的報導後上漲",
-      "source": "CNBC",
-      "time": "11:36",
-      "link": "https://www.cnbc.com/2026/01/28/global-chip-stocks-today-nvidia-china-asml-sk-hynix.html"
-    },
-    {
-      "title": "自動卡車運輸初創公司 Waabi 融資 7.5 億美元，進軍機器人出租車領域",
-      "source": "CNBC",
-      "time": "11:00",
-      "link": "https://www.cnbc.com/2026/01/28/autonomous-startup-waabi-raises-750-million-to-expand-into-robotaxis.html"
-    },
-    {
-      "title": "OKX 將加密卡引入歐洲，穩定幣被視為支付的“默認”",
-      "source": "CoinDesk",
-      "time": "08:10",
-      "link": "https://www.coindesk.com/business/2026/01/28/stablecoins-seen-as-the-default-for-payments-as-okx-brings-crypto-card-to-europe"
-    },
-    {
-      "title": "隨著市場關注美聯儲、Mag 7 財報和美元疲軟，BTC、ETH、SOL 走高",
-      "source": "CoinDesk",
-      "time": "06:44",
-      "link": "https://www.coindesk.com/markets/2026/01/28/btc-eth-sol-move-higher-as-markets-eye-fed-mag-7-earnings-and-weaker-dollar"
     }
   ]
 }
