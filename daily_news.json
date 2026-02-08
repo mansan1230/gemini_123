@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-07 00:55",
+  "update_time": "2026-02-08 01:15",
   "crypto_fng": {
-    "value": "6",
+    "value": "7",
     "value_classification": "Extreme Fear",
-    "timestamp": "1770422400",
-    "time_until_update": "83091"
+    "timestamp": "1770508800",
+    "time_until_update": "81859"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 70212.54,
-        "change": 7510.44,
-        "percent": 11.98,
+        "price": 69275.95,
+        "change": -1279.45,
+        "percent": -1.81,
         "rsi": "27.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2053.14,
-        "change": 231.46,
-        "percent": 12.71,
-        "rsi": "26.7",
+        "price": 2088.82,
+        "change": 25.43,
+        "percent": 1.23,
+        "rsi": "28.1",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 86.68,
-        "change": 8.49,
-        "percent": 10.86,
-        "rsi": "25.0",
+        "price": 87.62,
+        "change": 0.16,
+        "percent": 0.18,
+        "rsi": "26.0",
         "trend": "📉 空頭"
       }
     ],
@@ -102,34 +102,34 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.06,
-        "change": -0.03,
-        "percent": -0.25,
-        "rsi": "58.6",
+        "price": 12.09,
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "59.1",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6945.75,
-        "change": 125.0,
-        "percent": 1.83,
-        "rsi": "47.8",
+        "price": 6952.75,
+        "change": 132.0,
+        "percent": 1.94,
+        "rsi": "48.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25107.75,
-        "change": 456.75,
-        "percent": 1.85,
-        "rsi": "42.6",
+        "price": 25163.25,
+        "change": 512.25,
+        "percent": 2.08,
+        "rsi": "43.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50201.0,
-        "change": 1203.0,
+        "price": 50205.0,
+        "change": 1207.0,
         "percent": 2.46,
         "rsi": "55.8",
         "trend": "-"
@@ -138,10 +138,10 @@
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 17.76,
-        "change": -4.01,
-        "percent": -18.42,
-        "rsi": "54.5",
+        "price": 20.37,
+        "change": -1.4,
+        "percent": -6.43,
+        "rsi": "62.2",
         "trend": "-"
       },
       {
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.68,
-        "change": -0.14,
-        "percent": -0.14,
-        "rsi": "35.3",
+        "price": 97.63,
+        "change": -0.19,
+        "percent": -0.19,
+        "rsi": "35.0",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4988.6,
-        "change": 127.2,
-        "percent": 2.62,
-        "rsi": "60.5",
+        "price": 4951.2,
+        "change": 89.8,
+        "percent": 1.85,
+        "rsi": "59.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 63.5,
-        "change": 0.21,
-        "percent": 0.33,
-        "rsi": "61.5",
+        "price": 63.55,
+        "change": 0.26,
+        "percent": 0.41,
+        "rsi": "61.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.89,
-        "change": 0.09,
-        "percent": 1.53,
-        "rsi": "52.7",
+        "price": 5.86,
+        "change": 0.06,
+        "percent": 1.11,
+        "rsi": "52.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,48 @@
     ]
   },
   "news": [
+    {
+      "title": "以下是華爾街分析師在第四季度大幅虧損後對戰略的評價",
+      "source": "CoinDesk",
+      "time": "17:00",
+      "link": "https://www.coindesk.com/markets/2026/02/06/here-s-what-wall-street-analysts-are-saying-about-strategy-after-massive-q4-loss"
+    },
+    {
+      "title": "以下是華爾街分析師在 IREN 盈利未達預期後的言論",
+      "source": "CoinDesk",
+      "time": "14:53",
+      "link": "https://www.coindesk.com/markets/2026/02/06/here-s-what-wall-street-analysts-are-saying-after-iren-s-earnings-miss"
+    },
+    {
+      "title": "Stellantis首席執行官表示，通過260億美元的重組，汽車製造商將更加強大",
+      "source": "CNBC",
+      "time": "13:32",
+      "link": "https://www.cnbc.com/2026/02/06/stellantis-stla-ceo-antonio-filosa.html"
+    },
+    {
+      "title": "在 Novo 發出法律威脅後，Hims & Hers 股價下跌 8%。這是最新的",
+      "source": "CNBC",
+      "time": "11:44",
+      "link": "https://www.cnbc.com/2026/02/06/wegovy-hims-hers-stock-novo-nordisk-pill-latest.html"
+    },
+    {
+      "title": "比特幣礦商 MARA 將 8700 萬美元的 BTC 轉移到各個交易平台和交易所：Arkham",
+      "source": "CoinDesk",
+      "time": "04:43",
+      "link": "https://www.coindesk.com/markets/2026/02/06/bitcoin-miner-mara-moves-usd87-million-btc-to-various-trading-desks-and-exchanges"
+    },
+    {
+      "title": "為什麼亞馬遜首席執行官對 2000 億美元的支出計劃“充滿信心”",
+      "source": "CNBC",
+      "time": "02:35",
+      "link": "https://www.cnbc.com/2026/02/05/why-amazons-ceo-is-confident-with-200-billion-spending-plan.html"
+    },
+    {
+      "title": "CNBC 每日開盤：亞馬遜預計的資本支出使其同行相形見絀——這已經令市場感到恐慌",
+      "source": "CNBC",
+      "time": "01:07",
+      "link": "https://www.cnbc.com/2026/02/06/cnbc-daily-open-amazons-projected-capex-dwarfs-that-of-its-peers-which-have-already-spooked-markets.html"
+    },
     {
       "title": "彭博社的埃里克·巴爾丘納斯 (Eric Balchunas) 表示，儘管 BTC 下跌 40%，但比特幣 ETF 幾乎沒有退縮",
       "source": "CoinDesk",
@@ -290,48 +332,6 @@
       "source": "CoinDesk",
       "time": "10:41",
       "link": "https://www.coindesk.com/markets/2026/02/05/bitcoin-trades-20-below-its-production-cost-as-miner-stress-intensifies"
-    },
-    {
-      "title": "CNBC 的印度內部時事通訊：美印貿易協議的事實和摩擦",
-      "source": "CNBC",
-      "time": "09:15",
-      "link": "https://www.cnbc.com/2026/02/05/cnbcs-inside-india-newsletter-the-facts-and-frictions-of-the-us-india-trade-deal.html"
-    },
-    {
-      "title": "與肥胖競爭對手 Novo 相比，禮來公司的銷售額激增",
-      "source": "Bloomberg",
-      "time": "04:23",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-04/lilly-sees-surging-sales-in-break-from-weight-loss-rival-novo"
-    },
-    {
-      "title": "浮動碳解決方案：海上二氧化碳注入和封存設施的作用",
-      "source": "gcaptain.com",
-      "time": "19:25",
-      "link": "https://gcaptain.com/floating-the-carbon-solution-the-role-of-offshore-co%e2%82%82-injection-and-storage-facilities/"
-    },
-    {
-      "title": "數百萬人可能會放棄 ACA 保險，並增加其他人的健康保險費用",
-      "source": "CNBC",
-      "time": "16:58",
-      "link": "https://www.cnbc.com/2026/02/04/millions-may-drop-aca-coverage-and-raise-health-costs-for-everyone-else.html"
-    },
-    {
-      "title": "先來看看 Rivian 價值 45,000 美元的 SUV R2。首席執行官 RJ Scaringe 提前一睹 CNBC 的風采",
-      "source": "CNBC",
-      "time": "15:07",
-      "link": "https://www.cnbc.com/2026/02/04/rivian-r2-suv-rj-scaringe.html"
-    },
-    {
-      "title": "花旗表示，由於 ETF 流動停滯，比特幣接近選舉前的底線",
-      "source": "CoinDesk",
-      "time": "12:57",
-      "link": "https://www.coindesk.com/markets/2026/02/04/bitcoin-nears-pre-election-floor-as-etf-flows-stall-citi-says"
-    },
-    {
-      "title": "這個鏈上指標已經確定了比特幣每個週期的底部",
-      "source": "CoinDesk",
-      "time": "12:05",
-      "link": "https://www.coindesk.com/markets/2026/02/04/this-onchain-metric-has-identified-the-bitcoin-bottom-every-cycle"
     }
   ]
 }
