@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-08 01:15",
+  "update_time": "2026-02-09 01:01",
   "crypto_fng": {
-    "value": "7",
+    "value": "14",
     "value_classification": "Extreme Fear",
-    "timestamp": "1770508800",
-    "time_until_update": "81859"
+    "timestamp": "1770595200",
+    "time_until_update": "82698"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 54253.68,
-        "change": 435.64,
-        "percent": 0.81,
-        "rsi": "54.5",
+        "price": 57007.08,
+        "change": 2753.4,
+        "percent": 5.08,
+        "rsi": "70.9",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 69275.95,
-        "change": -1279.45,
-        "percent": -1.81,
-        "rsi": "27.6",
+        "price": 70464.62,
+        "change": 1182.65,
+        "percent": 1.71,
+        "rsi": "31.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2088.82,
-        "change": 25.43,
-        "percent": 1.23,
-        "rsi": "28.1",
+        "price": 2083.69,
+        "change": -6.86,
+        "percent": -0.33,
+        "rsi": "30.1",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 87.62,
-        "change": 0.16,
-        "percent": 0.18,
-        "rsi": "26.0",
+        "price": 87.0,
+        "change": -0.64,
+        "percent": -0.73,
+        "rsi": "28.7",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6952.75,
-        "change": 132.0,
-        "percent": 1.94,
-        "rsi": "48.3",
+        "price": 6969.75,
+        "change": 17.0,
+        "percent": 0.24,
+        "rsi": "61.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25163.25,
-        "change": 512.25,
-        "percent": 2.08,
-        "rsi": "43.4",
+        "price": 25273.75,
+        "change": 110.5,
+        "percent": 0.44,
+        "rsi": "52.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50205.0,
-        "change": 1207.0,
-        "percent": 2.46,
-        "rsi": "55.8",
+        "price": 50290.0,
+        "change": 85.0,
+        "percent": 0.17,
+        "rsi": "66.6",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.63,
-        "change": -0.19,
-        "percent": -0.19,
-        "rsi": "35.0",
+        "price": 97.57,
+        "change": -0.06,
+        "percent": -0.06,
+        "rsi": "39.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 156.78,
-        "change": -0.13,
-        "percent": -0.08,
-        "rsi": "46.8",
+        "price": 156.81,
+        "change": 0.03,
+        "percent": 0.02,
+        "rsi": "43.8",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4951.2,
-        "change": 89.8,
-        "percent": 1.85,
-        "rsi": "59.7",
+        "price": 5042.0,
+        "change": 90.8,
+        "percent": 1.83,
+        "rsi": "57.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 63.55,
-        "change": 0.26,
-        "percent": 0.41,
-        "rsi": "61.6",
+        "price": 63.11,
+        "change": -0.44,
+        "percent": -0.69,
+        "rsi": "58.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.86,
-        "change": 0.06,
-        "percent": 1.11,
-        "rsi": "52.1",
+        "price": 5.92,
+        "change": 0.05,
+        "percent": 0.9,
+        "rsi": "53.9",
         "trend": "-"
       },
       {
@@ -214,13 +214,49 @@
   },
   "news": [
     {
-      "title": "以下是華爾街分析師在第四季度大幅虧損後對戰略的評價",
+      "title": "專注於 SOL 的 Forward Industries 經歷了一段艱難的時期，但 CIO 表示它已做好了成功的準備",
+      "source": "CoinDesk",
+      "time": "17:00",
+      "link": "https://www.coindesk.com/business/2026/02/07/sol-focused-forward-industries-has-had-a-tough-run-but-cio-says-it-s-positioned-for-success"
+    },
+    {
+      "title": "對沖基金資深人士加里·博德 (Gary Bode) 表示，比特幣暴跌 50% 並不是一場危機",
+      "source": "CoinDesk",
+      "time": "16:46",
+      "link": "https://www.coindesk.com/markets/2026/02/07/bitcoin-s-50-drop-isn-t-a-crisis-says-hedge-fund-veteran-gary-bode"
+    },
+    {
+      "title": "在“以任何價格出售”的潰敗中抹去了選舉後的漲幅後，比特幣跌破 70,000 美元",
+      "source": "CoinDesk",
+      "time": "16:08",
+      "link": "https://www.coindesk.com/markets/2026/02/07/bitcoin-falls-below-usd70-000-after-erasing-post-election-gains-during-sell-at-any-price-rout"
+    },
+    {
+      "title": "首先是季度拉鍊，現在是“401(k) 鯔魚”——Z 世代趨勢對經濟的評價",
+      "source": "CNBC",
+      "time": "14:30",
+      "link": "https://www.cnbc.com/2026/02/07/401k-mullet-quarter-zip-economy.html"
+    },
+    {
+      "title": "Fivespan 為 Appian 帶來了友好的行動主義，以提升股價並創造價值",
+      "source": "CNBC",
+      "time": "14:00",
+      "link": "https://www.cnbc.com/2026/02/07/fivespan-brings-amicable-activism-to-appian-in-a-bid-to-build-value.html"
+    },
+    {
+      "title": "忘記銀行賬戶：安永警告公司必須擁有錢包才能留住客戶",
+      "source": "CoinDesk",
+      "time": "14:00",
+      "link": "https://www.coindesk.com/business/2026/01/28/forget-the-bank-account-ey-warns-firms-they-must-own-the-wallet-to-keep-their-customers"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "17:00",
       "link": "https://www.coindesk.com/markets/2026/02/06/here-s-what-wall-street-analysts-are-saying-about-strategy-after-massive-q4-loss"
     },
     {
-      "title": "以下是華爾街分析師在 IREN 盈利未達預期後的言論",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "14:53",
       "link": "https://www.coindesk.com/markets/2026/02/06/here-s-what-wall-street-analysts-are-saying-after-iren-s-earnings-miss"
@@ -238,7 +274,7 @@
       "link": "https://www.cnbc.com/2026/02/06/wegovy-hims-hers-stock-novo-nordisk-pill-latest.html"
     },
     {
-      "title": "比特幣礦商 MARA 將 8700 萬美元的 BTC 轉移到各個交易平台和交易所：Arkham",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "04:43",
       "link": "https://www.coindesk.com/markets/2026/02/06/bitcoin-miner-mara-moves-usd87-million-btc-to-various-trading-desks-and-exchanges"
@@ -256,7 +292,7 @@
       "link": "https://www.cnbc.com/2026/02/06/cnbc-daily-open-amazons-projected-capex-dwarfs-that-of-its-peers-which-have-already-spooked-markets.html"
     },
     {
-      "title": "彭博社的埃里克·巴爾丘納斯 (Eric Balchunas) 表示，儘管 BTC 下跌 40%，但比特幣 ETF 幾乎沒有退縮",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "23:39",
       "link": "https://www.coindesk.com/markets/2026/02/05/bitcoin-etfs-barely-flinch-as-btc-slides-40-bloomberg-s-eric-balchunas-says"
@@ -268,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/02/05/unretiring.html"
     },
     {
-      "title": "軟件股對人工智能工具的暴露程度有多大？我們對振動編碼進行了測試",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "20:59",
       "link": "https://www.cnbc.com/2026/02/05/how-exposed-are-software-stocks-to-ai-tools-we-tested-vibe-coding.html"
@@ -296,42 +332,6 @@
       "source": "CoinDesk",
       "time": "16:50",
       "link": "https://www.coindesk.com/markets/2026/02/05/strategy-has-usd6-5-billion-loss-on-btc-but-continues-trading-at-premium-to-value-of-its-assets"
-    },
-    {
-      "title": "馬士基公佈第四季度海洋損失，因紅海重新開放測試成本紀律",
-      "source": "gcaptain.com",
-      "time": "16:01",
-      "link": "https://gcaptain.com/maersk-posts-q4-ocean-loss-as-red-sea-reopening-tests-cost-discipline/"
-    },
-    {
-      "title": "比特幣跌破 68,000 美元，散戶押注價格將進一步走低",
-      "source": "CoinDesk",
-      "time": "15:15",
-      "link": "https://www.coindesk.com/markets/2026/02/05/bitcoin-falls-under-usd69-000-with-retail-traders-betting-on-ever-lower-prices"
-    },
-    {
-      "title": "德意志銀行表示，比特幣的拋售表明人們失去了信念，而不是市場崩潰",
-      "source": "CoinDesk",
-      "time": "14:13",
-      "link": "https://www.coindesk.com/markets/2026/02/05/deutsche-bank-says-bitcoin-s-selloff-signals-a-loss-of-conviction-not-a-broken-market"
-    },
-    {
-      "title": "比特幣的有限供應無助於阻止拋售",
-      "source": "CoinDesk",
-      "time": "12:23",
-      "link": "https://www.coindesk.com/daybook-us/2026/02/05/bitcoin-s-limited-supply-won-t-help-stop-the-selloff"
-    },
-    {
-      "title": "“700英里的續航里程”：福特和Ram用什麼取代了他們的電動皮卡",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/02/05/ford-ram-pickup-trucks-erev-ev.html"
-    },
-    {
-      "title": "由於比特幣 70,000 美元的價格無法覆蓋 87,000 美元的生產成本，礦商受到擠壓",
-      "source": "CoinDesk",
-      "time": "10:41",
-      "link": "https://www.coindesk.com/markets/2026/02/05/bitcoin-trades-20-below-its-production-cost-as-miner-stress-intensifies"
     }
   ]
 }
