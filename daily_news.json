@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-14 00:57",
+  "update_time": "2026-02-15 01:02",
   "crypto_fng": {
-    "value": "9",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1771027200",
-    "time_until_update": "82950"
+    "timestamp": "1771113600",
+    "time_until_update": "82638"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 69068.8,
-        "change": 2846.96,
-        "percent": 4.3,
-        "rsi": "32.0",
+        "price": 69724.06,
+        "change": 866.22,
+        "percent": 1.26,
+        "rsi": "38.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2053.86,
-        "change": 106.92,
-        "percent": 5.49,
-        "rsi": "29.7",
+        "price": 2079.17,
+        "change": 30.65,
+        "percent": 1.5,
+        "rsi": "36.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.92,
-        "change": 6.57,
-        "percent": 8.39,
-        "rsi": "27.4",
+        "price": 88.2,
+        "change": 3.88,
+        "percent": 4.6,
+        "rsi": "36.3",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6845.25,
-        "change": -5.75,
-        "percent": -0.08,
-        "rsi": "38.5",
+        "price": 6850.5,
+        "change": -0.5,
+        "percent": -0.01,
+        "rsi": "38.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24773.5,
-        "change": 5.5,
-        "percent": 0.02,
-        "rsi": "35.1",
+        "price": 24803.25,
+        "change": 35.25,
+        "percent": 0.14,
+        "rsi": "35.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49526.0,
-        "change": 3.0,
-        "percent": 0.01,
-        "rsi": "49.5",
+        "price": 49569.0,
+        "change": 46.0,
+        "percent": 0.09,
+        "rsi": "50.0",
         "trend": "-"
       }
     ],
@@ -157,7 +157,7 @@
         "price": 96.88,
         "change": -0.05,
         "percent": -0.05,
-        "rsi": "48.2",
+        "rsi": "48.1",
         "trend": "📉 空頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5063.8,
-        "change": 140.1,
-        "percent": 2.85,
-        "rsi": "49.6",
+        "price": 5022.0,
+        "change": 98.3,
+        "percent": 2.0,
+        "rsi": "48.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 62.81,
-        "change": -0.03,
-        "percent": -0.05,
-        "rsi": "56.5",
+        "price": 62.89,
+        "change": 0.05,
+        "percent": 0.08,
+        "rsi": "56.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 5.79,
         "change": 0.02,
-        "percent": 0.29,
-        "rsi": "44.7",
+        "percent": 0.37,
+        "rsi": "44.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,42 @@
     ]
   },
   "news": [
+    {
+      "title": "中國科技巨頭在「農曆新年人工智慧大戰」中贈送金錢和汽車",
+      "source": "CNBC",
+      "time": "22:15",
+      "link": "https://www.cnbc.com/2026/02/13/china-ai-lunar-new-year-bytedance-baidu-tencent-alibaba.html"
+    },
+    {
+      "title": "在愛潑斯坦文件發布和關稅譴責中，川普受到了自己政黨的打擊",
+      "source": "CNBC",
+      "time": "20:43",
+      "link": "https://www.cnbc.com/2026/02/13/trump-republicans-epstein-tariffs-elections.html"
+    },
+    {
+      "title": "加拿大為何希望中國振興汽車製造業",
+      "source": "CNBC",
+      "time": "16:25",
+      "link": "https://www.cnbc.com/2026/02/13/canada-china-autos-evs.html"
+    },
+    {
+      "title": "專欄：世界經濟正在發展。太多的道路遠離川普而通往中國",
+      "source": "CNBC",
+      "time": "15:59",
+      "link": "https://www.cnbc.com/2026/02/13/us-china-trump-xi-jinping-global-economy-international-order-rupture.html"
+    },
+    {
+      "title": "以下是 2026 年 1 月的通膨明細——在一張圖表中",
+      "source": "CNBC",
+      "time": "15:59",
+      "link": "https://www.cnbc.com/2026/02/13/heres-the-inflation-breakdown-for-january-2026-in-one-chart.html"
+    },
+    {
+      "title": "包裝和物流公司如何實現倉庫自動化",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/02/13/shipping-auotmation-logistics-labor.html"
+    },
     {
       "title": "Waymo 開始部署下一代 Ojai 機器人計程車，以擴大其在美國的領先地位",
       "source": "CNBC",
@@ -292,46 +328,10 @@
       "link": "https://www.cnbc.com/2026/02/11/election-2026-democrats-populism-big-business-congress.html"
     },
     {
-      "title": "Aviva Investors 將與 Ripple 合作在 XRP Ledger 上代幣化資金",
+      "title": "Aviva Investors 將與 Ripple 合作，對 XRP Ledger 上的資金進行代幣化",
       "source": "CoinDesk",
       "time": "12:02",
       "link": "https://www.coindesk.com/business/2026/02/11/aviva-investors-to-tokenize-funds-on-xrp-ledger-in-ripple-partnership"
-    },
-    {
-      "title": "由於借款人面臨負擔能力挑戰，聯邦住房管理局抵押貸款需求上升",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/02/11/fha-mortgage-demand-rises-as-borrowers-face-affordability-challenges.html"
-    },
-    {
-      "title": "108美元石油威脅：中東衝突會擾亂世界經濟嗎？",
-      "source": "Bloomberg",
-      "time": "04:00",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-10/the-108-oil-war-can-the-middle-east-crash-the-world-economy"
-    },
-    {
-      "title": "高盛加大在印度的投資力度，投行押注得到回報",
-      "source": "Bloomberg",
-      "time": "01:52",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-10/goldman-s-push-bears-fruit-in-india-s-crowded-wall-street-field"
-    },
-    {
-      "title": "邁克爾·塞勒表示，對出售比特幣策略的擔憂“毫無根據”",
-      "source": "CoinDesk",
-      "time": "19:18",
-      "link": "https://www.coindesk.com/markets/2026/02/10/concerns-over-strategy-selling-bitcoin-are-unfounded-michael-saylor-says"
-    },
-    {
-      "title": "紐約聯邦儲備銀行研究顯示，信用卡債務高達 1.28 兆美元——與「K 形」經濟鴻溝一致",
-      "source": "CNBC",
-      "time": "17:28",
-      "link": "https://www.cnbc.com/2026/02/10/new-york-fed-credit-card-debt-tops-1point28-trillion.html"
-    },
-    {
-      "title": "投資者警告稱，英國最新的政治僵局可能會給英國債券市場插上一把“達摩克利斯之劍”",
-      "source": "CNBC",
-      "time": "16:37",
-      "link": "https://www.cnbc.com/2026/02/10/starmer-resign-mandelson-gilt-yields-bond-market-leadership-contest.html"
     }
   ]
 }
