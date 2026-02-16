@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-15 01:02",
+  "update_time": "2026-02-16 01:00",
   "crypto_fng": {
-    "value": "8",
+    "value": "12",
     "value_classification": "Extreme Fear",
-    "timestamp": "1771113600",
-    "time_until_update": "82638"
+    "timestamp": "1771200000",
+    "time_until_update": "82758"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 56941.97,
-        "change": -697.87,
-        "percent": -1.21,
-        "rsi": "66.0",
+        "price": 56912.3,
+        "change": -29.67,
+        "percent": -0.05,
+        "rsi": "73.0",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 69724.06,
-        "change": 866.22,
-        "percent": 1.26,
-        "rsi": "38.0",
+        "price": 68844.88,
+        "change": -922.74,
+        "percent": -1.32,
+        "rsi": "38.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2079.17,
-        "change": 30.65,
-        "percent": 1.5,
-        "rsi": "36.6",
+        "price": 1968.12,
+        "change": -117.89,
+        "percent": -5.65,
+        "rsi": "38.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 88.2,
-        "change": 3.88,
-        "percent": 4.6,
-        "rsi": "36.3",
+        "price": 86.15,
+        "change": -2.01,
+        "percent": -2.29,
+        "rsi": "37.8",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6850.5,
-        "change": -0.5,
-        "percent": -0.01,
-        "rsi": "38.8",
+        "price": 6862.5,
+        "change": 12.0,
+        "percent": 0.18,
+        "rsi": "37.2",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24803.25,
-        "change": 35.25,
-        "percent": 0.14,
-        "rsi": "35.6",
+        "price": 24835.0,
+        "change": 31.75,
+        "percent": 0.13,
+        "rsi": "32.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49569.0,
-        "change": 46.0,
-        "percent": 0.09,
-        "rsi": "50.0",
+        "price": 49606.0,
+        "change": 37.0,
+        "percent": 0.07,
+        "rsi": "55.9",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 96.88,
-        "change": -0.05,
-        "percent": -0.05,
-        "rsi": "48.1",
+        "price": 96.95,
+        "change": 0.07,
+        "percent": 0.07,
+        "rsi": "60.3",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 152.82,
-        "change": -0.45,
-        "percent": -0.29,
-        "rsi": "40.4",
+        "price": 153.1,
+        "change": 0.28,
+        "percent": 0.19,
+        "rsi": "44.7",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5022.0,
-        "change": 98.3,
-        "percent": 2.0,
-        "rsi": "48.4",
+        "price": 5036.4,
+        "change": 14.4,
+        "percent": 0.29,
+        "rsi": "48.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 62.89,
-        "change": 0.05,
-        "percent": 0.08,
-        "rsi": "56.7",
+        "price": 62.86,
+        "change": -0.03,
+        "percent": -0.05,
+        "rsi": "51.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.79,
-        "change": 0.02,
-        "percent": 0.37,
-        "rsi": "44.8",
+        "price": 5.78,
+        "change": -0.01,
+        "percent": -0.25,
+        "rsi": "48.5",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "研究顯示，房屋賣家在 70 歲時開始獲得更低的價格，而且隨著年齡的增長，房屋賣家的價格差距越來越大",
+      "source": "CNBC",
+      "time": "14:30",
+      "link": "https://www.cnbc.com/2026/02/14/home-sellers-start-getting-lower-prices-at-70-research-shows.html"
+    },
+    {
+      "title": "Polymarket 重返美國，推出免費雜貨店——了解它和其他預測市場",
+      "source": "CNBC",
+      "time": "14:00",
+      "link": "https://www.cnbc.com/2026/02/14/how-prediction-markets-work.html"
+    },
+    {
+      "title": "人工智慧新創公司希望在大型食品的測試廚房中打開食譜書",
+      "source": "CNBC",
+      "time": "13:44",
+      "link": "https://www.cnbc.com/2026/02/14/big-food-ai-recipes.html"
+    },
     {
       "title": "中國科技巨頭在「農曆新年人工智慧大戰」中贈送金錢和汽車",
       "source": "CNBC",
@@ -314,24 +332,6 @@
       "source": "CoinDesk",
       "time": "17:42",
       "link": "https://www.coindesk.com/policy/2026/02/11/sec-s-paul-atkins-grilled-on-crypto-enforcement-pull-back-including-with-justin-sun-tron"
-    },
-    {
-      "title": "以下是一月份就業報告的五個關鍵要點",
-      "source": "CNBC",
-      "time": "17:35",
-      "link": "https://www.cnbc.com/2026/02/11/here-are-the-five-key-takeaways-from-the-january-jobs-report.html"
-    },
-    {
-      "title": "隨著黨內中堅份子左轉，這些民主黨人還沒準備好放棄大企業",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/02/11/election-2026-democrats-populism-big-business-congress.html"
-    },
-    {
-      "title": "Aviva Investors 將與 Ripple 合作，對 XRP Ledger 上的資金進行代幣化",
-      "source": "CoinDesk",
-      "time": "12:02",
-      "link": "https://www.coindesk.com/business/2026/02/11/aviva-investors-to-tokenize-funds-on-xrp-ledger-in-ripple-partnership"
     }
   ]
 }
