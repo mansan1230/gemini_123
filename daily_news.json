@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-02-17 00:59",
+  "update_time": "2026-02-18 01:01",
   "crypto_fng": {
-    "value": "10",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1771286400",
-    "time_until_update": "82820"
+    "timestamp": "1771372800",
+    "time_until_update": "82692"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6836.17,
-        "change": 3.41,
-        "percent": 0.05,
-        "rsi": "40.3",
+        "price": 6843.22,
+        "change": 7.05,
+        "percent": 0.1,
+        "rsi": "38.0",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 22546.67,
-        "change": -50.48,
-        "percent": -0.22,
-        "rsi": "33.6",
+        "price": 22578.38,
+        "change": 31.71,
+        "percent": 0.14,
+        "rsi": "29.6",
         "trend": "📉 空頭"
       },
       {
@@ -34,122 +34,122 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 56584.5,
-        "change": -357.47,
-        "percent": -0.63,
-        "rsi": "70.4",
+        "price": 57070.13,
+        "change": 263.72,
+        "percent": 0.46,
+        "rsi": "71.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24800.91,
-        "change": -113.97,
-        "percent": -0.46,
-        "rsi": "47.9",
-        "trend": "震盪"
+        "price": 24998.4,
+        "change": 197.49,
+        "percent": 0.8,
+        "rsi": "53.7",
+        "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 68842.01,
-        "change": 53.82,
-        "percent": 0.08,
-        "rsi": "35.8",
+        "price": 67291.0,
+        "change": -1552.16,
+        "percent": -2.25,
+        "rsi": "37.4",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1996.94,
-        "change": 30.9,
-        "percent": 1.57,
-        "rsi": "36.3",
+        "price": 1981.12,
+        "change": -16.8,
+        "percent": -0.84,
+        "rsi": "39.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 86.77,
-        "change": 0.77,
-        "percent": 0.89,
-        "rsi": "34.7",
+        "price": 84.84,
+        "change": -1.59,
+        "percent": -1.84,
+        "rsi": "37.8",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.49,
+        "price": 11.68,
         "change": 0.19,
-        "percent": 1.68,
-        "rsi": "57.0",
+        "percent": 1.65,
+        "rsi": "55.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 37.81,
-        "change": 0.68,
-        "percent": 1.83,
-        "rsi": "78.4",
+        "price": 38.46,
+        "change": 0.65,
+        "percent": 1.72,
+        "rsi": "78.5",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 22.2,
-        "change": 1.02,
-        "percent": 4.82,
-        "rsi": "44.8",
+        "price": 27.85,
+        "change": 5.65,
+        "percent": 25.45,
+        "rsi": "70.1",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.13,
-        "change": 0.55,
-        "percent": 4.75,
-        "rsi": "56.0",
+        "price": 12.18,
+        "change": 0.05,
+        "percent": 0.41,
+        "rsi": "51.2",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6858.25,
-        "change": 7.75,
-        "percent": 0.11,
-        "rsi": "36.7",
+        "price": 6850.5,
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "35.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24802.25,
-        "change": -1.0,
-        "percent": -0.0,
-        "rsi": "31.4",
+        "price": 24715.5,
+        "change": -87.75,
+        "percent": -0.35,
+        "rsi": "30.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49605.0,
-        "change": 36.0,
-        "percent": 0.07,
-        "rsi": "55.9",
+        "price": 49554.0,
+        "change": -15.0,
+        "percent": -0.03,
+        "rsi": "55.2",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 21.2,
-        "change": 0.6,
-        "percent": 2.91,
-        "rsi": "64.6",
+        "price": 20.29,
+        "change": -0.31,
+        "percent": -1.5,
+        "rsi": "62.1",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.06,
-        "change": -0.05,
-        "percent": -1.17,
-        "rsi": "29.4",
+        "price": 4.05,
+        "change": -0.0,
+        "percent": -0.1,
+        "rsi": "27.2",
         "trend": "📉 空頭"
       },
       {
@@ -162,57 +162,75 @@
       },
       {
         "name": "💴 USD/JPY",
-        "price": 153.19,
-        "change": 0.41,
-        "percent": 0.27,
-        "rsi": "53.7",
+        "price": 153.27,
+        "change": -0.34,
+        "percent": -0.22,
+        "rsi": "50.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4989.1,
-        "change": -32.9,
-        "percent": -0.66,
-        "rsi": "47.6",
+        "price": 4898.0,
+        "change": -124.0,
+        "percent": -2.47,
+        "rsi": "45.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 63.7,
-        "change": 0.81,
-        "percent": 1.29,
-        "rsi": "54.1",
+        "price": 62.16,
+        "change": -0.73,
+        "percent": -1.16,
+        "rsi": "49.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.74,
-        "change": -0.05,
-        "percent": -0.86,
-        "rsi": "47.5",
+        "price": 5.68,
+        "change": -0.11,
+        "percent": -1.97,
+        "rsi": "45.8",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 139.56,
-        "change": 0.35,
-        "percent": 0.25,
-        "rsi": "40.0",
+        "price": 139.48,
+        "change": -0.08,
+        "percent": -0.06,
+        "rsi": "36.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 51.65,
-        "change": -0.04,
-        "percent": -0.08,
-        "rsi": "37.2",
+        "price": 52.2,
+        "change": 0.55,
+        "percent": 1.06,
+        "rsi": "44.3",
         "trend": "📉 空頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "解釋者：美國海事行動計畫及其對航運公司的意義",
+      "source": "gcaptain.com",
+      "time": "21:41",
+      "link": "https://gcaptain.com/explainer-the-us-maritime-action-plan-and-what-it-means-for-shipping-lines/"
+    },
+    {
+      "title": "中國的科技衝擊威脅美國人工智慧壟斷，而且“才剛開始”",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/02/16/chinas-tech-shock-ai-monopoly-us.html"
+    },
+    {
+      "title": "富裕世界日益嚴重的內亂對保險造成了影響",
+      "source": "Bloomberg",
+      "time": "11:16",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting"
+    },
     {
       "title": "華爾街頂級分析師推薦這些股息股票以獲得穩定的收入",
       "source": "CNBC",
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "09:10",
       "link": "https://www.cnbc.com/2026/02/12/inside-india-newsletter-india-us-russia-oil-purchases-trade-deal.html"
-    },
-    {
-      "title": "關稅和中國競爭導致全年獲利減半，梅賽德斯股價下跌 5%",
-      "source": "CNBC",
-      "time": "08:17",
-      "link": "https://www.cnbc.com/2026/02/12/mercedes-earnings-autos-tariffs-luxury-china.html"
-    },
-    {
-      "title": "BTS 回歸巡演帶動演唱會旅遊業發展，飯店搜尋量激增 6,700%",
-      "source": "CNBC",
-      "time": "07:29",
-      "link": "https://www.cnbc.com/2026/02/12/bts-global-tour-2026-concert-tourism-travel-bookings.html"
-    },
-    {
-      "title": "為什麼美國最大的汽車經銷商目前對中國汽車不感興趣",
-      "source": "CNBC",
-      "time": "20:49",
-      "link": "https://www.cnbc.com/2026/02/11/autos-chinese-car.html"
     }
   ]
 }
