@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-21 00:55",
+  "update_time": "2026-02-22 00:59",
   "crypto_fng": {
-    "value": "8",
+    "value": "9",
     "value_classification": "Extreme Fear",
-    "timestamp": "1771632000",
-    "time_until_update": "83051"
+    "timestamp": "1771718400",
+    "time_until_update": "82824"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 67833.61,
-        "change": 876.09,
-        "percent": 1.31,
-        "rsi": "40.7",
+        "price": 67856.95,
+        "change": -148.47,
+        "percent": -0.22,
+        "rsi": "44.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1962.4,
-        "change": 14.2,
-        "percent": 0.73,
-        "rsi": "41.1",
+        "price": 1971.24,
+        "change": 2.22,
+        "percent": 0.11,
+        "rsi": "39.1",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.38,
-        "change": 1.98,
-        "percent": 2.41,
-        "rsi": "44.8",
+        "price": 84.94,
+        "change": 0.31,
+        "percent": 0.36,
+        "rsi": "45.5",
         "trend": "📉 空頭"
       }
     ],
@@ -102,35 +102,35 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.58,
-        "change": 0.22,
-        "percent": 1.78,
-        "rsi": "54.4",
+        "price": 12.59,
+        "change": 0.23,
+        "percent": 1.86,
+        "rsi": "54.6",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6924.75,
-        "change": 47.75,
-        "percent": 0.69,
-        "rsi": "46.7",
+        "price": 6923.25,
+        "change": 46.25,
+        "percent": 0.67,
+        "rsi": "46.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25077.5,
-        "change": 218.75,
-        "percent": 0.88,
-        "rsi": "41.2",
+        "price": 25067.5,
+        "change": 208.75,
+        "percent": 0.84,
+        "rsi": "41.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49680.0,
-        "change": 222.0,
-        "percent": 0.45,
+        "price": 49674.0,
+        "change": 216.0,
+        "percent": 0.44,
         "rsi": "57.9",
         "trend": "-"
       }
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.79,
-        "change": -0.14,
-        "percent": -0.14,
-        "rsi": "61.2",
+        "price": 97.8,
+        "change": -0.13,
+        "percent": -0.13,
+        "rsi": "61.4",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5130.0,
-        "change": 154.1,
-        "percent": 3.1,
-        "rsi": "64.8",
+        "price": 5059.3,
+        "change": 83.4,
+        "percent": 1.68,
+        "rsi": "62.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 66.31,
-        "change": -0.12,
-        "percent": -0.18,
-        "rsi": "53.3",
+        "price": 66.39,
+        "change": -0.04,
+        "percent": -0.06,
+        "rsi": "53.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.87,
-        "change": 0.14,
-        "percent": 2.44,
-        "rsi": "49.2",
+        "price": 5.83,
+        "change": 0.1,
+        "percent": 1.76,
+        "rsi": "47.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,36 @@
     ]
   },
   "news": [
+    {
+      "title": "隨著 CME 的 24/7 加密貨幣交易舉措，比特幣週末拋售可能會結束",
+      "source": "CoinDesk",
+      "time": "13:00",
+      "link": "https://www.coindesk.com/markets/2026/02/21/bitcoin-s-weekend-selloff-may-be-over-with-cme-s-24-7-crypto-trading-move"
+    },
+    {
+      "title": "從「先鋒」到安全停車位：房車如何成為矽谷的住房安全網",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html"
+    },
+    {
+      "title": "科技下載：中國會贏得人工智慧競賽嗎？",
+      "source": "CNBC",
+      "time": "11:58",
+      "link": "https://www.cnbc.com/2026/02/20/tech-download-newsletter-china-ai-race.html"
+    },
+    {
+      "title": "現在誰在笑？中國的人形機器人在一年內從病毒式的跌跌撞撞到功夫翻轉",
+      "source": "CNBC",
+      "time": "08:27",
+      "link": "https://www.cnbc.com/2026/02/20/china-humanoid-robots-spring-festival-gala-unitree-tesla-ai-race.html"
+    },
+    {
+      "title": "Metaplanet 執行長反駁對比特幣策略和透明度的批評",
+      "source": "CoinDesk",
+      "time": "05:27",
+      "link": "https://www.coindesk.com/markets/2026/02/20/metaplanet-ceo-rebuts-critics-over-bitcoin-strategy-and-transparency"
+    },
     {
       "title": "由於交易者支付崩潰保護費用，比特幣穩定在 67,000 美元附近",
       "source": "CoinDesk",
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "14:15",
       "link": "https://www.cnbc.com/2026/02/17/used-car-affordability.html"
-    },
-    {
-      "title": "解釋者：美國海事行動計畫及其對航運公司的意義",
-      "source": "gcaptain.com",
-      "time": "21:41",
-      "link": "https://gcaptain.com/explainer-the-us-maritime-action-plan-and-what-it-means-for-shipping-lines/"
-    },
-    {
-      "title": "中國的科技衝擊威脅美國人工智慧壟斷，而且“才剛開始”",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2026/02/16/chinas-tech-shock-ai-monopoly-us.html"
-    },
-    {
-      "title": "富裕世界日益嚴重的內亂對保險造成了影響",
-      "source": "Bloomberg",
-      "time": "11:16",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-15/rich-world-s-growing-civil-unrest-comes-with-an-insurance-sting"
-    },
-    {
-      "title": "華爾街頂級分析師推薦這些股息股票以獲得穩定的收入",
-      "source": "CNBC",
-      "time": "13:47",
-      "link": "https://www.cnbc.com/2026/02/15/top-wall-street-analysts-recommend-these-stocks-for-consistent-income.html"
-    },
-    {
-      "title": "印度央行限制向經紀商發放貸款，打擊交易量",
-      "source": "Bloomberg",
-      "time": "03:44",
-      "link": "https://www.bloomberg.com/news/articles/2026-02-15/india-curbs-loans-extended-to-brokers-in-blow-to-trading-volumes"
     }
   ]
 }
