@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-22 00:59",
+  "update_time": "2026-02-23 01:00",
   "crypto_fng": {
-    "value": "9",
+    "value": "5",
     "value_classification": "Extreme Fear",
-    "timestamp": "1771718400",
-    "time_until_update": "82824"
+    "timestamp": "1771804800",
+    "time_until_update": "82791"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 67856.95,
-        "change": -148.47,
-        "percent": -0.22,
-        "rsi": "44.8",
+        "price": 66966.64,
+        "change": -1037.12,
+        "percent": -1.53,
+        "rsi": "37.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1971.24,
-        "change": 2.22,
-        "percent": 0.11,
-        "rsi": "39.1",
+        "price": 1938.56,
+        "change": -35.17,
+        "percent": -1.78,
+        "rsi": "37.2",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.94,
-        "change": 0.31,
-        "percent": 0.36,
-        "rsi": "45.5",
+        "price": 81.94,
+        "change": -3.27,
+        "percent": -3.84,
+        "rsi": "42.2",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6923.25,
-        "change": 46.25,
-        "percent": 0.67,
-        "rsi": "46.6",
+        "price": 6886.0,
+        "change": -37.25,
+        "percent": -0.54,
+        "rsi": "40.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25067.5,
-        "change": 208.75,
-        "percent": 0.84,
-        "rsi": "41.1",
+        "price": 24877.0,
+        "change": -190.5,
+        "percent": -0.76,
+        "rsi": "35.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49674.0,
-        "change": 216.0,
-        "percent": 0.44,
-        "rsi": "57.9",
+        "price": 49462.0,
+        "change": -212.0,
+        "percent": -0.43,
+        "rsi": "49.2",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.8,
-        "change": -0.13,
-        "percent": -0.13,
-        "rsi": "61.4",
+        "price": 97.44,
+        "change": -0.36,
+        "percent": -0.37,
+        "rsi": "47.4",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.16,
-        "change": 0.47,
-        "percent": 0.3,
-        "rsi": "49.8",
+        "price": 154.07,
+        "change": -1.09,
+        "percent": -0.7,
+        "rsi": "43.7",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5059.3,
-        "change": 83.4,
-        "percent": 1.68,
-        "rsi": "62.9",
+        "price": 5159.9,
+        "change": 100.6,
+        "percent": 1.99,
+        "rsi": "70.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 66.39,
-        "change": -0.04,
-        "percent": -0.06,
-        "rsi": "53.6",
+        "price": 65.72,
+        "change": -0.67,
+        "percent": -1.01,
+        "rsi": "62.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.83,
-        "change": 0.1,
-        "percent": 1.76,
-        "rsi": "47.9",
+        "price": 5.87,
+        "change": 0.04,
+        "percent": 0.75,
+        "rsi": "52.4",
         "trend": "-"
       },
       {
@@ -238,13 +238,13 @@
       "link": "https://www.cnbc.com/2026/02/20/china-humanoid-robots-spring-festival-gala-unitree-tesla-ai-race.html"
     },
     {
-      "title": "Metaplanet 執行長反駁對比特幣策略和透明度的批評",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "05:27",
       "link": "https://www.coindesk.com/markets/2026/02/20/metaplanet-ceo-rebuts-critics-over-bitcoin-strategy-and-transparency"
     },
     {
-      "title": "由於交易者支付崩潰保護費用，比特幣穩定在 67,000 美元附近",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "21:13",
       "link": "https://www.coindesk.com/markets/2026/02/19/bitcoin-steadies-near-usd67-000-as-traders-pay-for-crash-protection"
@@ -268,7 +268,7 @@
       "link": "https://www.cnbc.com/2026/02/19/doordash-stock-investment-ai-tech-earnings.html"
     },
     {
-      "title": "Figure 首次推出其代幣化股票，並擴大發行規模 1.5 億美元",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "13:27",
       "link": "https://www.coindesk.com/business/2026/02/19/figure-is-debuting-its-tokenized-stock-along-with-upsized-usd150-million-offering"
@@ -286,7 +286,7 @@
       "link": "https://www.cnbc.com/2026/02/19/cnbc-daily-open-positive-day-for-us-and-european-markets-amid-fed-minutes-and-ecb-developments.html"
     },
     {
-      "title": "量子的巨大飛躍使資料中心成為人們關注的焦點",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "06:02",
       "link": "https://www.cnbc.com/2026/02/19/quantum-computing-data-centers-ai-tech-microsoft.html"
@@ -316,7 +316,7 @@
       "link": "https://www.coindesk.com/business/2026/02/18/apex-group-to-pilot-trump-affiliated-wlfi-stablecoin-for-tokenized-funds"
     },
     {
-      "title": "微軟的布拉德史密斯表示，美國科技公司應該「擔心」中國公司的政府補貼",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:31",
       "link": "https://www.cnbc.com/2026/02/18/microsoft-president-brad-smith-chinese-ai-subsidies.html"
@@ -328,7 +328,7 @@
       "link": "https://www.bloomberg.com/news/articles/2026-02-18/ai-is-helping-buyers-know-how-much-art-should-cost"
     },
     {
-      "title": "專家表示，二手車庫存正在改善，但“價格低於 20,000 美元的車輛更難找到”",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "14:15",
       "link": "https://www.cnbc.com/2026/02/17/used-car-affordability.html"
