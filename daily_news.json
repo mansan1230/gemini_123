@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-02-28 00:52",
+  "update_time": "2026-03-01 01:05",
   "crypto_fng": {
-    "value": "11",
+    "value": "14",
     "value_classification": "Extreme Fear",
-    "timestamp": "1772236800",
-    "time_until_update": "83278"
+    "timestamp": "1772323200",
+    "time_until_update": "82478"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 65948.83,
-        "change": -1504.95,
-        "percent": -2.23,
-        "rsi": "40.8",
+        "price": 66664.53,
+        "change": 782.73,
+        "percent": 1.19,
+        "rsi": "40.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1933.33,
-        "change": -93.46,
-        "percent": -4.61,
-        "rsi": "41.9",
+        "price": 1959.39,
+        "change": 28.62,
+        "percent": 1.48,
+        "rsi": "41.0",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.05,
-        "change": -3.86,
-        "percent": -4.49,
-        "rsi": "47.0",
+        "price": 84.89,
+        "change": 2.94,
+        "percent": 3.59,
+        "rsi": "45.7",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.35,
-        "change": 0.3,
-        "percent": 2.49,
-        "rsi": "54.9",
+        "price": 12.36,
+        "change": 0.31,
+        "percent": 2.57,
+        "rsi": "55.0",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6875.25,
-        "change": -44.75,
-        "percent": -0.65,
-        "rsi": "42.8",
+        "price": 6889.0,
+        "change": -31.0,
+        "percent": -0.45,
+        "rsi": "43.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24952.75,
-        "change": -128.25,
-        "percent": -0.51,
-        "rsi": "46.3",
+        "price": 25004.75,
+        "change": -76.25,
+        "percent": -0.3,
+        "rsi": "47.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48909.0,
-        "change": -622.0,
-        "percent": -1.26,
-        "rsi": "32.2",
+        "price": 49000.0,
+        "change": -531.0,
+        "percent": -1.07,
+        "rsi": "33.0",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.65,
-        "change": -0.14,
-        "percent": -0.15,
-        "rsi": "50.3",
+        "price": 97.61,
+        "change": -0.18,
+        "percent": -0.18,
+        "rsi": "49.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 155.86,
-        "change": -0.34,
-        "percent": -0.22,
-        "rsi": "43.6",
+        "price": 156.04,
+        "change": 0.18,
+        "percent": 0.11,
+        "rsi": "49.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5296.4,
-        "change": 119.9,
-        "percent": 2.32,
-        "rsi": "64.5",
+        "price": 5230.5,
+        "change": 54.0,
+        "percent": 1.04,
+        "rsi": "62.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 67.29,
-        "change": 2.08,
-        "percent": 3.19,
-        "rsi": "66.0",
+        "price": 67.02,
+        "change": 1.81,
+        "percent": 2.78,
+        "rsi": "65.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.06,
-        "change": 0.11,
-        "percent": 1.92,
-        "rsi": "57.7",
+        "price": 6.0,
+        "change": 0.06,
+        "percent": 0.97,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
@@ -214,6 +214,42 @@
   },
   "news": [
     {
+      "title": "傑克·多西（Jack Dorsey）的激進裁員是否是人工智慧就業大災難的開始？經濟學家也參與其中",
+      "source": "CNBC",
+      "time": "19:38",
+      "link": "https://www.cnbc.com/2026/02/27/are-dorseys-giant-job-cuts-the-start-of-an-ai-jobs-apocalypse-economists-weigh-in.html"
+    },
+    {
+      "title": "CoreWeave 執行長為支出計劃辯護，並試圖在股價暴跌近 20% 的情況下對抗債務敘述",
+      "source": "CNBC",
+      "time": "16:47",
+      "link": "https://www.cnbc.com/2026/02/27/coreweave-ceo-intrator-stock-ai-spending.html"
+    },
+    {
+      "title": "更多工人提前領取工資，批評者認為貸款不受監管",
+      "source": "CNBC",
+      "time": "15:24",
+      "link": "https://www.cnbc.com/2026/02/27/worker-wages-benefits-early-access-pay-lending-regulation.html"
+    },
+    {
+      "title": "隨著美國海灣封鎖，超級油輪的巨大賭注不斷增長",
+      "source": "gcaptain.com",
+      "time": "13:59",
+      "link": "https://gcaptain.com/huge-supertanker-bet-keeps-growing-with-us-gulf-locked-up/"
+    },
+    {
+      "title": "巴斯夫宣布裁員，實施成本節約策略並設立新印度中心",
+      "source": "Bloomberg",
+      "time": "09:19",
+      "link": "https://www.bloomberg.com/news/articles/2026-02-27/basf-eyes-more-cost-cuts-as-chemicals-headwinds-continue-in-2026"
+    },
+    {
+      "title": "分析：Block 回落至 2019 年規模可能暗示支付經濟發生更深層的轉變",
+      "source": "CoinDesk",
+      "time": "04:44",
+      "link": "https://www.coindesk.com/markets/2026/02/27/analysis-block-s-retreat-to-2019-scale-underscores-how-stablecoins-are-pressuring-payment-margins"
+    },
+    {
       "title": "諾華、基因泰克提起訴訟，指控非法進口處方藥",
       "source": "CNBC",
       "time": "20:44",
@@ -232,7 +268,7 @@
       "link": "https://www.cnbc.com/2026/02/26/womens-wealth-is-expected-to-boom-where-they-are-investing-and-how-they-can-maximize-returns.html"
     },
     {
-      "title": "C3 AI 裁員 26%，虧損幅度超乎預期，股價暴跌",
+      "title": "C3 AI 裁員 26%，虧損超出預期，股價暴跌",
       "source": "CNBC",
       "time": "15:36",
       "link": "https://www.cnbc.com/2026/02/26/c3-ai-stock-layoffs-loss.html"
@@ -296,42 +332,6 @@
       "source": "CoinDesk",
       "time": "13:48",
       "link": "https://www.coindesk.com/markets/2026/02/24/bitcoin-price-pain-largely-over-but-time-pain-remains-james-check"
-    },
-    {
-      "title": "在比特幣最近的低迷時期，超過 40 萬枚 BTC 的價格在 6 萬至 7 萬美元之間",
-      "source": "CoinDesk",
-      "time": "12:21",
-      "link": "https://www.coindesk.com/markets/2026/02/24/over-400-000-btc-bought-between-usd60k-and-usd70k-during-bitcoin-s-latest-downturn"
-    },
-    {
-      "title": "ACA 醫療保險補貼失效影響了 2,200 萬人。這是他們的一些故事",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/02/24/aca-enhanced-subsidy-expiration-effects.html"
-    },
-    {
-      "title": "儘管銷售額下降，家得寶仍超出了華爾街的預期",
-      "source": "CNBC",
-      "time": "11:04",
-      "link": "https://www.cnbc.com/2026/02/24/home-depot-hd-q4-2025-earnings-.html"
-    },
-    {
-      "title": "CNBC 每日開盤：不穩定的關稅情勢和新的人工智慧顛覆引發市場拋售",
-      "source": "CNBC",
-      "time": "07:27",
-      "link": "https://www.cnbc.com/2026/02/24/cnbc-daily-open-unstable-tariff-situation-and-new-ai-disruption-spark-market-sell-off.html"
-    },
-    {
-      "title": "商業團體表示，由於川普關稅加劇了不確定性，英國公司尋求與歐洲建立更深入的聯繫",
-      "source": "CNBC",
-      "time": "15:11",
-      "link": "https://www.cnbc.com/2026/02/23/uk-companies-europe-eu-trump-tariffs-trade.html"
-    },
-    {
-      "title": "新款吉普切諾基將引領 Stellantis 在美國的銷售轉虧為盈",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/02/23/new-jeep-cherokee-set-to-lead-stellantis-us-sales-turnaround.html"
     }
   ]
 }
