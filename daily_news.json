@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-01 01:05",
+  "update_time": "2026-03-02 00:58",
   "crypto_fng": {
-    "value": "14",
+    "value": "10",
     "value_classification": "Extreme Fear",
-    "timestamp": "1772323200",
-    "time_until_update": "82478"
+    "timestamp": "1772409600",
+    "time_until_update": "82881"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 58850.27,
-        "change": 96.88,
-        "percent": 0.16,
-        "rsi": "79.7",
+        "price": 57621.9,
+        "change": -1228.37,
+        "percent": -2.09,
+        "rsi": "68.2",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66664.53,
-        "change": 782.73,
-        "percent": 1.19,
-        "rsi": "40.1",
+        "price": 66533.99,
+        "change": -461.87,
+        "percent": -0.69,
+        "rsi": "42.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1959.39,
-        "change": 28.62,
-        "percent": 1.48,
-        "rsi": "41.0",
+        "price": 1960.55,
+        "change": -4.5,
+        "percent": -0.23,
+        "rsi": "49.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.89,
-        "change": 2.94,
-        "percent": 3.59,
-        "rsi": "45.7",
+        "price": 84.98,
+        "change": 0.62,
+        "percent": 0.73,
+        "rsi": "48.6",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6889.0,
-        "change": -31.0,
-        "percent": -0.45,
-        "rsi": "43.9",
+        "price": 6823.25,
+        "change": -65.75,
+        "percent": -0.95,
+        "rsi": "35.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25004.75,
-        "change": -76.25,
-        "percent": -0.3,
-        "rsi": "47.2",
+        "price": 24766.75,
+        "change": -238.0,
+        "percent": -0.95,
+        "rsi": "39.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49000.0,
-        "change": -531.0,
-        "percent": -1.07,
-        "rsi": "33.0",
+        "price": 48481.0,
+        "change": -519.0,
+        "percent": -1.06,
+        "rsi": "28.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 97.61,
-        "change": -0.18,
-        "percent": -0.18,
-        "rsi": "49.7",
+        "price": 97.94,
+        "change": 0.33,
+        "percent": 0.34,
+        "rsi": "72.9",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 156.04,
-        "change": 0.18,
-        "percent": 0.11,
-        "rsi": "49.5",
+        "price": 156.41,
+        "change": 0.55,
+        "percent": 0.35,
+        "rsi": "51.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5230.5,
-        "change": 54.0,
-        "percent": 1.04,
-        "rsi": "62.4",
+        "price": 5379.4,
+        "change": 148.9,
+        "percent": 2.85,
+        "rsi": "64.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 67.02,
-        "change": 1.81,
-        "percent": 2.78,
-        "rsi": "65.2",
+        "price": 71.85,
+        "change": 4.83,
+        "percent": 7.21,
+        "rsi": "74.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.0,
+        "price": 6.07,
         "change": 0.06,
-        "percent": 0.97,
-        "rsi": "55.8",
+        "percent": 1.06,
+        "rsi": "55.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "竊取工作的人工智慧軟體如何推動比特幣價格上漲",
+      "source": "CoinDesk",
+      "time": "21:00",
+      "link": "https://www.coindesk.com/business/2026/02/28/here-s-how-bitcoin-s-price-rise-could-be-fueled-by-job-stealing-ai-software"
+    },
+    {
+      "title": "記憶體價格飆漲威脅銷售 小米推出旗艦智慧型手機",
+      "source": "CNBC",
+      "time": "14:32",
+      "link": "https://www.cnbc.com/2026/02/28/xiaomi-17-and-17-ultra-launch-price-specs.html"
+    },
     {
       "title": "傑克·多西（Jack Dorsey）的激進裁員是否是人工智慧就業大災難的開始？經濟學家也參與其中",
       "source": "CNBC",
@@ -298,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/02/25/rolls-royce-fy-earnings-due-for-aerospace-giant.html"
     },
     {
-      "title": "Jim Cramer 的簡單框架，用於在擔心人工智慧顛覆的市場中識別贏家",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "23:22",
       "link": "https://www.cnbc.com/2026/02/24/jim-cramer-winners-ai-disruption.html"
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "16:13",
       "link": "https://www.cnbc.com/2026/02/24/spirit-airlines-bankruptcy-flights.html"
-    },
-    {
-      "title": "諾和諾德將在美國將 GLP-1 標價削減高達 50%，以降低受保患者的費用",
-      "source": "CNBC",
-      "time": "13:54",
-      "link": "https://www.cnbc.com/2026/02/24/novo-nordisk-to-slash-wegovy-ozempic-us-list-prices-by-up-to-50percent.html"
-    },
-    {
-      "title": "著名分析師問道：“如果你現階段沒有累積比特幣，那麼什麼時候才累積比特幣？”",
-      "source": "CoinDesk",
-      "time": "13:48",
-      "link": "https://www.coindesk.com/markets/2026/02/24/bitcoin-price-pain-largely-over-but-time-pain-remains-james-check"
     }
   ]
 }
