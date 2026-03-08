@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-07 00:55",
+  "update_time": "2026-03-08 00:59",
   "crypto_fng": {
     "value": "12",
     "value_classification": "Extreme Fear",
-    "timestamp": "1772841600",
-    "time_until_update": "83085"
+    "timestamp": "1772928000",
+    "time_until_update": "82840"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 68336.67,
-        "change": -2504.45,
-        "percent": -3.54,
-        "rsi": "50.7",
+        "price": 67177.8,
+        "change": -958.69,
+        "percent": -1.41,
+        "rsi": "48.4",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1982.58,
-        "change": -89.02,
-        "percent": -4.3,
-        "rsi": "50.7",
+        "price": 1967.59,
+        "change": -11.16,
+        "percent": -0.56,
+        "rsi": "49.7",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.77,
-        "change": -3.92,
-        "percent": -4.42,
-        "rsi": "50.2",
+        "price": 83.02,
+        "change": -1.66,
+        "percent": -1.97,
+        "rsi": "47.4",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 13.21,
-        "change": 0.12,
-        "percent": 0.92,
-        "rsi": "66.4",
+        "price": 13.24,
+        "change": 0.15,
+        "percent": 1.15,
+        "rsi": "66.7",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6740.0,
-        "change": -95.25,
-        "percent": -1.39,
-        "rsi": "40.9",
+        "price": 6743.75,
+        "change": -91.5,
+        "percent": -1.34,
+        "rsi": "41.2",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24661.25,
-        "change": -388.25,
-        "percent": -1.55,
-        "rsi": "47.6",
+        "price": 24670.25,
+        "change": -379.25,
+        "percent": -1.51,
+        "rsi": "47.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 47480.0,
-        "change": -503.0,
-        "percent": -1.05,
-        "rsi": "27.6",
+        "price": 47517.0,
+        "change": -466.0,
+        "percent": -0.97,
+        "rsi": "27.8",
         "trend": "-"
       }
     ],
@@ -154,11 +154,11 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.86,
-        "change": -0.46,
-        "percent": -0.47,
-        "rsi": "71.3",
-        "trend": "震盪"
+        "price": 98.99,
+        "change": -0.33,
+        "percent": -0.33,
+        "rsi": "73.4",
+        "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5181.3,
-        "change": 116.0,
-        "percent": 2.29,
-        "rsi": "57.2",
+        "price": 5146.1,
+        "change": 80.8,
+        "percent": 1.6,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 91.27,
-        "change": 10.26,
-        "percent": 12.67,
+        "price": 90.9,
+        "change": 9.89,
+        "percent": 12.21,
         "rsi": "94.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.84,
-        "change": 0.08,
-        "percent": 1.47,
-        "rsi": "51.7",
+        "price": 5.76,
+        "change": 0.0,
+        "percent": 0.07,
+        "rsi": "48.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,42 @@
     ]
   },
   "news": [
+    {
+      "title": "管理金融人工智慧代理是你在人工智慧裁員中生存所需的唯一技能",
+      "source": "CoinDesk",
+      "time": "19:00",
+      "link": "https://www.coindesk.com/opinion/2026/03/06/managing-financial-ai-agents-is-the-only-skill-you-ll-need-to-survive-the-ai-layoffs"
+    },
+    {
+      "title": "隨著伊朗衝突擴大，海事保險保費飆升",
+      "source": "gcaptain.com",
+      "time": "16:33",
+      "link": "https://gcaptain.com/maritime-insurance-premiums-surge-as-iran-conflict-widens/"
+    },
+    {
+      "title": "分析：艱難的就業報告讓川普的伊朗戰爭計畫面臨考驗",
+      "source": "CNBC",
+      "time": "15:24",
+      "link": "https://www.cnbc.com/2026/03/06/jobs-report-trump-iran-israel-war-economy.html"
+    },
+    {
+      "title": "以下是美伊戰爭如何打擊消費者的錢包",
+      "source": "CNBC",
+      "time": "12:37",
+      "link": "https://www.cnbc.com/2026/03/06/us-iran-war-gas-mortgage-markets.html"
+    },
+    {
+      "title": "比特幣跌幅從 74,000 美元延續，衍生性商品數據顯示持倉謹慎",
+      "source": "CoinDesk",
+      "time": "11:29",
+      "link": "https://www.coindesk.com/markets/2026/03/06/bitcoin-extends-decline-from-usd74-000-derivatives-data-point-to-cautious-positioning"
+    },
+    {
+      "title": "戰爭週反彈遭遇阻力，比特幣跌破 71,000 美元，ETH、DOGE 下滑",
+      "source": "CoinDesk",
+      "time": "04:38",
+      "link": "https://www.coindesk.com/markets/2026/03/06/bitcoin-drops-under-usd71-000-eth-doge-slide-as-war-week-rally-runs-into-resistance"
+    },
     {
       "title": "西方汽車製造商外包供應鏈數十年—現在中國競爭對手擁有成本優勢",
       "source": "CNBC",
@@ -292,46 +328,10 @@
       "link": "https://www.cnbc.com/2026/03/05/iran-conflict-duration-middle-east-regional-war-experts.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "隨著油輪運價的爆炸性成長，美國至亞洲的石油運輸額達到創紀錄的 2,900 萬美元",
       "source": "gcaptain.com",
       "time": "22:07",
       "link": "https://gcaptain.com/us-to-asia-oil-shipping-hits-record-29-million-as-tanker-rates-explode/"
-    },
-    {
-      "title": "加密多空：為什麼比特幣的量子恐懼會像氣候恐慌一樣過去",
-      "source": "CoinDesk",
-      "time": "17:00",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/04/crypto-long-and-short-why-bitcoin-s-quantum-fears-will-pass-just-like-the-climate-panic"
-    },
-    {
-      "title": "伊朗戰爭與你的投資組合：投資人應該了解的歷史股市模式",
-      "source": "CNBC",
-      "time": "16:24",
-      "link": "https://www.cnbc.com/2026/03/04/iran-war-historical-stock-market-patterns.html"
-    },
-    {
-      "title": "Apple 發表 MacBook Neo，這是十多年來首款經濟型筆記型電腦",
-      "source": "CNBC",
-      "time": "14:47",
-      "link": "https://www.cnbc.com/2026/03/04/apple-macbook-neo-budget-laptop.html"
-    },
-    {
-      "title": "川普表示「401(k)s 大幅上漲」——但工人們正在以創紀錄的速度利用它們",
-      "source": "CNBC",
-      "time": "13:56",
-      "link": "https://www.cnbc.com/2026/03/04/retirement-balances-hardship-withdrawals.html"
-    },
-    {
-      "title": "甚至在川普下令禁令之前，大投資者就已經逃離待售房地產市場",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2026/03/04/institutional-investors-housing-market.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CoinDesk",
-      "time": "09:16",
-      "link": "https://www.coindesk.com/markets/2026/03/04/bitcoin-jumps-above-usd71-000-building-on-resilience-to-middle-east-conflict"
     }
   ]
 }
