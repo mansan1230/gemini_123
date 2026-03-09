@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-08 00:59",
+  "update_time": "2026-03-09 00:59",
   "crypto_fng": {
-    "value": "12",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1772928000",
-    "time_until_update": "82840"
+    "timestamp": "1773014400",
+    "time_until_update": "82821"
   },
   "data": {
     "indices": [
@@ -34,11 +34,11 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 55620.84,
-        "change": 342.78,
-        "percent": 0.62,
-        "rsi": "43.3",
-        "trend": "📈 多頭"
+        "price": 52269.56,
+        "change": -3351.28,
+        "percent": -6.03,
+        "rsi": "32.7",
+        "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 67177.8,
-        "change": -958.69,
-        "percent": -1.41,
-        "rsi": "48.4",
+        "price": 66300.69,
+        "change": -971.91,
+        "percent": -1.44,
+        "rsi": "47.4",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1967.59,
-        "change": -11.16,
-        "percent": -0.56,
-        "rsi": "49.7",
+        "price": 1947.49,
+        "change": -21.96,
+        "percent": -1.12,
+        "rsi": "49.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 83.02,
-        "change": -1.66,
-        "percent": -1.97,
-        "rsi": "47.4",
+        "price": 82.43,
+        "change": -0.75,
+        "percent": -0.9,
+        "rsi": "49.5",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6743.75,
-        "change": -91.5,
-        "percent": -1.34,
-        "rsi": "41.2",
+        "price": 6620.0,
+        "change": -123.75,
+        "percent": -1.84,
+        "rsi": "33.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24670.25,
-        "change": -379.25,
-        "percent": -1.51,
-        "rsi": "47.7",
+        "price": 24139.0,
+        "change": -531.25,
+        "percent": -2.15,
+        "rsi": "40.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 47517.0,
-        "change": -466.0,
-        "percent": -0.97,
-        "rsi": "27.8",
+        "price": 46619.0,
+        "change": -898.0,
+        "percent": -1.89,
+        "rsi": "22.7",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.99,
-        "change": -0.33,
-        "percent": -0.33,
-        "rsi": "73.4",
+        "price": 99.59,
+        "change": 0.6,
+        "percent": 0.61,
+        "rsi": "75.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.53,
-        "change": 0.55,
-        "percent": 0.35,
-        "rsi": "74.8",
+        "price": 158.65,
+        "change": 1.11,
+        "percent": 0.71,
+        "rsi": "75.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5146.1,
-        "change": 80.8,
-        "percent": 1.6,
-        "rsi": "55.8",
+        "price": 5053.7,
+        "change": -92.4,
+        "percent": -1.8,
+        "rsi": "58.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 90.9,
-        "change": 9.89,
-        "percent": 12.21,
-        "rsi": "94.4",
+        "price": 109.39,
+        "change": 18.49,
+        "percent": 20.34,
+        "rsi": "97.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.76,
-        "change": 0.0,
-        "percent": 0.07,
-        "rsi": "48.6",
+        "price": 5.69,
+        "change": -0.07,
+        "percent": -1.18,
+        "rsi": "52.4",
         "trend": "-"
       },
       {
@@ -214,7 +214,37 @@
   },
   "news": [
     {
-      "title": "管理金融人工智慧代理是你在人工智慧裁員中生存所需的唯一技能",
+      "title": "數十億美元的轉變將預測市場轉變為專業的對沖工具",
+      "source": "CoinDesk",
+      "time": "19:01",
+      "link": "https://www.coindesk.com/opinion/2026/03/07/the-multibillion-dollar-shift-turning-prediction-markets-into-a-professional-hedging-tool"
+    },
+    {
+      "title": "比特幣純粹主義者 Jack Dorsey 表示，他的公司不情願地屈服於穩定幣熱潮",
+      "source": "CoinDesk",
+      "time": "17:24",
+      "link": "https://www.coindesk.com/business/2026/03/07/bitcoin-purist-jack-dorsey-s-firm-is-reluctantly-giving-in-to-stablecoin-craze"
+    },
+    {
+      "title": "波克夏執行長格雷格·阿貝爾談與巴菲特、卡夫亨氏合作並用他所有的薪水購買股票",
+      "source": "CNBC",
+      "time": "13:31",
+      "link": "https://www.cnbc.com/2026/03/07/berkshire-ceo-greg-abel-on-working-with-buffett-kraft-heinz-and-using-all-his-salary-to-buy-the-stock.html"
+    },
+    {
+      "title": "健康第三空間和會員俱樂部蓬勃發展的業務",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/03/07/wellness-third-spaces-othership-bathhouse-glo30.html"
+    },
+    {
+      "title": "伊朗戰爭可能會擾亂中期選舉的“承受能力”",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/03/07/iran-war-affordability-midterm.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "19:00",
       "link": "https://www.coindesk.com/opinion/2026/03/06/managing-financial-ai-agents-is-the-only-skill-you-ll-need-to-survive-the-ai-layoffs"
@@ -286,7 +316,7 @@
       "link": "https://www.cnbc.com/2026/03/05/iran-war-dubai-rich.html"
     },
     {
-      "title": "博通的盈利、人工智慧的公關問題、馬斯克在 Morning Squawk 中的立場以及更多內容",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:26",
       "link": "https://www.cnbc.com/2026/03/05/5-things-to-know-before-the-market-opens.html"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "09:40",
       "link": "https://www.cnbc.com/2026/03/05/drawdown-byd-chinese-ev-sales-mixed-results-holiday-lull.html"
-    },
-    {
-      "title": "量化公司建議看漲比特幣交易，並進行關鍵的融資調整",
-      "source": "CoinDesk",
-      "time": "06:12",
-      "link": "https://www.coindesk.com/markets/2026/03/05/quant-firm-suggests-a-bullish-bitcoin-trade-with-a-key-financing-twist"
-    },
-    {
-      "title": "ETF 吸資 1.55 億美元，比特幣突破 72,000 美元，延續兩週資金流入記錄",
-      "source": "CoinDesk",
-      "time": "06:02",
-      "link": "https://www.coindesk.com/markets/2026/03/05/bitcoin-tops-usd72k-as-etfs-pull-usd155-million-extending-two-week-inflow-streak"
-    },
-    {
-      "title": "印度內部通訊：隨著中東衝突加深，能源、航空公司以及目前流向印度的超過 500 億美元匯款面臨風險",
-      "source": "CNBC",
-      "time": "04:06",
-      "link": "https://www.cnbc.com/2026/03/05/iran-conflict-india-impact-remittance-pipeline.html"
-    },
-    {
-      "title": "美國堅稱伊朗衝突不會是一場「永遠的戰爭」。專家們不敢苟同",
-      "source": "CNBC",
-      "time": "23:17",
-      "link": "https://www.cnbc.com/2026/03/05/iran-conflict-duration-middle-east-regional-war-experts.html"
-    },
-    {
-      "title": "隨著油輪運價的爆炸性成長，美國至亞洲的石油運輸額達到創紀錄的 2,900 萬美元",
-      "source": "gcaptain.com",
-      "time": "22:07",
-      "link": "https://gcaptain.com/us-to-asia-oil-shipping-hits-record-29-million-as-tanker-rates-explode/"
     }
   ]
 }
