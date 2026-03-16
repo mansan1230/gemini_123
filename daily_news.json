@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-15 01:06",
+  "update_time": "2026-03-16 01:07",
   "crypto_fng": {
-    "value": "15",
+    "value": "23",
     "value_classification": "Extreme Fear",
-    "timestamp": "1773532800",
-    "time_until_update": "82382"
+    "timestamp": "1773619200",
+    "time_until_update": "82350"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53819.61,
-        "change": -633.35,
-        "percent": -1.16,
-        "rsi": "39.6",
+        "price": 53768.7,
+        "change": -50.91,
+        "percent": -0.09,
+        "rsi": "37.3",
         "trend": "📉 空頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 71015.08,
-        "change": 46.81,
-        "percent": 0.07,
-        "rsi": "59.6",
-        "trend": "震盪"
+        "price": 72491.6,
+        "change": 1276.98,
+        "percent": 1.79,
+        "rsi": "65.9",
+        "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2088.59,
-        "change": -3.97,
-        "percent": -0.19,
-        "rsi": "59.5",
-        "trend": "📉 空頭"
+        "price": 2169.57,
+        "change": 72.49,
+        "percent": 3.46,
+        "rsi": "66.5",
+        "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 87.81,
-        "change": -0.34,
-        "percent": -0.39,
-        "rsi": "57.1",
-        "trend": "📉 空頭"
+        "price": 91.99,
+        "change": 3.92,
+        "percent": 4.45,
+        "rsi": "65.6",
+        "trend": "📈 多頭"
       }
     ],
     "shipping": [
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6636.0,
-        "change": -41.5,
-        "percent": -0.62,
-        "rsi": "33.4",
+        "price": 6665.0,
+        "change": 29.0,
+        "percent": 0.44,
+        "rsi": "30.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24394.25,
-        "change": -165.75,
-        "percent": -0.67,
-        "rsi": "43.9",
+        "price": 24509.0,
+        "change": 114.75,
+        "percent": 0.47,
+        "rsi": "41.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 46592.0,
-        "change": -129.0,
-        "percent": -0.28,
-        "rsi": "25.5",
+        "price": 46773.0,
+        "change": 181.0,
+        "percent": 0.39,
+        "rsi": "22.0",
         "trend": "-"
       }
     ],
@@ -153,45 +153,37 @@
         "trend": "📈 多頭"
       },
       {
-        "name": "💵 美元指數",
-        "price": 100.5,
-        "change": 0.76,
-        "percent": 0.76,
-        "rsi": "75.7",
-        "trend": "📈 多頭"
-      },
-      {
         "name": "💴 USD/JPY",
-        "price": 159.72,
-        "change": 0.51,
-        "percent": 0.32,
-        "rsi": "79.9",
+        "price": 159.38,
+        "change": 0.17,
+        "percent": 0.11,
+        "rsi": "79.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 5061.7,
-        "change": -54.1,
-        "percent": -1.06,
-        "rsi": "42.4",
+        "price": 5028.1,
+        "change": -24.4,
+        "percent": -0.48,
+        "rsi": "43.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 98.71,
-        "change": 2.98,
-        "percent": 3.11,
-        "rsi": "78.3",
+        "price": 97.6,
+        "change": -1.11,
+        "percent": -1.12,
+        "rsi": "77.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.76,
-        "change": -0.07,
-        "percent": -1.16,
-        "rsi": "49.2",
+        "price": 5.72,
+        "change": 0.01,
+        "percent": 0.12,
+        "rsi": "38.9",
         "trend": "-"
       },
       {
@@ -213,6 +205,24 @@
     ]
   },
   "news": [
+    {
+      "title": "霍斯金森對去中心化計算未來的看法可能是錯誤的",
+      "source": "CoinDesk",
+      "time": "18:30",
+      "link": "https://www.coindesk.com/opinion/2026/03/14/hoskinson-might-be-wrong-about-the-future-of-decentralized-compute"
+    },
+    {
+      "title": "代表 850 家公司的巴西業巨頭譴責穩定幣稅收威脅",
+      "source": "CoinDesk",
+      "time": "14:58",
+      "link": "https://www.coindesk.com/business/2026/03/14/brazil-industry-giants-representing-850-companies-decry-stablecoin-tax-threat"
+    },
+    {
+      "title": "宣布釋放史上最大規模的緊急石油庫存。為何原油價格可能持續上漲",
+      "source": "CNBC",
+      "time": "13:07",
+      "link": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html"
+    },
     {
       "title": "Nvidia 的 GTC 將標誌著 AI 晶片的轉型。這就是 CPU 佔據中心舞台的原因",
       "source": "CNBC",
@@ -244,7 +254,7 @@
       "link": "https://www.cnbc.com/2026/03/13/indias-modi-reaches-out-to-iran-as-energy-crunch-fears-grip-the-south-asian-nation-.html"
     },
     {
-      "title": "誰真正為人工智慧能源買單？关于数据中心电力成本的争论",
+      "title": "誰真正為人工智慧能源買單？關於資料中心電力成本的爭論",
       "source": "CNBC",
       "time": "08:41",
       "link": "https://www.cnbc.com/2026/03/13/ai-data-centers-electricity-prices-backlash-ratepayer-protection.html"
@@ -256,7 +266,7 @@
       "link": "https://www.cnbc.com/2026/03/12/iran-war-fed.html"
     },
     {
-      "title": "沃倫·巴菲特：現金“就像氧氣一樣”是必要的，但它“不是一種好的資產”",
+      "title": "沃倫·巴菲特：現金“像氧氣一樣”是必要的，但它“不是一種好的資產”",
       "source": "CNBC",
       "time": "17:25",
       "link": "https://www.cnbc.com/2026/03/12/warren-buffett-cash-not-a-good-asset.html"
@@ -286,7 +296,7 @@
       "link": "https://www.cnbc.com/2026/03/12/airfare-prices-jet-fuel-iran-war.html"
     },
     {
-      "title": "安達保險 (Chubb) 成為伊朗戰爭期間波斯灣航運的主要美國保險公司",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "17:10",
       "link": "https://www.cnbc.com/2026/03/11/iran-israel-war-strait-hormuz-shipping-oil-insurance.html"
@@ -314,24 +324,6 @@
       "source": "CoinDesk",
       "time": "08:11",
       "link": "https://www.coindesk.com/markets/2026/03/11/coinbase-backed-ai-payments-protocol-wants-to-fix-micropayment-but-demand-is-just-not-there-yet"
-    },
-    {
-      "title": "阿達尼能源公司從 Apollo 籌集了 5 億美元雙邊債務",
-      "source": "Bloomberg",
-      "time": "07:30",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-11/adani-energy-raises-500-million-bilateral-debt-from-apollo"
-    },
-    {
-      "title": "AI 晶片製造商 Cerebras 與 Nvidia 和 AMD 一起被 Oracle 提名",
-      "source": "CNBC",
-      "time": "00:48",
-      "link": "https://www.cnbc.com/2026/03/10/ai-chipmaker-cerebras-namedropped-by-oracle-alongside-nvidia-and-amd-.html"
-    },
-    {
-      "title": "投資公司 Multicoin 押注「網路勞動市場」將推動加密貨幣的下一波採用",
-      "source": "CoinDesk",
-      "time": "19:14",
-      "link": "https://www.coindesk.com/business/2026/03/10/investment-firm-multicoin-bets-internet-labor-markets-will-drive-crypto-s-next-wave-of-adoption"
     }
   ]
 }
