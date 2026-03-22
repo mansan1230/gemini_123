@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-21 00:55",
+  "update_time": "2026-03-22 01:02",
   "crypto_fng": {
-    "value": "12",
+    "value": "10",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774051200",
-    "time_until_update": "83064"
+    "timestamp": "1774137600",
+    "time_until_update": "82654"
   },
   "data": {
     "indices": [
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 70641.52,
-        "change": 728.73,
-        "percent": 1.04,
-        "rsi": "57.5",
-        "trend": "📈 多頭"
+        "price": 68908.21,
+        "change": -1614.38,
+        "percent": -2.29,
+        "rsi": "54.7",
+        "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2151.52,
-        "change": 14.1,
-        "percent": 0.66,
-        "rsi": "62.6",
+        "price": 2086.38,
+        "change": -60.12,
+        "percent": -2.8,
+        "rsi": "58.0",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 89.99,
-        "change": 1.07,
-        "percent": 1.2,
-        "rsi": "60.1",
-        "trend": "📈 多頭"
+        "price": 87.25,
+        "change": -2.6,
+        "percent": -2.9,
+        "rsi": "57.5",
+        "trend": "震盪"
       }
     ],
     "shipping": [
@@ -95,43 +95,43 @@
       {
         "name": "📦 ZIM (集裝箱)",
         "price": 25.88,
-        "change": -1.08,
-        "percent": -4.01,
-        "rsi": "33.3",
+        "change": -0.2,
+        "percent": -0.77,
+        "rsi": "36.9",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 14.16,
-        "change": -0.04,
-        "percent": -0.28,
-        "rsi": "70.8",
+        "price": 13.25,
+        "change": -0.91,
+        "percent": -6.43,
+        "rsi": "50.1",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6588.5,
-        "change": -20.75,
-        "percent": -0.31,
-        "rsi": "28.2",
+        "price": 6559.0,
+        "change": -50.25,
+        "percent": -0.76,
+        "rsi": "27.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24217.25,
-        "change": -146.75,
-        "percent": -0.6,
-        "rsi": "36.5",
+        "price": 24101.5,
+        "change": -262.5,
+        "percent": -1.08,
+        "rsi": "35.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 46110.0,
-        "change": 69.0,
-        "percent": 0.15,
-        "rsi": "20.7",
+        "price": 45893.0,
+        "change": -148.0,
+        "percent": -0.32,
+        "rsi": "19.0",
         "trend": "-"
       }
     ],
@@ -163,35 +163,35 @@
       {
         "name": "💴 USD/JPY",
         "price": 159.22,
-        "change": -0.57,
-        "percent": -0.36,
-        "rsi": "66.5",
+        "change": 1.3,
+        "percent": 0.82,
+        "rsi": "60.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4492.0,
-        "change": -108.7,
-        "percent": -2.36,
-        "rsi": "18.7",
+        "price": 4574.9,
+        "change": -25.8,
+        "percent": -0.56,
+        "rsi": "19.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 98.09,
-        "change": 1.95,
-        "percent": 2.03,
+        "price": 98.23,
+        "change": 2.09,
+        "percent": 2.17,
         "rsi": "72.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.3,
-        "change": -0.13,
-        "percent": -2.41,
-        "rsi": "25.5",
+        "price": 5.37,
+        "change": -0.06,
+        "percent": -1.08,
+        "rsi": "27.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "Salesforce 發行 250 億美元的債務來回購股票。我們該擔心嗎？",
+      "source": "CNBC",
+      "time": "17:48",
+      "link": "https://www.cnbc.com/2026/03/20/salesforce-issues-25-billion-in-debt-to-buy-back-stock-should-we-be-concerned.html"
+    },
+    {
+      "title": "納斯達克獲得美國證券交易委員會 (SEC) 批准將股票轉移到鏈上，這表明華爾街如何掌控加密技術",
+      "source": "CoinDesk",
+      "time": "17:04",
+      "link": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech"
+    },
+    {
+      "title": "春季房地產市場已經開始，但抵押貸款利率卻飆升。以下是需要了解的內容。",
+      "source": "CNBC",
+      "time": "16:24",
+      "link": "https://www.cnbc.com/2026/03/20/spring-housing-market-mortgage-rates.html"
+    },
+    {
+      "title": "衍生性商品發出謹慎訊號，宏觀壓力增大，加密貨幣市場穩定",
+      "source": "CoinDesk",
+      "time": "10:49",
+      "link": "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds"
+    },
     {
       "title": "伊朗引發的化肥短缺在中期選舉前威脅到農業州的共和黨人",
       "source": "CNBC",
@@ -298,7 +322,7 @@
       "link": "https://www.coindesk.com/opinion/2026/03/17/facing-a-crisis-bitcoin-treasury-companies-need-to-pivot-to-survive"
     },
     {
-      "title": "由於伊朗戰爭擾亂全球石油供應，柴油價格飆升至每加侖 5 美元，為 2022 年以來最高",
+      "title": "由於伊朗戰爭擾亂全球石油供應，柴油價格飆升至每加侖 5 美元，為 2022 年以來的最高水平",
       "source": "CNBC",
       "time": "13:49",
       "link": "https://www.cnbc.com/2026/03/17/diesel-gas-oil-price-iran-war-hormuz.html"
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "11:59",
       "link": "https://www.coindesk.com/business/2026/03/17/paypal-expands-its-stablecoin-into-70-markets"
-    },
-    {
-      "title": "Cango 正在出售其比特幣儲備以償還債務並為人工智慧改造提供資金",
-      "source": "CoinDesk",
-      "time": "11:00",
-      "link": "https://www.coindesk.com/markets/2026/03/17/cango-is-selling-off-its-bitcoin-stash-to-pay-down-debt-and-fund-an-ai-makeover"
-    },
-    {
-      "title": "隨著 ETF 和策略的積累，比特幣在全球動盪中的表現優於黃金和股票",
-      "source": "CoinDesk",
-      "time": "13:53",
-      "link": "https://www.coindesk.com/markets/2026/03/16/bitcoin-outperforms-gold-and-stocks-in-global-turmoil-as-etfs-and-strategy-accumulate"
-    },
-    {
-      "title": "中國電子商務巨頭向全球擴張，京東在歐洲挑戰亞馬遜",
-      "source": "CNBC",
-      "time": "00:18",
-      "link": "https://www.cnbc.com/2026/03/16/jd-launches-joybuy-in-europe-amazon-rival.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:30",
-      "link": "https://www.cnbc.com/2026/03/15/more-women-are-pursuing-the-skilled-trades-here-are-their-stories.html"
     }
   ]
 }
