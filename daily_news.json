@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-22 01:02",
+  "update_time": "2026-03-23 01:04",
   "crypto_fng": {
-    "value": "10",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774137600",
-    "time_until_update": "82654"
+    "timestamp": "1774224000",
+    "time_until_update": "82542"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53372.53,
-        "change": -1866.87,
-        "percent": -3.38,
-        "rsi": "32.8",
+        "price": 50863.49,
+        "change": -2509.04,
+        "percent": -4.7,
+        "rsi": "29.6",
         "trend": "📉 空頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 68908.21,
-        "change": -1614.38,
-        "percent": -2.29,
-        "rsi": "54.7",
-        "trend": "震盪"
+        "price": 67583.27,
+        "change": -1128.26,
+        "percent": -1.64,
+        "rsi": "54.6",
+        "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2086.38,
-        "change": -60.12,
-        "percent": -2.8,
-        "rsi": "58.0",
-        "trend": "📈 多頭"
+        "price": 2041.55,
+        "change": -35.14,
+        "percent": -1.69,
+        "rsi": "57.1",
+        "trend": "震盪"
       },
       {
         "name": "☀️ Solana",
-        "price": 87.25,
-        "change": -2.6,
-        "percent": -2.9,
-        "rsi": "57.5",
-        "trend": "震盪"
+        "price": 85.88,
+        "change": -1.58,
+        "percent": -1.81,
+        "rsi": "57.9",
+        "trend": "📉 空頭"
       }
     ],
     "shipping": [
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6559.0,
-        "change": -50.25,
-        "percent": -0.76,
-        "rsi": "27.1",
+        "price": 6528.0,
+        "change": -66.63,
+        "percent": -1.01,
+        "rsi": "28.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24101.5,
-        "change": -262.5,
-        "percent": -1.08,
-        "rsi": "35.2",
+        "price": 23961.25,
+        "change": -330.53,
+        "percent": -1.36,
+        "rsi": "36.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 45893.0,
-        "change": -148.0,
-        "percent": -0.32,
-        "rsi": "19.0",
+        "price": 45773.0,
+        "change": -124.0,
+        "percent": -0.27,
+        "rsi": "20.1",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.5,
-        "change": 0.27,
-        "percent": 0.28,
-        "rsi": "58.9",
+        "price": 99.7,
+        "change": 0.05,
+        "percent": 0.05,
+        "rsi": "55.6",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.22,
-        "change": 1.3,
-        "percent": 0.82,
-        "rsi": "60.0",
+        "price": 159.45,
+        "change": 1.53,
+        "percent": 0.97,
+        "rsi": "60.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4574.9,
-        "change": -25.8,
-        "percent": -0.56,
-        "rsi": "19.9",
+        "price": 4329.9,
+        "change": -240.5,
+        "percent": -5.26,
+        "rsi": "19.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 98.23,
-        "change": 2.09,
-        "percent": 2.17,
-        "rsi": "72.3",
+        "price": 98.16,
+        "change": -0.16,
+        "percent": -0.16,
+        "rsi": "70.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.37,
-        "change": -0.06,
-        "percent": -1.08,
-        "rsi": "27.1",
+        "price": 5.26,
+        "change": -0.08,
+        "percent": -1.53,
+        "rsi": "27.3",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "加密貨幣公司在幾週內裁員數百人，歸咎於市場疲軟和強大的人工智慧",
+      "source": "CoinDesk",
+      "time": "18:00",
+      "link": "https://www.coindesk.com/business/2026/03/21/crypto-firms-cut-hundreds-of-jobs-in-weeks-blaming-markets-and-ai-in-equal-measure"
+    },
+    {
+      "title": "與唐納德·特朗普共進午餐可能要花費高達 600 萬美元",
+      "source": "CoinDesk",
+      "time": "14:00",
+      "link": "https://www.coindesk.com/business/2026/03/21/it-could-cost-you-up-to-usd6-million-to-grab-lunch-with-donald-trump"
+    },
+    {
+      "title": "到 2026 年底，沃爾瑪數位價格標籤將出現在美國每家商店的貨架上",
+      "source": "CNBC",
+      "time": "13:49",
+      "link": "https://www.cnbc.com/2026/03/21/walmart-digital-price-tags-will-be-in-every-us-store-by-end-of-2026.html"
+    },
+    {
+      "title": "GLP-1 藥物正在改變美國人的飲食方式。食品公司正在競相追趕",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/03/21/glp-1-diets-restaurants-protein-fiber-weight-loss-drugs.html"
+    },
     {
       "title": "Salesforce 發行 250 億美元的債務來回購股票。我們該擔心嗎？",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "18:51",
       "link": "https://www.cnbc.com/2026/03/17/tesla-to-buy-4-point-3-billion-lg-energy-battery-cells-made-in-michigan.html"
-    },
-    {
-      "title": "經濟學家表示，伊朗戰爭、油價飆漲使K型經濟惡化",
-      "source": "CNBC",
-      "time": "18:31",
-      "link": "https://www.cnbc.com/2026/03/17/iran-war-oil-price-surge-worsen-k-shaped-economy-say-economists.html"
-    },
-    {
-      "title": "面對危機，比特幣金庫公司需要轉型才能生存",
-      "source": "CoinDesk",
-      "time": "16:30",
-      "link": "https://www.coindesk.com/opinion/2026/03/17/facing-a-crisis-bitcoin-treasury-companies-need-to-pivot-to-survive"
-    },
-    {
-      "title": "由於伊朗戰爭擾亂全球石油供應，柴油價格飆升至每加侖 5 美元，為 2022 年以來的最高水平",
-      "source": "CNBC",
-      "time": "13:49",
-      "link": "https://www.cnbc.com/2026/03/17/diesel-gas-oil-price-iran-war-hormuz.html"
-    },
-    {
-      "title": "PayPal 將其穩定幣擴展到 70 個市場",
-      "source": "CoinDesk",
-      "time": "11:59",
-      "link": "https://www.coindesk.com/business/2026/03/17/paypal-expands-its-stablecoin-into-70-markets"
     }
   ]
 }
