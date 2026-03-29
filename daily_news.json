@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-28 01:00",
+  "update_time": "2026-03-29 01:09",
   "crypto_fng": {
-    "value": "12",
+    "value": "9",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774656000",
-    "time_until_update": "82755"
+    "timestamp": "1774742400",
+    "time_until_update": "82244"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24856.43,
-        "change": -479.52,
-        "percent": -1.89,
-        "rsi": "41.0",
+        "price": 24951.88,
+        "change": 95.45,
+        "percent": 0.38,
+        "rsi": "45.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53603.65,
-        "change": -145.97,
-        "percent": -0.27,
-        "rsi": "44.2",
+        "price": 53373.07,
+        "change": -230.58,
+        "percent": -0.43,
+        "rsi": "42.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 22612.97,
-        "change": -344.11,
-        "percent": -1.5,
-        "rsi": "37.3",
+        "price": 22300.75,
+        "change": -312.22,
+        "percent": -1.38,
+        "rsi": "36.1",
         "trend": "📉 空頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66396.04,
-        "change": -2395.59,
-        "percent": -3.48,
-        "rsi": "39.3",
+        "price": 66506.76,
+        "change": 168.38,
+        "percent": 0.25,
+        "rsi": "38.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1991.43,
-        "change": -68.15,
-        "percent": -3.31,
-        "rsi": "44.2",
+        "price": 1999.54,
+        "change": 8.26,
+        "percent": 0.42,
+        "rsi": "44.4",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.85,
-        "change": -3.6,
-        "percent": -4.16,
-        "rsi": "42.6",
+        "price": 82.2,
+        "change": -0.82,
+        "percent": -0.99,
+        "rsi": "41.9",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6398.0,
-        "change": -127.0,
-        "percent": -1.95,
-        "rsi": "22.2",
+        "price": 6412.25,
+        "change": -112.75,
+        "percent": -1.73,
+        "rsi": "22.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 23254.25,
-        "change": -540.0,
-        "percent": -2.27,
-        "rsi": "21.8",
+        "price": 23328.5,
+        "change": -465.75,
+        "percent": -1.96,
+        "rsi": "22.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 45310.0,
-        "change": -920.0,
-        "percent": -1.99,
-        "rsi": "26.3",
+        "price": 45424.0,
+        "change": -806.0,
+        "percent": -1.74,
+        "rsi": "26.9",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 100.19,
-        "change": 0.29,
-        "percent": 0.29,
-        "rsi": "57.9",
+        "price": 100.15,
+        "change": 0.25,
+        "percent": 0.25,
+        "rsi": "57.6",
         "trend": "📈 多頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4521.3,
-        "change": 145.8,
-        "percent": 3.33,
-        "rsi": "30.4",
+        "price": 4492.0,
+        "change": 116.5,
+        "percent": 2.66,
+        "rsi": "28.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 101.18,
-        "change": 6.7,
-        "percent": 7.09,
-        "rsi": "55.0",
+        "price": 99.64,
+        "change": 5.16,
+        "percent": 5.46,
+        "rsi": "53.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.46,
+        "price": 5.47,
         "change": 0.02,
-        "percent": 0.28,
-        "rsi": "35.1",
+        "percent": 0.38,
+        "rsi": "35.4",
         "trend": "-"
       },
       {
@@ -214,31 +214,85 @@
   },
   "news": [
     {
+      "title": "摩根士丹利以市場領先的低費用加入比特幣 ETF 競賽",
+      "source": "CoinDesk",
+      "time": "20:21",
+      "link": "https://www.coindesk.com/markets/2026/03/27/morgan-stanley-enters-bitcoin-etf-race-with-market-leading-low-fee"
+    },
+    {
+      "title": "最新備案數據顯示，國稅局平均退稅成長 10.9%",
+      "source": "CNBC",
+      "time": "18:53",
+      "link": "https://www.cnbc.com/2026/03/27/average-irs-tax-refund.html"
+    },
+    {
+      "title": "分析：什麼可能會阻礙凱文沃什及其作為聯準會主席的議程",
+      "source": "CNBC",
+      "time": "18:11",
+      "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html"
+    },
+    {
+      "title": "為什麼萬事達卡為其本來可以建構的穩定幣基礎設施支付雙倍費用",
+      "source": "CoinDesk",
+      "time": "16:30",
+      "link": "https://www.coindesk.com/opinion/2026/03/27/why-mastercard-paid-double-for-stablecoin-infrastructure-it-could-have-built"
+    },
+    {
+      "title": "由於 IRS 紙本支票逐步淘汰，140 萬納稅人面臨退稅延遲",
+      "source": "CNBC",
+      "time": "15:19",
+      "link": "https://www.cnbc.com/2026/03/27/tax-refund-delays.html"
+    },
+    {
+      "title": "這些美國人在人工智慧取代他們的工作之前就辭職了，並開始自己創業：“我只是想掌控一切”",
+      "source": "CNBC",
+      "time": "15:14",
+      "link": "https://www.cnbc.com/2026/03/27/how-ai-is-changing-american-entrepreneurship-small-business.html"
+    },
+    {
+      "title": "經濟學家表示，油價上漲可能會增加食品成本，但囤積食品“會使情況變得更糟”",
+      "source": "CNBC",
+      "time": "13:31",
+      "link": "https://www.cnbc.com/2026/03/27/rising-oil-prices-lift-food-costs.html"
+    },
+    {
+      "title": "伊朗戰爭期間，為防止燃油價格飆升，印度稅收收入受到“巨大打擊”",
+      "source": "CNBC",
+      "time": "08:44",
+      "link": "https://www.cnbc.com/2026/03/27/india-fuel-tax-cut-oil-prices-iran-war-impact.html"
+    },
+    {
+      "title": "伊朗戰爭引發外國投資者從印度股市撤資創紀錄的 120 億美元",
+      "source": "CNBC",
+      "time": "06:07",
+      "link": "https://www.cnbc.com/2026/03/27/indian-equities-foreign-investors-sell-12-billion-stocks.html"
+    },
+    {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "22:26",
       "link": "https://www.cnbc.com/2026/03/26/cramer-when-to-buy-nvidia.html"
     },
     {
-      "title": "今日股市：即時更新",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "22:07",
       "link": "https://www.cnbc.com/2026/03/26/stock-market-today-live-updates.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "參議員沃倫痛批聯準會主席人選凱文沃什：“你沒有從失敗中學到任何東西”",
       "source": "CNBC",
       "time": "22:06",
       "link": "https://www.cnbc.com/2026/03/26/federal-reserve-kevin-walsh-elizabeth-warren-trump.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "川普官員表示，隨著油輪運輸艱難恢復，霍爾木茲船舶保險計畫將「很快」啟動",
       "source": "gcaptain.com",
       "time": "21:29",
       "link": "https://gcaptain.com/trump-official-says-hormuz-ship-insurance-program-to-launch-soon-as-tanker-traffic-struggles-to-recover/"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "AARP 發現，家庭護理人員現在每年提供價值 1 兆美元的護理",
       "source": "CNBC",
       "time": "20:17",
       "link": "https://www.cnbc.com/2026/03/26/family-caregivers.html"
@@ -250,7 +304,7 @@
       "link": "https://www.coindesk.com/markets/2026/03/26/strategy-s-11-5-dividend-equity-bounces-back-faster-than-hostorical-average-to-unlock-more-bitcoin-buying"
     },
     {
-      "title": "顧問的加密貨幣：穩定幣的演變",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "15:00",
       "link": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-for-advisors-the-evolution-of-stablecoins"
@@ -278,60 +332,6 @@
       "source": "CNBC",
       "time": "12:15",
       "link": "https://www.cnbc.com/2026/03/25/iran-war-low-hire-low-fire-job-market.html"
-    },
-    {
-      "title": "It’s not just oil and gas.霍爾木茲海峽的封鎖正在擾亂另一個重要的商品",
-      "source": "CNBC",
-      "time": "08:29",
-      "link": "https://www.cnbc.com/2026/03/25/fertilizer-price-iran-war-food-security-inflation-urea-potash-nitrogen-farmers.html"
-    },
-    {
-      "title": "Arm 執行長 Haas 發布新晶片 150 億美元營收預期，股價上漲 6%",
-      "source": "CNBC",
-      "time": "22:01",
-      "link": "https://www.cnbc.com/2026/03/24/arm-stock-pops-haas-chip-cpu.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "20:26",
-      "link": "https://www.cnbc.com/2026/03/24/how-to-choose-target-date-fund.html"
-    },
-    {
-      "title": "戴蒙警告人工智慧失業，並呼籲政府和企業採取激勵措施",
-      "source": "CNBC",
-      "time": "18:23",
-      "link": "https://www.cnbc.com/2026/03/24/jamie-dimon-ai-job-loss.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "16:23",
-      "link": "https://www.cnbc.com/2026/03/24/iran-war-gas-prices-airline-tickets.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CoinDesk",
-      "time": "16:10",
-      "link": "https://www.coindesk.com/business/2026/03/24/morgan-stanley-says-wall-street-s-crypto-push-isn-t-about-fomo-it-s-been-years-in-the-making"
-    },
-    {
-      "title": "隨著霍爾木茲海峽中斷波及全球，監理機關取消運費附加費",
-      "source": "gcaptain.com",
-      "time": "14:29",
-      "link": "https://gcaptain.com/regulators-push-back-on-shipping-surcharges-as-hormuz-disruption-ripples-globally/"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/03/24/home-flippers-see-smallest-profits-since-great-recession-data-firm-says.html"
-    },
-    {
-      "title": "能源危機衝擊全球經濟，歐元區滯脹警鐘敲響",
-      "source": "CNBC",
-      "time": "12:51",
-      "link": "https://www.cnbc.com/2026/03/24/euro-zone-pmi-staglation-risks-critical-energy-crunch-vdl-iran-war.html"
     }
   ]
 }
