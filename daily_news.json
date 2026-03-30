@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-29 01:09",
+  "update_time": "2026-03-30 01:10",
   "crypto_fng": {
-    "value": "9",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774742400",
-    "time_until_update": "82244"
+    "timestamp": "1774828800",
+    "time_until_update": "82189"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53373.07,
-        "change": -230.58,
-        "percent": -0.43,
-        "rsi": "42.2",
+        "price": 50758.15,
+        "change": -2614.92,
+        "percent": -4.9,
+        "rsi": "43.0",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66506.76,
-        "change": 168.38,
-        "percent": 0.25,
-        "rsi": "38.9",
+        "price": 66456.6,
+        "change": 136.91,
+        "percent": 0.21,
+        "rsi": "33.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1999.54,
-        "change": 8.26,
-        "percent": 0.42,
-        "rsi": "44.4",
+        "price": 2004.41,
+        "change": 11.72,
+        "percent": 0.59,
+        "rsi": "39.1",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.2,
-        "change": -0.82,
-        "percent": -0.99,
-        "rsi": "41.9",
+        "price": 82.3,
+        "change": 0.29,
+        "percent": 0.35,
+        "rsi": "34.8",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6412.25,
-        "change": -112.75,
-        "percent": -1.73,
-        "rsi": "22.6",
+        "price": 6371.0,
+        "change": -41.25,
+        "percent": -0.64,
+        "rsi": "21.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 23328.5,
-        "change": -465.75,
-        "percent": -1.96,
-        "rsi": "22.4",
+        "price": 23154.5,
+        "change": -174.0,
+        "percent": -0.75,
+        "rsi": "21.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 45424.0,
-        "change": -806.0,
-        "percent": -1.74,
-        "rsi": "26.9",
+        "price": 45124.0,
+        "change": -300.0,
+        "percent": -0.66,
+        "rsi": "25.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 100.15,
-        "change": 0.25,
-        "percent": 0.25,
-        "rsi": "57.6",
+        "price": 100.17,
+        "change": 0.02,
+        "percent": 0.02,
+        "rsi": "61.1",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.7,
-        "change": 0.32,
-        "percent": 0.2,
-        "rsi": "57.1",
+        "price": 159.89,
+        "change": 0.18,
+        "percent": 0.11,
+        "rsi": "61.8",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4492.0,
-        "change": 116.5,
-        "percent": 2.66,
-        "rsi": "28.9",
+        "price": 4462.5,
+        "change": -29.5,
+        "percent": -0.66,
+        "rsi": "20.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 99.64,
-        "change": 5.16,
-        "percent": 5.46,
-        "rsi": "53.9",
+        "price": 102.97,
+        "change": 3.33,
+        "percent": 3.34,
+        "rsi": "67.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.47,
-        "change": 0.02,
-        "percent": 0.38,
-        "rsi": "35.4",
+        "price": 5.45,
+        "change": -0.02,
+        "percent": -0.34,
+        "rsi": "28.4",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "擔心霍爾木茲海峽通膨即將到來？世界經濟有一個詞適合你：塑料",
+      "source": "CNBC",
+      "time": "13:57",
+      "link": "https://www.cnbc.com/2026/03/28/iran-war-strait-of-hormuz-petrochemicals-oil-plastics.html"
+    },
+    {
+      "title": "伊朗戰爭是國防技術大放異彩的機會，但幾乎沒有系統和武器準備好",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/03/28/iran-war-defense-tech-drones-trump-hegseth.html"
+    },
+    {
+      "title": "比特幣礦工正在成為人工智慧公司，並出售他們的比特幣來為轉型提供資金",
+      "source": "CoinDesk",
+      "time": "02:30",
+      "link": "https://www.coindesk.com/markets/2026/03/27/bitcoin-miners-are-becoming-ai-companies-and-selling-their-btc-to-fund-the-transition"
+    },
     {
       "title": "摩根士丹利以市場領先的低費用加入比特幣 ETF 競賽",
       "source": "CoinDesk",
@@ -268,13 +286,13 @@
       "link": "https://www.cnbc.com/2026/03/27/indian-equities-foreign-investors-sell-12-billion-stocks.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "現在是購買 Nvidia 的時候嗎？克萊默說提出這些問題才能得到答案",
       "source": "CNBC",
       "time": "22:26",
       "link": "https://www.cnbc.com/2026/03/26/cramer-when-to-buy-nvidia.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "今日股市：即時更新",
       "source": "CNBC",
       "time": "22:07",
       "link": "https://www.cnbc.com/2026/03/26/stock-market-today-live-updates.html"
@@ -304,7 +322,7 @@
       "link": "https://www.coindesk.com/markets/2026/03/26/strategy-s-11-5-dividend-equity-bounces-back-faster-than-hostorical-average-to-unlock-more-bitcoin-buying"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "顧問的加密貨幣：穩定幣的演變",
       "source": "CoinDesk",
       "time": "15:00",
       "link": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-for-advisors-the-evolution-of-stablecoins"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "12:26",
       "link": "https://www.cnbc.com/2026/03/26/high-gas-prices-iran-war-tax-refunds.html"
-    },
-    {
-      "title": "由於投資者觀望，家族辦公室對房地產進行機會主義押注",
-      "source": "CNBC",
-      "time": "11:30",
-      "link": "https://www.cnbc.com/2026/03/26/family-offices-make-opportunistic-bets-on-real-estate.html"
-    },
-    {
-      "title": "瓊斯法案豁免未回答關鍵問題：哪些法律適用於美國貿易中的外國船舶？",
-      "source": "gcaptain.com",
-      "time": "22:40",
-      "link": "https://gcaptain.com/jones-act-waiver-leaves-key-question-unanswered-what-laws-apply-to-foreign-ships-in-u-s-trade/"
-    },
-    {
-      "title": "經濟學家表示，伊朗戰爭可能會進一步「冷卻」已經凍結的就業市場",
-      "source": "CNBC",
-      "time": "12:15",
-      "link": "https://www.cnbc.com/2026/03/25/iran-war-low-hire-low-fire-job-market.html"
     }
   ]
 }
