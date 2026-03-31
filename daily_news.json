@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-03-30 01:10",
+  "update_time": "2026-03-31 01:07",
   "crypto_fng": {
-    "value": "8",
+    "value": "11",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774828800",
-    "time_until_update": "82189"
+    "timestamp": "1774915200",
+    "time_until_update": "82340"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6368.85,
-        "change": -108.31,
-        "percent": -1.67,
-        "rsi": "23.8",
+        "price": 6343.72,
+        "change": -25.13,
+        "percent": -0.39,
+        "rsi": "23.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 20948.36,
-        "change": -459.72,
-        "percent": -2.15,
-        "rsi": "24.8",
+        "price": 20794.64,
+        "change": -153.72,
+        "percent": -0.73,
+        "rsi": "23.7",
         "trend": "📉 空頭"
       },
       {
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 50758.15,
-        "change": -2614.92,
-        "percent": -4.9,
-        "rsi": "43.0",
+        "price": 51249.22,
+        "change": -2123.85,
+        "percent": -3.98,
+        "rsi": "44.6",
         "trend": "📉 空頭"
       },
       {
@@ -52,167 +52,191 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66456.6,
-        "change": 136.91,
-        "percent": 0.21,
-        "rsi": "33.9",
+        "price": 67136.19,
+        "change": 1181.27,
+        "percent": 1.79,
+        "rsi": "29.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2004.41,
-        "change": 11.72,
-        "percent": 0.59,
-        "rsi": "39.1",
-        "trend": "📉 空頭"
+        "price": 2034.95,
+        "change": 52.39,
+        "percent": 2.64,
+        "rsi": "26.5",
+        "trend": "震盪"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.3,
-        "change": 0.29,
-        "percent": 0.35,
-        "rsi": "34.8",
+        "price": 82.74,
+        "change": 1.31,
+        "percent": 1.62,
+        "rsi": "27.8",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 9.93,
-        "change": -0.07,
-        "percent": -0.7,
-        "rsi": "44.0",
+        "price": 9.94,
+        "change": 0.01,
+        "percent": 0.1,
+        "rsi": "44.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 39.4,
-        "change": -0.68,
-        "percent": -1.7,
-        "rsi": "40.6",
+        "price": 39.51,
+        "change": 0.11,
+        "percent": 0.28,
+        "rsi": "45.1",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 26.19,
-        "change": -0.06,
-        "percent": -0.23,
-        "rsi": "27.9",
+        "price": 25.88,
+        "change": -0.31,
+        "percent": -1.18,
+        "rsi": "27.2",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.39,
-        "change": -0.81,
-        "percent": -6.14,
-        "rsi": "44.7",
-        "trend": "震盪"
+        "price": 12.54,
+        "change": 0.15,
+        "percent": 1.21,
+        "rsi": "53.2",
+        "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6371.0,
-        "change": -41.25,
-        "percent": -0.64,
-        "rsi": "21.8",
+        "price": 6411.25,
+        "change": -1.0,
+        "percent": -0.02,
+        "rsi": "23.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 23154.5,
-        "change": -174.0,
-        "percent": -0.75,
-        "rsi": "21.2",
+        "price": 23201.5,
+        "change": -127.0,
+        "percent": -0.54,
+        "rsi": "21.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 45124.0,
-        "change": -300.0,
-        "percent": -0.66,
-        "rsi": "25.5",
+        "price": 45679.0,
+        "change": 255.0,
+        "percent": 0.56,
+        "rsi": "30.6",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 31.05,
-        "change": 3.61,
-        "percent": 13.16,
-        "rsi": "61.3",
+        "price": 30.61,
+        "change": -0.44,
+        "percent": -1.42,
+        "rsi": "61.7",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.44,
-        "change": 0.02,
-        "percent": 0.54,
-        "rsi": "71.3",
+        "price": 4.34,
+        "change": -0.1,
+        "percent": -2.21,
+        "rsi": "62.7",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.17,
-        "change": 0.02,
-        "percent": 0.02,
-        "rsi": "61.1",
+        "price": 100.44,
+        "change": 0.29,
+        "percent": 0.29,
+        "rsi": "62.8",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.89,
-        "change": 0.18,
-        "percent": 0.11,
-        "rsi": "61.8",
+        "price": 159.93,
+        "change": -0.3,
+        "percent": -0.19,
+        "rsi": "60.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4462.5,
-        "change": -29.5,
-        "percent": -0.66,
-        "rsi": "20.8",
+        "price": 4575.2,
+        "change": 83.2,
+        "percent": 1.85,
+        "rsi": "26.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 102.97,
-        "change": 3.33,
-        "percent": 3.34,
-        "rsi": "67.8",
+        "price": 104.34,
+        "change": 4.7,
+        "percent": 4.72,
+        "rsi": "68.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.45,
-        "change": -0.02,
-        "percent": -0.34,
-        "rsi": "28.4",
+        "price": 5.51,
+        "change": 0.04,
+        "percent": 0.73,
+        "rsi": "31.6",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 129.92,
-        "change": -2.58,
-        "percent": -1.95,
-        "rsi": "27.8",
+        "price": 127.5,
+        "change": -2.42,
+        "percent": -1.86,
+        "rsi": "25.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 47.81,
-        "change": -1.24,
-        "percent": -2.53,
-        "rsi": "23.3",
+        "price": 48.36,
+        "change": 0.55,
+        "percent": 1.15,
+        "rsi": "36.2",
         "trend": "📉 空頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "隨著加密卡業務激增，穩定幣支付在東南亞變得“隱形”",
+      "source": "CoinDesk",
+      "time": "19:00",
+      "link": "https://www.coindesk.com/business/2026/03/29/stablecoin-payments-go-invisible-in-southeast-asia-as-crypto-card-business-surges"
+    },
+    {
+      "title": "隨著越來越多的雇主為寵物付費，工作中的後備照護福利不僅限於孩子和年長的父母",
+      "source": "CNBC",
+      "time": "13:51",
+      "link": "https://www.cnbc.com/2026/03/29/backup-care-benefits-employees-kids-seniors-pets.html"
+    },
+    {
+      "title": "川普禁止投資者購屋可能會以更大的房地產交易為代價",
+      "source": "CNBC",
+      "time": "13:43",
+      "link": "https://www.cnbc.com/2026/03/29/affordable-housing-trump-ban-investor-home-buying-real-estate.html"
+    },
+    {
+      "title": "華爾街頂級分析師喜歡這些股息股票以獲得穩定的回報",
+      "source": "CNBC",
+      "time": "12:27",
+      "link": "https://www.cnbc.com/2026/03/29/top-wall-street-analysts-like-these-dividend-stocks-for-solid-returns.html"
+    },
     {
       "title": "擔心霍爾木茲海峽通膨即將到來？世界經濟有一個詞適合你：塑料",
       "source": "CNBC",
@@ -238,13 +262,13 @@
       "link": "https://www.coindesk.com/markets/2026/03/27/morgan-stanley-enters-bitcoin-etf-race-with-market-leading-low-fee"
     },
     {
-      "title": "最新備案數據顯示，國稅局平均退稅成長 10.9%",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "18:53",
       "link": "https://www.cnbc.com/2026/03/27/average-irs-tax-refund.html"
     },
     {
-      "title": "分析：什麼可能會阻礙凱文沃什及其作為聯準會主席的議程",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "18:11",
       "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html"
@@ -308,30 +332,6 @@
       "source": "gcaptain.com",
       "time": "21:29",
       "link": "https://gcaptain.com/trump-official-says-hormuz-ship-insurance-program-to-launch-soon-as-tanker-traffic-struggles-to-recover/"
-    },
-    {
-      "title": "AARP 發現，家庭護理人員現在每年提供價值 1 兆美元的護理",
-      "source": "CNBC",
-      "time": "20:17",
-      "link": "https://www.cnbc.com/2026/03/26/family-caregivers.html"
-    },
-    {
-      "title": "該策略 11.5% 的股息股本反彈速度快於歷史平均水平，以釋放更多比特幣購買",
-      "source": "CoinDesk",
-      "time": "19:17",
-      "link": "https://www.coindesk.com/markets/2026/03/26/strategy-s-11-5-dividend-equity-bounces-back-faster-than-hostorical-average-to-unlock-more-bitcoin-buying"
-    },
-    {
-      "title": "顧問的加密貨幣：穩定幣的演變",
-      "source": "CoinDesk",
-      "time": "15:00",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-for-advisors-the-evolution-of-stablecoins"
-    },
-    {
-      "title": "伊朗戰爭造成的天然氣價格上漲可能會抵消川普「美麗大法案」帶來的更大退稅",
-      "source": "CNBC",
-      "time": "12:26",
-      "link": "https://www.cnbc.com/2026/03/26/high-gas-prices-iran-war-tax-refunds.html"
     }
   ]
 }
