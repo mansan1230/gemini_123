@@ -1,218 +1,248 @@
 {
-  "update_time": "2026-03-31 01:07",
+  "update_time": "2026-04-01 01:14",
   "crypto_fng": {
-    "value": "11",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1774915200",
-    "time_until_update": "82340"
+    "timestamp": "1775001600",
+    "time_until_update": "81918"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6343.72,
-        "change": -25.13,
-        "percent": -0.39,
-        "rsi": "23.5",
+        "price": 6528.52,
+        "change": 184.8,
+        "percent": 2.91,
+        "rsi": "37.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 20794.64,
-        "change": -153.72,
-        "percent": -0.73,
-        "rsi": "23.7",
+        "price": 21590.63,
+        "change": 795.99,
+        "percent": 3.83,
+        "rsi": "37.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24951.88,
-        "change": 95.45,
-        "percent": 0.38,
-        "rsi": "45.2",
+        "price": 24750.79,
+        "change": -201.09,
+        "percent": -0.81,
+        "rsi": "36.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 51249.22,
-        "change": -2123.85,
-        "percent": -3.98,
-        "rsi": "44.6",
+        "price": 53036.15,
+        "change": 1150.3,
+        "percent": 2.22,
+        "rsi": "45.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 22300.75,
-        "change": -312.22,
-        "percent": -1.38,
-        "rsi": "36.1",
+        "price": 22562.88,
+        "change": 262.13,
+        "percent": 1.18,
+        "rsi": "30.9",
         "trend": "📉 空頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 67136.19,
-        "change": 1181.27,
-        "percent": 1.79,
-        "rsi": "29.7",
-        "trend": "📉 空頭"
-      },
-      {
-        "name": "🔵 Ethereum",
-        "price": 2034.95,
-        "change": 52.39,
-        "percent": 2.64,
-        "rsi": "26.5",
+        "price": 68205.99,
+        "change": 1514.55,
+        "percent": 2.27,
+        "rsi": "35.1",
         "trend": "震盪"
       },
       {
+        "name": "🔵 Ethereum",
+        "price": 2105.35,
+        "change": 81.83,
+        "percent": 4.04,
+        "rsi": "35.0",
+        "trend": "📈 多頭"
+      },
+      {
         "name": "☀️ Solana",
-        "price": 82.74,
-        "change": 1.31,
-        "percent": 1.62,
-        "rsi": "27.8",
+        "price": 83.21,
+        "change": 0.76,
+        "percent": 0.92,
+        "rsi": "30.4",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 9.94,
-        "change": 0.01,
-        "percent": 0.1,
-        "rsi": "44.7",
+        "price": 9.97,
+        "change": 0.03,
+        "percent": 0.3,
+        "rsi": "34.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 39.51,
-        "change": 0.11,
-        "percent": 0.28,
-        "rsi": "45.1",
+        "price": 40.56,
+        "change": 1.05,
+        "percent": 2.65,
+        "rsi": "52.3",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.88,
-        "change": -0.31,
-        "percent": -1.18,
-        "rsi": "27.2",
+        "price": 26.35,
+        "change": 0.47,
+        "percent": 1.82,
+        "rsi": "40.5",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.54,
-        "change": 0.15,
-        "percent": 1.21,
-        "rsi": "53.2",
+        "price": 12.43,
+        "change": -0.14,
+        "percent": -1.11,
+        "rsi": "51.2",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6411.25,
-        "change": -1.0,
-        "percent": -0.02,
-        "rsi": "23.0",
+        "price": 6589.5,
+        "change": 201.25,
+        "percent": 3.15,
+        "rsi": "39.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 23201.5,
-        "change": -127.0,
-        "percent": -0.54,
-        "rsi": "21.5",
+        "price": 24017.25,
+        "change": 877.5,
+        "percent": 3.79,
+        "rsi": "38.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 45679.0,
-        "change": 255.0,
-        "percent": 0.56,
-        "rsi": "30.6",
+        "price": 46669.0,
+        "change": 1204.0,
+        "percent": 2.65,
+        "rsi": "43.5",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 30.61,
-        "change": -0.44,
-        "percent": -1.42,
-        "rsi": "61.7",
+        "price": 25.25,
+        "change": -5.36,
+        "percent": -17.51,
+        "rsi": "51.8",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.34,
-        "change": -0.1,
-        "percent": -2.21,
-        "rsi": "62.7",
+        "price": 4.31,
+        "change": -0.03,
+        "percent": -0.71,
+        "rsi": "56.7",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.44,
-        "change": 0.29,
-        "percent": 0.29,
-        "rsi": "62.8",
+        "price": 99.83,
+        "change": -0.68,
+        "percent": -0.67,
+        "rsi": "54.5",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.93,
-        "change": -0.3,
-        "percent": -0.19,
-        "rsi": "60.1",
+        "price": 158.85,
+        "change": -1.0,
+        "percent": -0.62,
+        "rsi": "48.7",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4575.2,
-        "change": 83.2,
-        "percent": 1.85,
-        "rsi": "26.1",
+        "price": 4734.6,
+        "change": 208.6,
+        "percent": 4.61,
+        "rsi": "35.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 104.34,
-        "change": 4.7,
-        "percent": 4.72,
-        "rsi": "68.6",
+        "price": 102.2,
+        "change": -0.68,
+        "percent": -0.66,
+        "rsi": "64.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.51,
-        "change": 0.04,
-        "percent": 0.73,
-        "rsi": "31.6",
+        "price": 5.64,
+        "change": 0.17,
+        "percent": 3.03,
+        "rsi": "41.2",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 127.5,
-        "change": -2.42,
-        "percent": -1.86,
-        "rsi": "25.5",
+        "price": 132.9,
+        "change": 5.4,
+        "percent": 4.24,
+        "rsi": "37.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 48.36,
-        "change": 0.55,
-        "percent": 1.15,
-        "rsi": "36.2",
+        "price": 49.37,
+        "change": 1.01,
+        "percent": 2.09,
+        "rsi": "49.9",
         "trend": "📉 空頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "CNBC 的《The China Connection》電子報：中國人工智慧競賽進入新階段",
+      "source": "CNBC",
+      "time": "23:04",
+      "link": "https://www.cnbc.com/2026/03/31/cnbcs-china-connection-newsletter-ai-race-enters-a-new-phase.html"
+    },
+    {
+      "title": "Vard Marine 贏得美國海軍開發下一代物流船設計的合約",
+      "source": "gcaptain.com",
+      "time": "18:26",
+      "link": "https://gcaptain.com/vard-marine-wins-u-s-navy-contract-to-develop-next-generation-logistics-ship-design/"
+    },
+    {
+      "title": "聯準會升息的押注正在增加 — — 現在日本央行也是如此",
+      "source": "CoinDesk",
+      "time": "12:29",
+      "link": "https://www.coindesk.com/markets/2026/03/30/rate-hike-bets-are-building-for-the-fed-and-now-the-bank-of-japan-too"
+    },
+    {
+      "title": "比特幣穩定，山寨幣在流動性驅動的救濟性反彈中上漲",
+      "source": "CoinDesk",
+      "time": "10:30",
+      "link": "https://www.coindesk.com/markets/2026/03/30/bitcoin-steadies-altcoins-jump-in-liquidity-driven-relief-rally"
+    },
+    {
+      "title": "由於伊朗戰爭增加了新德里的賭注，印度經濟成長放緩，赤字擴大",
+      "source": "CNBC",
+      "time": "06:08",
+      "link": "https://www.cnbc.com/2026/03/30/india-flags-slower-growth-wider-deficit-iran-war.html"
+    },
     {
       "title": "隨著加密卡業務激增，穩定幣支付在東南亞變得“隱形”",
       "source": "CoinDesk",
@@ -262,13 +292,13 @@
       "link": "https://www.coindesk.com/markets/2026/03/27/morgan-stanley-enters-bitcoin-etf-race-with-market-leading-low-fee"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "最新備案數據顯示，國稅局平均退稅成長 10.9%",
       "source": "CNBC",
       "time": "18:53",
       "link": "https://www.cnbc.com/2026/03/27/average-irs-tax-refund.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "分析：什麼可能會阻礙凱文沃什及其作為聯準會主席的議程",
       "source": "CNBC",
       "time": "18:11",
       "link": "https://www.cnbc.com/2026/03/27/analysis-what-might-trip-up-kevin-warsh-and-his-agenda-as-fed-chair.html"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "08:44",
       "link": "https://www.cnbc.com/2026/03/27/india-fuel-tax-cut-oil-prices-iran-war-impact.html"
-    },
-    {
-      "title": "伊朗戰爭引發外國投資者從印度股市撤資創紀錄的 120 億美元",
-      "source": "CNBC",
-      "time": "06:07",
-      "link": "https://www.cnbc.com/2026/03/27/indian-equities-foreign-investors-sell-12-billion-stocks.html"
-    },
-    {
-      "title": "現在是購買 Nvidia 的時候嗎？克萊默說提出這些問題才能得到答案",
-      "source": "CNBC",
-      "time": "22:26",
-      "link": "https://www.cnbc.com/2026/03/26/cramer-when-to-buy-nvidia.html"
-    },
-    {
-      "title": "今日股市：即時更新",
-      "source": "CNBC",
-      "time": "22:07",
-      "link": "https://www.cnbc.com/2026/03/26/stock-market-today-live-updates.html"
-    },
-    {
-      "title": "參議員沃倫痛批聯準會主席人選凱文沃什：“你沒有從失敗中學到任何東西”",
-      "source": "CNBC",
-      "time": "22:06",
-      "link": "https://www.cnbc.com/2026/03/26/federal-reserve-kevin-walsh-elizabeth-warren-trump.html"
-    },
-    {
-      "title": "川普官員表示，隨著油輪運輸艱難恢復，霍爾木茲船舶保險計畫將「很快」啟動",
-      "source": "gcaptain.com",
-      "time": "21:29",
-      "link": "https://gcaptain.com/trump-official-says-hormuz-ship-insurance-program-to-launch-soon-as-tanker-traffic-struggles-to-recover/"
     }
   ]
 }
