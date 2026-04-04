@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-03 01:07",
+  "update_time": "2026-04-04 01:02",
   "crypto_fng": {
-    "value": "9",
+    "value": "11",
     "value_classification": "Extreme Fear",
-    "timestamp": "1775174400",
-    "time_until_update": "82344"
+    "timestamp": "1775260800",
+    "time_until_update": "82675"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25294.03,
-        "change": 505.89,
-        "percent": 2.04,
-        "rsi": "45.5",
+        "price": 25116.53,
+        "change": -177.5,
+        "percent": -0.7,
+        "rsi": "46.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53107.56,
-        "change": -632.12,
-        "percent": -1.18,
-        "rsi": "45.3",
+        "price": 52463.27,
+        "change": -1276.41,
+        "percent": -2.38,
+        "rsi": "43.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 23298.89,
-        "change": 618.85,
-        "percent": 2.73,
-        "rsi": "46.4",
+        "price": 23168.08,
+        "change": -130.81,
+        "percent": -0.56,
+        "rsi": "46.5",
         "trend": "📉 空頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66745.49,
-        "change": -1333.06,
-        "percent": -1.96,
-        "rsi": "40.5",
+        "price": 66882.73,
+        "change": -5.84,
+        "percent": -0.01,
+        "rsi": "38.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2052.2,
-        "change": -86.54,
-        "percent": -4.05,
-        "rsi": "43.4",
+        "price": 2051.7,
+        "change": -5.15,
+        "percent": -0.25,
+        "rsi": "42.6",
         "trend": "震盪"
       },
       {
         "name": "☀️ Solana",
-        "price": 79.24,
-        "change": -1.96,
-        "percent": -2.41,
-        "rsi": "32.3",
+        "price": 80.21,
+        "change": 1.26,
+        "percent": 1.59,
+        "rsi": "32.7",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.33,
-        "change": -0.1,
-        "percent": -0.8,
-        "rsi": "52.9",
+        "price": 12.22,
+        "change": -0.11,
+        "percent": -0.89,
+        "rsi": "46.4",
         "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6623.75,
-        "change": 6.0,
-        "percent": 0.09,
-        "rsi": "49.2",
+        "price": 6603.75,
+        "change": -18.5,
+        "percent": -0.28,
+        "rsi": "43.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24223.25,
-        "change": 28.5,
-        "percent": 0.12,
-        "rsi": "47.7",
+        "price": 24129.75,
+        "change": -88.25,
+        "percent": -0.36,
+        "rsi": "42.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 46736.0,
-        "change": -70.0,
-        "percent": -0.15,
-        "rsi": "51.3",
+        "price": 46629.0,
+        "change": -103.0,
+        "percent": -0.22,
+        "rsi": "46.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 100.01,
-        "change": 0.36,
-        "percent": 0.36,
-        "rsi": "47.1",
+        "price": 100.19,
+        "change": 0.16,
+        "percent": 0.16,
+        "rsi": "54.3",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.57,
-        "change": 0.88,
-        "percent": 0.56,
-        "rsi": "50.0",
+        "price": 159.63,
+        "change": 0.94,
+        "percent": 0.59,
+        "rsi": "50.3",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4702.7,
-        "change": -80.5,
-        "percent": -1.68,
-        "rsi": "38.2",
+        "price": 4651.5,
+        "change": -131.7,
+        "percent": -2.75,
+        "rsi": "36.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 112.06,
-        "change": 11.94,
-        "percent": 11.93,
-        "rsi": "62.3",
+        "price": 111.54,
+        "change": 11.42,
+        "percent": 11.41,
+        "rsi": "62.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.68,
-        "change": 0.06,
-        "percent": 1.02,
-        "rsi": "48.4",
+        "price": 5.56,
+        "change": -0.06,
+        "percent": -1.08,
+        "rsi": "42.9",
         "trend": "-"
       },
       {
@@ -214,13 +214,79 @@
   },
   "news": [
     {
+      "title": "伊朗戰爭推高能源價格 亞馬遜將在賣家增加3.5%的燃油和物流附加費",
+      "source": "CNBC",
+      "time": "17:19",
+      "link": "https://www.cnbc.com/2026/04/02/amazon-add-3point5percent-fuel-and-logistics-surcharge-for-sellers-amid-iran-war.html"
+    },
+    {
+      "title": "顧問的加密貨幣：加密貨幣託管的演變",
+      "source": "CoinDesk",
+      "time": "15:00",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/01/crypto-for-advisors-crypto-custody-s-evolution"
+    },
+    {
+      "title": "儘管收視率飆升，地區運動網絡卻步履蹣跚",
+      "source": "CNBC",
+      "time": "14:40",
+      "link": "https://www.cnbc.com/2026/04/02/regional-sports-networks-are-faltering-even-as-ratings-soar.html"
+    },
+    {
+      "title": "隨著伊朗戰爭的持續，美國大選臨近，食品雜貨即將面臨衝擊",
+      "source": "CNBC",
+      "time": "14:33",
+      "link": "https://www.cnbc.com/2026/04/02/grocery-shock-on-the-horizon-for-us-elections-as-iran-war-drags-on.html"
+    },
+    {
+      "title": "特斯拉公佈第一季汽車交車量 35.8 萬輛，季減 14%",
+      "source": "CNBC",
+      "time": "13:18",
+      "link": "https://www.cnbc.com/2026/04/02/tesla-tsla-q1-2026-vehicle-delivery-production.html"
+    },
+    {
+      "title": "印度儲備銀行有多種政策工具來控制貨幣。這是一個列表",
+      "source": "Bloomberg",
+      "time": "12:45",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-01/india-s-policy-options-if-rupee-extends-slide-from-record-lows"
+    },
+    {
+      "title": "Morning Squawk 中的川普演講、SpaceX IPO、山姆會員店會員價格等",
+      "source": "CNBC",
+      "time": "12:23",
+      "link": "https://www.cnbc.com/2026/04/02/5-things-to-know-before-the-market-opens.html"
+    },
+    {
+      "title": "給予者的遺憾：當富有的父母試圖從孩子身上奪回財富時會發生什麼",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/04/02/tax-changes-rich-parents-claw-back-kids.html"
+    },
+    {
+      "title": "新創公司首次讓研究人員在量子電腦上挖掘區塊鏈任務",
+      "source": "CoinDesk",
+      "time": "12:00",
+      "link": "https://www.coindesk.com/markets/2026/04/02/startup-lets-researchers-mine-blockchain-tasks-on-a-quantum-computer-for-the-first-time"
+    },
+    {
+      "title": "盧比12年來最大漲幅背後的原因是什麼",
+      "source": "Bloomberg",
+      "time": "10:18",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-01/india-s-central-bank-tightens-non-deliverable-fx-contract-rules-mng63d79"
+    },
+    {
+      "title": "伊朗戰爭推動了電動車需求的成長——就像汽車巨頭重新轉向內燃機一樣",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/04/02/evs-autos-energy-oil-iran-war-electric-transport-fossil-fuels.html"
+    },
+    {
       "title": "協定：Google表示量子計算可以更快打破比特幣",
       "source": "CoinDesk",
       "time": "15:59",
       "link": "https://www.coindesk.com/tech/2026/04/01/the-protocol-quantum-computing-could-break-bitcoin-sooner-says-google"
     },
     {
-      "title": "FDA核准禮來公司GLP-1藥丸，開啟減肥藥市場下一個階段",
+      "title": "FDA核准禮來公司GLP-1藥丸，開啟減肥藥市場下一階段",
       "source": "CNBC",
       "time": "15:28",
       "link": "https://www.cnbc.com/2026/04/01/eli-lilly-glp-1-pill-foundayo-approved-for-obesity.html"
@@ -266,72 +332,6 @@
       "source": "CoinDesk",
       "time": "15:30",
       "link": "https://www.coindesk.com/opinion/2026/03/31/the-time-for-clear-financial-privacy-rules-is-now"
-    },
-    {
-      "title": "股票、債券和大宗商品：全球市場如何交易伊朗戰爭",
-      "source": "CNBC",
-      "time": "13:07",
-      "link": "https://www.cnbc.com/2026/03/31/iran-war-stocks-sp500-spx-nasdaq-dow-bonds-treasurys-yields-price-markets-gold-rates.html"
-    },
-    {
-      "title": "在最近的股市波動中，你應該「逢低買入」嗎？專家怎麼說",
-      "source": "CNBC",
-      "time": "12:57",
-      "link": "https://www.cnbc.com/2026/03/31/buy-the-dip-stock-market-down.html"
-    },
-    {
-      "title": "波士頓聯邦儲備銀行發現信用卡年利率對消費者支出產生「具有經濟意義」的影響",
-      "source": "CNBC",
-      "time": "12:15",
-      "link": "https://www.cnbc.com/2026/03/31/boston-fed-credit-card-aprs-have-a-meaningful-impact-on-spending.html"
-    },
-    {
-      "title": "Opendoor 收購 Doma 的交割和託管業務，以降低抵押貸款再融資成本",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/03/31/opendoor-doma-closing-escrow-business-mortgage-refinance-costs.html"
-    },
-    {
-      "title": "諾和諾德 (Novo Nordisk) 推出 Wegovy 肥胖藥物多月訂閱服務，試圖趕上禮來公司 (Eli Lilly)",
-      "source": "CNBC",
-      "time": "11:39",
-      "link": "https://www.cnbc.com/2026/03/31/novo-nordisk-wegovy-subscription-glp-1-obesity-drugs.html"
-    },
-    {
-      "title": "隨著Google發布重磅論文，比特幣多頭爭奪後量子保護",
-      "source": "CoinDesk",
-      "time": "11:38",
-      "link": "https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper"
-    },
-    {
-      "title": "由於伊朗戰爭推高燃油價格，美國汽油價格升至每加侖 4 美元，為 2022 年以來最高",
-      "source": "CNBC",
-      "time": "07:23",
-      "link": "https://www.cnbc.com/2026/03/31/gas-oil-diesel-price-iran-war.html"
-    },
-    {
-      "title": "三大利基商品價格大幅上漲。它們顯示了中國對供應鏈的控制",
-      "source": "CNBC",
-      "time": "05:29",
-      "link": "https://www.cnbc.com/2026/03/31/commodities-price-of-tungsten-sulfur-and-helium.html"
-    },
-    {
-      "title": "CNBC 的《The China Connection》電子報：中國人工智慧競賽進入新階段",
-      "source": "CNBC",
-      "time": "23:04",
-      "link": "https://www.cnbc.com/2026/03/31/cnbcs-china-connection-newsletter-ai-race-enters-a-new-phase.html"
-    },
-    {
-      "title": "Vard Marine 贏得美國海軍合同，開發下一代物流船設計",
-      "source": "gcaptain.com",
-      "time": "18:26",
-      "link": "https://gcaptain.com/vard-marine-wins-u-s-navy-contract-to-develop-next-generation-logistics-ship-design/"
-    },
-    {
-      "title": "聯準會升息的押注正在增加 — — 現在日本央行也是如此",
-      "source": "CoinDesk",
-      "time": "12:29",
-      "link": "https://www.coindesk.com/markets/2026/03/30/rate-hike-bets-are-building-for-the-fed-and-now-the-bank-of-japan-too"
     }
   ]
 }
