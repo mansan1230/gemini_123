@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-04 01:02",
+  "update_time": "2026-04-05 01:09",
   "crypto_fng": {
-    "value": "11",
+    "value": "12",
     "value_classification": "Extreme Fear",
-    "timestamp": "1775260800",
-    "time_until_update": "82675"
+    "timestamp": "1775347200",
+    "time_until_update": "82202"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 52463.27,
-        "change": -1276.41,
-        "percent": -2.38,
-        "rsi": "43.3",
+        "price": 53123.49,
+        "change": 660.22,
+        "percent": 1.26,
+        "rsi": "47.7",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66882.73,
-        "change": -5.84,
-        "percent": -0.01,
-        "rsi": "38.6",
+        "price": 67154.27,
+        "change": 223.16,
+        "percent": 0.33,
+        "rsi": "44.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2051.7,
-        "change": -5.15,
-        "percent": -0.25,
-        "rsi": "42.6",
+        "price": 2059.66,
+        "change": 6.28,
+        "percent": 0.31,
+        "rsi": "48.5",
         "trend": "震盪"
       },
       {
         "name": "☀️ Solana",
-        "price": 80.21,
-        "change": 1.26,
-        "percent": 1.59,
-        "rsi": "32.7",
+        "price": 80.63,
+        "change": 0.26,
+        "percent": 0.33,
+        "rsi": "36.8",
         "trend": "📉 空頭"
       }
     ],
@@ -214,6 +214,12 @@
   },
   "news": [
     {
+      "title": "隨著燃油價格飆升，私人飛行成本上漲高達 20%",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/04/03/private-jet-travel-costs-rise-fuel-prices.html"
+    },
+    {
       "title": "伊朗戰爭推高能源價格 亞馬遜將在賣家增加3.5%的燃油和物流附加費",
       "source": "CNBC",
       "time": "17:19",
@@ -326,12 +332,6 @@
       "source": "CoinDesk",
       "time": "03:13",
       "link": "https://www.coindesk.com/markets/2026/03/31/bitcoin-is-closer-to-its-buy-zone-than-it-s-been-in-three-years"
-    },
-    {
-      "title": "現在是製定明確財務隱私規則的時候了",
-      "source": "CoinDesk",
-      "time": "15:30",
-      "link": "https://www.coindesk.com/opinion/2026/03/31/the-time-for-clear-financial-privacy-rules-is-now"
     }
   ]
 }
