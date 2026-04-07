@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-04-06 01:10",
+  "update_time": "2026-04-07 01:08",
   "crypto_fng": {
-    "value": "13",
+    "value": "11",
     "value_classification": "Extreme Fear",
-    "timestamp": "1775433600",
-    "time_until_update": "82188"
+    "timestamp": "1775520000",
+    "time_until_update": "82308"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6582.69,
-        "change": 7.37,
-        "percent": 0.11,
-        "rsi": "47.3",
+        "price": 6611.83,
+        "change": 29.14,
+        "percent": 0.44,
+        "rsi": "45.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 21879.18,
-        "change": 38.23,
-        "percent": 0.18,
-        "rsi": "47.2",
+        "price": 21996.34,
+        "change": 117.16,
+        "percent": 0.54,
+        "rsi": "45.2",
         "trend": "📉 空頭"
       },
       {
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 53629.75,
-        "change": 506.26,
-        "percent": 0.95,
-        "rsi": "49.6",
+        "price": 53764.95,
+        "change": 641.46,
+        "percent": 1.21,
+        "rsi": "50.0",
         "trend": "📉 空頭"
       },
       {
@@ -52,167 +52,185 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 68923.04,
-        "change": 1632.52,
-        "percent": 2.43,
-        "rsi": "53.5",
+        "price": 68714.35,
+        "change": -267.55,
+        "percent": -0.39,
+        "rsi": "41.2",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2118.25,
-        "change": 52.9,
-        "percent": 2.56,
-        "rsi": "55.3",
+        "price": 2110.47,
+        "change": 1.47,
+        "percent": 0.07,
+        "rsi": "45.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.19,
-        "change": 1.38,
-        "percent": 1.71,
-        "rsi": "42.5",
+        "price": 79.85,
+        "change": -2.0,
+        "percent": -2.45,
+        "rsi": "24.3",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 10.45,
-        "change": 0.12,
-        "percent": 1.21,
-        "rsi": "49.2",
+        "price": 9.94,
+        "change": -0.51,
+        "percent": -4.88,
+        "rsi": "36.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.11,
-        "change": 0.58,
-        "percent": 1.43,
-        "rsi": "70.5",
+        "price": 41.1,
+        "change": -0.01,
+        "percent": -0.02,
+        "rsi": "65.4",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
         "price": 26.3,
-        "change": 0.35,
-        "percent": 1.35,
-        "rsi": "52.4",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "56.1",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.22,
-        "change": -0.11,
-        "percent": -0.89,
-        "rsi": "46.4",
+        "price": 12.31,
+        "change": 0.09,
+        "percent": 0.74,
+        "rsi": "40.8",
         "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6610.25,
-        "change": -12.0,
-        "percent": -0.18,
-        "rsi": "43.7",
+        "price": 6641.0,
+        "change": 18.75,
+        "percent": 0.28,
+        "rsi": "45.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 24217.5,
-        "change": -0.5,
-        "percent": -0.0,
-        "rsi": "43.3",
+        "price": 24303.25,
+        "change": 85.25,
+        "percent": 0.35,
+        "rsi": "44.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 46578.0,
-        "change": -154.0,
-        "percent": -0.33,
-        "rsi": "46.0",
+        "price": 46920.0,
+        "change": 188.0,
+        "percent": 0.4,
+        "rsi": "49.4",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 23.87,
-        "change": -0.67,
-        "percent": -2.73,
-        "rsi": "43.9",
+        "price": 24.17,
+        "change": 0.3,
+        "percent": 1.26,
+        "rsi": "51.4",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.31,
-        "change": -0.01,
-        "percent": -0.14,
-        "rsi": "52.0",
+        "price": 4.34,
+        "change": 0.02,
+        "percent": 0.51,
+        "rsi": "58.7",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.03,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "52.9",
+        "price": 100.04,
+        "change": 0.01,
+        "percent": 0.01,
+        "rsi": "53.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.65,
-        "change": 0.15,
-        "percent": 0.1,
-        "rsi": "52.8",
+        "price": 159.83,
+        "change": 0.05,
+        "percent": 0.03,
+        "rsi": "55.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4649.0,
-        "change": -2.5,
-        "percent": -0.05,
-        "rsi": "38.3",
+        "price": 4683.8,
+        "change": 32.3,
+        "percent": 0.69,
+        "rsi": "39.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 112.23,
-        "change": 0.69,
-        "percent": 0.62,
-        "rsi": "69.1",
+        "price": 113.27,
+        "change": 1.73,
+        "percent": 1.55,
+        "rsi": "69.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.64,
-        "change": 0.07,
-        "percent": 1.32,
-        "rsi": "42.8",
+        "price": 5.61,
+        "change": 0.05,
+        "percent": 0.86,
+        "rsi": "41.3",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 135.99,
-        "change": 1.08,
-        "percent": 0.8,
-        "rsi": "48.9",
+        "price": 136.78,
+        "change": 0.79,
+        "percent": 0.58,
+        "rsi": "46.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 49.53,
-        "change": 0.09,
-        "percent": 0.18,
-        "rsi": "58.7",
+        "price": 49.88,
+        "change": 0.35,
+        "percent": 0.71,
+        "rsi": "58.2",
         "trend": "📉 空頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "佐蘭·馬姆達尼 (Zohran Mamdani) 和企業外流？紐約辦公室房地產市場在新市長的領導下上漲",
+      "source": "CNBC",
+      "time": "15:45",
+      "link": "https://www.cnbc.com/2026/04/05/mayor-zohran-mamdani-new-york-office-real-estate-market.html"
+    },
+    {
+      "title": "比特幣 1.3 兆美元的安全競賽：旨在對世界上最大的區塊鏈進行量子驗證的關鍵舉措",
+      "source": "CoinDesk",
+      "time": "03:31",
+      "link": "https://www.coindesk.com/tech/2026/04/04/bitcoin-s-usd1-3-trillion-security-race-key-initiatives-aimed-at-quantum-proofing-the-world-s-largest-blockchain"
+    },
+    {
+      "title": "隨著 401(k) 餘額膨脹，財務顧問警告退休計畫陷阱",
+      "source": "CNBC",
+      "time": "13:30",
+      "link": "https://www.cnbc.com/2026/04/04/401k-balances-retirement-planning-pitfalls.html"
+    },
     {
       "title": "美伊戰爭「稅」開始打擊美國企業與消費者",
       "source": "CNBC",
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "15:28",
       "link": "https://www.cnbc.com/2026/04/01/eli-lilly-glp-1-pill-foundayo-approved-for-obesity.html"
-    },
-    {
-      "title": "比特幣的崩盤正在縮小，華爾街開始注意到",
-      "source": "CoinDesk",
-      "time": "12:59",
-      "link": "https://www.coindesk.com/markets/2026/04/01/bitcoin-s-crashes-are-shrinking-and-wall-street-is-starting-to-notice"
-    },
-    {
-      "title": "全球預測組織表示，今年物價漲幅可能超出聯準會的預測——這對您的資金意味著什麼",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2026/04/01/oecd-predicts-higher-inflation-than-fedwhat-that-means-for-your-money.html"
-    },
-    {
-      "title": "甲骨文股價盤前上漲，因計畫裁員數千人",
-      "source": "CNBC",
-      "time": "12:26",
-      "link": "https://www.cnbc.com/2026/04/01/oracle-orcl-stock-layoffs-job-cuts-ai.html"
     }
   ]
 }
