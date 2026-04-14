@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-04-13 01:15",
+  "update_time": "2026-04-14 01:14",
   "crypto_fng": {
-    "value": "12",
+    "value": "21",
     "value_classification": "Extreme Fear",
-    "timestamp": "1776038400",
-    "time_until_update": "81849"
+    "timestamp": "1776124800",
+    "time_until_update": "81920"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6816.89,
-        "change": -7.77,
-        "percent": -0.11,
-        "rsi": "67.8",
-        "trend": "震盪"
+        "price": 6886.24,
+        "change": 69.35,
+        "percent": 1.02,
+        "rsi": "67.6",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 22902.89,
-        "change": 80.47,
-        "percent": 0.35,
-        "rsi": "66.1",
+        "price": 23183.74,
+        "change": 280.85,
+        "percent": 1.23,
+        "rsi": "66.0",
         "trend": "📈 多頭"
       },
       {
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 56551.79,
-        "change": -372.32,
-        "percent": -0.65,
-        "rsi": "65.6",
+        "price": 57864.84,
+        "change": 940.73,
+        "percent": 1.65,
+        "rsi": "69.5",
         "trend": "📈 多頭"
       },
       {
@@ -52,52 +52,52 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 71207.98,
-        "change": -1846.29,
-        "percent": -2.53,
-        "rsi": "69.4",
+        "price": 74279.22,
+        "change": 3525.81,
+        "percent": 4.98,
+        "rsi": "72.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2208.26,
-        "change": -77.13,
-        "percent": -3.38,
-        "rsi": "67.1",
+        "price": 2364.37,
+        "change": 172.17,
+        "percent": 7.85,
+        "rsi": "71.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.26,
-        "change": -2.69,
-        "percent": -3.16,
-        "rsi": "51.7",
-        "trend": "📉 空頭"
+        "price": 85.96,
+        "change": 4.43,
+        "percent": 5.43,
+        "rsi": "56.2",
+        "trend": "震盪"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 10.7,
-        "change": 0.4,
-        "percent": 3.88,
-        "rsi": "62.0",
-        "trend": "📉 空頭"
+        "price": 11.06,
+        "change": 0.36,
+        "percent": 3.36,
+        "rsi": "66.7",
+        "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 40.93,
-        "change": -0.74,
-        "percent": -1.78,
-        "rsi": "66.1",
+        "price": 41.31,
+        "change": 0.38,
+        "percent": 0.93,
+        "rsi": "65.1",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 26.39,
-        "change": -0.01,
-        "percent": -0.04,
-        "rsi": "59.8",
+        "price": 26.53,
+        "change": 0.14,
+        "percent": 0.53,
+        "rsi": "61.3",
         "trend": "📈 多頭"
       },
       {
@@ -112,103 +112,103 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6802.5,
-        "change": -52.75,
-        "percent": -0.77,
-        "rsi": "59.8",
+        "price": 6923.25,
+        "change": 68.0,
+        "percent": 0.99,
+        "rsi": "66.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25060.5,
-        "change": -220.75,
-        "percent": -0.87,
-        "rsi": "58.3",
+        "price": 25578.25,
+        "change": 297.0,
+        "percent": 1.17,
+        "rsi": "64.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 47740.0,
-        "change": -389.0,
-        "percent": -0.81,
-        "rsi": "60.7",
+        "price": 48422.0,
+        "change": 293.0,
+        "percent": 0.61,
+        "rsi": "67.0",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 19.23,
-        "change": -0.26,
-        "percent": -1.33,
-        "rsi": "34.5",
+        "price": 19.12,
+        "change": -0.11,
+        "percent": -0.57,
+        "rsi": "35.3",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.32,
-        "change": 0.02,
-        "percent": 0.56,
-        "rsi": "43.2",
+        "price": 4.3,
+        "change": -0.02,
+        "percent": -0.46,
+        "rsi": "46.3",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.04,
-        "change": 0.39,
-        "percent": 0.4,
-        "rsi": "51.0",
+        "price": 98.35,
+        "change": -0.3,
+        "percent": -0.3,
+        "rsi": "43.3",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.7,
-        "change": 0.58,
-        "percent": 0.37,
-        "rsi": "58.9",
+        "price": 159.18,
+        "change": -0.5,
+        "percent": -0.31,
+        "rsi": "53.3",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4724.0,
-        "change": -37.9,
-        "percent": -0.8,
-        "rsi": "64.8",
+        "price": 4790.8,
+        "change": 28.9,
+        "percent": 0.61,
+        "rsi": "68.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 104.4,
-        "change": 7.83,
-        "percent": 8.11,
-        "rsi": "62.4",
+        "price": 96.86,
+        "change": 0.29,
+        "percent": 0.3,
+        "rsi": "57.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.81,
-        "change": -0.06,
-        "percent": -1.07,
-        "rsi": "70.1",
+        "price": 6.04,
+        "change": 0.17,
+        "percent": 2.86,
+        "rsi": "79.3",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 142.62,
-        "change": 0.55,
-        "percent": 0.39,
-        "rsi": "63.6",
+        "price": 145.61,
+        "change": 2.99,
+        "percent": 2.1,
+        "rsi": "65.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 50.77,
-        "change": -0.56,
-        "percent": -1.09,
-        "rsi": "65.9",
-        "trend": "震盪"
+        "price": 51.66,
+        "change": 0.89,
+        "percent": 1.75,
+        "rsi": "68.2",
+        "trend": "📈 多頭"
       }
     ]
   },
@@ -238,7 +238,7 @@
       "link": "https://www.cnbc.com/2026/04/11/trump-pharma-tariffs-mfn-china-europe-biotech-stocks.html"
     },
     {
-      "title": "技術下載：聲譽受損、供應鏈問題和本地投資。中東科技的下一步是什麼？",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/04/10/tech-download-iran-war-whats-next-helium-chips.html"
@@ -250,7 +250,7 @@
       "link": "https://www.coindesk.com/tech/2026/04/10/xrp-adjacent-flare-proposes-protocol-level-mev-capture-and-40-inflation-cut"
     },
     {
-      "title": "印度仿製藥氾濫，禮來股價下滑，諾和諾德堅挺",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "05:54",
       "link": "https://www.cnbc.com/2026/04/10/eli-lilly-slips-novo-nordisk-holds-firm-as-generic-weight-loss-drugs-flood-india.html"
@@ -280,7 +280,7 @@
       "link": "https://gcaptain.com/australia-bans-bulk-carrier-after-7-months-of-unpaid-crew-wages/"
     },
     {
-      "title": "為什麼美國年輕人在巴黎的商店購買 200 美元的筆記本",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:59",
       "link": "https://www.cnbc.com/2026/04/09/louise-carmen-notebooks-young-americans-journaling-trend.html"
@@ -316,7 +316,7 @@
       "link": "https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers"
     },
     {
-      "title": "美國房地產市場以百萬美元掛牌為標準",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "14:10",
       "link": "https://www.cnbc.com/2026/04/08/us-housing-markets-million-dollar-listing.html"
