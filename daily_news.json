@@ -1,218 +1,236 @@
 {
-  "update_time": "2026-04-14 01:14",
+  "update_time": "2026-04-15 01:13",
   "crypto_fng": {
-    "value": "21",
+    "value": "23",
     "value_classification": "Extreme Fear",
-    "timestamp": "1776124800",
-    "time_until_update": "81920"
+    "timestamp": "1776211200",
+    "time_until_update": "82018"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 6886.24,
-        "change": 69.35,
-        "percent": 1.02,
-        "rsi": "67.6",
+        "price": 6967.38,
+        "change": 81.14,
+        "percent": 1.18,
+        "rsi": "72.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 23183.74,
-        "change": 280.85,
-        "percent": 1.23,
-        "rsi": "66.0",
+        "price": 23639.08,
+        "change": 455.34,
+        "percent": 1.96,
+        "rsi": "72.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25893.54,
-        "change": 141.14,
-        "percent": 0.55,
-        "rsi": "48.7",
+        "price": 25872.32,
+        "change": 211.47,
+        "percent": 0.82,
+        "rsi": "56.1",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 57864.84,
-        "change": 940.73,
-        "percent": 1.65,
-        "rsi": "69.5",
+        "price": 58564.41,
+        "change": 687.02,
+        "percent": 1.19,
+        "rsi": "67.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 23803.95,
-        "change": -3.04,
-        "percent": -0.01,
-        "rsi": "60.6",
+        "price": 24044.22,
+        "change": 301.78,
+        "percent": 1.27,
+        "rsi": "66.7",
         "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 74279.22,
-        "change": 3525.81,
-        "percent": 4.98,
-        "rsi": "72.6",
+        "price": 74724.74,
+        "change": 240.1,
+        "percent": 0.32,
+        "rsi": "70.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2364.37,
-        "change": 172.17,
-        "percent": 7.85,
-        "rsi": "71.2",
+        "price": 2337.31,
+        "change": -33.4,
+        "percent": -1.41,
+        "rsi": "65.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 85.96,
-        "change": 4.43,
-        "percent": 5.43,
-        "rsi": "56.2",
-        "trend": "震盪"
+        "price": 83.8,
+        "change": -2.86,
+        "percent": -3.3,
+        "rsi": "51.1",
+        "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.06,
+        "price": 11.42,
         "change": 0.36,
-        "percent": 3.36,
-        "rsi": "66.7",
+        "percent": 3.25,
+        "rsi": "74.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.31,
-        "change": 0.38,
-        "percent": 0.93,
-        "rsi": "65.1",
+        "price": 40.94,
+        "change": -0.37,
+        "percent": -0.9,
+        "rsi": "55.9",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 26.53,
-        "change": 0.14,
-        "percent": 0.53,
-        "rsi": "61.3",
+        "price": 26.39,
+        "change": -0.14,
+        "percent": -0.53,
+        "rsi": "48.5",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.37,
-        "change": -0.3,
-        "percent": -2.37,
-        "rsi": "37.7",
+        "price": 12.26,
+        "change": -0.25,
+        "percent": -2.0,
+        "rsi": "36.7",
         "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 6923.25,
-        "change": 68.0,
-        "percent": 0.99,
-        "rsi": "66.6",
+        "price": 7008.25,
+        "change": 85.5,
+        "percent": 1.24,
+        "rsi": "71.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 25578.25,
-        "change": 297.0,
-        "percent": 1.17,
-        "rsi": "64.6",
+        "price": 26018.25,
+        "change": 474.75,
+        "percent": 1.86,
+        "rsi": "71.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 48422.0,
-        "change": 293.0,
-        "percent": 0.61,
-        "rsi": "67.0",
+        "price": 48757.0,
+        "change": 332.0,
+        "percent": 0.69,
+        "rsi": "70.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 19.12,
-        "change": -0.11,
-        "percent": -0.57,
-        "rsi": "35.3",
+        "price": 18.36,
+        "change": -0.76,
+        "percent": -3.97,
+        "rsi": "32.0",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.3,
-        "change": -0.02,
-        "percent": -0.46,
-        "rsi": "46.3",
+        "price": 4.26,
+        "change": -0.04,
+        "percent": -0.95,
+        "rsi": "36.1",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.35,
-        "change": -0.3,
-        "percent": -0.3,
-        "rsi": "43.3",
+        "price": 98.14,
+        "change": -0.23,
+        "percent": -0.24,
+        "rsi": "34.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.18,
-        "change": -0.5,
-        "percent": -0.31,
-        "rsi": "53.3",
+        "price": 158.85,
+        "change": -0.36,
+        "percent": -0.23,
+        "rsi": "46.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4790.8,
-        "change": 28.9,
-        "percent": 0.61,
-        "rsi": "68.1",
+        "price": 4855.0,
+        "change": 112.6,
+        "percent": 2.37,
+        "rsi": "69.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 96.86,
-        "change": 0.29,
-        "percent": 0.3,
-        "rsi": "57.5",
+        "price": 90.61,
+        "change": -8.47,
+        "percent": -8.55,
+        "rsi": "48.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.04,
-        "change": 0.17,
-        "percent": 2.86,
-        "rsi": "79.3",
+        "price": 6.1,
+        "change": 0.12,
+        "percent": 2.02,
+        "rsi": "81.7",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 145.61,
-        "change": 2.99,
-        "percent": 2.1,
-        "rsi": "65.0",
+        "price": 147.94,
+        "change": 2.33,
+        "percent": 1.6,
+        "rsi": "69.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 51.66,
-        "change": 0.89,
-        "percent": 1.75,
-        "rsi": "68.2",
+        "price": 51.78,
+        "change": 0.12,
+        "percent": 0.23,
+        "rsi": "68.7",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "Strategy完全透過STRC以10億美元購買13,927個比特幣",
+      "source": "CoinDesk",
+      "time": "12:09",
+      "link": "https://www.coindesk.com/markets/2026/04/13/michael-saylor-s-strategy-added-13-927-bitcoin-for-usd1-billion"
+    },
+    {
+      "title": "英力士汽車 (Ineos Automotive)：由一位受封的億萬富翁和足球大亨支持的新創公司希望重新點燃堅固耐用的 SUV 市場",
+      "source": "CNBC",
+      "time": "11:30",
+      "link": "https://www.cnbc.com/2026/04/13/ineos-automotive-grenadier-suv-james-ratcliffe.html"
+    },
+    {
+      "title": "策略表明公司將再次購買比特幣，因為公司只需 2% 的年度比特幣增長即可支付股息",
+      "source": "CoinDesk",
+      "time": "05:01",
+      "link": "https://www.coindesk.com/markets/2026/04/13/strategy-signals-another-bitcoin-buy-as-company-needs-just-2-annual-btc-growth-to-cover-dividends"
+    },
     {
       "title": "伊朗戰爭油價衝擊重振通膨貿易和新的穩定幣玩法",
       "source": "CoinDesk",
@@ -238,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/04/11/trump-pharma-tariffs-mfn-china-europe-biotech-stocks.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "技術下載：聲譽受損、供應鏈問題和本地投資。中東科技的下一步是什麼？",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/04/10/tech-download-iran-war-whats-next-helium-chips.html"
@@ -250,7 +268,7 @@
       "link": "https://www.coindesk.com/tech/2026/04/10/xrp-adjacent-flare-proposes-protocol-level-mev-capture-and-40-inflation-cut"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "印度仿製藥氾濫，禮來股價下滑，諾和諾德堅挺",
       "source": "CNBC",
       "time": "05:54",
       "link": "https://www.cnbc.com/2026/04/10/eli-lilly-slips-novo-nordisk-holds-firm-as-generic-weight-loss-drugs-flood-india.html"
@@ -280,7 +298,7 @@
       "link": "https://gcaptain.com/australia-bans-bulk-carrier-after-7-months-of-unpaid-crew-wages/"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "為什麼美國年輕人在巴黎的商店購買 200 美元的筆記本",
       "source": "CNBC",
       "time": "13:59",
       "link": "https://www.cnbc.com/2026/04/09/louise-carmen-notebooks-young-americans-journaling-trend.html"
@@ -314,24 +332,6 @@
       "source": "CoinDesk",
       "time": "14:14",
       "link": "https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "14:10",
-      "link": "https://www.cnbc.com/2026/04/08/us-housing-markets-million-dollar-listing.html"
-    },
-    {
-      "title": "摩根士丹利的比特幣 ETF 今天開放，使貝萊德 550 億美元的 IBIT 基金成為迄今為止最強勁的競爭對手",
-      "source": "CoinDesk",
-      "time": "12:45",
-      "link": "https://www.coindesk.com/markets/2026/04/08/morgan-stanley-s-bitcoin-etf-opens-today-giving-blackrock-s-usd55-billion-ibit-fund-its-toughest-rival-yet"
-    },
-    {
-      "title": "克服比特幣和量子風險。 Anthropic 的 Mythos AI 可能對 DeFi 產生重大影響",
-      "source": "CoinDesk",
-      "time": "10:58",
-      "link": "https://www.coindesk.com/markets/2026/04/08/move-over-bitcoin-and-quantum-risks-anthropic-s-mythos-ai-changes-everything-for-defi"
     }
   ]
 }
