@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-18 01:08",
+  "update_time": "2026-04-19 01:17",
   "crypto_fng": {
-    "value": "26",
+    "value": "27",
     "value_classification": "Fear",
-    "timestamp": "1776470400",
-    "time_until_update": "82310"
+    "timestamp": "1776556800",
+    "time_until_update": "81766"
   },
   "data": {
     "indices": [
@@ -26,53 +26,53 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26394.26,
-        "change": 446.94,
-        "percent": 1.72,
-        "rsi": "67.5",
-        "trend": "📈 多頭"
+        "price": 26160.33,
+        "change": -233.93,
+        "percent": -0.89,
+        "rsi": "61.0",
+        "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 59518.34,
-        "change": 1384.1,
-        "percent": 2.38,
-        "rsi": "70.5",
+        "price": 58475.9,
+        "change": -1042.44,
+        "percent": -1.75,
+        "rsi": "72.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24154.47,
-        "change": 87.77,
-        "percent": 0.36,
-        "rsi": "65.2",
-        "trend": "震盪"
+        "price": 24702.24,
+        "change": 547.77,
+        "percent": 2.27,
+        "rsi": "75.2",
+        "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77226.88,
-        "change": 2074.75,
-        "percent": 2.76,
-        "rsi": "79.6",
+        "price": 75672.01,
+        "change": -1454.87,
+        "percent": -1.89,
+        "rsi": "72.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2422.61,
-        "change": 73.97,
-        "percent": 3.15,
-        "rsi": "73.7",
+        "price": 2348.22,
+        "change": -72.85,
+        "percent": -3.01,
+        "rsi": "66.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 88.99,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "64.0",
-        "trend": "📈 多頭"
+        "price": 85.99,
+        "change": -2.88,
+        "percent": -3.25,
+        "rsi": "57.8",
+        "trend": "震盪"
       }
     ],
     "shipping": [
@@ -112,25 +112,25 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7164.25,
-        "change": 87.25,
-        "percent": 1.23,
+        "price": 7161.5,
+        "change": 84.5,
+        "percent": 1.19,
         "rsi": "96.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 26840.75,
-        "change": 353.5,
-        "percent": 1.33,
+        "price": 26825.5,
+        "change": 338.25,
+        "percent": 1.28,
         "rsi": "95.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49663.0,
-        "change": 896.0,
-        "percent": 1.84,
+        "price": 49641.0,
+        "change": 874.0,
+        "percent": 1.79,
         "rsi": "89.9",
         "trend": "-"
       }
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.23,
-        "change": 0.01,
-        "percent": 0.01,
-        "rsi": "24.3",
+        "price": 98.1,
+        "change": -0.12,
+        "percent": -0.12,
+        "rsi": "23.4",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4849.4,
-        "change": 64.0,
-        "percent": 1.34,
-        "rsi": "72.3",
+        "price": 4857.6,
+        "change": 72.2,
+        "percent": 1.51,
+        "rsi": "72.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 84.0,
-        "change": -10.69,
-        "percent": -11.29,
+        "price": 83.85,
+        "change": -10.84,
+        "percent": -11.45,
         "rsi": "38.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.08,
-        "change": 0.01,
-        "percent": 0.25,
-        "rsi": "86.2",
+        "price": 6.1,
+        "change": 0.04,
+        "percent": 0.61,
+        "rsi": "86.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,42 @@
     ]
   },
   "news": [
+    {
+      "title": "觀點：人工智慧需求膨脹，只有 Anthropic 是現實的",
+      "source": "CNBC",
+      "time": "19:10",
+      "link": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html"
+    },
+    {
+      "title": "Kraken 母公司 Payward 將以 5.5 億美元現金和股票收購衍生性商品交易所 Bitnomial。",
+      "source": "CoinDesk",
+      "time": "12:17",
+      "link": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock"
+    },
+    {
+      "title": "隨著競爭加劇，英偉達人工智慧晶片競爭對手吸引了創紀錄的資金",
+      "source": "CNBC",
+      "time": "11:06",
+      "link": "https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html"
+    },
+    {
+      "title": "如果市場劇烈下滑，新的 ETF 策略可能會很脆弱。這就是為什麼",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/04/17/violent-downturns-could-test-new-etf-strategies-warns-mfs-investment.html"
+    },
+    {
+      "title": "Nvidia 競爭對手告訴 CNBC，隨著歐洲 AI 晶片市場的蓬勃發展，該公司正在尋求至少 1 億美元的資金",
+      "source": "CNBC",
+      "time": "07:17",
+      "link": "https://www.cnbc.com/2026/04/17/nvidia-rivals-chip-market-funding-ai-asml-euclyd.html"
+    },
+    {
+      "title": "美伊和平談判引發風險情緒，比特幣多頭目標 12.5 萬美元",
+      "source": "CoinDesk",
+      "time": "03:52",
+      "link": "https://www.coindesk.com/markets/2026/04/17/bitcoin-bulls-target-usd125-000-as-u-s-iran-peace-talks-trigger-risk-on-mood"
+    },
     {
       "title": "「你是個白痴」：阿波羅的馬克‧羅文（Marc Rowan）對那些無法滿足私人信貸基金贖回要求的貸款人說的話",
       "source": "CNBC",
@@ -296,42 +332,6 @@
       "source": "CNBC",
       "time": "19:03",
       "link": "https://www.cnbc.com/2026/04/15/amazon-sellers-boycott-ads-payment-changes.html"
-    },
-    {
-      "title": "為什麼 BLT 和沙拉變得更貴——關稅、戰爭導致番茄價格飆升",
-      "source": "CNBC",
-      "time": "12:15",
-      "link": "https://www.cnbc.com/2026/04/15/tomato-prices.html"
-    },
-    {
-      "title": "印度儲備銀行與銀行就增加存款的方式進行會談",
-      "source": "Bloomberg",
-      "time": "06:43",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-15/india-s-rbi-holds-talks-with-banks-on-ways-to-boost-deposits"
-    },
-    {
-      "title": "以太坊財務公司 Bitmine 在最新文件中報告第一季虧損 38 億美元",
-      "source": "CoinDesk",
-      "time": "06:17",
-      "link": "https://www.coindesk.com/markets/2026/04/15/ethereum-treasury-firm-bitmine-reports-usd3-8-billion-q1-loss-in-latest-filing"
-    },
-    {
-      "title": "專家表示，隨著買家“更加努力地使數字相符”，七年期汽車貸款的比例不斷增加",
-      "source": "CNBC",
-      "time": "12:36",
-      "link": "https://www.cnbc.com/2026/04/14/car-loan-terms.html"
-    },
-    {
-      "title": "Morning Squawk 中的摩根大通財報、甲骨文 3 億美元的意外之財、全新達美套房等",
-      "source": "CNBC",
-      "time": "12:07",
-      "link": "https://www.cnbc.com/2026/04/14/5-things-to-know-before-the-market-opens.html"
-    },
-    {
-      "title": "最新報告顯示，2026 年最適合應屆大學畢業生的美國 10 個大城市中，德州佔 3 個",
-      "source": "CNBC",
-      "time": "12:01",
-      "link": "https://www.cnbc.com/2026/04/14/top-large-us-cities-for-recent-college-grads-in-2026.html"
     }
   ]
 }
