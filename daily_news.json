@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-19 01:17",
+  "update_time": "2026-04-20 01:16",
   "crypto_fng": {
-    "value": "27",
+    "value": "29",
     "value_classification": "Fear",
-    "timestamp": "1776556800",
-    "time_until_update": "81766"
+    "timestamp": "1776643200",
+    "time_until_update": "81790"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 58475.9,
-        "change": -1042.44,
-        "percent": -1.75,
-        "rsi": "72.7",
+        "price": 59016.2,
+        "change": 540.3,
+        "percent": 0.92,
+        "rsi": "77.9",
         "trend": "📈 多頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 75672.01,
-        "change": -1454.87,
-        "percent": -1.89,
-        "rsi": "72.8",
+        "price": 74357.43,
+        "change": -1368.78,
+        "percent": -1.81,
+        "rsi": "64.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2348.22,
-        "change": -72.85,
-        "percent": -3.01,
-        "rsi": "66.9",
+        "price": 2283.78,
+        "change": -67.32,
+        "percent": -2.86,
+        "rsi": "60.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 85.99,
-        "change": -2.88,
-        "percent": -3.25,
-        "rsi": "57.8",
-        "trend": "震盪"
+        "price": 84.17,
+        "change": -2.03,
+        "percent": -2.36,
+        "rsi": "53.4",
+        "trend": "📉 空頭"
       }
     ],
     "shipping": [
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7161.5,
-        "change": 84.5,
-        "percent": 1.19,
-        "rsi": "96.1",
+        "price": 7116.5,
+        "change": -45.0,
+        "percent": -0.63,
+        "rsi": "93.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 26825.5,
-        "change": 338.25,
-        "percent": 1.28,
-        "rsi": "95.1",
+        "price": 26678.5,
+        "change": -147.0,
+        "percent": -0.55,
+        "rsi": "96.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49641.0,
-        "change": 874.0,
-        "percent": 1.79,
-        "rsi": "89.9",
+        "price": 49225.0,
+        "change": -416.0,
+        "percent": -0.84,
+        "rsi": "83.2",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.1,
-        "change": -0.12,
-        "percent": -0.12,
-        "rsi": "23.4",
+        "price": 98.35,
+        "change": 0.25,
+        "percent": 0.25,
+        "rsi": "21.0",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.58,
-        "change": -0.23,
-        "percent": -0.14,
-        "rsi": "36.6",
+        "price": 158.98,
+        "change": -0.21,
+        "percent": -0.13,
+        "rsi": "43.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4857.6,
-        "change": 72.2,
-        "percent": 1.51,
-        "rsi": "72.6",
+        "price": 4802.0,
+        "change": -55.6,
+        "percent": -1.14,
+        "rsi": "66.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 83.85,
-        "change": -10.84,
-        "percent": -11.45,
-        "rsi": "38.2",
+        "price": 82.59,
+        "change": -12.1,
+        "percent": -12.78,
+        "rsi": "37.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.1,
-        "change": 0.04,
-        "percent": 0.61,
-        "rsi": "86.6",
+        "price": 6.07,
+        "change": -0.04,
+        "percent": -0.61,
+        "rsi": "82.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "伊朗戰爭、4美元的汽油價格讓美國消費經濟失去了所有樂趣",
+      "source": "CNBC",
+      "time": "13:31",
+      "link": "https://www.cnbc.com/2026/04/18/iran-war-gas-prices-consumer-spending-economy.html"
+    },
+    {
+      "title": "專家表示，對人工智慧的恐懼驅使一些年輕人去讀研究生——“人們接受高等教育”",
+      "source": "CNBC",
+      "time": "13:30",
+      "link": "https://www.cnbc.com/2026/04/18/ai-fears-graduate-school.html"
+    },
+    {
+      "title": "英偉達與遊戲玩家一度緊密的關係因人工智慧而破裂，“這讓我心碎”",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html"
+    },
+    {
+      "title": "「這很悲傷」：美英「特殊關係」在皇室訪問華盛頓之前惡化",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/04/18/us-uk-special-relationship-trump-starmer-king-charles.html"
+    },
     {
       "title": "觀點：人工智慧需求膨脹，只有 Anthropic 是現實的",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "07:07",
       "link": "https://www.coindesk.com/markets/2026/04/16/bitcoin-is-testing-a-level-that-capped-its-rally-in-january"
-    },
-    {
-      "title": "伊朗戰爭導致印度3月商品出口下降7%——未來還會有更多痛苦",
-      "source": "CNBC",
-      "time": "07:01",
-      "link": "https://www.cnbc.com/2026/04/16/india-goods-exports-march-drop-more-pain-ahead.html"
-    },
-    {
-      "title": "比特幣漲勢在 75,000 美元附近暫停。鏈上數據說明了原因",
-      "source": "CoinDesk",
-      "time": "05:44",
-      "link": "https://www.coindesk.com/markets/2026/04/16/bitcoin-rally-is-taking-a-breather-near-usd75-000-onchain-data-shows-why"
-    },
-    {
-      "title": "隨著標普 500 指數創下新高，比特幣保持穩定，但選擇權市場不買帳",
-      "source": "CoinDesk",
-      "time": "04:43",
-      "link": "https://www.coindesk.com/markets/2026/04/16/bitcoin-steady-as-s-and-p-500-hits-record-but-options-market-isn-t-buying-the-peace-trade"
-    },
-    {
-      "title": "亞馬遜賣家抵制廣告，抗議政策改變：“我們的利潤快用完了”",
-      "source": "CNBC",
-      "time": "19:03",
-      "link": "https://www.cnbc.com/2026/04/15/amazon-sellers-boycott-ads-payment-changes.html"
     }
   ]
 }
