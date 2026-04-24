@@ -1,218 +1,284 @@
 {
-  "update_time": "2026-04-23 01:18",
+  "update_time": "2026-04-24 01:17",
   "crypto_fng": {
-    "value": "46",
+    "value": "39",
     "value_classification": "Fear",
-    "timestamp": "1776902400",
-    "time_until_update": "81711"
+    "timestamp": "1776988800",
+    "time_until_update": "81738"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7137.9,
-        "change": 73.89,
-        "percent": 1.05,
-        "rsi": "90.1",
+        "price": 7108.4,
+        "change": -29.5,
+        "percent": -0.41,
+        "rsi": "86.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 24657.57,
-        "change": 397.61,
-        "percent": 1.64,
-        "rsi": "93.6",
+        "price": 24438.5,
+        "change": -219.07,
+        "percent": -0.89,
+        "rsi": "87.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26163.24,
-        "change": -324.24,
-        "percent": -1.22,
-        "rsi": "69.5",
+        "price": 25915.2,
+        "change": -248.04,
+        "percent": -0.95,
+        "rsi": "64.7",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 59974.56,
-        "change": 388.7,
-        "percent": 0.65,
-        "rsi": "82.3",
+        "price": 59414.71,
+        "change": 274.48,
+        "percent": 0.46,
+        "rsi": "78.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24194.9,
-        "change": -75.97,
-        "percent": -0.31,
-        "rsi": "69.1",
+        "price": 24155.45,
+        "change": -39.45,
+        "percent": -0.16,
+        "rsi": "62.7",
         "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 78207.93,
-        "change": 1855.16,
-        "percent": 2.43,
-        "rsi": "68.8",
+        "price": 78129.31,
+        "change": -73.79,
+        "percent": -0.09,
+        "rsi": "67.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2366.76,
-        "change": 38.79,
-        "percent": 1.67,
-        "rsi": "61.1",
+        "price": 2324.6,
+        "change": -51.49,
+        "percent": -2.17,
+        "rsi": "57.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 86.49,
-        "change": 0.46,
-        "percent": 0.54,
-        "rsi": "57.2",
+        "price": 85.95,
+        "change": -0.97,
+        "percent": -1.11,
+        "rsi": "54.7",
         "trend": "震盪"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.4,
-        "change": 0.05,
-        "percent": 0.44,
-        "rsi": "65.2",
+        "price": 11.34,
+        "change": -0.06,
+        "percent": -0.53,
+        "rsi": "62.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 39.91,
-        "change": -0.1,
-        "percent": -0.25,
-        "rsi": "43.9",
+        "price": 39.97,
+        "change": 0.06,
+        "percent": 0.14,
+        "rsi": "37.4",
         "trend": "震盪"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 26.41,
-        "change": 0.17,
-        "percent": 0.65,
-        "rsi": "59.6",
-        "trend": "震盪"
+        "price": 26.08,
+        "change": -0.33,
+        "percent": -1.25,
+        "rsi": "45.4",
+        "trend": "📉 空頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.7,
-        "change": -0.09,
-        "percent": -0.76,
-        "rsi": "34.1",
+        "price": 11.5,
+        "change": -0.14,
+        "percent": -1.2,
+        "rsi": "34.2",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7153.0,
-        "change": 53.0,
-        "percent": 0.75,
-        "rsi": "89.7",
+        "price": 7157.0,
+        "change": -14.25,
+        "percent": -0.2,
+        "rsi": "88.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 27052.0,
-        "change": 417.25,
-        "percent": 1.57,
-        "rsi": "94.1",
+        "price": 27122.0,
+        "change": 39.0,
+        "percent": 0.14,
+        "rsi": "94.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49450.0,
-        "change": 111.0,
-        "percent": 0.22,
-        "rsi": "80.6",
+        "price": 49442.0,
+        "change": -226.0,
+        "percent": -0.46,
+        "rsi": "78.9",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 18.92,
-        "change": -0.58,
-        "percent": -2.97,
-        "rsi": "29.2",
+        "price": 19.31,
+        "change": 0.39,
+        "percent": 2.06,
+        "rsi": "32.7",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.29,
-        "change": 0.0,
-        "percent": 0.05,
-        "rsi": "46.3",
+        "price": 4.32,
+        "change": 0.03,
+        "percent": 0.68,
+        "rsi": "51.4",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.58,
-        "change": 0.17,
-        "percent": 0.17,
-        "rsi": "33.3",
+        "price": 98.81,
+        "change": 0.22,
+        "percent": 0.22,
+        "rsi": "30.0",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.37,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "48.7",
+        "price": 159.78,
+        "change": 0.29,
+        "percent": 0.18,
+        "rsi": "50.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4761.9,
-        "change": 63.5,
-        "percent": 1.35,
-        "rsi": "48.6",
+        "price": 4719.1,
+        "change": -13.4,
+        "percent": -0.28,
+        "rsi": "55.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 93.26,
-        "change": 1.13,
-        "percent": 1.23,
-        "rsi": "45.1",
+        "price": 96.88,
+        "change": 3.92,
+        "percent": 4.22,
+        "rsi": "38.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.12,
-        "change": 0.12,
-        "percent": 2.03,
-        "rsi": "76.6",
+        "price": 6.04,
+        "change": -0.08,
+        "percent": -1.36,
+        "rsi": "74.8",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 158.09,
-        "change": 3.4,
-        "percent": 2.2,
-        "rsi": "100.0",
+        "price": 155.84,
+        "change": -2.25,
+        "percent": -1.42,
+        "rsi": "90.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 52.21,
-        "change": -0.09,
-        "percent": -0.17,
-        "rsi": "77.6",
+        "price": 51.8,
+        "change": -0.41,
+        "percent": -0.79,
+        "rsi": "71.3",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "拋開特斯拉、比亞迪：日本汽車製造商透過混合動力車加深對印度汽車市場的控制",
+      "source": "CNBC",
+      "time": "00:14",
+      "link": "https://www.cnbc.com/2026/04/23/japanese-carmakers-deepen-hold-in-india-with-hybrids.html"
+    },
+    {
+      "title": "執行長表示，人工智慧將提高生產力，因此 ServiceNow 無需填補空缺職位",
+      "source": "CNBC",
+      "time": "22:29",
+      "link": "https://www.cnbc.com/2026/04/22/servicenow-mcdermott-ai-jobs-earnings.html"
+    },
+    {
+      "title": "Lululemon 任命前耐吉高管 Heidi O'Neill 為新任首席執行官",
+      "source": "CNBC",
+      "time": "20:47",
+      "link": "https://www.cnbc.com/2026/04/22/lululemon-names-former-nike-exec-heidi-oneill-as-new-ceo.html"
+    },
+    {
+      "title": "BMW表示無意放棄轎車，儘管一些競爭對手削減了產量",
+      "source": "CNBC",
+      "time": "20:39",
+      "link": "https://www.cnbc.com/2026/04/22/bmw-sedan-7-series.html"
+    },
+    {
+      "title": "加密多空：保護建構 DeFi 基礎設施的人們",
+      "source": "CoinDesk",
+      "time": "16:04",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/22/crypto-long-and-short-protecting-the-people-building-defi-infrastructure"
+    },
+    {
+      "title": "特斯拉將於盤後公佈第一季業績",
+      "source": "CNBC",
+      "time": "16:03",
+      "link": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
+    },
+    {
+      "title": "隨著加密貨幣上漲勢頭增強，比特幣突破 79,000 美元； Circle，Coinbase，策略主管",
+      "source": "CoinDesk",
+      "time": "15:32",
+      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead"
+    },
+    {
+      "title": "Kraken 提交了 2025 年 5,600 萬份加密貨幣稅表。其中三分之一低於 1 美元",
+      "source": "CoinDesk",
+      "time": "12:45",
+      "link": "https://www.coindesk.com/policy/2026/04/22/kraken-filed-56-million-crypto-tax-forms-for-2025-one-third-were-below-usd1"
+    },
+    {
+      "title": "成敗時刻：為什麼 79,200 美元可以作為比特幣的啟動板或上限",
+      "source": "CoinDesk",
+      "time": "08:45",
+      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-faces-make-or-break-moment-at-two-major-on-chain-resistance-levels"
+    },
+    {
+      "title": "川普延長停火協議，比特幣攀升至 78,100 美元，Strategy 斥資 25 億美元買入",
+      "source": "CoinDesk",
+      "time": "05:20",
+      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-climbs-to-usd77-500-on-trump-ceasefire-extension-strategy-s-usd2-5-billion-buy"
+    },
+    {
+      "title": "保險套價格上漲表示戰爭正在影響幾乎所有物品的成本",
+      "source": "Bloomberg",
+      "time": "04:48",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-21/iran-war-has-boosted-costs-of-energy-food-and-now-condoms"
+    },
     {
       "title": "Core Scientific尋求發行33億美元債券以進一步推動人工智慧資料中心轉型",
       "source": "CoinDesk",
@@ -266,72 +332,6 @@
       "source": "CNBC",
       "time": "13:30",
       "link": "https://www.cnbc.com/2026/04/19/college-graduates-face-federal-student-loan-changes.html"
-    },
-    {
-      "title": "伊朗戰爭、4美元的汽油價格讓美國消費經濟失去了所有樂趣",
-      "source": "CNBC",
-      "time": "13:31",
-      "link": "https://www.cnbc.com/2026/04/18/iran-war-gas-prices-consumer-spending-economy.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:30",
-      "link": "https://www.cnbc.com/2026/04/18/ai-fears-graduate-school.html"
-    },
-    {
-      "title": "英偉達與遊戲玩家一度緊密的關係因人工智慧而破裂，“這讓我心碎”",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html"
-    },
-    {
-      "title": "「這很悲傷」：美英「特殊關係」在皇室訪問華盛頓之前惡化",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/04/18/us-uk-special-relationship-trump-starmer-king-charles.html"
-    },
-    {
-      "title": "觀點：人工智慧需求膨脹，只有 Anthropic 是現實的",
-      "source": "CNBC",
-      "time": "19:10",
-      "link": "https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html"
-    },
-    {
-      "title": "Kraken 母公司 Payward 將以 5.5 億美元現金和股票收購衍生性商品交易所 Bitnomial。",
-      "source": "CoinDesk",
-      "time": "12:17",
-      "link": "https://www.coindesk.com/business/2026/04/17/kraken-s-parent-company-payward-to-acquire-derivatives-exchange-bitnomial-for-usd550-million-in-cash-and-stock"
-    },
-    {
-      "title": "隨著競爭加劇，英偉達人工智慧晶片競爭對手吸引了創紀錄的資金",
-      "source": "CNBC",
-      "time": "11:06",
-      "link": "https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html"
-    },
-    {
-      "title": "如果市場劇烈下滑，新的 ETF 策略可能會很脆弱。這就是為什麼",
-      "source": "CNBC",
-      "time": "11:00",
-      "link": "https://www.cnbc.com/2026/04/17/violent-downturns-could-test-new-etf-strategies-warns-mfs-investment.html"
-    },
-    {
-      "title": "Nvidia 競爭對手告訴 CNBC，隨著歐洲 AI 晶片市場的蓬勃發展，該公司正在尋求至少 1 億美元的資金",
-      "source": "CNBC",
-      "time": "07:17",
-      "link": "https://www.cnbc.com/2026/04/17/nvidia-rivals-chip-market-funding-ai-asml-euclyd.html"
-    },
-    {
-      "title": "美伊和平談判引發風險情緒，比特幣多頭目標 12.5 萬美元",
-      "source": "CoinDesk",
-      "time": "03:52",
-      "link": "https://www.coindesk.com/markets/2026/04/17/bitcoin-bulls-target-usd125-000-as-u-s-iran-peace-talks-trigger-risk-on-mood"
-    },
-    {
-      "title": "「你是個白痴」：阿波羅的馬克‧羅文（Marc Rowan）對那些無法滿足私人信貸基金贖回的貸款人說的話",
-      "source": "CNBC",
-      "time": "17:27",
-      "link": "https://www.cnbc.com/2026/04/16/apollo-global-marc-rowan-private-credit-funds-redemptions.html"
     }
   ]
 }
