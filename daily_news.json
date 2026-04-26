@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-25 01:11",
+  "update_time": "2026-04-26 01:19",
   "crypto_fng": {
-    "value": "31",
+    "value": "33",
     "value_classification": "Fear",
-    "timestamp": "1777075200",
-    "time_until_update": "82141"
+    "timestamp": "1777161600",
+    "time_until_update": "81625"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77484.67,
-        "change": -784.28,
-        "percent": -1.0,
+        "price": 77540.69,
+        "change": 85.38,
+        "percent": 0.11,
         "rsi": "62.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2316.92,
-        "change": -14.59,
-        "percent": -0.63,
-        "rsi": "54.5",
+        "price": 2316.87,
+        "change": 1.18,
+        "percent": 0.05,
+        "rsi": "52.1",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 86.22,
-        "change": 0.08,
-        "percent": 0.09,
-        "rsi": "52.6",
+        "price": 86.07,
+        "change": -0.16,
+        "percent": -0.19,
+        "rsi": "52.1",
         "trend": "震盪"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.41,
-        "change": -0.1,
-        "percent": -0.87,
-        "rsi": "30.3",
+        "price": 11.4,
+        "change": -0.11,
+        "percent": -0.96,
+        "rsi": "30.1",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7195.5,
-        "change": 52.0,
-        "percent": 0.73,
+        "price": 7194.75,
+        "change": 51.25,
+        "percent": 0.72,
         "rsi": "86.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 27440.25,
-        "change": 506.25,
-        "percent": 1.88,
+        "price": 27435.0,
+        "change": 501.0,
+        "percent": 1.86,
         "rsi": "91.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49424.0,
-        "change": -66.0,
-        "percent": -0.13,
-        "rsi": "77.8",
+        "price": 49392.0,
+        "change": -98.0,
+        "percent": -0.2,
+        "rsi": "77.2",
         "trend": "-"
       }
     ],
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4725.4,
-        "change": 20.3,
-        "percent": 0.43,
-        "rsi": "55.5",
+        "price": 4722.3,
+        "change": 17.2,
+        "percent": 0.37,
+        "rsi": "55.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 94.88,
-        "change": -0.97,
-        "percent": -1.01,
-        "rsi": "35.7",
+        "price": 94.4,
+        "change": -1.45,
+        "percent": -1.51,
+        "rsi": "35.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.03,
+        "price": 6.02,
         "change": -0.05,
-        "percent": -0.77,
-        "rsi": "73.6",
+        "percent": -0.86,
+        "rsi": "73.2",
         "trend": "-"
       },
       {
@@ -214,6 +214,54 @@
   },
   "news": [
     {
+      "title": "航運業承擔氣候法案，中東重建帶來碳衝擊",
+      "source": "gcaptain.com",
+      "time": "17:20",
+      "link": "https://gcaptain.com/middle-east-reconstruction-poses-a-carbon-shock-as-shipping-bears-the-climate-bill/"
+    },
+    {
+      "title": "Meta 裁員 2 萬人，微軟擔心人工智慧驅動的勞工危機即將到來",
+      "source": "CNBC",
+      "time": "17:01",
+      "link": "https://www.cnbc.com/2026/04/24/20k-job-cuts-at-meta-microsoft-raise-concern-of-ai-labor-crisis-.html"
+    },
+    {
+      "title": "顧問表示，退休人員對年金的看法是錯誤的，這可能會讓他們陷入困境",
+      "source": "CNBC",
+      "time": "12:15",
+      "link": "https://www.cnbc.com/2026/04/24/retirement-annuities-how-to-buy.html"
+    },
+    {
+      "title": "由於油價上漲引發通膨擔憂，金價每週下跌",
+      "source": "CNBC",
+      "time": "11:28",
+      "link": "https://www.cnbc.com/2026/04/24/gold-set-for-weekly-drop-as-higher-oil-prices-stoke-inflation-fears.html"
+    },
+    {
+      "title": "比特幣持有者 Metaplanet 籌集 5000 萬美元購買更多比特幣",
+      "source": "CoinDesk",
+      "time": "08:02",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-holder-metaplanet-raises-usd50-million-in-zero-interest-bonds-to-buy-more-btc"
+    },
+    {
+      "title": "比特幣 ETF 在 8 天內吸金 20 億美元，短期持有者卻悄悄開始拋售",
+      "source": "CoinDesk",
+      "time": "06:07",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-etfs-just-pulled-usd2-billion-in-8-days-while-short-term-holders-quietly-started-selling"
+    },
+    {
+      "title": "DeepSeek 在突破一年後推出新的旗艦 AI 車型",
+      "source": "Bloomberg",
+      "time": "04:09",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"
+    },
+    {
+      "title": "CNBC 每日開盤：陸地休戰，海上風暴——市場正在計算成本",
+      "source": "CNBC",
+      "time": "01:22",
+      "link": "https://www.cnbc.com/2026/04/24/cnbc-daily-open-truce-on-land-storm-at-sea-markets-are-counting-the-cost.html"
+    },
+    {
       "title": "顧問的加密貨幣：使用加密貨幣的人工智慧代理",
       "source": "CoinDesk",
       "time": "15:00",
@@ -232,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/04/23/japanese-carmakers-deepen-hold-in-india-with-hybrids.html"
     },
     {
-      "title": "執行長表示，人工智慧將提高生產力，因此 ServiceNow 無需填補空缺職位",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "22:29",
       "link": "https://www.cnbc.com/2026/04/22/servicenow-mcdermott-ai-jobs-earnings.html"
@@ -256,7 +304,7 @@
       "link": "https://www.coindesk.com/coindesk-indices/2026/04/22/crypto-long-and-short-protecting-the-people-building-defi-infrastructure"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "特斯拉將於盤後公佈第一季業績",
       "source": "CNBC",
       "time": "16:03",
       "link": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
@@ -284,54 +332,6 @@
       "source": "CoinDesk",
       "time": "05:20",
       "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-climbs-to-usd77-500-on-trump-ceasefire-extension-strategy-s-usd2-5-billion-buy"
-    },
-    {
-      "title": "保險套價格上漲表示戰爭正在影響幾乎所有物品的成本",
-      "source": "Bloomberg",
-      "time": "04:48",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-21/iran-war-has-boosted-costs-of-energy-food-and-now-condoms"
-    },
-    {
-      "title": "Core Scientific尋求發行33億美元債券以進一步推動人工智慧資料中心轉型",
-      "source": "CoinDesk",
-      "time": "19:27",
-      "link": "https://www.coindesk.com/business/2026/04/21/core-scientific-seeks-usd3-3-billion-bond-sale-to-further-ai-data-center-pivot"
-    },
-    {
-      "title": "目前比特幣的波動性低於韓國股市",
-      "source": "CoinDesk",
-      "time": "09:25",
-      "link": "https://www.coindesk.com/markets/2026/04/21/bitcoin-is-less-volatile-than-south-korea-s-stock-market-right-now"
-    },
-    {
-      "title": "Ripple 希望 XRP Ledger 到 2028 年能夠實現量子防護。這是它的計劃",
-      "source": "CoinDesk",
-      "time": "05:43",
-      "link": "https://www.coindesk.com/markets/2026/04/21/ripple-wants-the-xrp-ledger-to-be-quantum-proof-by-2028-here-is-its-plan"
-    },
-    {
-      "title": "Marvell 發布報告稱，它將幫助谷歌開發客製化人工智慧晶片。博通股價下跌",
-      "source": "CNBC",
-      "time": "20:43",
-      "link": "https://www.cnbc.com/2026/04/20/marvell-stock-google-custom-ai-chips.html"
-    },
-    {
-      "title": "Strategy以25.4億美元購買了34,164個比特幣，這是有史以​​來的第三大購買",
-      "source": "CoinDesk",
-      "time": "12:07",
-      "link": "https://www.coindesk.com/markets/2026/04/20/strategy-buys-34-164-bitcoin-for-usd2-54-billion"
-    },
-    {
-      "title": "美伊停火結束，特斯拉獲利：未來加密貨幣週",
-      "source": "CoinDesk",
-      "time": "11:52",
-      "link": "https://www.coindesk.com/markets/2026/04/20/u-s-iran-ceasefire-ends-tesla-earnings-crypto-week-ahead"
-    },
-    {
-      "title": "隨著經濟成長加速，中國維持基準貸款利率不變，中東風險迫在眉睫",
-      "source": "CNBC",
-      "time": "01:05",
-      "link": "https://www.cnbc.com/2026/04/20/china-keeps-benchmark-lending-rates-unchanged-as-economic-growth-revs-up-amid-mounting-middle-east-risk-mount-.html"
     }
   ]
 }
