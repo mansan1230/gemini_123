@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-04-26 01:19",
+  "update_time": "2026-04-27 01:21",
   "crypto_fng": {
-    "value": "33",
-    "value_classification": "Fear",
-    "timestamp": "1777161600",
-    "time_until_update": "81625"
+    "value": "47",
+    "value_classification": "Neutral",
+    "timestamp": "1777248000",
+    "time_until_update": "81540"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 59716.18,
-        "change": 575.95,
-        "percent": 0.97,
-        "rsi": "78.8",
+        "price": 60307.23,
+        "change": 591.05,
+        "percent": 0.99,
+        "rsi": "79.8",
         "trend": "📈 多頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77540.69,
-        "change": 85.38,
-        "percent": 0.11,
-        "rsi": "62.6",
+        "price": 79028.84,
+        "change": 1416.83,
+        "percent": 1.83,
+        "rsi": "74.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2316.87,
-        "change": 1.18,
-        "percent": 0.05,
-        "rsi": "52.1",
+        "price": 2385.96,
+        "change": 67.13,
+        "percent": 2.9,
+        "rsi": "63.0",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 86.07,
-        "change": -0.16,
-        "percent": -0.19,
-        "rsi": "52.1",
-        "trend": "震盪"
+        "price": 87.43,
+        "change": 1.28,
+        "percent": 1.48,
+        "rsi": "62.2",
+        "trend": "📈 多頭"
       }
     ],
     "shipping": [
@@ -112,25 +112,25 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7194.75,
-        "change": 51.25,
-        "percent": 0.72,
-        "rsi": "86.8",
+        "price": 7192.5,
+        "change": -2.25,
+        "percent": -0.03,
+        "rsi": "86.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 27435.0,
-        "change": 501.0,
-        "percent": 1.86,
+        "price": 27471.0,
+        "change": 36.0,
+        "percent": 0.13,
         "rsi": "91.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49392.0,
-        "change": -98.0,
-        "percent": -0.2,
+        "price": 49302.0,
+        "change": -90.0,
+        "percent": -0.18,
         "rsi": "77.2",
         "trend": "-"
       }
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.51,
-        "change": -0.29,
-        "percent": -0.29,
-        "rsi": "27.7",
+        "price": 98.53,
+        "change": 0.02,
+        "percent": 0.02,
+        "rsi": "31.4",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.33,
-        "change": -0.16,
-        "percent": -0.1,
-        "rsi": "45.2",
+        "price": 159.34,
+        "change": -0.41,
+        "percent": -0.26,
+        "rsi": "46.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4722.3,
-        "change": 17.2,
-        "percent": 0.37,
-        "rsi": "55.3",
+        "price": 4712.2,
+        "change": -10.1,
+        "percent": -0.21,
+        "rsi": "54.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 94.4,
-        "change": -1.45,
-        "percent": -1.51,
-        "rsi": "35.4",
+        "price": 95.81,
+        "change": 1.41,
+        "percent": 1.49,
+        "rsi": "36.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.02,
-        "change": -0.05,
-        "percent": -0.86,
-        "rsi": "73.2",
+        "price": 6.04,
+        "change": 0.02,
+        "percent": 0.31,
+        "rsi": "76.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "歐洲銀行正全力投資加密貨幣",
+      "source": "CoinDesk",
+      "time": "13:30",
+      "link": "https://www.coindesk.com/opinion/2026/04/25/europe-s-banks-are-going-all-in-on-crypto"
+    },
+    {
+      "title": "對於汽車、電話甚至拖拉機車主來說，民粹主義浪潮正在興起，以結束「專屬」維修經濟",
+      "source": "CNBC",
+      "time": "13:11",
+      "link": "https://www.cnbc.com/2026/04/25/right-to-repair-consumer-prices-affordability-economy-elections.html"
+    },
+    {
+      "title": "300 美元的包包、150 美元的耳環、60 美元的帽子：中等價位的產品是年輕購物者的身份象徵",
+      "source": "CNBC",
+      "time": "13:05",
+      "link": "https://www.cnbc.com/2026/04/25/how-mid-priced-retail-products-became-status-symbol-for-young-shoppers.html"
+    },
+    {
+      "title": "這只鮮為人知的ETF在美伊戰爭期間上漲了600%以上，比石油或能源股更好的交易",
+      "source": "CNBC",
+      "time": "11:46",
+      "link": "https://www.cnbc.com/2026/04/25/crude-oil-freight-tanker-strait-hormuz-iran-war-energy-stocks.html"
+    },
     {
       "title": "航運業承擔氣候法案，中東重建帶來碳衝擊",
       "source": "gcaptain.com",
@@ -280,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/04/23/japanese-carmakers-deepen-hold-in-india-with-hybrids.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "執行長表示，人工智慧將提高生產力，因此 ServiceNow 無需填補空缺職位",
       "source": "CNBC",
       "time": "22:29",
       "link": "https://www.cnbc.com/2026/04/22/servicenow-mcdermott-ai-jobs-earnings.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "16:03",
       "link": "https://www.cnbc.com/2026/04/22/tesla-tsla-q1-2026-earnings-report.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CoinDesk",
-      "time": "15:32",
-      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead"
-    },
-    {
-      "title": "Kraken 提交了 2025 年 5,600 萬份加密貨幣稅表。其中三分之一低於 1 美元",
-      "source": "CoinDesk",
-      "time": "12:45",
-      "link": "https://www.coindesk.com/policy/2026/04/22/kraken-filed-56-million-crypto-tax-forms-for-2025-one-third-were-below-usd1"
-    },
-    {
-      "title": "成敗時刻：為什麼 79,200 美元可以作為比特幣的啟動板或上限",
-      "source": "CoinDesk",
-      "time": "08:45",
-      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-faces-make-or-break-moment-at-two-major-on-chain-resistance-levels"
-    },
-    {
-      "title": "川普延長停火協議，比特幣攀升至 78,100 美元，Strategy 斥資 25 億美元買入",
-      "source": "CoinDesk",
-      "time": "05:20",
-      "link": "https://www.coindesk.com/markets/2026/04/22/bitcoin-climbs-to-usd77-500-on-trump-ceasefire-extension-strategy-s-usd2-5-billion-buy"
     }
   ]
 }
