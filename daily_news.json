@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-03 01:26",
+  "update_time": "2026-05-04 01:24",
   "crypto_fng": {
-    "value": "47",
-    "value_classification": "Neutral",
-    "timestamp": "1777766400",
-    "time_until_update": "81240"
+    "value": "40",
+    "value_classification": "Fear",
+    "timestamp": "1777852800",
+    "time_until_update": "81310"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 78282.5,
-        "change": 103.5,
-        "percent": 0.13,
-        "rsi": "59.3",
+        "price": 78413.99,
+        "change": -243.26,
+        "percent": -0.31,
+        "rsi": "68.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2307.1,
-        "change": 12.01,
-        "percent": 0.52,
-        "rsi": "45.4",
+        "price": 2312.92,
+        "change": -3.31,
+        "percent": -0.14,
+        "rsi": "55.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 83.89,
-        "change": 0.17,
-        "percent": 0.2,
-        "rsi": "40.8",
+        "price": 83.46,
+        "change": -0.82,
+        "percent": -0.97,
+        "rsi": "49.5",
         "trend": "📉 空頭"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.21,
-        "change": 0.13,
-        "percent": 0.13,
-        "rsi": "47.4",
+        "price": 98.2,
+        "change": -0.01,
+        "percent": -0.01,
+        "rsi": "51.3",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4629.9,
-        "change": 15.2,
-        "percent": 0.33,
-        "rsi": "41.9",
+        "price": 4611.1,
+        "change": -18.8,
+        "percent": -0.41,
+        "rsi": "33.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 101.94,
-        "change": -3.13,
-        "percent": -2.98,
-        "rsi": "52.7",
+        "price": 101.62,
+        "change": -0.32,
+        "percent": -0.31,
+        "rsi": "61.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 5.93,
+        "price": 5.94,
         "change": 0.01,
-        "percent": 0.1,
-        "rsi": "46.6",
+        "percent": 0.2,
+        "rsi": "38.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "Netflix 的《牛肉》強調了 5,000 美元的免賠額——如何處理自己的醫療費用",
+      "source": "CNBC",
+      "time": "13:30",
+      "link": "https://www.cnbc.com/2026/05/02/health-insurance-deductible-netflix-beef.html"
+    },
+    {
+      "title": "美伊戰爭即將來臨，影響你的信用評分和抵押貸款申請",
+      "source": "CNBC",
+      "time": "13:17",
+      "link": "https://www.cnbc.com/2026/05/02/us-iran-war-credit-score-loans-mortgage-rates.html"
+    },
     {
       "title": "比特幣礦商 Riot 擴大 AMD 資料中心交易後股價上漲 8%，標誌著人工智慧轉向",
       "source": "CoinDesk",
@@ -274,13 +286,13 @@
       "link": "https://www.bloomberg.com/news/articles/2026-04-29/trump-tells-axios-he-rejects-iran-hormuz-offer-keeps-blockade"
     },
     {
-      "title": "沃什暗示在阿聯酋討論期間將對聯準會互換額度的權力進行新的解讀",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "21:26",
       "link": "https://www.cnbc.com/2026/04/29/fed-warsh-bessent-uae-swap-lines.html"
     },
     {
-      "title": "交易員準備迎接與收益相關的 8000 億美元的股票走勢",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "17:24",
       "link": "https://www.cnbc.com/2026/04/29/traders-brace-for-800-billion-in-earnings-related-stock-movement.html"
@@ -292,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/04/29/david-ellison-paramount-warner-bros-30-film-releases.html"
     },
     {
-      "title": "川普聯邦儲備銀行候選人凱文沃什 (Kevin Warsh) 掃清了參議院的關鍵障礙，準備進行最終投票",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "14:19",
       "link": "https://www.cnbc.com/2026/04/29/trump-fed-nominee-kevin-warsh-senate-approval.html"
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "15:53",
       "link": "https://www.cnbc.com/2026/04/28/meta-shares-look-iffy-into-earnings-how-to-trade-it.html"
-    },
-    {
-      "title": "每筆區塊鏈交易都是送給競爭對手的禮物",
-      "source": "CoinDesk",
-      "time": "15:30",
-      "link": "https://www.coindesk.com/opinion/2026/04/28/every-blockchain-transaction-is-a-gift-to-your-competition"
-    },
-    {
-      "title": "自從美國伊朗戰爭導致油價飆升以來，科技巨頭首次面對華爾街",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/04/28/tech-hyperscalers-q1-earnings-after-iran-war-lifts-energy-ai-prices.html"
     }
   ]
 }
