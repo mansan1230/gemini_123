@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-09 01:28",
+  "update_time": "2026-05-10 01:30",
   "crypto_fng": {
-    "value": "38",
-    "value_classification": "Fear",
-    "timestamp": "1778284800",
-    "time_until_update": "81101"
+    "value": "47",
+    "value_classification": "Neutral",
+    "timestamp": "1778371200",
+    "time_until_update": "80994"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 26626.28,
-        "change": 412.5,
-        "percent": 1.57,
+        "price": 26393.71,
+        "change": -232.57,
+        "percent": -0.87,
         "rsi": "53.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 62833.84,
-        "change": 3320.72,
-        "percent": 5.58,
-        "rsi": "76.8",
+        "price": 62713.65,
+        "change": -120.19,
+        "percent": -0.19,
+        "rsi": "72.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24663.61,
-        "change": -255.08,
-        "percent": -1.02,
-        "rsi": "58.2",
+        "price": 24338.63,
+        "change": -324.98,
+        "percent": -1.32,
+        "rsi": "43.7",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 80278.43,
-        "change": 268.44,
-        "percent": 0.34,
-        "rsi": "62.1",
+        "price": 80579.47,
+        "change": 392.7,
+        "percent": 0.49,
+        "rsi": "62.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2310.64,
-        "change": 19.53,
-        "percent": 0.85,
-        "rsi": "49.3",
+        "price": 2319.8,
+        "change": 12.83,
+        "percent": 0.56,
+        "rsi": "50.1",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 92.52,
-        "change": 4.12,
-        "percent": 4.65,
-        "rsi": "69.0",
+        "price": 92.63,
+        "change": 0.68,
+        "percent": 0.74,
+        "rsi": "69.5",
         "trend": "📈 多頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.04,
-        "change": 0.11,
-        "percent": 1.01,
-        "rsi": "36.5",
+        "price": 11.11,
+        "change": 0.18,
+        "percent": 1.65,
+        "rsi": "38.0",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7420.5,
-        "change": 57.5,
-        "percent": 0.78,
-        "rsi": "72.4",
+        "price": 7419.0,
+        "change": 56.0,
+        "percent": 0.76,
+        "rsi": "72.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29333.75,
-        "change": 651.5,
+        "price": 29332.5,
+        "change": 650.25,
         "percent": 2.27,
         "rsi": "83.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49745.0,
-        "change": 45.0,
-        "percent": 0.09,
-        "rsi": "51.3",
+        "price": 49691.0,
+        "change": -9.0,
+        "percent": -0.02,
+        "rsi": "50.6",
         "trend": "-"
       }
     ],
@@ -156,7 +156,7 @@
         "name": "💵 美元指數",
         "price": 97.84,
         "change": -0.41,
-        "percent": -0.41,
+        "percent": -0.42,
         "rsi": "47.3",
         "trend": "📉 空頭"
       },
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4723.7,
-        "change": 23.9,
-        "percent": 0.51,
-        "rsi": "44.6",
+        "price": 4720.4,
+        "change": 20.6,
+        "percent": 0.44,
+        "rsi": "44.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 94.68,
-        "change": -0.13,
-        "percent": -0.14,
-        "rsi": "56.1",
+        "price": 95.42,
+        "change": 0.61,
+        "percent": 0.64,
+        "rsi": "56.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.28,
-        "change": 0.15,
-        "percent": 2.53,
-        "rsi": "61.3",
+        "price": 6.25,
+        "change": 0.12,
+        "percent": 1.98,
+        "rsi": "60.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "記憶體晶片漲勢呈現拋物線走勢，美光本週股價飆漲逾 30%",
+      "source": "CNBC",
+      "time": "18:25",
+      "link": "https://www.cnbc.com/2026/05/08/micron-surges-more-than-30percent-on-week-as-memory-chip-rally-goes-parabolic.html"
+    },
+    {
+      "title": "聯準會降息的理由很快就用完了",
+      "source": "CNBC",
+      "time": "17:40",
+      "link": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html"
+    },
+    {
+      "title": "股票回檔可能是讓你賺回錢的機會。方法如下",
+      "source": "CNBC",
+      "time": "17:18",
+      "link": "https://www.cnbc.com/2026/05/08/stock-pullbacks-can-be-an-opportunity-to-make-your-money-back-and-then-some-heres-how.html"
+    },
+    {
+      "title": "比特幣跌破 8 萬美元：為何「川普反彈」遭遇獲利回吐",
+      "source": "CoinDesk",
+      "time": "08:24",
+      "link": "https://www.coindesk.com/markets/2026/05/08/bitcoin-s-usd80k-breakout-fizzles-as-analysts-split-on-whether-rally-has-legs"
+    },
     {
       "title": "瑞安·科恩（Ryan Cohen）神秘的銀行信件支持 GameStop 收購 eBay，揭示了交易中的一個大問題",
       "source": "CNBC",
@@ -238,7 +262,7 @@
       "link": "https://www.cnbc.com/2026/05/07/treasury-yields-slide-iran-peace-plan.html"
     },
     {
-      "title": "隨著採礦業轉向人工智慧，川普家族支持的美國比特幣成本第一季下降了 23%",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "06:21",
       "link": "https://www.coindesk.com/markets/2026/05/07/trump-backed-american-bitcoin-s-costs-dropped-23-in-q1-as-mining-industry-pivots-to-ai"
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "23:43",
       "link": "https://www.coindesk.com/business/2026/05/05/michael-saylor-s-strategy-signals-potential-bitcoin-sale-to-fund-dividends-obligations"
-    },
-    {
-      "title": "Kraken 考慮首次公開募股，與 MoneyGram 合作以彌合加密貨幣與現金之間的差距",
-      "source": "CoinDesk",
-      "time": "21:29",
-      "link": "https://www.coindesk.com/business/2026/05/05/kraken-eyes-ipo-as-it-partners-with-moneygram-to-bridge-crypto-to-cash-gap"
-    },
-    {
-      "title": "鋁價正在飆升。以下是公司處理成本的方式",
-      "source": "CNBC",
-      "time": "20:11",
-      "link": "https://www.cnbc.com/2026/05/05/aluminum-prices-hormuz-ford-molson-coors.html"
-    },
-    {
-      "title": "華爾街高層表示，代幣化不會擾亂銀行業監管，反而會改善銀行業監管",
-      "source": "CoinDesk",
-      "time": "18:55",
-      "link": "https://www.coindesk.com/business/2026/05/05/tokenization-won-t-disrupt-banking-rails-but-improve-them-wall-street-executives-say"
-    },
-    {
-      "title": "隨著內存股加速上漲，美光市值突破 7,000 億美元",
-      "source": "CNBC",
-      "time": "18:51",
-      "link": "https://www.cnbc.com/2026/05/05/micron-zooms-past-700-billion-market-cap-rally-in-memory-stocks-.html"
     }
   ]
 }
