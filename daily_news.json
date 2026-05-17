@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-16 01:29",
+  "update_time": "2026-05-17 01:46",
   "crypto_fng": {
-    "value": "31",
+    "value": "27",
     "value_classification": "Fear",
-    "timestamp": "1778889600",
-    "time_until_update": "81043"
+    "timestamp": "1778976000",
+    "time_until_update": "80019"
   },
   "data": {
     "indices": [
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 79004.5,
-        "change": -2046.75,
-        "percent": -2.53,
-        "rsi": "53.0",
+        "price": 77792.3,
+        "change": -1273.38,
+        "percent": -1.61,
+        "rsi": "47.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2223.7,
-        "change": -57.23,
-        "percent": -2.51,
-        "rsi": "41.2",
+        "price": 2171.82,
+        "change": -51.51,
+        "percent": -2.32,
+        "rsi": "33.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 88.99,
-        "change": -3.16,
-        "percent": -3.43,
-        "rsi": "60.0",
-        "trend": "📈 多頭"
+        "price": 85.85,
+        "change": -3.35,
+        "percent": -3.76,
+        "rsi": "52.7",
+        "trend": "震盪"
       }
     ],
     "shipping": [
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.3,
-        "change": -0.15,
-        "percent": -1.31,
-        "rsi": "46.5",
+        "price": 11.29,
+        "change": -0.16,
+        "percent": -1.4,
+        "rsi": "46.3",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7418.0,
-        "change": -107.5,
-        "percent": -1.43,
-        "rsi": "66.8",
+        "price": 7432.25,
+        "change": -93.25,
+        "percent": -1.24,
+        "rsi": "68.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29173.0,
-        "change": -514.75,
-        "percent": -1.73,
-        "rsi": "71.6",
+        "price": 29231.75,
+        "change": -456.0,
+        "percent": -1.54,
+        "rsi": "72.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49485.0,
-        "change": -669.0,
-        "percent": -1.33,
-        "rsi": "51.6",
+        "price": 49617.0,
+        "change": -537.0,
+        "percent": -1.07,
+        "rsi": "53.2",
         "trend": "-"
       }
     ],
@@ -146,7 +146,7 @@
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.6,
+        "price": 4.59,
         "change": 0.13,
         "percent": 3.0,
         "rsi": "71.1",
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4543.6,
-        "change": -134.5,
-        "percent": -2.88,
-        "rsi": "41.1",
+        "price": 4555.8,
+        "change": -122.3,
+        "percent": -2.61,
+        "rsi": "41.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 101.16,
-        "change": -0.01,
-        "percent": -0.01,
-        "rsi": "56.0",
+        "price": 105.42,
+        "change": 4.25,
+        "percent": 4.2,
+        "rsi": "60.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.29,
-        "change": -0.28,
-        "percent": -4.23,
-        "rsi": "58.8",
+        "price": 6.25,
+        "change": -0.32,
+        "percent": -4.81,
+        "rsi": "57.4",
         "trend": "-"
       },
       {
@@ -213,6 +213,36 @@
     ]
   },
   "news": [
+    {
+      "title": "史蒂芬米蘭退出美聯儲。他如何為凱文沃什奠定了基礎。",
+      "source": "CNBC",
+      "time": "15:31",
+      "link": "https://www.cnbc.com/2026/05/15/stephen-miran-exits-the-fed-how-he-set-the-stage-for-kevin-warsh.html"
+    },
+    {
+      "title": "百時美施貴寶在最新的跨大陸合作中轉向中國開發新藥",
+      "source": "CNBC",
+      "time": "15:04",
+      "link": "https://www.cnbc.com/2026/05/15/bristol-myers-squibb-turns-to-chinas-hengrui-to-replenish-pipeline.html"
+    },
+    {
+      "title": "由於人工智慧威脅迫在眉睫，底特律汽車製造商已削減 20,000 多個美國受薪職位",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/05/15/general-motors-ford-stellantis-job-cuts-ai.html"
+    },
+    {
+      "title": "儘管虧損，新加坡航空仍堅持與印度航空進行“持久戰”",
+      "source": "CNBC",
+      "time": "05:59",
+      "link": "https://www.cnbc.com/2026/05/15/singapore-airlines-hurt-by-air-india-losses-investment-could-pay-off.html"
+    },
+    {
+      "title": "本田股價上漲逾 7%，投資者擺脫近 70 年來首次營業虧損的影響",
+      "source": "CNBC",
+      "time": "04:11",
+      "link": "https://www.cnbc.com/2026/05/15/honda-shares-rise-even-after-company-reports-operating-losses-.html"
+    },
     {
       "title": "中國零件已用於美國汽車，議員警告川普反對中國汽車交易",
       "source": "CNBC",
@@ -244,7 +274,7 @@
       "link": "https://www.cnbc.com/2026/05/14/goldman-sachs-uk-debt-borrowing-gilts-yields-britain.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "日本的全球防務業務可能正處於重大突破的風口浪尖",
       "source": "CNBC",
       "time": "23:39",
       "link": "https://www.cnbc.com/2026/05/14/japan-defense-arms-exports-weapons-south-korea.html"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "09:30",
       "link": "https://www.cnbc.com/2026/05/13/kool-aid-kraft-heinz-electrolytes-artificial-dyes.html"
-    },
-    {
-      "title": "首爾採取行動平息涉及 41,000 名工人的罷工擔憂，三星電子削減 660 億美元虧損",
-      "source": "CNBC",
-      "time": "02:53",
-      "link": "https://www.cnbc.com/2026/05/13/samsung-electronics-pares-66-billion-rout-as-seoul-moves-to-calm-strike-fears-involving-41000-workers.html"
-    },
-    {
-      "title": "對中國出口商來說，隨著川普和習近平準備會面，伊朗的擔憂超過了關稅問題",
-      "source": "CNBC",
-      "time": "01:14",
-      "link": "https://www.cnbc.com/2026/05/13/trump-xi-summit-china-iran-war-tariffs.html"
-    },
-    {
-      "title": "通膨報告火爆後，市場增加了聯準會升息的可能性",
-      "source": "CNBC",
-      "time": "17:33",
-      "link": "https://www.cnbc.com/2026/05/12/markets-raise-chances-for-a-fed-rate-hike-following-hot-inflation-report.html"
-    },
-    {
-      "title": "導致通貨膨脹的不僅是伊朗和石油。其他地區的價格也在加速上漲",
-      "source": "CNBC",
-      "time": "14:34",
-      "link": "https://www.cnbc.com/2026/05/12/iran-oil-energy-inflation-shelter-food-trump.html"
-    },
-    {
-      "title": "分析：伊朗戰爭籠罩著川普的中國之行及其總統任期",
-      "source": "CNBC",
-      "time": "13:20",
-      "link": "https://www.cnbc.com/2026/05/12/trump-china-iran-war-xi-jinping-analysis.html"
     }
   ]
 }
