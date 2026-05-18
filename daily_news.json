@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-17 01:46",
+  "update_time": "2026-05-18 01:55",
   "crypto_fng": {
-    "value": "27",
+    "value": "28",
     "value_classification": "Fear",
-    "timestamp": "1778976000",
-    "time_until_update": "80019"
+    "timestamp": "1779062400",
+    "time_until_update": "79452"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25962.73,
-        "change": -426.31,
-        "percent": -1.62,
-        "rsi": "49.8",
+        "price": 25681.14,
+        "change": -281.59,
+        "percent": -1.08,
+        "rsi": "46.3",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 61409.29,
-        "change": -1244.76,
-        "percent": -1.99,
-        "rsi": "60.3",
+        "price": 60458.33,
+        "change": -950.96,
+        "percent": -1.55,
+        "rsi": "54.1",
         "trend": "📈 多頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77792.3,
-        "change": -1273.38,
-        "percent": -1.61,
-        "rsi": "47.0",
+        "price": 76938.0,
+        "change": -1193.44,
+        "percent": -1.53,
+        "rsi": "44.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2171.82,
-        "change": -51.51,
-        "percent": -2.32,
-        "rsi": "33.5",
+        "price": 2114.96,
+        "change": -64.79,
+        "percent": -2.97,
+        "rsi": "28.8",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 85.85,
-        "change": -3.35,
-        "percent": -3.76,
-        "rsi": "52.7",
-        "trend": "震盪"
+        "price": 84.83,
+        "change": -1.71,
+        "percent": -1.97,
+        "rsi": "51.6",
+        "trend": "📉 空頭"
       }
     ],
     "shipping": [
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7432.25,
-        "change": -93.25,
-        "percent": -1.24,
-        "rsi": "68.3",
+        "price": 7383.0,
+        "change": -49.25,
+        "percent": -0.66,
+        "rsi": "66.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29231.75,
-        "change": -456.0,
-        "percent": -1.54,
-        "rsi": "72.7",
+        "price": 28988.0,
+        "change": -243.75,
+        "percent": -0.83,
+        "rsi": "73.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49617.0,
-        "change": -537.0,
-        "percent": -1.07,
-        "rsi": "53.2",
+        "price": 49229.0,
+        "change": -388.0,
+        "percent": -0.78,
+        "rsi": "49.3",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.27,
-        "change": 0.39,
-        "percent": 0.39,
-        "rsi": "59.4",
+        "price": 99.38,
+        "change": 0.11,
+        "percent": 0.11,
+        "rsi": "59.1",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.73,
-        "change": 0.88,
-        "percent": 0.56,
-        "rsi": "45.1",
+        "price": 158.92,
+        "change": 0.54,
+        "percent": 0.34,
+        "rsi": "47.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4555.8,
-        "change": -122.3,
-        "percent": -2.61,
-        "rsi": "41.8",
+        "price": 4515.7,
+        "change": -40.1,
+        "percent": -0.88,
+        "rsi": "44.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 105.42,
-        "change": 4.25,
-        "percent": 4.2,
-        "rsi": "60.2",
+        "price": 103.55,
+        "change": -1.87,
+        "percent": -1.77,
+        "rsi": "54.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.25,
-        "change": -0.32,
-        "percent": -4.81,
-        "rsi": "57.4",
+        "price": 6.23,
+        "change": -0.03,
+        "percent": -0.41,
+        "rsi": "60.4",
         "trend": "-"
       },
       {
@@ -213,6 +213,12 @@
     ]
   },
   "news": [
+    {
+      "title": "債券市場對伊朗發出警告。一位能源地緣政治資深人士解釋了這個風險",
+      "source": "CNBC",
+      "time": "14:01",
+      "link": "https://www.cnbc.com/2026/05/16/the-bond-market-is-flashing-a-warning-energy-geopolitics-expert-warns.html"
+    },
     {
       "title": "史蒂芬米蘭退出美聯儲。他如何為凱文沃什奠定了基礎。",
       "source": "CNBC",
@@ -326,12 +332,6 @@
       "source": "CoinDesk",
       "time": "10:25",
       "link": "https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages-as-bulls-defend-key-support-zone"
-    },
-    {
-      "title": "作為卡夫亨氏改造的一部分，Kool-Aid 推出不含人工染料的電解質包",
-      "source": "CNBC",
-      "time": "09:30",
-      "link": "https://www.cnbc.com/2026/05/13/kool-aid-kraft-heinz-electrolytes-artificial-dyes.html"
     }
   ]
 }
