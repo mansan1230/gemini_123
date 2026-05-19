@@ -1,218 +1,224 @@
 {
-  "update_time": "2026-05-18 01:55",
+  "update_time": "2026-05-19 01:55",
   "crypto_fng": {
-    "value": "28",
-    "value_classification": "Fear",
-    "timestamp": "1779062400",
-    "time_until_update": "79452"
+    "value": "25",
+    "value_classification": "Extreme Fear",
+    "timestamp": "1779148800",
+    "time_until_update": "79489"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7408.5,
-        "change": -92.74,
-        "percent": -1.24,
-        "rsi": "68.5",
+        "price": 7403.05,
+        "change": -5.45,
+        "percent": -0.07,
+        "rsi": "71.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26225.14,
-        "change": -410.08,
-        "percent": -1.54,
-        "rsi": "71.3",
+        "price": 26090.73,
+        "change": -134.41,
+        "percent": -0.51,
+        "rsi": "73.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25681.14,
-        "change": -281.59,
-        "percent": -1.08,
-        "rsi": "46.3",
+        "price": 25805.81,
+        "change": 130.63,
+        "percent": 0.51,
+        "rsi": "52.0",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 60458.33,
-        "change": -950.96,
-        "percent": -1.55,
-        "rsi": "54.1",
+        "price": 60883.52,
+        "change": 67.57,
+        "percent": 0.11,
+        "rsi": "58.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 23950.57,
-        "change": -505.69,
-        "percent": -2.07,
-        "rsi": "47.6",
-        "trend": "震盪"
+        "price": 24307.92,
+        "change": 357.35,
+        "percent": 1.49,
+        "rsi": "52.8",
+        "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 76938.0,
-        "change": -1193.44,
-        "percent": -1.53,
-        "rsi": "44.7",
+        "price": 76681.98,
+        "change": -747.38,
+        "percent": -0.97,
+        "rsi": "38.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2114.96,
-        "change": -64.79,
-        "percent": -2.97,
-        "rsi": "28.8",
+        "price": 2125.55,
+        "change": -2.1,
+        "percent": -0.1,
+        "rsi": "25.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.83,
-        "change": -1.71,
-        "percent": -1.97,
-        "rsi": "51.6",
+        "price": 84.95,
+        "change": -0.22,
+        "percent": -0.26,
+        "rsi": "51.5",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 13.18,
-        "change": 0.23,
-        "percent": 1.78,
-        "rsi": "80.9",
+        "price": 12.85,
+        "change": -0.33,
+        "percent": -2.5,
+        "rsi": "71.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.36,
-        "change": -0.92,
-        "percent": -2.19,
-        "rsi": "59.0",
+        "price": 41.85,
+        "change": 0.49,
+        "percent": 1.18,
+        "rsi": "59.6",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.57,
-        "change": -0.11,
-        "percent": -0.43,
-        "rsi": "46.5",
+        "price": 25.64,
+        "change": 0.07,
+        "percent": 0.27,
+        "rsi": "47.2",
         "trend": "📉 空頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.29,
-        "change": -0.16,
-        "percent": -1.4,
-        "rsi": "46.3",
+        "price": 11.42,
+        "change": 0.13,
+        "percent": 1.15,
+        "rsi": "45.9",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7383.0,
-        "change": -49.25,
-        "percent": -0.66,
-        "rsi": "66.8",
+        "price": 7425.0,
+        "change": -7.25,
+        "percent": -0.1,
+        "rsi": "71.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28988.0,
-        "change": -243.75,
-        "percent": -0.83,
-        "rsi": "73.2",
+        "price": 29072.5,
+        "change": -159.25,
+        "percent": -0.54,
+        "rsi": "74.8",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 49229.0,
-        "change": -388.0,
-        "percent": -0.78,
-        "rsi": "49.3",
+        "price": 49767.0,
+        "change": 150.0,
+        "percent": 0.3,
+        "rsi": "55.3",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 18.43,
-        "change": 1.17,
-        "percent": 6.78,
-        "rsi": "52.2",
+        "price": 17.82,
+        "change": -0.61,
+        "percent": -3.31,
+        "rsi": "49.9",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.59,
-        "change": 0.13,
-        "percent": 3.0,
-        "rsi": "71.1",
+        "price": 4.62,
+        "change": 0.03,
+        "percent": 0.61,
+        "rsi": "71.5",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.38,
-        "change": 0.11,
-        "percent": 0.11,
-        "rsi": "59.1",
+        "price": 99.02,
+        "change": -0.25,
+        "percent": -0.25,
+        "rsi": "54.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.92,
-        "change": 0.54,
-        "percent": 0.34,
-        "rsi": "47.5",
+        "price": 158.93,
+        "change": 0.09,
+        "percent": 0.05,
+        "rsi": "46.3",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4515.7,
-        "change": -40.1,
-        "percent": -0.88,
-        "rsi": "44.5",
+        "price": 4574.7,
+        "change": 18.9,
+        "percent": 0.41,
+        "rsi": "48.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 103.55,
-        "change": -1.87,
-        "percent": -1.77,
-        "rsi": "54.2",
+        "price": 102.39,
+        "change": -3.03,
+        "percent": -2.87,
+        "rsi": "52.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.23,
-        "change": -0.03,
-        "percent": -0.41,
-        "rsi": "60.4",
+        "price": 6.32,
+        "change": 0.07,
+        "percent": 1.13,
+        "rsi": "63.2",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 176.26,
-        "change": -3.24,
-        "percent": -1.81,
-        "rsi": "73.3",
+        "price": 174.36,
+        "change": -1.9,
+        "percent": -1.08,
+        "rsi": "75.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 51.1,
-        "change": -0.19,
-        "percent": -0.37,
-        "rsi": "39.1",
-        "trend": "震盪"
+        "price": 51.74,
+        "change": 0.64,
+        "percent": 1.25,
+        "rsi": "48.6",
+        "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "與人工智慧相關的裁員會提振股市嗎？未必",
+      "source": "CNBC",
+      "time": "13:09",
+      "link": "https://www.cnbc.com/2026/05/17/ai-related-layoffs-a-boost-for-stocks-not-necessarily.html"
+    },
     {
       "title": "債券市場對伊朗發出警告。一位能源地緣政治資深人士解釋了這個風險",
       "source": "CNBC",
@@ -232,7 +238,7 @@
       "link": "https://www.cnbc.com/2026/05/15/bristol-myers-squibb-turns-to-chinas-hengrui-to-replenish-pipeline.html"
     },
     {
-      "title": "由於人工智慧威脅迫在眉睫，底特律汽車製造商已削減 20,000 多個美國受薪職位",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/05/15/general-motors-ford-stellantis-job-cuts-ai.html"
@@ -304,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/05/13/beer-demand-stumbles-as-gas-prices-surge-data-show.html"
     },
     {
-      "title": "黃金圖表看起來有望反彈。如何花更少的錢玩",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:01",
       "link": "https://www.cnbc.com/2026/05/13/the-gold-chart-looks-poised-for-a-bounce-how-to-play-it-for-less.html"
@@ -326,12 +332,6 @@
       "source": "Bloomberg",
       "time": "10:51",
       "link": "https://www.bloomberg.com/news/articles/2026-05-12/deepmind-spinout-isomorphic-labs-raises-2-1-billion-to-design-drugs-with-ai"
-    },
-    {
-      "title": "82,000美元之戰：比特幣測試關鍵阻力區，形成下一個重大突破",
-      "source": "CoinDesk",
-      "time": "10:25",
-      "link": "https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages-as-bulls-defend-key-support-zone"
     }
   ]
 }
