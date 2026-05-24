@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-23 01:46",
+  "update_time": "2026-05-24 01:53",
   "crypto_fng": {
-    "value": "28",
-    "value_classification": "Fear",
-    "timestamp": "1779494400",
-    "time_until_update": "79987"
+    "value": "25",
+    "value_classification": "Extreme Fear",
+    "timestamp": "1779580800",
+    "time_until_update": "79619"
   },
   "data": {
     "indices": [
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 75302.0,
-        "change": -2237.17,
-        "percent": -2.89,
-        "rsi": "32.4",
-        "trend": "📉 空頭"
+        "price": 76778.99,
+        "change": 1290.75,
+        "percent": 1.71,
+        "rsi": "36.6",
+        "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2062.19,
-        "change": -69.22,
-        "percent": -3.25,
-        "rsi": "23.4",
+        "price": 2119.09,
+        "change": 54.45,
+        "percent": 2.64,
+        "rsi": "28.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 84.4,
-        "change": -2.76,
-        "percent": -3.16,
-        "rsi": "35.8",
-        "trend": "📉 空頭"
+        "price": 85.96,
+        "change": 1.65,
+        "percent": 1.96,
+        "rsi": "36.8",
+        "trend": "震盪"
       }
     ],
     "shipping": [
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.76,
-        "change": -0.45,
-        "percent": -3.69,
-        "rsi": "49.6",
+        "price": 11.8,
+        "change": -0.41,
+        "percent": -3.36,
+        "rsi": "50.1",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7484.25,
-        "change": 18.25,
-        "percent": 0.24,
-        "rsi": "70.4",
+        "price": 7491.0,
+        "change": 25.0,
+        "percent": 0.33,
+        "rsi": "70.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29520.75,
-        "change": 73.5,
-        "percent": 0.25,
-        "rsi": "72.7",
+        "price": 29558.75,
+        "change": 111.5,
+        "percent": 0.38,
+        "rsi": "72.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50623.0,
-        "change": 244.0,
-        "percent": 0.48,
-        "rsi": "68.9",
+        "price": 50662.0,
+        "change": 283.0,
+        "percent": 0.56,
+        "rsi": "69.2",
         "trend": "-"
       }
     ],
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4510.5,
-        "change": -29.3,
-        "percent": -0.65,
-        "rsi": "49.1",
+        "price": 4521.0,
+        "change": -18.8,
+        "percent": -0.41,
+        "rsi": "50.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 97.0,
-        "change": 0.65,
-        "percent": 0.67,
-        "rsi": "38.4",
+        "price": 96.6,
+        "change": 0.25,
+        "percent": 0.26,
+        "rsi": "37.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.38,
-        "change": 0.12,
-        "percent": 1.97,
-        "rsi": "67.7",
+        "price": 6.34,
+        "change": 0.09,
+        "percent": 1.36,
+        "rsi": "66.9",
         "trend": "-"
       },
       {
@@ -214,31 +214,85 @@
   },
   "news": [
     {
+      "title": "Robinhood Crypto 營運長 Tanya Denisova 因收入放緩而離開公司",
+      "source": "CoinDesk",
+      "time": "19:40",
+      "link": "https://www.coindesk.com/business/2026/05/22/robinhood-crypto-coo-tanya-denisova-is-leaving-company-amid-revenue-slowdown"
+    },
+    {
+      "title": "永續運輸，無需旋轉",
+      "source": "gcaptain.com",
+      "time": "18:29",
+      "link": "https://gcaptain.com/sustainable-shipping-without-the-spin/"
+    },
+    {
+      "title": "股市继续飙升至历史新高。這是對沖的方法",
+      "source": "CNBC",
+      "time": "17:59",
+      "link": "https://www.cnbc.com/2026/05/22/stocks-continue-surging-to-record-highs-heres-how-to-hedge.html"
+    },
+    {
+      "title": "由於供應過剩，雞蛋價格暴跌，生產商表示，隨著成本上升，利潤率受到打擊",
+      "source": "CNBC",
+      "time": "15:59",
+      "link": "https://www.cnbc.com/2026/05/22/egg-prices-fall-due-to-oversupply-after-bird-flu-shortages.html"
+    },
+    {
+      "title": "您口袋裡的代理財務官",
+      "source": "CoinDesk",
+      "time": "14:57",
+      "link": "https://www.coindesk.com/opinion/2026/05/22/the-agentic-cfo-in-your-pocket"
+    },
+    {
+      "title": "AvalonBay 股權住宅大型合併對公寓產業和租金意味著什麼",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/05/22/avalonbay-equity-residential-apartment-merger.html"
+    },
+    {
+      "title": "Puig 合併交易談判結束後，雅詩蘭黛盤前股價飆升",
+      "source": "CNBC",
+      "time": "10:32",
+      "link": "https://www.cnbc.com/2026/05/22/estee-lauder-puig-merger-talks-end.html"
+    },
+    {
+      "title": "比特幣交易價格接近 77,700 美元，分析師關注清算浪潮後的 75,000 美元支撐位",
+      "source": "CoinDesk",
+      "time": "05:38",
+      "link": "https://www.coindesk.com/markets/2026/05/22/bitcoin-trades-near-usd77-700-as-analysts-eye-usd75-000-support-after-liquidation-wave"
+    },
+    {
+      "title": "盧比暴跌導致印度轉向2013年縮減恐慌策略",
+      "source": "Bloomberg",
+      "time": "05:03",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-22/rupee-plunge-sees-india-turn-to-2013-taper-tantrum-playbook"
+    },
+    {
       "title": "Fanatics 如何壟斷體育收藏品市場",
       "source": "CNBC",
       "time": "23:56",
       "link": "https://www.cnbc.com/2026/05/22/how-fanatics-cornered-the-sports-collectibles-market.html"
     },
     {
-      "title": "為什麼中國航空公司比全球競爭對手在伊朗戰爭中遭受的損失更大",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "23:28",
       "link": "https://www.cnbc.com/2026/05/22/china-airlines-expect-losses-iran-war-fuel-shortage-railway-.html"
     },
     {
-      "title": "專家表示，中本聰的 110 萬比特幣和數百萬比特幣可以免受量子攻擊",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "19:10",
       "link": "https://www.coindesk.com/tech/2026/05/21/satoshi-s-1-1m-bitcoin-stash-can-be-saved-from-quantum-attack-says-americanfortress"
     },
     {
-      "title": "涉及能源和基礎設施的人工智慧交易讓你的錢翻倍，超過了英偉達",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "17:42",
       "link": "https://www.cnbc.com/2026/05/21/an-ai-trade-involving-energy-and-infrastructure-thats-doubled-your-money-topping-nvidia.html"
     },
     {
-      "title": "顧問的加密貨幣：加密產品",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "15:00",
       "link": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products"
@@ -278,60 +332,6 @@
       "source": "CNBC",
       "time": "15:20",
       "link": "https://www.cnbc.com/2026/05/20/something-very-unusual-is-happening-with-nvidia-options.html"
-    },
-    {
-      "title": "禮來公司 (Eli Lilly) 指控教會主教和商人在 Trulicity 藥品回扣計劃中存在欺詐行為",
-      "source": "CNBC",
-      "time": "14:58",
-      "link": "https://www.cnbc.com/2026/05/20/eli-lilly-lawsuit-rebate-fraud-pentecostal-church-leaders.html"
-    },
-    {
-      "title": "Stellantis 執行長 Antonio Filosa 即將宣布他的計劃，以扭轉公司局面，因為該汽車製造商的股價落後",
-      "source": "CNBC",
-      "time": "10:30",
-      "link": "https://www.cnbc.com/2026/05/20/stellantis-stock-stla-capital-markets-day-antonio-filosa.html"
-    },
-    {
-      "title": "英國4月通膨率回落至2.8%，但預計放緩將是短暫的",
-      "source": "CNBC",
-      "time": "06:08",
-      "link": "https://www.cnbc.com/2026/05/20/uk-april-inflation-cpi-energy-prices.html"
-    },
-    {
-      "title": "印度央行幹預盧比跌至歷史新低",
-      "source": "Bloomberg",
-      "time": "05:42",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/inr-usd-indian-central-bank-intervenes-as-rupee-drops-to-record-low"
-    },
-    {
-      "title": "為什麼時尚界正在加倍重視永續發展，儘管追求價值的購物者卻忽略了這一點",
-      "source": "CNBC",
-      "time": "05:05",
-      "link": "https://www.cnbc.com/2026/05/20/fashion-sustainability-shoppers-circularity-pandora-kering-gucci.html"
-    },
-    {
-      "title": "隨著伊朗戰爭加速了對廉價無人機的需求，五角大廈利用 Shield AI 進行低成本無人機計劃",
-      "source": "CNBC",
-      "time": "18:32",
-      "link": "https://www.cnbc.com/2026/05/19/pentagon-taps-shield-ai-for-low-cost-missile-program.html"
-    },
-    {
-      "title": "為什麼隨著電動車和汽油動力汽車失去市場份額，混合動力汽車正在“大放異彩”",
-      "source": "CNBC",
-      "time": "14:45",
-      "link": "https://www.cnbc.com/2026/05/19/hybrids-having-their-moment-as-car-buyers-rethink-electric-vehicles.html"
-    },
-    {
-      "title": "印度儲備銀行將向政府支付創紀錄的股息以緩解戰爭衝擊",
-      "source": "Bloomberg",
-      "time": "10:29",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-19/india-set-for-record-central-bank-dividend-to-cushion-war-shock"
-    },
-    {
-      "title": "人工智慧經濟正在改寫美國夢——藍領工人將贏得勝利",
-      "source": "CNBC",
-      "time": "09:00",
-      "link": "https://www.cnbc.com/2026/05/19/ai-hiring-slowdown-skilled-trade-workers.html"
     }
   ]
 }
