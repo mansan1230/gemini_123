@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-24 01:53",
+  "update_time": "2026-05-25 01:59",
   "crypto_fng": {
-    "value": "25",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1779580800",
-    "time_until_update": "79619"
+    "value": "30",
+    "value_classification": "Fear",
+    "timestamp": "1779667200",
+    "time_until_update": "79235"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 63339.07,
-        "change": 1654.93,
-        "percent": 2.68,
-        "rsi": "63.7",
+        "price": 65402.04,
+        "change": 2062.97,
+        "percent": 3.26,
+        "rsi": "72.0",
         "trend": "📈 多頭"
       },
       {
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 76778.99,
-        "change": 1290.75,
-        "percent": 1.71,
-        "rsi": "36.6",
+        "price": 76827.26,
+        "change": 153.89,
+        "percent": 0.2,
+        "rsi": "29.7",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2119.09,
-        "change": 54.45,
-        "percent": 2.64,
-        "rsi": "28.9",
+        "price": 2092.66,
+        "change": -23.29,
+        "percent": -1.1,
+        "rsi": "20.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 85.96,
-        "change": 1.65,
-        "percent": 1.96,
-        "rsi": "36.8",
-        "trend": "震盪"
+        "price": 84.74,
+        "change": -0.92,
+        "percent": -1.07,
+        "rsi": "26.2",
+        "trend": "📉 空頭"
       }
     ],
     "shipping": [
@@ -113,25 +113,25 @@
       {
         "name": "📈 標普期貨",
         "price": 7491.0,
-        "change": 25.0,
-        "percent": 0.33,
-        "rsi": "70.7",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "67.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
         "price": 29558.75,
-        "change": 111.5,
-        "percent": 0.38,
-        "rsi": "72.9",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "70.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
         "price": 50662.0,
-        "change": 283.0,
-        "percent": 0.56,
-        "rsi": "69.2",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "66.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.32,
-        "change": 0.13,
-        "percent": 0.13,
-        "rsi": "61.9",
+        "price": 99.0,
+        "change": -0.32,
+        "percent": -0.32,
+        "rsi": "56.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.15,
-        "change": 0.27,
-        "percent": 0.17,
-        "rsi": "73.4",
+        "price": 158.87,
+        "change": -0.15,
+        "percent": -0.09,
+        "rsi": "68.2",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4521.0,
-        "change": -18.8,
-        "percent": -0.41,
-        "rsi": "50.1",
+        "price": 4523.2,
+        "change": 2.2,
+        "percent": 0.05,
+        "rsi": "46.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
         "price": 96.6,
-        "change": 0.25,
-        "percent": 0.26,
-        "rsi": "37.8",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "42.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.34,
-        "change": 0.09,
-        "percent": 1.36,
-        "rsi": "66.9",
+        "price": 6.38,
+        "change": 0.04,
+        "percent": 0.58,
+        "rsi": "64.5",
         "trend": "-"
       },
       {
@@ -214,6 +214,18 @@
   },
   "news": [
     {
+      "title": "美國人在假日週末感受到通貨膨脹的壓力。這裡是物價漲幅最大的地方",
+      "source": "CNBC",
+      "time": "12:32",
+      "link": "https://www.cnbc.com/2026/05/23/memorial-day-weekend-prices-inflation-war.html"
+    },
+    {
+      "title": "“藍點熱”？夏季現場音樂的棘手動態背後的真正原因是什麼",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/05/23/concert-ticket-prices-live-music-demand.html"
+    },
+    {
       "title": "Robinhood Crypto 營運長 Tanya Denisova 因收入放緩而離開公司",
       "source": "CoinDesk",
       "time": "19:40",
@@ -226,7 +238,7 @@
       "link": "https://gcaptain.com/sustainable-shipping-without-the-spin/"
     },
     {
-      "title": "股市继续飙升至历史新高。這是對沖的方法",
+      "title": "股市持續飆升至歷史新高。這是對沖的方法",
       "source": "CNBC",
       "time": "17:59",
       "link": "https://www.cnbc.com/2026/05/22/stocks-continue-surging-to-record-highs-heres-how-to-hedge.html"
@@ -274,25 +286,25 @@
       "link": "https://www.cnbc.com/2026/05/22/how-fanatics-cornered-the-sports-collectibles-market.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "為什麼中國航空公司比全球競爭對手在伊朗戰爭中遭受的損失更大",
       "source": "CNBC",
       "time": "23:28",
       "link": "https://www.cnbc.com/2026/05/22/china-airlines-expect-losses-iran-war-fuel-shortage-railway-.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "專家表示，中本聰的 110 萬比特幣和數百萬比特幣可以免受量子攻擊",
       "source": "CoinDesk",
       "time": "19:10",
       "link": "https://www.coindesk.com/tech/2026/05/21/satoshi-s-1-1m-bitcoin-stash-can-be-saved-from-quantum-attack-says-americanfortress"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "涉及能源和基礎設施的人工智慧交易讓你的錢翻倍，超過了英偉達",
       "source": "CNBC",
       "time": "17:42",
       "link": "https://www.cnbc.com/2026/05/21/an-ai-trade-involving-energy-and-infrastructure-thats-doubled-your-money-topping-nvidia.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "顧問的加密貨幣：加密產品",
       "source": "CoinDesk",
       "time": "15:00",
       "link": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-for-advisors-crypto-products"
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "17:47",
       "link": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html"
-    },
-    {
-      "title": "加密多空：比特幣支持的貸款屬於資本成本對話",
-      "source": "CoinDesk",
-      "time": "16:31",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/05/20/crypto-long-and-short-bitcoin-backed-loans-belong-in-the-cost-of-capital-conversation"
-    },
-    {
-      "title": "Nvidia 選項發生了一些非常不尋常的事情",
-      "source": "CNBC",
-      "time": "15:20",
-      "link": "https://www.cnbc.com/2026/05/20/something-very-unusual-is-happening-with-nvidia-options.html"
     }
   ]
 }
