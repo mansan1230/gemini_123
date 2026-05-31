@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-05-30 01:48",
+  "update_time": "2026-05-31 02:00",
   "crypto_fng": {
-    "value": "23",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1780099200",
-    "time_until_update": "79884"
+    "value": "28",
+    "value_classification": "Fear",
+    "timestamp": "1780185600",
+    "time_until_update": "79181"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 73534.01,
-        "change": -2.55,
-        "percent": -0.0,
-        "rsi": "24.1",
+        "price": 73944.59,
+        "change": 572.07,
+        "percent": 0.78,
+        "rsi": "30.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2016.71,
-        "change": 9.16,
-        "percent": 0.46,
-        "rsi": "24.1",
+        "price": 2026.24,
+        "change": 14.26,
+        "percent": 0.71,
+        "rsi": "29.0",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 82.72,
-        "change": 0.73,
-        "percent": 0.9,
-        "rsi": "30.7",
+        "price": 82.89,
+        "change": 0.96,
+        "percent": 1.17,
+        "rsi": "37.3",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.28,
-        "change": 0.21,
-        "percent": 1.74,
-        "rsi": "72.4",
+        "price": 12.29,
+        "change": 0.22,
+        "percent": 1.82,
+        "rsi": "72.5",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7590.75,
-        "change": 9.0,
-        "percent": 0.12,
-        "rsi": "67.6",
+        "price": 7595.75,
+        "change": 14.0,
+        "percent": 0.18,
+        "rsi": "68.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30389.5,
-        "change": 82.5,
-        "percent": 0.27,
-        "rsi": "66.8",
+        "price": 30405.25,
+        "change": 98.25,
+        "percent": 0.32,
+        "rsi": "67.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51053.0,
-        "change": 310.0,
-        "percent": 0.61,
-        "rsi": "69.8",
+        "price": 51077.0,
+        "change": 334.0,
+        "percent": 0.66,
+        "rsi": "70.0",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.94,
-        "change": -0.08,
-        "percent": -0.08,
-        "rsi": "68.9",
+        "price": 98.91,
+        "change": -0.11,
+        "percent": -0.11,
+        "rsi": "68.1",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4569.9,
-        "change": 70.6,
-        "percent": 1.57,
-        "rsi": "35.0",
+        "price": 4560.5,
+        "change": 61.2,
+        "percent": 1.36,
+        "rsi": "33.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 87.76,
-        "change": -1.14,
-        "percent": -1.28,
-        "rsi": "39.8",
+        "price": 87.36,
+        "change": -1.54,
+        "percent": -1.73,
+        "rsi": "39.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.39,
-        "change": -0.0,
-        "percent": -0.03,
-        "rsi": "55.5",
+        "price": 6.36,
+        "change": -0.04,
+        "percent": -0.57,
+        "rsi": "54.1",
         "trend": "-"
       },
       {
@@ -214,6 +214,54 @@
   },
   "news": [
     {
+      "title": "代幣還是人類？新的企業權衡",
+      "source": "CNBC",
+      "time": "18:24",
+      "link": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html"
+    },
+    {
+      "title": "Morning Squawk 中的伊朗和平協議、戴爾股價飆升、川普帳戶等",
+      "source": "CNBC",
+      "time": "12:28",
+      "link": "https://www.cnbc.com/2026/05/29/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "在馬斯克的言論與 IPO 申請出現分歧後，SpaceX 的懷疑論者增加了擔憂的理由",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/05/29/spacex-skeptics-concerned-as-musk-comments-diverge-from-ipo-filing.html"
+    },
+    {
+      "title": "比特幣表現遜於風險資產，創紀錄的 ETF 連續第 9 天流出顯示需求減弱",
+      "source": "CoinDesk",
+      "time": "11:15",
+      "link": "https://www.coindesk.com/daybook-us/2026/05/29/bitcoin-underperforms-risk-assets-as-record-9th-day-of-etf-outflows-signal-waning-demand"
+    },
+    {
+      "title": "「我們的口味上架」：亞洲食品雜貨超越「民族通道」的演變",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/05/29/asian-foods-beyond-ethnic-aisle.html"
+    },
+    {
+      "title": "歐洲央行在升息問題上陷入困境——私部門可以取代銀行的工作",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/05/29/the-ecb-is-debating-rate-hikes-but-the-private-sector-could-help-out.html"
+    },
+    {
+      "title": "CryptoQuant 表示，比特幣的創紀錄供應量掩蓋了買家的匱乏",
+      "source": "CoinDesk",
+      "time": "04:23",
+      "link": "https://www.coindesk.com/markets/2026/05/29/bitcoin-s-record-holder-supply-hides-a-buyer-drought-cryptoquant-says"
+    },
+    {
+      "title": "LG電子利用Google技術展示汽車創新後股價飆漲24%",
+      "source": "CNBC",
+      "time": "02:29",
+      "link": "https://www.cnbc.com/2026/05/29/lg-electronics-shares-jump-after-debut-of-google-based-car-products.html"
+    },
+    {
       "title": "吉姆克萊默 (Jim Cramer) 表示，這 3 個錯誤讓投資者遠離人工智慧贏家",
       "source": "CNBC",
       "time": "22:28",
@@ -232,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/05/28/spencer-pratt-los-angeles-mayor-race-karen-bass-primary-democrats.html"
     },
     {
-      "title": "法拉利執行長為其首款純電動車 64 萬美元的價格辯護",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:23",
       "link": "https://www.cnbc.com/2026/05/28/ferrari-ceo-luce-price-electric-car.html"
@@ -268,7 +316,7 @@
       "link": "https://www.cnbc.com/2026/05/27/new-york-fed-food-insecurity-worsens-amid-k-shaped-economic-divide.html"
     },
     {
-      "title": "傑富瑞表示，在代幣化浪潮中，加密貨幣 IPO 可能創造 1 兆美元的龐大市場",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CoinDesk",
       "time": "15:35",
       "link": "https://www.coindesk.com/markets/2026/05/27/crypto-ipos-could-create-massive-usd1-trillion-market-amid-tokenization-wave-jefferies-says"
@@ -284,54 +332,6 @@
       "source": "CNBC",
       "time": "11:02",
       "link": "https://www.cnbc.com/2026/05/27/election-economy-congress-inflation-republicans.html"
-    },
-    {
-      "title": "馬可·盧比歐尋求在川普時代緊張後修復美印關係",
-      "source": "Bloomberg",
-      "time": "03:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-26/rubio-tries-to-mend-india-ties-after-trump-roiled-relations"
-    },
-    {
-      "title": "隨著馬斯克將火箭公司推向納斯達克，SpaceX 與特斯拉合併的討論重新燃起",
-      "source": "CNBC",
-      "time": "21:07",
-      "link": "https://www.cnbc.com/2026/05/26/spacex-tesla-merger-chatter-reignites-as-musk-rocket-company-nears-ipo.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CoinDesk",
-      "time": "15:19",
-      "link": "https://www.coindesk.com/opinion/2026/05/26/the-clarity-act-won-t-lead-to-adoption-without-crypto-tax-reform"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CoinDesk",
-      "time": "12:19",
-      "link": "https://www.coindesk.com/markets/2026/05/26/strategy-taps-cash-reserve-to-retire-usd1-5-billion-in-convertible-debt"
-    },
-    {
-      "title": "沃什時代開始、美國襲擊伊朗、夏季旅行成本創紀錄等等",
-      "source": "CNBC",
-      "time": "12:12",
-      "link": "https://www.cnbc.com/2026/05/26/5-things-to-know-before-the-market-opens.html"
-    },
-    {
-      "title": "富國銀行將為​​ Icon 的 3D 列印房屋提供抵押貸款激勵",
-      "source": "CNBC",
-      "time": "11:37",
-      "link": "https://www.cnbc.com/2026/05/26/wells-fargo-mortgage-incentives-3d-printed-homes-icon.html"
-    },
-    {
-      "title": "五角大廈與 SpaceX 因伊朗戰爭期間星鏈價格上漲而發生爭執",
-      "source": "CNBC",
-      "time": "10:22",
-      "link": "https://www.cnbc.com/2026/05/26/pentagon-spars-with-spacex-over-starlink-price-hike-during-iran-war.html"
-    },
-    {
-      "title": "比特幣陷入關鍵的鏈上支援和期權攤牌之間",
-      "source": "CoinDesk",
-      "time": "09:11",
-      "link": "https://www.coindesk.com/markets/2026/05/26/bitcoin-caught-between-critical-onchain-support-and-an-options-showdown"
     }
   ]
 }
