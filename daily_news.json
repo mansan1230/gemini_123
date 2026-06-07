@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-06 01:51",
+  "update_time": "2026-06-07 02:05",
   "crypto_fng": {
     "value": "12",
     "value_classification": "Extreme Fear",
-    "timestamp": "1780704000",
-    "time_until_update": "79723"
+    "timestamp": "1780790400",
+    "time_until_update": "78869"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 61000.99,
-        "change": -2800.59,
-        "percent": -4.39,
-        "rsi": "11.5",
+        "price": 61435.61,
+        "change": 512.94,
+        "percent": 0.84,
+        "rsi": "8.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1581.99,
-        "change": -187.59,
-        "percent": -10.6,
-        "rsi": "12.0",
+        "price": 1588.2,
+        "change": 7.34,
+        "percent": 0.46,
+        "rsi": "5.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 63.92,
-        "change": -4.8,
-        "percent": -6.98,
-        "rsi": "8.1",
+        "price": 63.61,
+        "change": 0.12,
+        "percent": 0.19,
+        "rsi": "3.1",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7368.0,
-        "change": -233.0,
-        "percent": -3.07,
-        "rsi": "44.8",
+        "price": 7400.5,
+        "change": -200.5,
+        "percent": -2.64,
+        "rsi": "47.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28829.25,
-        "change": -1659.0,
-        "percent": -5.44,
-        "rsi": "45.0",
+        "price": 29026.5,
+        "change": -1461.75,
+        "percent": -4.79,
+        "rsi": "47.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50813.0,
-        "change": -858.0,
-        "percent": -1.66,
-        "rsi": "62.1",
+        "price": 50936.0,
+        "change": -735.0,
+        "percent": -1.42,
+        "rsi": "63.7",
         "trend": "-"
       }
     ],
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4353.9,
-        "change": -121.9,
-        "percent": -2.72,
-        "rsi": "33.2",
+        "price": 4337.1,
+        "change": -138.7,
+        "percent": -3.1,
+        "rsi": "32.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 90.25,
-        "change": -2.79,
-        "percent": -3.0,
-        "rsi": "31.0",
+        "price": 90.54,
+        "change": -2.5,
+        "percent": -2.69,
+        "rsi": "31.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.28,
-        "change": -0.24,
-        "percent": -3.62,
-        "rsi": "50.9",
+        "price": 6.26,
+        "change": -0.25,
+        "percent": -3.8,
+        "rsi": "50.5",
         "trend": "-"
       },
       {
@@ -213,6 +213,42 @@
     ]
   },
   "news": [
+    {
+      "title": "模型路由是解決人工智慧超支問題的方法。這是 OpenAI 和 Anthropic 面臨的問題",
+      "source": "CNBC",
+      "time": "17:06",
+      "link": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html"
+    },
+    {
+      "title": "黃金圖表看起來不穩定。這是如何獲利的",
+      "source": "CNBC",
+      "time": "16:03",
+      "link": "https://www.cnbc.com/2026/06/05/the-gold-chart-looks-precarious-heres-how-to-profit.html"
+    },
+    {
+      "title": "由於股票連續 4 週下跌測試投資者興趣，Alphabet 正在尋求新資金",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/06/05/alphabet-ai-data-center-financing.html"
+    },
+    {
+      "title": "科技下載：Anthropic 的 IPO 為人工智慧繁榮估值帶來了首次重大考驗",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/06/05/tech-download-anthropic-ipo-ai-valuations.html"
+    },
+    {
+      "title": "如果比特幣跌破 60,000 美元，可能會發生以下情況",
+      "source": "CoinDesk",
+      "time": "07:52",
+      "link": "https://www.coindesk.com/markets/2026/06/05/here-s-what-could-happen-if-bitcoin-breaks-below-usd60-000"
+    },
+    {
+      "title": "禮來（Lilly）和諾和諾德（Novo）現在將目光投向美國以外的肥胖藥物增長",
+      "source": "Bloomberg",
+      "time": "07:02",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-05/lilly-and-novo-now-look-beyond-us-for-obesity-drug-growth"
+    },
     {
       "title": "隨著公司尋求控制人工智慧支出，Ramp 估值達到 440 億美元",
       "source": "CNBC",
@@ -296,42 +332,6 @@
       "source": "CoinDesk",
       "time": "20:09",
       "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users"
-    },
-    {
-      "title": "K33 表示，隨著資本追逐高漲的人工智慧股票，比特幣將迎來“波濤洶湧的夏天”",
-      "source": "CoinDesk",
-      "time": "18:42",
-      "link": "https://www.coindesk.com/markets/2026/06/02/bitcoin-set-for-choppy-summer-as-capital-chases-high-flying-ai-stocks-k33-says"
-    },
-    {
-      "title": "微軟推出新的人工智慧模型，以減少對 OpenAI 的依賴並降低開發人員的成本",
-      "source": "CNBC",
-      "time": "18:34",
-      "link": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"
-    },
-    {
-      "title": "一家去中心化雲端供應商表示，一般公民可以透過人工智慧賺錢",
-      "source": "CoinDesk",
-      "time": "15:36",
-      "link": "https://www.coindesk.com/tech/2026/06/02/here-s-how-one-decentralized-cloud-provider-says-private-citizens-can-make-money-from-ai"
-    },
-    {
-      "title": "隨著Strategy的出售，Strive上週增加了2,500個比特幣，達到19,000個比特幣",
-      "source": "CoinDesk",
-      "time": "12:23",
-      "link": "https://www.coindesk.com/markets/2026/06/02/strive-adds-2-500-bitcoin-to-hit-19-000-btc-just-a-day-after-strategy-turns-seller"
-    },
-    {
-      "title": "近年來，房屋保險費飆升。如何降低成本",
-      "source": "CNBC",
-      "time": "12:15",
-      "link": "https://www.cnbc.com/2026/06/02/homeowners-insurance-premiums-costs-how-to-reduce.html"
-    },
-    {
-      "title": "微軟和谷歌在人工智慧編碼領域起步較晚，但他們為成長而競爭“絕對至關重要”",
-      "source": "CNBC",
-      "time": "20:18",
-      "link": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"
     }
   ]
 }
