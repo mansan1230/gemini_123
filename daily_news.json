@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-07 02:05",
+  "update_time": "2026-06-08 02:10",
   "crypto_fng": {
-    "value": "12",
+    "value": "8",
     "value_classification": "Extreme Fear",
-    "timestamp": "1780790400",
-    "time_until_update": "78869"
+    "timestamp": "1780876800",
+    "time_until_update": "78592"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24961.95,
-        "change": -291.45,
-        "percent": -1.15,
-        "rsi": "36.7",
+        "price": 24563.34,
+        "change": -398.61,
+        "percent": -1.6,
+        "rsi": "35.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66588.12,
-        "change": -882.57,
-        "percent": -1.31,
-        "rsi": "72.6",
+        "price": 63791.98,
+        "change": -2796.14,
+        "percent": -4.2,
+        "rsi": "60.6",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 61435.61,
-        "change": 512.94,
-        "percent": 0.84,
-        "rsi": "8.2",
+        "price": 63028.64,
+        "change": 2161.23,
+        "percent": 3.55,
+        "rsi": "14.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1588.2,
-        "change": 7.34,
-        "percent": 0.46,
-        "rsi": "5.5",
+        "price": 1682.28,
+        "change": 113.51,
+        "percent": 7.24,
+        "rsi": "20.0",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 63.61,
-        "change": 0.12,
-        "percent": 0.19,
-        "rsi": "3.1",
+        "price": 66.18,
+        "change": 3.99,
+        "percent": 6.42,
+        "rsi": "16.3",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7400.5,
-        "change": -200.5,
-        "percent": -2.64,
-        "rsi": "47.3",
+        "price": 7406.75,
+        "change": 6.25,
+        "percent": 0.08,
+        "rsi": "48.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29026.5,
-        "change": -1461.75,
-        "percent": -4.79,
-        "rsi": "47.3",
+        "price": 29161.75,
+        "change": 135.25,
+        "percent": 0.47,
+        "rsi": "50.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50936.0,
-        "change": -735.0,
-        "percent": -1.42,
-        "rsi": "63.7",
+        "price": 50799.0,
+        "change": -137.0,
+        "percent": -0.27,
+        "rsi": "60.7",
         "trend": "-"
       }
     ],
@@ -155,43 +155,43 @@
       {
         "name": "💵 美元指數",
         "price": 100.07,
-        "change": 0.66,
-        "percent": 0.66,
-        "rsi": "63.7",
+        "change": -0.0,
+        "percent": -0.0,
+        "rsi": "70.9",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.29,
-        "change": 0.35,
+        "price": 160.35,
+        "change": 0.36,
         "percent": 0.22,
-        "rsi": "78.5",
+        "rsi": "78.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4337.1,
-        "change": -138.7,
-        "percent": -3.1,
-        "rsi": "32.3",
+        "price": 4350.9,
+        "change": 13.8,
+        "percent": 0.32,
+        "rsi": "34.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 90.54,
-        "change": -2.5,
-        "percent": -2.69,
-        "rsi": "31.2",
+        "price": 93.28,
+        "change": 2.74,
+        "percent": 3.03,
+        "rsi": "30.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.26,
-        "change": -0.25,
-        "percent": -3.8,
-        "rsi": "50.5",
+        "price": 6.29,
+        "change": 0.02,
+        "percent": 0.37,
+        "rsi": "50.6",
         "trend": "-"
       },
       {
@@ -214,6 +214,30 @@
   },
   "news": [
     {
+      "title": "比特幣、以太坊遭遇自 FTX 崩盤以來最嚴重的一周暴跌，加密貨幣損失 3900 億美元",
+      "source": "CoinDesk",
+      "time": "19:58",
+      "link": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion"
+    },
+    {
+      "title": "中國電動車可能會在幾年內以某種方式衝擊美國",
+      "source": "CNBC",
+      "time": "13:35",
+      "link": "https://www.cnbc.com/2026/06/06/chinese-evs-auto-sales-manufacturing-us.html"
+    },
+    {
+      "title": "14年後，中本聰時代的比特幣成為2,850億美元訴訟的中心",
+      "source": "CoinDesk",
+      "time": "13:30",
+      "link": "https://www.coindesk.com/markets/2026/06/06/satoshi-era-bitcoin-at-center-of-usd285-billion-lawsuit-moves-after-14-years"
+    },
+    {
+      "title": "阿貝爾在波克夏的新投資中走自己的路，其中包括數十億美元的人工智慧投資",
+      "source": "CNBC",
+      "time": "12:31",
+      "link": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html"
+    },
+    {
       "title": "模型路由是解決人工智慧超支問題的方法。這是 OpenAI 和 Anthropic 面臨的問題",
       "source": "CNBC",
       "time": "17:06",
@@ -226,7 +250,7 @@
       "link": "https://www.cnbc.com/2026/06/05/the-gold-chart-looks-precarious-heres-how-to-profit.html"
     },
     {
-      "title": "由於股票連續 4 週下跌測試投資者興趣，Alphabet 正在尋求新資金",
+      "title": "由於股票連續 4 週下跌測試投資者興趣，Alphabet 正在尋求新資本",
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/06/05/alphabet-ai-data-center-financing.html"
@@ -308,30 +332,6 @@
       "source": "CoinDesk",
       "time": "07:04",
       "link": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-says-wall-street-fears-blockchain-because-it-threatens-its-profits"
-    },
-    {
-      "title": "預測市場交易員押注比特幣的拋售將進一步持續",
-      "source": "CoinDesk",
-      "time": "06:23",
-      "link": "https://www.coindesk.com/markets/2026/06/03/kalshi-traders-bet-bitcoin-s-selloff-has-further-to-run"
-    },
-    {
-      "title": "投資者押注人形機器人將在未來十年改變工業和家庭",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/06/03/humanoid-robots-trillion-dollar-ai-market.html"
-    },
-    {
-      "title": "印度石油需求成長因戰爭緊縮而跌至新低",
-      "source": "Bloomberg",
-      "time": "03:55",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-03/india-s-oil-demand-growth-set-for-pandemic-low-on-war-crunch"
-    },
-    {
-      "title": "Coinbase 支援 Ethena 為交易所 1 億用戶推出儲蓄產品",
-      "source": "CoinDesk",
-      "time": "20:09",
-      "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users"
     }
   ]
 }
