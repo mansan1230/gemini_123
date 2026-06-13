@@ -1,218 +1,260 @@
 {
-  "update_time": "2026-06-12 02:05",
+  "update_time": "2026-06-13 01:59",
   "crypto_fng": {
-    "value": "12",
+    "value": "13",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781222400",
-    "time_until_update": "78859"
+    "timestamp": "1781308800",
+    "time_until_update": "79239"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7394.3,
-        "change": 127.31,
-        "percent": 1.75,
-        "rsi": "46.5",
+        "price": 7431.46,
+        "change": 37.16,
+        "percent": 0.5,
+        "rsi": "47.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 25809.66,
-        "change": 640.16,
-        "percent": 2.54,
-        "rsi": "43.6",
+        "price": 25888.84,
+        "change": 79.18,
+        "percent": 0.31,
+        "rsi": "44.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24601.64,
-        "change": 352.35,
-        "percent": 1.45,
-        "rsi": "36.7",
+        "price": 24718.1,
+        "change": 468.81,
+        "percent": 1.93,
+        "rsi": "38.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66446.28,
-        "change": 2229.01,
-        "percent": 3.47,
-        "rsi": "54.6",
+        "price": 66020.04,
+        "change": 1802.77,
+        "percent": 2.81,
+        "rsi": "53.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24209.71,
-        "change": 14.4,
-        "percent": 0.06,
-        "rsi": "35.1",
-        "trend": "震盪"
+        "price": 24635.3,
+        "change": 425.59,
+        "percent": 1.76,
+        "rsi": "32.9",
+        "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 63390.83,
-        "change": 1941.54,
-        "percent": 3.16,
-        "rsi": "24.0",
+        "price": 63762.09,
+        "change": 201.04,
+        "percent": 0.32,
+        "rsi": "25.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1666.09,
-        "change": 45.95,
-        "percent": 2.84,
-        "rsi": "25.6",
+        "price": 1672.81,
+        "change": 0.53,
+        "percent": 0.03,
+        "rsi": "25.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 66.69,
-        "change": 3.53,
-        "percent": 5.59,
-        "rsi": "26.7",
+        "price": 67.39,
+        "change": 0.57,
+        "percent": 0.85,
+        "rsi": "28.3",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 12.52,
-        "change": 0.02,
-        "percent": 0.16,
-        "rsi": "50.5",
+        "price": 12.32,
+        "change": -0.2,
+        "percent": -1.6,
+        "rsi": "41.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.95,
-        "change": 0.98,
-        "percent": 2.39,
-        "rsi": "39.7",
+        "price": 42.45,
+        "change": 0.5,
+        "percent": 1.19,
+        "rsi": "54.5",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.91,
-        "change": 0.58,
-        "percent": 2.29,
-        "rsi": "55.8",
-        "trend": "震盪"
+        "price": 26.23,
+        "change": 0.32,
+        "percent": 1.24,
+        "rsi": "57.3",
+        "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 14.25,
-        "change": 0.28,
-        "percent": 2.0,
-        "rsi": "74.1",
+        "price": 13.67,
+        "change": -0.58,
+        "percent": -4.07,
+        "rsi": "71.2",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7406.5,
-        "change": 128.0,
-        "percent": 1.76,
-        "rsi": "45.9",
+        "price": 7436.25,
+        "change": 40.25,
+        "percent": 0.54,
+        "rsi": "46.2",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29528.5,
-        "change": 974.5,
-        "percent": 3.41,
-        "rsi": "50.8",
+        "price": 29677.75,
+        "change": 213.0,
+        "percent": 0.72,
+        "rsi": "51.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 50899.0,
-        "change": 909.0,
-        "percent": 1.82,
-        "rsi": "54.8",
+        "price": 51608.0,
+        "change": 733.0,
+        "percent": 1.44,
+        "rsi": "58.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 19.44,
-        "change": -2.78,
-        "percent": -12.51,
-        "rsi": "57.2",
+        "price": 17.68,
+        "change": -1.76,
+        "percent": -9.05,
+        "rsi": "52.6",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.46,
-        "change": -0.08,
-        "percent": -1.74,
-        "rsi": "35.3",
+        "price": 4.49,
+        "change": 0.02,
+        "percent": 0.54,
+        "rsi": "41.4",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.83,
-        "change": -0.12,
-        "percent": -0.12,
-        "rsi": "63.8",
+        "price": 99.81,
+        "change": -0.05,
+        "percent": -0.05,
+        "rsi": "60.9",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.26,
-        "change": -0.27,
-        "percent": -0.17,
-        "rsi": "73.3",
+        "price": 160.18,
+        "change": 0.05,
+        "percent": 0.03,
+        "rsi": "70.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4207.5,
-        "change": 99.3,
-        "percent": 2.42,
-        "rsi": "30.7",
+        "price": 4239.9,
+        "change": 149.6,
+        "percent": 3.66,
+        "rsi": "34.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 86.82,
-        "change": -3.21,
-        "percent": -3.57,
-        "rsi": "35.5",
+        "price": 84.29,
+        "change": -3.42,
+        "percent": -3.9,
+        "rsi": "32.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.4,
-        "change": 0.15,
-        "percent": 2.46,
-        "rsi": "55.5",
+        "price": 6.47,
+        "change": 0.22,
+        "percent": 3.44,
+        "rsi": "55.0",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 183.21,
-        "change": 6.58,
-        "percent": 3.73,
-        "rsi": "54.0",
+        "price": 184.8,
+        "change": 1.59,
+        "percent": 0.87,
+        "rsi": "53.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 52.62,
-        "change": 0.39,
-        "percent": 0.75,
-        "rsi": "59.2",
+        "price": 53.34,
+        "change": 0.72,
+        "percent": 1.37,
+        "rsi": "63.1",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "一家中國新創企業的困境暴露了北京科技融資機制的漏洞",
+      "source": "CNBC",
+      "time": "01:21",
+      "link": "https://www.cnbc.com/2026/06/12/a-chinese-start-ups-dilemma-exposes-cracks-in-beijings-tech-funding.html"
+    },
+    {
+      "title": "SpaceX 憑藉 Starlink 遙遙領先競爭對手，但 IPO 前的成長更加困難",
+      "source": "CNBC",
+      "time": "21:02",
+      "link": "https://www.cnbc.com/2026/06/11/spacex-starlink-growth-getting-harder-ahead-of-ipo.html"
+    },
+    {
+      "title": "隨著OpenAI向企業業務傾斜，蘋果和谷歌將目光投向大眾",
+      "source": "CNBC",
+      "time": "12:17",
+      "link": "https://www.cnbc.com/2026/06/11/as-openai-leans-into-enterprise-apple-and-google-target-consumer-ai.html"
+    },
+    {
+      "title": "家族辦公室如何投資 SpaceX 以外的最後領域",
+      "source": "CNBC",
+      "time": "11:33",
+      "link": "https://www.cnbc.com/2026/06/11/spacex-billionaire-investing.html"
+    },
+    {
+      "title": "由於伊朗戰爭切斷了美國與海灣的聯繫，美國成為印度最大的天然氣供應國",
+      "source": "CNBC",
+      "time": "09:45",
+      "link": "https://www.cnbc.com/2026/06/11/us-india-lng-lpg-supply.html"
+    },
+    {
+      "title": "伊朗戰爭升級令提前結束的希望黯淡，投資者準備迎接“長期磨難”",
+      "source": "CNBC",
+      "time": "05:13",
+      "link": "https://www.cnbc.com/2026/06/11/iran-war-us-trump-strikes-centcom-oil-investors.html"
+    },
+    {
+      "title": "印度化肥報價下跌，跡象顯示供應緊張緩解",
+      "source": "Bloomberg",
+      "time": "04:59",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-10/india-fertilizer-offers-fall-in-sign-of-improving-global-supply"
+    },
     {
       "title": "印度內部時事通訊：好萊塢正在討論人工智慧。印度電影製片人正在擁抱它",
       "source": "CNBC",
@@ -290,48 +332,6 @@
       "source": "CNBC",
       "time": "22:56",
       "link": "https://www.cnbc.com/2026/06/09/cramers-lightning-round-ondas-is-a-meme-stock.html"
-    },
-    {
-      "title": "Super Micro 因 70 億美元融資計畫大跌，因公司兜售 AI 伺服器訂單",
-      "source": "CNBC",
-      "time": "22:29",
-      "link": "https://www.cnbc.com/2026/06/09/super-micro-stock-tumbles-on-7-billion-financing-plans.html"
-    },
-    {
-      "title": "通用汽車著眼於新的電池化學物質以發展人工智慧資料中心和能源儲存業務",
-      "source": "CNBC",
-      "time": "21:02",
-      "link": "https://www.cnbc.com/2026/06/09/gm-batteries-data-centers-energy-storage-business.html"
-    },
-    {
-      "title": "五月通膨數據將於週三上午公佈。這是值得期待的",
-      "source": "CNBC",
-      "time": "18:57",
-      "link": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html"
-    },
-    {
-      "title": "摩根大通計劃今年部署更強大的人工智慧代理",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/06/09/jpmorgan-chase-ai-agents.html"
-    },
-    {
-      "title": "Vinted 老闆認為消費者模式發生「根本性」轉變，二手公司估值達 90 億美元",
-      "source": "CNBC",
-      "time": "13:17",
-      "link": "https://www.cnbc.com/2026/06/09/vinted-ceo-ipo-valuation-second-hand-fashion.html"
-    },
-    {
-      "title": "新貴晶片製造商不斷挑戰英偉達。這次是微軟支援的 D-Matrix",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/06/09/nvidia-d-matrix-chip-production-microsoft.html"
-    },
-    {
-      "title": "比特幣的反彈並不是看漲復甦，68,000 美元到 80,000 美元之間的任何價格都被視為一個標誌",
-      "source": "CoinDesk",
-      "time": "11:16",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/09/bitcoin-s-bounce-isn-t-a-bullish-revival-with-anything-from-usd68-000-to-usd80-000-seen-as-a-marker"
     }
   ]
 }
