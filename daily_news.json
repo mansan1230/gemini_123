@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-14 02:09",
+  "update_time": "2026-06-15 02:13",
   "crypto_fng": {
-    "value": "18",
+    "value": "20",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781395200",
-    "time_until_update": "78656"
+    "timestamp": "1781481600",
+    "time_until_update": "78408"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24718.1,
-        "change": 468.81,
-        "percent": 1.93,
-        "rsi": "38.6",
+        "price": 24989.1,
+        "change": 271.0,
+        "percent": 1.1,
+        "rsi": "42.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66020.04,
-        "change": 1802.77,
-        "percent": 2.81,
-        "rsi": "53.2",
+        "price": 69610.82,
+        "change": 3590.78,
+        "percent": 5.44,
+        "rsi": "63.7",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64589.34,
-        "change": 1046.14,
-        "percent": 1.65,
-        "rsi": "27.3",
+        "price": 65612.3,
+        "change": 1190.97,
+        "percent": 1.85,
+        "rsi": "31.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1683.8,
-        "change": 18.67,
-        "percent": 1.12,
-        "rsi": "26.7",
+        "price": 1719.87,
+        "change": 39.66,
+        "percent": 2.36,
+        "rsi": "30.8",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 68.86,
-        "change": 2.11,
-        "percent": 3.16,
-        "rsi": "30.1",
+        "price": 71.28,
+        "change": 2.41,
+        "percent": 3.5,
+        "rsi": "35.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7435.0,
-        "change": 39.0,
-        "percent": 0.53,
-        "rsi": "46.1",
+        "price": 7512.5,
+        "change": 77.5,
+        "percent": 1.04,
+        "rsi": "48.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29662.0,
-        "change": 197.25,
-        "percent": 0.67,
-        "rsi": "51.0",
+        "price": 30171.25,
+        "change": 509.25,
+        "percent": 1.72,
+        "rsi": "50.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51227.0,
-        "change": 352.0,
-        "percent": 0.69,
-        "rsi": "55.2",
+        "price": 52024.0,
+        "change": 797.0,
+        "percent": 1.56,
+        "rsi": "62.0",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.75,
-        "change": -0.11,
-        "percent": -0.11,
-        "rsi": "59.4",
+        "price": 99.58,
+        "change": -0.17,
+        "percent": -0.17,
+        "rsi": "58.9",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.18,
-        "change": 0.05,
-        "percent": 0.03,
-        "rsi": "70.6",
+        "price": 160.21,
+        "change": 0.08,
+        "percent": 0.05,
+        "rsi": "70.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4215.0,
-        "change": 124.7,
-        "percent": 3.05,
-        "rsi": "32.8",
+        "price": 4344.1,
+        "change": 129.1,
+        "percent": 3.06,
+        "rsi": "42.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 84.88,
-        "change": -2.83,
-        "percent": -3.23,
-        "rsi": "33.1",
+        "price": 80.86,
+        "change": -4.02,
+        "percent": -4.74,
+        "rsi": "31.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.43,
-        "change": 0.17,
-        "percent": 2.74,
-        "rsi": "53.5",
+        "price": 6.55,
+        "change": 0.12,
+        "percent": 1.83,
+        "rsi": "56.8",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "SpaceX 首次公開募股對其 13 億美元的比特幣儲備意味著什麼",
+      "source": "CoinDesk",
+      "time": "17:00",
+      "link": "https://www.coindesk.com/business/2026/06/13/here-s-what-spacex-s-ipo-means-for-its-usd1-3-billion-bitcoin-reserve"
+    },
+    {
+      "title": "「狂躁的衝動」推動了 SpaceX 推動的零售風險複合體",
+      "source": "Bloomberg",
+      "time": "15:13",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-mania-powers-new-retail-risk-complex-beyond-wall-street"
+    },
+    {
+      "title": "全球資本主義將全部賭注押在人工智慧的未來上，這令選民感到震驚",
+      "source": "Bloomberg",
+      "time": "12:43",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters"
+    },
     {
       "title": "隨著投資者紛紛湧向 SpaceX，一位交易員將目光投向了一場沉睡的「隱形」遊戲",
       "source": "CNBC",
@@ -280,7 +298,7 @@
       "link": "https://www.cnbc.com/2026/06/11/global-mobility-firms-move-operations-from-singapore-to-malaysia.html"
     },
     {
-      "title": "分析：川普表示他喜歡通膨。為什麼這對凱文沃什來說是美妙的音樂",
+      "title": "分析：川普表示他喜歡通貨膨脹。為什麼這對凱文沃什來說是美妙的音樂",
       "source": "CNBC",
       "time": "21:52",
       "link": "https://www.cnbc.com/2026/06/10/trump-inflation-fed-chair-kevin-warsh-analysis.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "14:47",
       "link": "https://www.cnbc.com/2026/06/10/texas-screwworm-cattle-beef-prices-inflation.html"
-    },
-    {
-      "title": "通貨膨脹正在侵蝕現金回報。這是要做的事情",
-      "source": "CNBC",
-      "time": "13:32",
-      "link": "https://www.cnbc.com/2026/06/10/inflation-eroding-cash-returns.html"
-    },
-    {
-      "title": "隨著交易員加大聯準會升息押注，黃金、白銀和比特幣下跌",
-      "source": "CNBC",
-      "time": "11:35",
-      "link": "https://www.cnbc.com/2026/06/10/gold-silver-and-bitcoin-fall-as-interest-rates-hold-investor-focus.html"
-    },
-    {
-      "title": "通膨情景可能導致比特幣跌破 6 萬美元",
-      "source": "CoinDesk",
-      "time": "11:20",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/10/the-inflation-scenario-that-could-send-bitcoin-tumbling-below-usd60-000"
     }
   ]
 }
