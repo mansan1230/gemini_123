@@ -1,218 +1,266 @@
 {
-  "update_time": "2026-06-17 02:12",
+  "update_time": "2026-06-18 02:10",
   "crypto_fng": {
-    "value": "22",
+    "value": "15",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781654400",
-    "time_until_update": "78431"
+    "timestamp": "1781740800",
+    "time_until_update": "78566"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7511.35,
-        "change": -42.94,
-        "percent": -0.57,
-        "rsi": "49.5",
+        "price": 7420.1,
+        "change": -91.25,
+        "percent": -1.21,
+        "rsi": "42.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26376.34,
-        "change": -307.6,
-        "percent": -1.15,
-        "rsi": "46.8",
+        "price": 26021.66,
+        "change": -354.68,
+        "percent": -1.34,
+        "rsi": "40.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24490.98,
-        "change": -2.97,
-        "percent": -0.01,
-        "rsi": "43.2",
+        "price": 23974.68,
+        "change": -337.48,
+        "percent": -1.39,
+        "rsi": "35.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 69871.88,
-        "change": 467.38,
-        "percent": 0.67,
-        "rsi": "65.4",
+        "price": 71082.28,
+        "change": 1180.03,
+        "percent": 1.69,
+        "rsi": "64.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24910.41,
-        "change": 16.4,
-        "percent": 0.07,
-        "rsi": "44.1",
+        "price": 24934.67,
+        "change": 24.26,
+        "percent": 0.1,
+        "rsi": "46.4",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 65811.51,
-        "change": -477.99,
-        "percent": -0.72,
-        "rsi": "47.1",
+        "price": 64518.84,
+        "change": -1081.8,
+        "percent": -1.65,
+        "rsi": "51.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1795.17,
-        "change": 0.21,
-        "percent": 0.01,
-        "rsi": "45.3",
+        "price": 1755.41,
+        "change": -34.99,
+        "percent": -1.95,
+        "rsi": "45.8",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 73.81,
-        "change": -0.17,
-        "percent": -0.23,
-        "rsi": "49.5",
+        "price": 72.3,
+        "change": -1.11,
+        "percent": -1.52,
+        "rsi": "51.1",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 12.13,
-        "change": 0.14,
-        "percent": 1.17,
-        "rsi": "33.3",
-        "trend": "震盪"
+        "price": 11.88,
+        "change": -0.25,
+        "percent": -2.06,
+        "rsi": "21.1",
+        "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 42.04,
-        "change": -0.47,
-        "percent": -1.11,
-        "rsi": "59.5",
-        "trend": "📈 多頭"
+        "price": 41.22,
+        "change": -0.82,
+        "percent": -1.95,
+        "rsi": "59.6",
+        "trend": "震盪"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 24.46,
-        "change": -0.46,
-        "percent": -1.85,
-        "rsi": "46.0",
+        "price": 23.98,
+        "change": -0.48,
+        "percent": -1.96,
+        "rsi": "48.7",
         "trend": "📉 空頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.36,
-        "change": -0.37,
-        "percent": -2.91,
-        "rsi": "54.7",
-        "trend": "📈 多頭"
+        "price": 12.09,
+        "change": -0.29,
+        "percent": -2.34,
+        "rsi": "50.2",
+        "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7604.75,
-        "change": 43.5,
-        "percent": 0.58,
-        "rsi": "53.8",
+        "price": 7552.5,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "45.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30445.75,
-        "change": -113.5,
-        "percent": -0.37,
-        "rsi": "53.4",
+        "price": 30375.75,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "46.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52544.0,
-        "change": 802.0,
-        "percent": 1.55,
-        "rsi": "64.0",
+        "price": 52225.0,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "58.6",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.41,
-        "change": 0.21,
-        "percent": 1.3,
-        "rsi": "50.3",
+        "price": 18.44,
+        "change": 2.03,
+        "percent": 12.37,
+        "rsi": "56.0",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.43,
-        "change": -0.06,
-        "percent": -1.31,
-        "rsi": "42.0",
+        "price": 4.46,
+        "change": -0.02,
+        "percent": -0.53,
+        "rsi": "46.0",
         "trend": "震盪"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.52,
-        "change": -0.11,
-        "percent": -0.11,
-        "rsi": "56.6",
-        "trend": "震盪"
+        "price": 100.28,
+        "change": 0.19,
+        "percent": 0.19,
+        "rsi": "74.9",
+        "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.34,
-        "change": 0.11,
-        "percent": 0.07,
-        "rsi": "63.4",
+        "price": 160.66,
+        "change": 0.24,
+        "percent": 0.15,
+        "rsi": "74.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4362.2,
-        "change": 34.2,
-        "percent": 0.79,
-        "rsi": "45.6",
+        "price": 4338.0,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "35.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 75.34,
-        "change": -5.41,
-        "percent": -6.7,
-        "rsi": "31.6",
+        "price": 74.83,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "33.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.53,
-        "change": 0.04,
-        "percent": 0.66,
-        "rsi": "58.6",
+        "price": 6.41,
+        "change": NaN,
+        "percent": NaN,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 186.44,
-        "change": -5.35,
-        "percent": -2.79,
-        "rsi": "51.6",
+        "price": 185.8,
+        "change": -0.64,
+        "percent": -0.34,
+        "rsi": "49.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 54.35,
-        "change": 0.79,
-        "percent": 1.47,
-        "rsi": "75.1",
+        "price": 54.05,
+        "change": -0.3,
+        "percent": -0.55,
+        "rsi": "73.2",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "Anthropic 的 Fable 關閉對於開源 AI 來說是一個重要時刻",
+      "source": "CNBC",
+      "time": "22:34",
+      "link": "https://www.cnbc.com/2026/06/16/anthropics-fable-shutdown-is-a-big-moment-for-open-source-ai.html"
+    },
+    {
+      "title": "Databricks 銷售額成長超過 80%，但人工智慧代理群導致利潤率不斷縮水",
+      "source": "CNBC",
+      "time": "22:25",
+      "link": "https://www.cnbc.com/2026/06/16/databricks-revenue-growth-tops-80percent-to-6point9-billion-annualized.html"
+    },
+    {
+      "title": "Roku 如何適應福克斯的未來——以及投資者對這筆交易所遺漏的東西",
+      "source": "CNBC",
+      "time": "20:47",
+      "link": "https://www.cnbc.com/2026/06/16/fox-roku-stock-investors-streaming.html"
+    },
+    {
+      "title": "麥可伯里 (Michael Burry) 表示，他很想做空 SpaceX，但放棄了昂貴的選擇",
+      "source": "CNBC",
+      "time": "20:19",
+      "link": "https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html"
+    },
+    {
+      "title": "新油？將人工智慧運算能力轉變為可交易商品的努力",
+      "source": "CNBC",
+      "time": "14:05",
+      "link": "https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html"
+    },
+    {
+      "title": "要在 2026 年成為美國最適合商業發展的州，「進入市場速度」是致勝法寶",
+      "source": "CNBC",
+      "time": "11:36",
+      "link": "https://www.cnbc.com/2026/06/16/2026-americas-top-states-business-rankings.html"
+    },
+    {
+      "title": "2026 年美國最適合商業發展的州：我們如何對美國所有 50 個州進行排名",
+      "source": "CNBC",
+      "time": "11:15",
+      "link": "https://www.cnbc.com/2026/06/16/2026-americas-top-states-business-rankings-methodology.html"
+    },
+    {
+      "title": "頂級銀行家告訴 CNBC，生物技術 IPO 窗口即將開啟，但大型製藥公司併購仍引領步伐",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/06/16/biotech-deals-ipo-pharma-dealmaking-2026.html"
+    },
     {
       "title": "油價因美伊協議框架而暴跌：一位交易員如何應對這項舉措",
       "source": "CNBC",
@@ -220,7 +268,7 @@
       "link": "https://www.cnbc.com/2026/06/15/oil-tumbles-on-us-iran-deal-framework-how-one-trader-is-playing-the-move.html"
     },
     {
-      "title": "川普給沃什重塑聯準會的空間",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:09",
       "link": "https://www.cnbc.com/2026/06/15/trump-warsh-fed-reshape.html"
@@ -284,54 +332,6 @@
       "source": "CNBC",
       "time": "21:02",
       "link": "https://www.cnbc.com/2026/06/11/spacex-starlink-growth-getting-harder-ahead-of-ipo.html"
-    },
-    {
-      "title": "隨著OpenAI向企業業務傾斜，蘋果和谷歌將目光投向大眾",
-      "source": "CNBC",
-      "time": "12:17",
-      "link": "https://www.cnbc.com/2026/06/11/as-openai-leans-into-enterprise-apple-and-google-target-consumer-ai.html"
-    },
-    {
-      "title": "家族辦公室如何投資 SpaceX 以外的最後領域",
-      "source": "CNBC",
-      "time": "11:33",
-      "link": "https://www.cnbc.com/2026/06/11/spacex-billionaire-investing.html"
-    },
-    {
-      "title": "由於伊朗戰爭切斷了美國與海灣的聯繫，美國成為印度最大的天然氣供應國",
-      "source": "CNBC",
-      "time": "09:45",
-      "link": "https://www.cnbc.com/2026/06/11/us-india-lng-lpg-supply.html"
-    },
-    {
-      "title": "伊朗戰爭升級令提前結束的希望黯淡，投資者準備迎接“長期磨難”",
-      "source": "CNBC",
-      "time": "05:13",
-      "link": "https://www.cnbc.com/2026/06/11/iran-war-us-trump-strikes-centcom-oil-investors.html"
-    },
-    {
-      "title": "印度化肥報價下跌，跡象顯示供應緊張緩解",
-      "source": "Bloomberg",
-      "time": "04:59",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-10/india-fertilizer-offers-fall-in-sign-of-improving-global-supply"
-    },
-    {
-      "title": "印度內部時事通訊：好萊塢正在討論人工智慧。印度電影製片人正在擁抱它",
-      "source": "CNBC",
-      "time": "00:17",
-      "link": "https://www.cnbc.com/2026/06/11/how-indian-filmmakers-are-using-generative-ai.html"
-    },
-    {
-      "title": "公司從新加坡遷往更便宜、更寬敞的馬來西亞，顯示全球流動性趨勢不斷上升",
-      "source": "CNBC",
-      "time": "23:56",
-      "link": "https://www.cnbc.com/2026/06/11/global-mobility-firms-move-operations-from-singapore-to-malaysia.html"
-    },
-    {
-      "title": "分析：川普表示他喜歡通貨膨脹。為什麼這對凱文沃什來說是美妙的音樂",
-      "source": "CNBC",
-      "time": "21:52",
-      "link": "https://www.cnbc.com/2026/06/10/trump-inflation-fed-chair-kevin-warsh-analysis.html"
     }
   ]
 }
