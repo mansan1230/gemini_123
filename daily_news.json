@@ -1,43 +1,43 @@
 {
-  "update_time": "2026-06-18 02:10",
+  "update_time": "2026-06-19 02:38",
   "crypto_fng": {
-    "value": "15",
+    "value": "14",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781740800",
-    "time_until_update": "78566"
+    "timestamp": "1781827200",
+    "time_until_update": "76894"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7420.1,
-        "change": -91.25,
-        "percent": -1.21,
-        "rsi": "42.2",
+        "price": 7500.58,
+        "change": 80.48,
+        "percent": 1.08,
+        "rsi": "45.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26021.66,
-        "change": -354.68,
-        "percent": -1.34,
-        "rsi": "40.5",
+        "price": 26517.93,
+        "change": 496.27,
+        "percent": 1.91,
+        "rsi": "45.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 23974.68,
-        "change": -337.48,
-        "percent": -1.39,
-        "rsi": "35.3",
+        "price": 24312.16,
+        "change": -181.79,
+        "percent": -0.74,
+        "rsi": "41.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 71082.28,
-        "change": 1180.03,
-        "percent": 1.69,
-        "rsi": "64.5",
+        "price": 71308.77,
+        "change": 1406.52,
+        "percent": 2.01,
+        "rsi": "65.0",
         "trend": "📈 多頭"
       },
       {
@@ -52,167 +52,203 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64518.84,
-        "change": -1081.8,
-        "percent": -1.65,
-        "rsi": "51.8",
+        "price": 62861.2,
+        "change": -1557.25,
+        "percent": -2.42,
+        "rsi": "46.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1755.41,
-        "change": -34.99,
-        "percent": -1.95,
-        "rsi": "45.8",
+        "price": 1703.55,
+        "change": -44.34,
+        "percent": -2.54,
+        "rsi": "45.1",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 72.3,
-        "change": -1.11,
-        "percent": -1.52,
-        "rsi": "51.1",
+        "price": 69.46,
+        "change": -2.47,
+        "percent": -3.44,
+        "rsi": "51.2",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.88,
-        "change": -0.25,
-        "percent": -2.06,
-        "rsi": "21.1",
+        "price": 11.57,
+        "change": -0.31,
+        "percent": -2.61,
+        "rsi": "20.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.22,
-        "change": -0.82,
-        "percent": -1.95,
-        "rsi": "59.6",
-        "trend": "震盪"
+        "price": 40.89,
+        "change": -0.33,
+        "percent": -0.8,
+        "rsi": "58.0",
+        "trend": "📉 空頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 23.98,
-        "change": -0.48,
-        "percent": -1.96,
-        "rsi": "48.7",
+        "price": 24.34,
+        "change": 0.36,
+        "percent": 1.5,
+        "rsi": "55.6",
         "trend": "📉 空頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.09,
-        "change": -0.29,
-        "percent": -2.34,
-        "rsi": "50.2",
+        "price": 12.07,
+        "change": -0.31,
+        "percent": -2.5,
+        "rsi": "50.0",
         "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7552.5,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "45.1",
+        "price": 7545.75,
+        "change": 121.25,
+        "percent": 1.63,
+        "rsi": "47.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30375.75,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "46.5",
+        "price": 30605.5,
+        "change": 918.0,
+        "percent": 3.09,
+        "rsi": "51.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52225.0,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "58.6",
+        "price": 51874.0,
+        "change": 355.0,
+        "percent": 0.69,
+        "rsi": "56.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 18.44,
-        "change": 2.03,
-        "percent": 12.37,
-        "rsi": "56.0",
+        "price": 16.4,
+        "change": -2.04,
+        "percent": -11.06,
+        "rsi": "52.2",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.46,
-        "change": -0.02,
-        "percent": -0.53,
-        "rsi": "46.0",
+        "price": 4.45,
+        "change": -0.04,
+        "percent": -0.8,
+        "rsi": "44.5",
         "trend": "震盪"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.28,
-        "change": 0.19,
-        "percent": 0.19,
-        "rsi": "74.9",
+        "price": 100.82,
+        "change": 0.73,
+        "percent": 0.73,
+        "rsi": "79.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.66,
-        "change": 0.24,
-        "percent": 0.15,
-        "rsi": "74.0",
+        "price": 161.18,
+        "change": 0.58,
+        "percent": 0.36,
+        "rsi": "77.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4338.0,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "35.9",
+        "price": 4197.5,
+        "change": -161.4,
+        "percent": -3.7,
+        "rsi": "32.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 74.83,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "33.3",
+        "price": 75.66,
+        "change": -1.13,
+        "percent": -1.47,
+        "rsi": "33.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.41,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "55.8",
+        "price": 6.34,
+        "change": -0.15,
+        "percent": -2.24,
+        "rsi": "49.1",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 185.8,
-        "change": -0.64,
-        "percent": -0.34,
-        "rsi": "49.2",
+        "price": 191.44,
+        "change": 5.64,
+        "percent": 3.04,
+        "rsi": "50.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 54.05,
-        "change": -0.3,
-        "percent": -0.55,
-        "rsi": "73.2",
+        "price": 53.57,
+        "change": -0.48,
+        "percent": -0.89,
+        "rsi": "66.2",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "聯準會維持利率穩定：這對信用卡、儲蓄率、抵押貸款和汽車貸款意味著什麼",
+      "source": "CNBC",
+      "time": "18:05",
+      "link": "https://www.cnbc.com/2026/06/17/fed-interest-rates-unchanged-june.html"
+    },
+    {
+      "title": "2026 年 6 月聯準會利率決定：",
+      "source": "CNBC",
+      "time": "18:01",
+      "link": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+    },
+    {
+      "title": "二手車零售商報告獲利優於預期，執行長詳細介紹扭虧為盈計畫後，CarMax 股價下跌",
+      "source": "CNBC",
+      "time": "17:12",
+      "link": "https://www.cnbc.com/2026/06/17/carmax-kmx-q1-earnings.html"
+    },
+    {
+      "title": "SpaceX 的激增正在創造一個獨特的對沖機會",
+      "source": "CNBC",
+      "time": "15:25",
+      "link": "https://www.cnbc.com/2026/06/17/spacex-surge-is-creating-a-unique-hedging-opportunity.html"
+    },
+    {
+      "title": "Abercrombie & Fitch 開始販售第三方鞋履品牌，以追逐成長",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/06/17/abercrombie-fitch-begins-selling-sperry-hunter-and-puma.html"
+    },
+    {
+      "title": "倫敦金融城消失的分析師",
+      "source": "CNBC",
+      "time": "05:30",
+      "link": "https://www.cnbc.com/2026/06/17/extel-survey-equity-analysts-uk-stocks-small-mid-caps-smid.html"
+    },
     {
       "title": "Anthropic 的 Fable 關閉對於開源 AI 來說是一個重要時刻",
       "source": "CNBC",
@@ -268,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/06/15/oil-tumbles-on-us-iran-deal-framework-how-one-trader-is-playing-the-move.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "川普給沃什重塑聯準會的空間",
       "source": "CNBC",
       "time": "16:09",
       "link": "https://www.cnbc.com/2026/06/15/trump-warsh-fed-reshape.html"
@@ -296,42 +332,6 @@
       "source": "CoinDesk",
       "time": "17:00",
       "link": "https://www.coindesk.com/business/2026/06/13/here-s-what-spacex-s-ipo-means-for-its-usd1-3-billion-bitcoin-reserve"
-    },
-    {
-      "title": "「狂躁的衝動」推動了 SpaceX 推動的零售風險複合體",
-      "source": "Bloomberg",
-      "time": "15:13",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-mania-powers-new-retail-risk-complex-beyond-wall-street"
-    },
-    {
-      "title": "全球資本主義將全部賭注押在人工智慧的未來上，這令選民感到震驚",
-      "source": "Bloomberg",
-      "time": "12:43",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-13/global-capitalism-bets-it-all-on-ai-future-that-alarms-voters"
-    },
-    {
-      "title": "隨著投資者紛紛湧向 SpaceX，一位交易員將目光投向了一場沉睡的「隱形」遊戲",
-      "source": "CNBC",
-      "time": "17:33",
-      "link": "https://www.cnbc.com/2026/06/12/as-investors-flock-to-spacex-one-trader-eyes-a-sleepy-stealth-play.html"
-    },
-    {
-      "title": "SpaceX 的 Gwynne Shotwell 表示，首次公開募股是「非常未來主義」旅程中的一小步",
-      "source": "CNBC",
-      "time": "09:00",
-      "link": "https://www.cnbc.com/2026/06/12/spacex-coo-gwynne-shotwell-spcx-ipo.html"
-    },
-    {
-      "title": "一家中國新創企業的困境暴露了北京科技融資機制的漏洞",
-      "source": "CNBC",
-      "time": "01:21",
-      "link": "https://www.cnbc.com/2026/06/12/a-chinese-start-ups-dilemma-exposes-cracks-in-beijings-tech-funding.html"
-    },
-    {
-      "title": "SpaceX 憑藉 Starlink 遙遙領先競爭對手，但 IPO 前的成長更加困難",
-      "source": "CNBC",
-      "time": "21:02",
-      "link": "https://www.cnbc.com/2026/06/11/spacex-starlink-growth-getting-harder-ahead-of-ipo.html"
     }
   ]
 }
