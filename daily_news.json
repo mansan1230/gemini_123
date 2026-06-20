@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-19 02:38",
+  "update_time": "2026-06-20 01:59",
   "crypto_fng": {
-    "value": "14",
+    "value": "23",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781827200",
-    "time_until_update": "76894"
+    "timestamp": "1781913600",
+    "time_until_update": "79208"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24312.16,
-        "change": -181.79,
-        "percent": -0.74,
-        "rsi": "41.2",
+        "price": 23924.81,
+        "change": -387.35,
+        "percent": -1.59,
+        "rsi": "34.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 71308.77,
-        "change": 1406.52,
-        "percent": 2.01,
-        "rsi": "65.0",
+        "price": 71250.06,
+        "change": 196.57,
+        "percent": 0.28,
+        "rsi": "63.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24934.67,
-        "change": 24.26,
-        "percent": 0.1,
-        "rsi": "46.4",
+        "price": 24985.82,
+        "change": -40.98,
+        "percent": -0.16,
+        "rsi": "49.6",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 62861.2,
-        "change": -1557.25,
-        "percent": -2.42,
-        "rsi": "46.9",
+        "price": 63520.0,
+        "change": 623.53,
+        "percent": 0.99,
+        "rsi": "49.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1703.55,
-        "change": -44.34,
-        "percent": -2.54,
-        "rsi": "45.1",
+        "price": 1708.02,
+        "change": -1.51,
+        "percent": -0.09,
+        "rsi": "45.4",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 69.46,
-        "change": -2.47,
-        "percent": -3.44,
-        "rsi": "51.2",
+        "price": 69.74,
+        "change": 0.11,
+        "percent": 0.16,
+        "rsi": "62.5",
         "trend": "📉 空頭"
       }
     ],
@@ -102,96 +102,96 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.07,
-        "change": -0.31,
-        "percent": -2.5,
-        "rsi": "50.0",
-        "trend": "震盪"
+        "price": 11.72,
+        "change": -0.35,
+        "percent": -2.9,
+        "rsi": "45.0",
+        "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7545.75,
-        "change": 121.25,
-        "percent": 1.63,
-        "rsi": "47.5",
+        "price": 7556.25,
+        "change": 47.82,
+        "percent": 0.64,
+        "rsi": "47.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30605.5,
-        "change": 918.0,
-        "percent": 3.09,
-        "rsi": "51.4",
+        "price": 30647.0,
+        "change": 383.65,
+        "percent": 1.27,
+        "rsi": "50.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51874.0,
-        "change": 355.0,
-        "percent": 0.69,
-        "rsi": "56.1",
+        "price": 51888.0,
+        "change": -74.0,
+        "percent": -0.14,
+        "rsi": "55.7",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.4,
-        "change": -2.04,
-        "percent": -11.06,
-        "rsi": "52.2",
+        "price": 16.78,
+        "change": 0.38,
+        "percent": 2.32,
+        "rsi": "51.5",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.45,
-        "change": -0.04,
-        "percent": -0.8,
-        "rsi": "44.5",
-        "trend": "震盪"
+        "price": 4.49,
+        "change": 0.02,
+        "percent": 0.54,
+        "rsi": "41.4",
+        "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.82,
-        "change": 0.73,
-        "percent": 0.73,
-        "rsi": "79.0",
+        "price": 100.85,
+        "change": -0.0,
+        "percent": -0.0,
+        "rsi": "77.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.18,
-        "change": 0.58,
-        "percent": 0.36,
-        "rsi": "77.4",
+        "price": 161.28,
+        "change": 0.68,
+        "percent": 0.42,
+        "rsi": "78.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4197.5,
-        "change": -161.4,
-        "percent": -3.7,
-        "rsi": "32.0",
+        "price": 4172.9,
+        "change": -51.2,
+        "percent": -1.21,
+        "rsi": "34.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 75.66,
-        "change": -1.13,
-        "percent": -1.47,
-        "rsi": "33.6",
+        "price": 76.54,
+        "change": -0.06,
+        "percent": -0.08,
+        "rsi": "24.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 6.34,
-        "change": -0.15,
-        "percent": -2.24,
-        "rsi": "49.1",
+        "change": -0.04,
+        "percent": -0.59,
+        "rsi": "41.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "吉姆克萊默表示下週的經濟數據將推動市場",
+      "source": "CNBC",
+      "time": "22:56",
+      "link": "https://www.cnbc.com/2026/06/18/jim-cramer-economic-data-drive-markets.html"
+    },
+    {
+      "title": "聯邦監管機構支持川普加速向高耗能人工智慧資料中心供電的計劃",
+      "source": "CNBC",
+      "time": "16:27",
+      "link": "https://www.cnbc.com/2026/06/18/federal-regulators-trump-plan-ai-data-centers.html"
+    },
+    {
+      "title": "為什麼華爾街銀行和外國借款人爭先恐後地利用中國的廉價資金",
+      "source": "CNBC",
+      "time": "03:53",
+      "link": "https://www.cnbc.com/2026/06/18/china-panda-bonds-yuan-funding-costs-foreign-borrowers.html"
+    },
     {
       "title": "聯準會維持利率穩定：這對信用卡、儲蓄率、抵押貸款和汽車貸款意味著什麼",
       "source": "CNBC",
@@ -238,13 +256,13 @@
       "link": "https://www.cnbc.com/2026/06/17/spacex-surge-is-creating-a-unique-hedging-opportunity.html"
     },
     {
-      "title": "Abercrombie & Fitch 開始販售第三方鞋履品牌，以追逐成長",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/06/17/abercrombie-fitch-begins-selling-sperry-hunter-and-puma.html"
     },
     {
-      "title": "倫敦金融城消失的分析師",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "05:30",
       "link": "https://www.cnbc.com/2026/06/17/extel-survey-equity-analysts-uk-stocks-small-mid-caps-smid.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "06:14",
       "link": "https://www.cnbc.com/2026/06/15/china-ai-zhipu-minimax-artificial-intelligence-race-washington-trump-anthropic.html"
-    },
-    {
-      "title": "32 歲的她辭去了教師職務，與父親一起創辦了一家坐立不安玩具公司。去年它帶來了428,000美元的收入",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/06/14/32-year-old-quit-teaching-built-fidget-toy-business-with-her-dad-that-brought-in-428k.html"
-    },
-    {
-      "title": "Meta 聘請 Alexandr Wang 建造新的人工智慧模型一年後，祖克柏不得不將其出售",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html"
-    },
-    {
-      "title": "SpaceX 首次公開募股對其 13 億美元的比特幣儲備意味著什麼",
-      "source": "CoinDesk",
-      "time": "17:00",
-      "link": "https://www.coindesk.com/business/2026/06/13/here-s-what-spacex-s-ipo-means-for-its-usd1-3-billion-bitcoin-reserve"
     }
   ]
 }
