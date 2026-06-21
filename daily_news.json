@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-20 01:59",
+  "update_time": "2026-06-21 02:12",
   "crypto_fng": {
     "value": "23",
     "value_classification": "Extreme Fear",
-    "timestamp": "1781913600",
-    "time_until_update": "79208"
+    "timestamp": "1782000000",
+    "time_until_update": "78474"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 63520.0,
-        "change": 623.53,
-        "percent": 0.99,
-        "rsi": "49.1",
+        "price": 64162.0,
+        "change": 621.16,
+        "percent": 0.98,
+        "rsi": "61.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1708.02,
-        "change": -1.51,
-        "percent": -0.09,
-        "rsi": "45.4",
+        "price": 1735.08,
+        "change": 24.1,
+        "percent": 1.41,
+        "rsi": "65.3",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 69.74,
-        "change": 0.11,
-        "percent": 0.16,
-        "rsi": "62.5",
+        "price": 73.09,
+        "change": 3.37,
+        "percent": 4.83,
+        "rsi": "70.2",
         "trend": "📉 空頭"
       }
     ],
@@ -138,10 +138,10 @@
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.78,
-        "change": 0.38,
-        "percent": 2.32,
-        "rsi": "51.5",
+        "price": 16.4,
+        "change": -2.04,
+        "percent": -11.06,
+        "rsi": "52.2",
         "trend": "-"
       },
       {
@@ -162,10 +162,10 @@
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.28,
-        "change": 0.68,
-        "percent": 0.42,
-        "rsi": "78.1",
+        "price": 161.27,
+        "change": -0.01,
+        "percent": -0.01,
+        "rsi": "75.8",
         "trend": "-"
       }
     ],
@@ -214,6 +214,36 @@
   },
   "news": [
     {
+      "title": "風險最高的 SpaceX 股票交易首周表現強勁",
+      "source": "CNBC",
+      "time": "15:39",
+      "link": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html"
+    },
+    {
+      "title": "房主在 2026 年第一季動用了 47B 美元的股本。借款人應該知道什麼",
+      "source": "CNBC",
+      "time": "13:38",
+      "link": "https://www.cnbc.com/2026/06/19/home-equity-borrow.html"
+    },
+    {
+      "title": "NetJets 的第一次致命事故導致頗具影響力的德州創投創辦人喪生",
+      "source": "CNBC",
+      "time": "12:46",
+      "link": "https://www.cnbc.com/2026/06/19/netjets-first-fatal-crash-kills-influential-texas-vc-founder.html"
+    },
+    {
+      "title": "正在努力尋找工作嗎？嘗試在內華達州尋找",
+      "source": "CNBC",
+      "time": "12:33",
+      "link": "https://www.cnbc.com/2026/06/19/nevada-workforce-job-market.html"
+    },
+    {
+      "title": "比特幣連續第四天下跌，智能合約和 DeFi 代幣領跌",
+      "source": "CoinDesk",
+      "time": "10:47",
+      "link": "https://www.coindesk.com/markets/2026/06/19/smart-contract-and-defi-coins-lead-losses-as-bitcoin-wilts-for-4th-straight-day"
+    },
+    {
       "title": "吉姆克萊默表示下週的經濟數據將推動市場",
       "source": "CNBC",
       "time": "22:56",
@@ -256,13 +286,13 @@
       "link": "https://www.cnbc.com/2026/06/17/spacex-surge-is-creating-a-unique-hedging-opportunity.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Abercrombie & Fitch 開始販售第三方鞋履品牌，以追逐成長",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/06/17/abercrombie-fitch-begins-selling-sperry-hunter-and-puma.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "倫敦金融城消失的分析師",
       "source": "CNBC",
       "time": "05:30",
       "link": "https://www.cnbc.com/2026/06/17/extel-survey-equity-analysts-uk-stocks-small-mid-caps-smid.html"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "11:36",
       "link": "https://www.cnbc.com/2026/06/16/2026-americas-top-states-business-rankings.html"
-    },
-    {
-      "title": "2026 年美國最適合商業發展的州：我們如何對美國所有 50 個州進行排名",
-      "source": "CNBC",
-      "time": "11:15",
-      "link": "https://www.cnbc.com/2026/06/16/2026-americas-top-states-business-rankings-methodology.html"
-    },
-    {
-      "title": "頂級銀行家告訴 CNBC，生物技術 IPO 窗口即將開啟，但大型製藥公司併購仍引領步伐",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/06/16/biotech-deals-ipo-pharma-dealmaking-2026.html"
-    },
-    {
-      "title": "油價因美伊協議框架而暴跌：一位交易員如何應對這項舉措",
-      "source": "CNBC",
-      "time": "16:38",
-      "link": "https://www.cnbc.com/2026/06/15/oil-tumbles-on-us-iran-deal-framework-how-one-trader-is-playing-the-move.html"
-    },
-    {
-      "title": "川普給沃什重塑聯準會的空間",
-      "source": "CNBC",
-      "time": "16:09",
-      "link": "https://www.cnbc.com/2026/06/15/trump-warsh-fed-reshape.html"
-    },
-    {
-      "title": "Anthropic 限制後華爾街加大對中國人工智慧的押注，智浦股價飆漲 33%",
-      "source": "CNBC",
-      "time": "06:14",
-      "link": "https://www.cnbc.com/2026/06/15/china-ai-zhipu-minimax-artificial-intelligence-race-washington-trump-anthropic.html"
     }
   ]
 }
