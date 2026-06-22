@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-21 02:12",
+  "update_time": "2026-06-22 02:15",
   "crypto_fng": {
-    "value": "23",
+    "value": "20",
     "value_classification": "Extreme Fear",
-    "timestamp": "1782000000",
-    "time_until_update": "78474"
+    "timestamp": "1782086400",
+    "time_until_update": "78293"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 23924.81,
-        "change": -387.35,
-        "percent": -1.59,
-        "rsi": "34.9",
+        "price": 23508.92,
+        "change": -415.89,
+        "percent": -1.74,
+        "rsi": "28.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 71250.06,
-        "change": 196.57,
-        "percent": 0.28,
-        "rsi": "63.5",
+        "price": 72550.45,
+        "change": 1300.39,
+        "percent": 1.83,
+        "rsi": "67.1",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64162.0,
-        "change": 621.16,
-        "percent": 0.98,
-        "rsi": "61.8",
+        "price": 64447.66,
+        "change": 207.98,
+        "percent": 0.32,
+        "rsi": "55.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1735.08,
-        "change": 24.1,
-        "percent": 1.41,
-        "rsi": "65.3",
+        "price": 1737.81,
+        "change": -1.49,
+        "percent": -0.09,
+        "rsi": "56.8",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 73.09,
-        "change": 3.37,
-        "percent": 4.83,
-        "rsi": "70.2",
+        "price": 73.96,
+        "change": 0.79,
+        "percent": 1.08,
+        "rsi": "66.1",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7556.25,
-        "change": 47.82,
-        "percent": 0.64,
-        "rsi": "47.1",
+        "price": 7548.5,
+        "change": 40.07,
+        "percent": 0.53,
+        "rsi": "46.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30647.0,
-        "change": 383.65,
-        "percent": 1.27,
-        "rsi": "50.6",
+        "price": 30602.75,
+        "change": 339.4,
+        "percent": 1.12,
+        "rsi": "50.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51888.0,
-        "change": -74.0,
-        "percent": -0.14,
-        "rsi": "55.7",
+        "price": 51935.0,
+        "change": -27.0,
+        "percent": -0.05,
+        "rsi": "56.1",
         "trend": "-"
       }
     ],
@@ -146,52 +146,52 @@
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.49,
-        "change": 0.02,
-        "percent": 0.54,
-        "rsi": "41.4",
-        "trend": "📈 多頭"
+        "price": 4.45,
+        "change": -0.01,
+        "percent": -0.27,
+        "rsi": "49.8",
+        "trend": "震盪"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.85,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "77.2",
+        "price": 100.84,
+        "change": -0.01,
+        "percent": -0.01,
+        "rsi": "77.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.27,
-        "change": -0.01,
-        "percent": -0.01,
-        "rsi": "75.8",
+        "price": 161.57,
+        "change": 0.28,
+        "percent": 0.17,
+        "rsi": "78.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4172.9,
-        "change": -51.2,
-        "percent": -1.21,
-        "rsi": "34.0",
+        "price": 4208.6,
+        "change": -15.5,
+        "percent": -0.37,
+        "rsi": "35.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 76.54,
-        "change": -0.06,
-        "percent": -0.08,
-        "rsi": "24.0",
+        "price": 75.61,
+        "change": -0.99,
+        "percent": -1.29,
+        "rsi": "23.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.34,
-        "change": -0.04,
-        "percent": -0.59,
-        "rsi": "41.6",
+        "price": 6.32,
+        "change": -0.05,
+        "percent": -0.79,
+        "rsi": "41.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "美國的廉價航空公司模式即將耗盡跑道",
+      "source": "CNBC",
+      "time": "14:51",
+      "link": "https://www.cnbc.com/2026/06/20/cheap-airline-fares-summer-travel.html"
+    },
+    {
+      "title": "人工智慧的發展為科技投資者提供了關注債券市場的新理由",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/06/20/ai-buildout-giving-tech-investors-new-reasons-to-watch-bond-market.html"
+    },
     {
       "title": "風險最高的 SpaceX 股票交易首周表現強勁",
       "source": "CNBC",
@@ -320,18 +332,6 @@
       "source": "CNBC",
       "time": "20:19",
       "link": "https://www.cnbc.com/2026/06/16/michael-burry-says-hes-tempted-to-bet-against-spacex-but-passes-on-expensive-options.html"
-    },
-    {
-      "title": "新油？將人工智慧運算能力轉變為可交易商品的努力",
-      "source": "CNBC",
-      "time": "14:05",
-      "link": "https://www.cnbc.com/2026/06/16/the-new-oil-inside-the-effort-to-turn-ai-computing-power-into-a-tradeable-commodity.html"
-    },
-    {
-      "title": "要在 2026 年成為美國最適合商業發展的州，「進入市場速度」是致勝法寶",
-      "source": "CNBC",
-      "time": "11:36",
-      "link": "https://www.cnbc.com/2026/06/16/2026-americas-top-states-business-rankings.html"
     }
   ]
 }
