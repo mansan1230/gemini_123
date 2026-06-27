@@ -1,43 +1,43 @@
 {
-  "update_time": "2026-06-26 01:58",
+  "update_time": "2026-06-27 01:51",
   "crypto_fng": {
-    "value": "13",
+    "value": "15",
     "value_classification": "Extreme Fear",
-    "timestamp": "1782432000",
-    "time_until_update": "79310"
+    "timestamp": "1782518400",
+    "time_until_update": "79691"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7357.49,
-        "change": -0.73,
-        "percent": -0.01,
-        "rsi": "38.7",
+        "price": 7354.02,
+        "change": -3.47,
+        "percent": -0.05,
+        "rsi": "48.2",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 25358.6,
-        "change": -118.04,
-        "percent": -0.46,
-        "rsi": "37.6",
+        "price": 25297.62,
+        "change": -60.98,
+        "percent": -0.24,
+        "rsi": "45.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 22799.08,
-        "change": -277.83,
-        "percent": -1.2,
-        "rsi": "19.1",
+        "price": 23076.91,
+        "change": -335.27,
+        "percent": -1.43,
+        "rsi": "19.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 70004.82,
-        "change": -2361.52,
-        "percent": -3.26,
-        "rsi": "65.3",
+        "price": 72366.34,
+        "change": 3191.38,
+        "percent": 4.61,
+        "rsi": "64.6",
         "trend": "📈 多頭"
       },
       {
@@ -52,52 +52,52 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 59284.81,
-        "change": -1710.32,
-        "percent": -2.8,
-        "rsi": "34.6",
+        "price": 59866.21,
+        "change": 144.54,
+        "percent": 0.24,
+        "rsi": "36.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1556.65,
-        "change": -63.27,
-        "percent": -3.91,
-        "rsi": "37.9",
+        "price": 1573.69,
+        "change": 8.87,
+        "percent": 0.57,
+        "rsi": "40.3",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 67.16,
-        "change": -0.82,
-        "percent": -1.21,
-        "rsi": "50.8",
+        "price": 71.49,
+        "change": 3.92,
+        "percent": 5.79,
+        "rsi": "59.6",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.4,
-        "change": -0.3,
-        "percent": -2.56,
-        "rsi": "22.8",
+        "price": 11.27,
+        "change": -0.13,
+        "percent": -1.14,
+        "rsi": "20.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 40.38,
-        "change": -1.07,
-        "percent": -2.58,
-        "rsi": "47.0",
+        "price": 39.61,
+        "change": -0.77,
+        "percent": -1.91,
+        "rsi": "38.7",
         "trend": "📉 空頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.8,
-        "change": 0.22,
-        "percent": 0.86,
-        "rsi": "53.1",
+        "price": 25.58,
+        "change": -0.22,
+        "percent": -0.85,
+        "rsi": "53.0",
         "trend": "震盪"
       },
       {
@@ -112,107 +112,125 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7405.75,
-        "change": -22.5,
-        "percent": -0.3,
-        "rsi": "40.5",
+        "price": 7397.25,
+        "change": -26.0,
+        "percent": -0.35,
+        "rsi": "49.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29528.5,
-        "change": 14.25,
-        "percent": 0.05,
-        "rsi": "43.8",
+        "price": 29283.0,
+        "change": -441.75,
+        "percent": -1.49,
+        "rsi": "51.8",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52360.0,
-        "change": 81.0,
-        "percent": 0.15,
-        "rsi": "56.5",
+        "price": 52161.0,
+        "change": -178.0,
+        "percent": -0.34,
+        "rsi": "63.0",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 18.89,
-        "change": 0.26,
-        "percent": 1.4,
-        "rsi": "56.6",
+        "price": 18.41,
+        "change": -0.48,
+        "percent": -2.54,
+        "rsi": "42.6",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.39,
-        "change": -0.06,
-        "percent": -1.33,
-        "rsi": "40.8",
-        "trend": "震盪"
+        "price": 4.37,
+        "change": -0.08,
+        "percent": -1.77,
+        "rsi": "39.1",
+        "trend": "📉 空頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.54,
-        "change": -0.07,
-        "percent": -0.07,
-        "rsi": "81.1",
+        "price": 101.37,
+        "change": -0.06,
+        "percent": -0.06,
+        "rsi": "72.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.79,
-        "change": 0.03,
-        "percent": 0.02,
-        "rsi": "75.1",
+        "price": 161.73,
+        "change": -0.03,
+        "percent": -0.02,
+        "rsi": "74.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4030.5,
-        "change": 40.2,
-        "percent": 1.01,
-        "rsi": "29.1",
+        "price": 4103.0,
+        "change": 72.5,
+        "percent": 1.8,
+        "rsi": "38.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 71.32,
-        "change": 0.98,
-        "percent": 1.39,
-        "rsi": "14.2",
+        "price": 70.24,
+        "change": -1.68,
+        "percent": -2.34,
+        "rsi": "16.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.08,
-        "change": 0.14,
-        "percent": 2.31,
-        "rsi": "33.7",
+        "price": 6.2,
+        "change": 0.13,
+        "percent": 2.09,
+        "rsi": "47.2",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 184.57,
-        "change": 1.52,
-        "percent": 0.83,
-        "rsi": "43.3",
+        "price": 181.11,
+        "change": -3.46,
+        "percent": -1.87,
+        "rsi": "51.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 53.45,
-        "change": -0.27,
-        "percent": -0.5,
-        "rsi": "64.5",
+        "price": 53.57,
+        "change": 0.12,
+        "percent": 0.22,
+        "rsi": "64.6",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "亞洲科技股追隨美國科技股的頹勢，軟銀股價下跌 11%",
+      "source": "CNBC",
+      "time": "01:05",
+      "link": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
+    },
+    {
+      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。以下是這對他收購 eBay 的努力有何影響",
+      "source": "CNBC",
+      "time": "12:07",
+      "link": "https://www.cnbc.com/2026/06/25/gamestops-ceo-sacrificed-pay-it-could-impact-the-effort-to-buy-ebay-.html"
+    },
+    {
+      "title": "德國海軍大轉變動搖了人們對歐洲重整軍備熱潮的信心，國防股再次下滑",
+      "source": "CNBC",
+      "time": "09:11",
+      "link": "https://www.cnbc.com/2026/06/25/rheinmetall-defense-stocks-germany-f126.html"
+    },
     {
       "title": "比特幣撤退的零售大軍暴露出新的脆弱性",
       "source": "Bloomberg",
@@ -262,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
-      "title": "Fortescue 與 CMB.TECH 簽署最多 12 艘氨散貨船協議",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "gcaptain.com",
       "time": "00:48",
       "link": "https://gcaptain.com/fortescue-cmb-tech-sign-deal-for-up-to-12-ammonia-capable-bulk-carriers/"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "12:01",
       "link": "https://www.cnbc.com/2026/06/23/ai-memory-startup-focused-on-cutting-token-costs-raises-98-million.html"
-    },
-    {
-      "title": "英國脫歐十年後：圖表中英國經濟與政治如何變化",
-      "source": "CNBC",
-      "time": "05:03",
-      "link": "https://www.cnbc.com/2026/06/23/brexit-10-years-uk-economy-politics-charts.html"
-    },
-    {
-      "title": "PPFAS共同基金逆勢押注IT股",
-      "source": "Bloomberg",
-      "time": "03:50",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-23/india-s-biggest-equity-fund-makes-contrarian-bet-on-it-stocks"
-    },
-    {
-      "title": "消費者支出持續低迷，中國618購物節成長大幅放緩",
-      "source": "CNBC",
-      "time": "03:19",
-      "link": "https://www.cnbc.com/2026/06/23/china-618-shopping-festival-sales-growth-consumer-spending-slowdown-syntun.html"
     }
   ]
 }
