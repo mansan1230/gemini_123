@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-27 01:51",
+  "update_time": "2026-06-28 02:02",
   "crypto_fng": {
-    "value": "15",
+    "value": "18",
     "value_classification": "Extreme Fear",
-    "timestamp": "1782518400",
-    "time_until_update": "79691"
+    "timestamp": "1782604800",
+    "time_until_update": "79078"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 23076.91,
-        "change": -335.27,
-        "percent": -1.43,
-        "rsi": "19.0",
+        "price": 22671.86,
+        "change": -405.05,
+        "percent": -1.76,
+        "rsi": "18.4",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 72366.34,
-        "change": 3191.38,
-        "percent": 4.61,
-        "rsi": "64.6",
+        "price": 69360.88,
+        "change": -3005.46,
+        "percent": -4.15,
+        "rsi": "63.2",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 59866.21,
-        "change": 144.54,
-        "percent": 0.24,
-        "rsi": "36.5",
+        "price": 60153.42,
+        "change": 136.99,
+        "percent": 0.23,
+        "rsi": "33.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1573.69,
-        "change": 8.87,
-        "percent": 0.57,
-        "rsi": "40.3",
+        "price": 1574.34,
+        "change": -2.28,
+        "percent": -0.14,
+        "rsi": "38.6",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 71.49,
-        "change": 3.92,
-        "percent": 5.79,
-        "rsi": "59.6",
+        "price": 70.85,
+        "change": -0.99,
+        "percent": -1.37,
+        "rsi": "54.1",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.5,
-        "change": 0.34,
-        "percent": 2.8,
-        "rsi": "35.5",
-        "trend": "📈 多頭"
+        "price": 12.08,
+        "change": -0.42,
+        "percent": -3.36,
+        "rsi": "33.5",
+        "trend": "震盪"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7397.25,
-        "change": -26.0,
-        "percent": -0.35,
-        "rsi": "49.8",
+        "price": 7401.75,
+        "change": -21.5,
+        "percent": -0.29,
+        "rsi": "50.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29283.0,
-        "change": -441.75,
-        "percent": -1.49,
-        "rsi": "51.8",
+        "price": 29368.25,
+        "change": -356.5,
+        "percent": -1.2,
+        "rsi": "52.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52161.0,
-        "change": -178.0,
-        "percent": -0.34,
-        "rsi": "63.0",
+        "price": 52209.0,
+        "change": -130.0,
+        "percent": -0.25,
+        "rsi": "63.7",
         "trend": "-"
       }
     ],
@@ -146,52 +146,52 @@
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.37,
-        "change": -0.08,
-        "percent": -1.77,
-        "rsi": "39.1",
-        "trend": "📉 空頭"
+        "price": 4.45,
+        "change": -0.01,
+        "percent": -0.27,
+        "rsi": "49.8",
+        "trend": "震盪"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.37,
-        "change": -0.06,
-        "percent": -0.06,
-        "rsi": "72.2",
+        "price": 101.36,
+        "change": -0.07,
+        "percent": -0.07,
+        "rsi": "72.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.73,
-        "change": -0.03,
-        "percent": -0.02,
-        "rsi": "74.0",
+        "price": 161.68,
+        "change": -0.12,
+        "percent": -0.07,
+        "rsi": "76.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4103.0,
-        "change": 72.5,
-        "percent": 1.8,
-        "rsi": "38.3",
+        "price": 4078.7,
+        "change": 48.2,
+        "percent": 1.2,
+        "rsi": "36.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 70.24,
-        "change": -1.68,
-        "percent": -2.34,
-        "rsi": "16.3",
+        "price": 69.23,
+        "change": -2.69,
+        "percent": -3.74,
+        "rsi": "15.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.2,
-        "change": 0.13,
-        "percent": 2.09,
-        "rsi": "47.2",
+        "price": 6.14,
+        "change": 0.07,
+        "percent": 1.17,
+        "rsi": "44.6",
         "trend": "-"
       },
       {
@@ -214,13 +214,55 @@
   },
   "news": [
     {
+      "title": "中國智普正逼近美國頂級人工智慧模型，Anthropic和OpenAI受阻",
+      "source": "CNBC",
+      "time": "22:11",
+      "link": "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html"
+    },
+    {
+      "title": "明尼阿波利斯聯邦儲備銀行主席尼爾·卡什卡利表示，他預計今年將升息",
+      "source": "CNBC",
+      "time": "15:50",
+      "link": "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html"
+    },
+    {
+      "title": "為什麼突破性的 GLP-1 減肥藥可能對雇主保險範圍來說是一件壞事",
+      "source": "CNBC",
+      "time": "14:08",
+      "link": "https://www.cnbc.com/2026/06/26/glp1-weight-loss-drug-pills-insurance-plan-coverage.html"
+    },
+    {
+      "title": "隨著公司從代幣最大化轉向效率，OpenAI 和 Anthropic 面臨新的人工智慧現實",
+      "source": "CNBC",
+      "time": "12:10",
+      "link": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html"
+    },
+    {
+      "title": "記憶體晶片成本上漲給筆記型電腦和智慧型手機零售商帶來壓力",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/06/26/ai-memory-chip-shortage-consumer-electronics-prices.html"
+    },
+    {
+      "title": "訴訟稱，紅龍蝦的終極無盡蝦促銷活動被描述為“公司的車禍”",
+      "source": "CNBC",
+      "time": "07:54",
+      "link": "https://www.cnbc.com/2026/06/26/red-lobsters-endless-shrimp-promotion-was-a-car-crash-lawsuit-says.html"
+    },
+    {
+      "title": "CNBC 每日開盤：一個交易日，兩次重大拋售",
+      "source": "CNBC",
+      "time": "06:00",
+      "link": "https://www.cnbc.com/2026/06/26/cnbc-daily-open-one-session-two-major-sell-offs.html"
+    },
+    {
       "title": "亞洲科技股追隨美國科技股的頹勢，軟銀股價下跌 11%",
       "source": "CNBC",
       "time": "01:05",
       "link": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
     },
     {
-      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。以下是這對他收購 eBay 的努力有何影響",
+      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。這將如何影響他收購 eBay 的努力",
       "source": "CNBC",
       "time": "12:07",
       "link": "https://www.cnbc.com/2026/06/25/gamestops-ceo-sacrificed-pay-it-could-impact-the-effort-to-buy-ebay-.html"
@@ -280,7 +322,7 @@
       "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Fortescue 與 CMB.TECH 簽署最多 12 艘氨散貨船協議",
       "source": "gcaptain.com",
       "time": "00:48",
       "link": "https://gcaptain.com/fortescue-cmb-tech-sign-deal-for-up-to-12-ammonia-capable-bulk-carriers/"
@@ -290,48 +332,6 @@
       "source": "CNBC",
       "time": "22:12",
       "link": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
-    },
-    {
-      "title": "地緣政治不穩定連續第四年仍是航運業的首要擔憂",
-      "source": "gcaptain.com",
-      "time": "21:41",
-      "link": "https://gcaptain.com/geopolitical-instability-remains-shippings-top-concern-for-fourth-straight-year/"
-    },
-    {
-      "title": "交易者喜歡這種廉價的方式來做空晶片股",
-      "source": "CNBC",
-      "time": "16:10",
-      "link": "https://www.cnbc.com/2026/06/23/traders-are-loving-this-cheap-way-to-make-big-bets-against-chip-stocks.html"
-    },
-    {
-      "title": "標準普爾表示，六月工廠裁員接近金融危機和新冠疫情水平",
-      "source": "CNBC",
-      "time": "14:49",
-      "link": "https://www.cnbc.com/2026/06/23/factory-job-cuts-reported-around-financial-crisis-and-covid-levels-for-june-sp-says.html"
-    },
-    {
-      "title": "參議員卡西迪計劃在任期的最後幾天推動社會安全改革的“偉大想法”",
-      "source": "CNBC",
-      "time": "14:47",
-      "link": "https://www.cnbc.com/2026/06/23/social-security-reform-cassidy.html"
-    },
-    {
-      "title": "根據這個長期指標，比特幣可能需要暴跌 15% 或更多才能觸底",
-      "source": "CoinDesk",
-      "time": "13:08",
-      "link": "https://www.coindesk.com/markets/2026/06/23/bitcoin-may-need-to-plunge-15-or-more-to-mark-bottom-according-to-this-long-time-indicator"
-    },
-    {
-      "title": "祖克柏不斷推動穿戴式設備，Meta 宣布新款智慧眼鏡起價 299 美元",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html"
-    },
-    {
-      "title": "專注於削減代幣成本的 AI 內存新創公司籌集了 9800 萬美元",
-      "source": "CNBC",
-      "time": "12:01",
-      "link": "https://www.cnbc.com/2026/06/23/ai-memory-startup-focused-on-cutting-token-costs-raises-98-million.html"
     }
   ]
 }
