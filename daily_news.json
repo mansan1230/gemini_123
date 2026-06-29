@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-06-28 02:02",
+  "update_time": "2026-06-29 02:02",
   "crypto_fng": {
-    "value": "18",
+    "value": "12",
     "value_classification": "Extreme Fear",
-    "timestamp": "1782604800",
-    "time_until_update": "79078"
+    "timestamp": "1782691200",
+    "time_until_update": "79024"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 22671.86,
-        "change": -405.05,
-        "percent": -1.76,
-        "rsi": "18.4",
+        "price": 22817.59,
+        "change": 145.73,
+        "percent": 0.64,
+        "rsi": "23.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 69360.88,
-        "change": -3005.46,
-        "percent": -4.15,
-        "rsi": "63.2",
+        "price": 68935.9,
+        "change": -424.98,
+        "percent": -0.61,
+        "rsi": "59.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24994.83,
-        "change": 254.47,
-        "percent": 1.03,
-        "rsi": "55.3",
-        "trend": "📈 多頭"
+        "price": 24671.22,
+        "change": -323.61,
+        "percent": -1.29,
+        "rsi": "51.1",
+        "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 60153.42,
-        "change": 136.99,
-        "percent": 0.23,
-        "rsi": "33.6",
+        "price": 59403.93,
+        "change": -536.17,
+        "percent": -0.89,
+        "rsi": "24.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1574.34,
-        "change": -2.28,
-        "percent": -0.14,
-        "rsi": "38.6",
+        "price": 1567.6,
+        "change": -3.99,
+        "percent": -0.25,
+        "rsi": "31.5",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 70.85,
-        "change": -0.99,
-        "percent": -1.37,
-        "rsi": "54.1",
+        "price": 71.52,
+        "change": 1.11,
+        "percent": 1.58,
+        "rsi": "50.8",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7401.75,
-        "change": -21.5,
-        "percent": -0.29,
-        "rsi": "50.1",
+        "price": 7438.75,
+        "change": 37.0,
+        "percent": 0.5,
+        "rsi": "51.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29368.25,
-        "change": -356.5,
-        "percent": -1.2,
-        "rsi": "52.5",
+        "price": 29529.25,
+        "change": 161.0,
+        "percent": 0.55,
+        "rsi": "50.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52209.0,
-        "change": -130.0,
-        "percent": -0.25,
-        "rsi": "63.7",
+        "price": 52323.0,
+        "change": 114.0,
+        "percent": 0.22,
+        "rsi": "65.6",
         "trend": "-"
       }
     ],
@@ -146,52 +146,52 @@
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.45,
-        "change": -0.01,
-        "percent": -0.27,
-        "rsi": "49.8",
-        "trend": "震盪"
+        "price": 4.37,
+        "change": -0.02,
+        "percent": -0.46,
+        "rsi": "32.1",
+        "trend": "📉 空頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.36,
-        "change": -0.07,
-        "percent": -0.07,
-        "rsi": "72.0",
+        "price": 101.35,
+        "change": -0.01,
+        "percent": -0.01,
+        "rsi": "72.3",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.68,
-        "change": -0.12,
-        "percent": -0.07,
-        "rsi": "76.1",
+        "price": 161.77,
+        "change": -0.03,
+        "percent": -0.02,
+        "rsi": "78.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4078.7,
-        "change": 48.2,
-        "percent": 1.2,
-        "rsi": "36.7",
+        "price": 4073.3,
+        "change": -5.4,
+        "percent": -0.13,
+        "rsi": "36.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 69.23,
-        "change": -2.69,
-        "percent": -3.74,
-        "rsi": "15.8",
+        "price": 69.98,
+        "change": 0.75,
+        "percent": 1.08,
+        "rsi": "15.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.14,
-        "change": 0.07,
-        "percent": 1.17,
-        "rsi": "44.6",
+        "price": 6.16,
+        "change": 0.01,
+        "percent": 0.24,
+        "rsi": "42.0",
         "trend": "-"
       },
       {
@@ -213,6 +213,24 @@
     ]
   },
   "news": [
+    {
+      "title": "超級遊艇艦隊抵達邁阿密，留下一片海洋墓地",
+      "source": "gcaptain.com",
+      "time": "19:45",
+      "link": "https://gcaptain.com/a-super-yacht-armada-came-to-miami-leaving-a-marine-graveyard-in-its-wake/"
+    },
+    {
+      "title": "震動蘋果和微軟的記憶體短缺對小型企業來說是“生存危機”",
+      "source": "CNBC",
+      "time": "12:14",
+      "link": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html"
+    },
+    {
+      "title": "Kohl’s 如何迷失方向並試圖再次變得重要",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/06/27/how-kohls-lost-its-way-and-is-trying-to-become-relevant-again.html"
+    },
     {
       "title": "中國智普正逼近美國頂級人工智慧模型，Anthropic和OpenAI受阻",
       "source": "CNBC",
@@ -262,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
     },
     {
-      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。這將如何影響他收購 eBay 的努力",
+      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。以下是這對他收購 eBay 的努力有何影響",
       "source": "CNBC",
       "time": "12:07",
       "link": "https://www.cnbc.com/2026/06/25/gamestops-ceo-sacrificed-pay-it-could-impact-the-effort-to-buy-ebay-.html"
@@ -314,24 +332,6 @@
       "source": "CNBC",
       "time": "12:37",
       "link": "https://www.cnbc.com/2026/06/24/5-things-to-know-before-the-stock-market-opens.html"
-    },
-    {
-      "title": "Slate Auto 表示，每輛售價 24,955 美元的電動皮卡都將實現盈利，目標是明年實現正現金流",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/06/24/slate-ev-pickup-truck-ceo-business-goals.html"
-    },
-    {
-      "title": "Fortescue 與 CMB.TECH 簽署最多 12 艘氨散貨船協議",
-      "source": "gcaptain.com",
-      "time": "00:48",
-      "link": "https://gcaptain.com/fortescue-cmb-tech-sign-deal-for-up-to-12-ammonia-capable-bulk-carriers/"
-    },
-    {
-      "title": "今日股市：即時更新",
-      "source": "CNBC",
-      "time": "22:12",
-      "link": "https://www.cnbc.com/2026/06/23/stock-market-today-live-updates.html"
     }
   ]
 }
