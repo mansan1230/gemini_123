@@ -1,218 +1,242 @@
 {
-  "update_time": "2026-06-29 02:02",
+  "update_time": "2026-06-30 01:57",
   "crypto_fng": {
-    "value": "12",
+    "value": "15",
     "value_classification": "Extreme Fear",
-    "timestamp": "1782691200",
-    "time_until_update": "79024"
+    "timestamp": "1782777600",
+    "time_until_update": "79363"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7354.02,
-        "change": -3.47,
-        "percent": -0.05,
-        "rsi": "48.2",
+        "price": 7440.43,
+        "change": 86.41,
+        "percent": 1.18,
+        "rsi": "52.0",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 25297.62,
-        "change": -60.98,
-        "percent": -0.24,
-        "rsi": "45.8",
-        "trend": "📉 空頭"
+        "price": 25820.14,
+        "change": 522.53,
+        "percent": 2.07,
+        "rsi": "48.9",
+        "trend": "震盪"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 22817.59,
-        "change": 145.73,
-        "percent": 0.64,
-        "rsi": "23.5",
+        "price": 22945.56,
+        "change": -81.12,
+        "percent": -0.35,
+        "rsi": "27.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 68935.9,
-        "change": -424.98,
-        "percent": -0.61,
-        "rsi": "59.2",
+        "price": 69933.84,
+        "change": 465.73,
+        "percent": 0.67,
+        "rsi": "65.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24671.22,
-        "change": -323.61,
-        "percent": -1.29,
-        "rsi": "51.1",
+        "price": 24626.89,
+        "change": -44.33,
+        "percent": -0.18,
+        "rsi": "54.2",
         "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 59403.93,
-        "change": -536.17,
-        "percent": -0.89,
-        "rsi": "24.1",
+        "price": 59833.7,
+        "change": 301.36,
+        "percent": 0.51,
+        "rsi": "22.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1567.6,
-        "change": -3.99,
-        "percent": -0.25,
-        "rsi": "31.5",
+        "price": 1591.31,
+        "change": 20.95,
+        "percent": 1.33,
+        "rsi": "22.7",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 71.52,
-        "change": 1.11,
-        "percent": 1.58,
-        "rsi": "50.8",
+        "price": 74.29,
+        "change": 2.98,
+        "percent": 4.17,
+        "rsi": "50.7",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 11.27,
-        "change": -0.13,
-        "percent": -1.14,
-        "rsi": "20.3",
+        "price": 11.63,
+        "change": 0.36,
+        "percent": 3.19,
+        "rsi": "34.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 39.61,
-        "change": -0.77,
-        "percent": -1.91,
-        "rsi": "38.7",
+        "price": 38.36,
+        "change": -1.25,
+        "percent": -3.16,
+        "rsi": "32.2",
         "trend": "📉 空頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.58,
-        "change": -0.22,
-        "percent": -0.85,
+        "price": 25.91,
+        "change": 0.33,
+        "percent": 1.29,
         "rsi": "53.0",
         "trend": "震盪"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.08,
-        "change": -0.42,
-        "percent": -3.36,
-        "rsi": "33.5",
-        "trend": "震盪"
+        "price": 12.46,
+        "change": 0.38,
+        "percent": 3.15,
+        "rsi": "39.1",
+        "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7438.75,
-        "change": 37.0,
-        "percent": 0.5,
-        "rsi": "51.3",
+        "price": 7493.75,
+        "change": 92.0,
+        "percent": 1.24,
+        "rsi": "54.3",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29529.25,
-        "change": 161.0,
-        "percent": 0.55,
-        "rsi": "50.6",
+        "price": 30017.25,
+        "change": 649.0,
+        "percent": 2.21,
+        "rsi": "54.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52323.0,
-        "change": 114.0,
-        "percent": 0.22,
-        "rsi": "65.6",
+        "price": 52532.0,
+        "change": 323.0,
+        "percent": 0.62,
+        "rsi": "67.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 18.41,
-        "change": -0.48,
-        "percent": -2.54,
-        "rsi": "42.6",
+        "price": 17.65,
+        "change": -0.76,
+        "percent": -4.13,
+        "rsi": "46.7",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
         "price": 4.37,
-        "change": -0.02,
-        "percent": -0.46,
-        "rsi": "32.1",
+        "change": 0.0,
+        "percent": 0.05,
+        "rsi": "30.0",
         "trend": "📉 空頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.35,
-        "change": -0.01,
-        "percent": -0.01,
-        "rsi": "72.3",
+        "price": 101.27,
+        "change": -0.09,
+        "percent": -0.09,
+        "rsi": "70.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.77,
-        "change": -0.03,
-        "percent": -0.02,
-        "rsi": "78.5",
+        "price": 162.15,
+        "change": 0.37,
+        "percent": 0.23,
+        "rsi": "80.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4073.3,
-        "change": -5.4,
-        "percent": -0.13,
-        "rsi": "36.6",
+        "price": 3980.3,
+        "change": -98.4,
+        "percent": -2.41,
+        "rsi": "33.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 69.98,
-        "change": 0.75,
-        "percent": 1.08,
-        "rsi": "15.7",
+        "price": 70.32,
+        "change": 1.09,
+        "percent": 1.57,
+        "rsi": "16.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.16,
+        "price": 6.15,
         "change": 0.01,
-        "percent": 0.24,
-        "rsi": "42.0",
+        "percent": 0.21,
+        "rsi": "41.9",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 181.11,
-        "change": -3.46,
-        "percent": -1.87,
-        "rsi": "51.0",
+        "price": 185.41,
+        "change": 4.3,
+        "percent": 2.37,
+        "rsi": "51.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 53.57,
-        "change": 0.12,
-        "percent": 0.22,
-        "rsi": "64.6",
+        "price": 53.72,
+        "change": 0.15,
+        "percent": 0.28,
+        "rsi": "70.1",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "美國無法獲得足夠的蛋白質。乳製品業跟不上",
+      "source": "CNBC",
+      "time": "15:13",
+      "link": "https://www.cnbc.com/2026/06/28/america-cant-get-enough-protein-the-dairy-industry-cant-keep-up.html"
+    },
+    {
+      "title": "儘管 Strategy 股票繼續下跌，但 Michael Saylor 仍表示將繼續購買比特幣",
+      "source": "CoinDesk",
+      "time": "15:02",
+      "link": "https://www.coindesk.com/markets/2026/06/28/michael-saylor-teases-more-bitcoin-buying-even-as-strategy-stock-continues-to-fall"
+    },
+    {
+      "title": "一些租房者表示，擁有住房並不是他們美國夢的一部分：租房“對我來說真的是一種自由”",
+      "source": "CNBC",
+      "time": "14:05",
+      "link": "https://www.cnbc.com/2026/06/28/some-renters-say-homeownership-isnt-part-of-their-american-dream.html"
+    },
+    {
+      "title": "從蛋白質咖啡到 CBD 蘇打水：品牌如何從功能性飲料熱潮中獲利",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/06/28/protein-coffee-cbd-soda-starbucks-functional-beverage-boom.html"
+    },
     {
       "title": "超級遊艇艦隊抵達邁阿密，留下一片海洋墓地",
       "source": "gcaptain.com",
@@ -226,7 +250,7 @@
       "link": "https://www.cnbc.com/2026/06/27/memory-crunch-shaking-apple-and-microsoft-existential-for-small-guys.html"
     },
     {
-      "title": "Kohl’s 如何迷失方向並試圖再次變得重要",
+      "title": "Kohl's 如何迷失方向並試圖再次變得重要",
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/06/27/how-kohls-lost-its-way-and-is-trying-to-become-relevant-again.html"
@@ -280,7 +304,7 @@
       "link": "https://www.cnbc.com/2026/06/26/global-tech-stocks-ai-infrastructure-costs-selloff-softbank-apple.html"
     },
     {
-      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。以下是這對他收購 eBay 的努力有何影響",
+      "title": "GameStop 的執行長剛剛犧牲了 350 億美元的薪酬方案。這將如何影響他收購 eBay 的努力",
       "source": "CNBC",
       "time": "12:07",
       "link": "https://www.cnbc.com/2026/06/25/gamestops-ceo-sacrificed-pay-it-could-impact-the-effort-to-buy-ebay-.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "20:09",
       "link": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html"
-    },
-    {
-      "title": "英偉達的黃稱由走私零件製成的黑市資料中心是“死胡同”",
-      "source": "CNBC",
-      "time": "18:22",
-      "link": "https://www.cnbc.com/2026/06/24/nvidia-huang-data-center-smuggled-chips.html"
-    },
-    {
-      "title": "交易員開始擔心芯片股牛市正在破裂。如何保護自己",
-      "source": "CNBC",
-      "time": "17:14",
-      "link": "https://www.cnbc.com/2026/06/24/traders-are-getting-worried-the-chip-stock-bull-market-is-cracking-how-to-protect-yourself.html"
-    },
-    {
-      "title": "CNBC 文字記錄：美國財政部長 Scott Bessent 今天在“Squawk Box”節目中與 CNBC 的 Joe Kernen 進行了交談",
-      "source": "CNBC",
-      "time": "16:24",
-      "link": "https://www.cnbc.com/2026/06/24/cnbc-transcript-us-treasury-secretary-scott-bessent-speaks-with-cnbcs-joe-kernen-on-squawk-box-today.html"
-    },
-    {
-      "title": "Morning Squawk 中的全球籌碼潰敗、Cerebras 收益、PGA 巡迴賽的下一章以及更多內容",
-      "source": "CNBC",
-      "time": "12:37",
-      "link": "https://www.cnbc.com/2026/06/24/5-things-to-know-before-the-stock-market-opens.html"
     }
   ]
 }
