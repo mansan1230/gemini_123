@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-07-04 01:26",
+  "update_time": "2026-07-05 01:41",
   "crypto_fng": {
-    "value": "22",
+    "value": "23",
     "value_classification": "Extreme Fear",
-    "timestamp": "1783123200",
-    "time_until_update": "81229"
+    "timestamp": "1783209600",
+    "time_until_update": "80305"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 62368.07,
-        "change": 882.77,
-        "percent": 1.44,
-        "rsi": "45.6",
+        "price": 62808.21,
+        "change": 264.01,
+        "percent": 0.42,
+        "rsi": "44.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1747.13,
-        "change": 48.96,
-        "percent": 2.88,
-        "rsi": "53.5",
+        "price": 1763.69,
+        "change": 7.17,
+        "percent": 0.41,
+        "rsi": "52.4",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 81.94,
-        "change": 1.3,
-        "percent": 1.61,
-        "rsi": "71.0",
+        "price": 80.8,
+        "change": -1.48,
+        "percent": -1.8,
+        "rsi": "63.9",
         "trend": "📈 多頭"
       }
     ],
@@ -138,19 +138,11 @@
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.81,
-        "change": -0.34,
-        "percent": -2.11,
-        "rsi": "43.0",
+        "price": 16.15,
+        "change": -0.44,
+        "percent": -2.65,
+        "rsi": "38.8",
         "trend": "-"
-      },
-      {
-        "name": "🇺🇸 10年美債",
-        "price": 4.37,
-        "change": -0.02,
-        "percent": -0.46,
-        "rsi": "32.1",
-        "trend": "📉 空頭"
       },
       {
         "name": "💵 美元指數",
@@ -214,6 +206,30 @@
   },
   "news": [
     {
+      "title": "福特實現品質里程碑，執行長目標是完美推出新車",
+      "source": "CNBC",
+      "time": "12:06",
+      "link": "https://www.cnbc.com/2026/07/03/ford-achieves-quality-milestone-targets-flawless-new-vehicle-launches.html"
+    },
+    {
+      "title": "美國運通和大通將豪華休息室大戰轉移到機場之外",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/07/03/amex-chase-credit-card-lounges.html"
+    },
+    {
+      "title": "人工智慧產業正在失去關鍵訊號之一",
+      "source": "Bloomberg",
+      "time": "07:16",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-03/the-ai-trade-is-losing-one-of-its-key-signals-taking-stock"
+    },
+    {
+      "title": "由於就業數據削弱聯準會升息預期，美元每週下跌",
+      "source": "CNBC",
+      "time": "02:23",
+      "link": "https://www.cnbc.com/2026/07/03/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets.html"
+    },
+    {
       "title": "特斯拉公佈第二季汽車交車量 480,126 輛，超出預期",
       "source": "CNBC",
       "time": "13:08",
@@ -226,7 +242,7 @@
       "link": "https://www.cnbc.com/2026/07/02/beef-prices-demand-for-steak-isnt-falling.html"
     },
     {
-      "title": "ShareChat 營運獲利後計畫明年 IPO 融資 4 億美元",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Bloomberg",
       "time": "02:11",
       "link": "https://www.bloomberg.com/news/articles/2026-07-02/sharechat-india-s-meta-rival-plans-400-million-ipo-next-year"
@@ -280,7 +296,7 @@
       "link": "https://www.cnbc.com/2026/06/30/jim-cramer-ai-trade-shifted-stocks-leading-now.html"
     },
     {
-      "title": "第二季創紀錄的晶片漲勢為美光、英特爾和 AMD 帶來了 2 兆美元的總價值",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "20:38",
       "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html"
@@ -308,30 +324,6 @@
       "source": "CNBC",
       "time": "05:41",
       "link": "https://www.cnbc.com/2026/06/30/short-sellers-betting-against-toymaker-pop-mart-even-though-they-are-losing-money.html"
-    },
-    {
-      "title": "印度央行的資金限制了交易對資本市場貿易公司的“沉重打擊”",
-      "source": "Bloomberg",
-      "time": "05:02",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-30/rbi-funding-curbs-deals-body-blow-to-indian-prop-trading-firms"
-    },
-    {
-      "title": "CNBC 的《中國連線》電子報：中美科技競爭在其他國家升溫",
-      "source": "CNBC",
-      "time": "23:00",
-      "link": "https://www.cnbc.com/2026/06/29/cnbcs-the-china-connection-newsletter-us-tech-rivalry-heats-up.html"
-    },
-    {
-      "title": "遊說推動五角大廈國防承包商股票回購禁令升溫",
-      "source": "CNBC",
-      "time": "21:14",
-      "link": "https://www.cnbc.com/2026/06/29/pentagon-defense-contractor-buyback-ban-lobbying.html"
-    },
-    {
-      "title": "康卡斯特 (Comcast) 的 NBC環球 (NBCUniversal) 分拆項目引發了更多交易的希望。可能沒有好的選擇",
-      "source": "CNBC",
-      "time": "18:59",
-      "link": "https://www.cnbc.com/2026/06/29/comcast-nbcu-spinoff-m-and-a.html"
     }
   ]
 }
