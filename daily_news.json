@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-07-05 01:41",
+  "update_time": "2026-07-06 01:46",
   "crypto_fng": {
-    "value": "23",
+    "value": "24",
     "value_classification": "Extreme Fear",
-    "timestamp": "1783209600",
-    "time_until_update": "80305"
+    "timestamp": "1783296000",
+    "time_until_update": "80025"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 23350.03,
-        "change": 295.0,
-        "percent": 1.28,
-        "rsi": "38.4",
+        "price": 23311.14,
+        "change": -38.89,
+        "percent": -0.17,
+        "rsi": "29.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 69744.07,
-        "change": 1010.92,
-        "percent": 1.47,
-        "rsi": "51.3",
+        "price": 69548.34,
+        "change": -195.73,
+        "percent": -0.28,
+        "rsi": "50.4",
         "trend": "📈 多頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 62808.21,
-        "change": 264.01,
-        "percent": 0.42,
-        "rsi": "44.6",
+        "price": 63643.22,
+        "change": 554.91,
+        "percent": 0.88,
+        "rsi": "51.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1763.69,
-        "change": 7.17,
-        "percent": 0.41,
-        "rsi": "52.4",
+        "price": 1788.64,
+        "change": 9.61,
+        "percent": 0.54,
+        "rsi": "58.4",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 80.8,
-        "change": -1.48,
-        "percent": -1.8,
-        "rsi": "63.9",
+        "price": 81.75,
+        "change": 0.1,
+        "percent": 0.12,
+        "rsi": "68.0",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7557.0,
-        "change": 28.75,
-        "percent": 0.38,
-        "rsi": "58.5",
+        "price": 7558.25,
+        "change": 30.0,
+        "percent": 0.4,
+        "rsi": "58.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29901.75,
-        "change": 345.75,
-        "percent": 1.17,
-        "rsi": "51.7",
+        "price": 29826.0,
+        "change": 270.0,
+        "percent": 0.91,
+        "rsi": "51.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53162.0,
-        "change": -21.0,
-        "percent": -0.04,
-        "rsi": "78.8",
+        "price": 53252.0,
+        "change": 69.0,
+        "percent": 0.13,
+        "rsi": "79.7",
         "trend": "-"
       }
     ],
@@ -145,45 +145,53 @@
         "trend": "-"
       },
       {
+        "name": "🇺🇸 10年美債",
+        "price": 4.49,
+        "change": 0.01,
+        "percent": 0.22,
+        "rsi": "52.5",
+        "trend": "震盪"
+      },
+      {
         "name": "💵 美元指數",
-        "price": 100.86,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "65.4",
+        "price": 100.93,
+        "change": 0.07,
+        "percent": 0.07,
+        "rsi": "66.2",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 161.34,
-        "change": -1.2,
-        "percent": -0.74,
-        "rsi": "67.3",
+        "price": 161.71,
+        "change": 0.26,
+        "percent": 0.16,
+        "rsi": "69.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4187.3,
-        "change": 74.6,
-        "percent": 1.81,
-        "rsi": "48.3",
+        "price": 4205.2,
+        "change": 92.5,
+        "percent": 2.25,
+        "rsi": "49.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 68.78,
-        "change": 0.09,
-        "percent": 0.13,
-        "rsi": "16.7",
+        "price": 68.52,
+        "change": -0.17,
+        "percent": -0.25,
+        "rsi": "16.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.22,
-        "change": 0.11,
-        "percent": 1.79,
-        "rsi": "40.9",
+        "price": 6.24,
+        "change": 0.13,
+        "percent": 2.13,
+        "rsi": "41.9",
         "trend": "-"
       },
       {
@@ -205,6 +213,12 @@
     ]
   },
   "news": [
+    {
+      "title": "歐洲在加密貨幣監管方面處於領先地位。現在實施必須與雄心相匹配",
+      "source": "CoinDesk",
+      "time": "14:00",
+      "link": "https://www.coindesk.com/opinion/2026/07/04/europe-led-on-crypto-regulation-now-implementation-must-match-ambition"
+    },
     {
       "title": "福特實現品質里程碑，執行長目標是完美推出新車",
       "source": "CNBC",
@@ -242,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/07/02/beef-prices-demand-for-steak-isnt-falling.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "ShareChat 營運獲利後計畫明年 IPO 融資 4 億美元",
       "source": "Bloomberg",
       "time": "02:11",
       "link": "https://www.bloomberg.com/news/articles/2026-07-02/sharechat-india-s-meta-rival-plans-400-million-ipo-next-year"
@@ -296,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/06/30/jim-cramer-ai-trade-shifted-stocks-leading-now.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "第二季創紀錄的晶片漲勢為美光、英特爾和 AMD 帶來了 2 兆美元的總價值",
       "source": "CNBC",
       "time": "20:38",
       "link": "https://www.cnbc.com/2026/06/30/ai-chip-rally-in-q2-adds-2-trillion-in-value-to-micron-intel-amd-.html"
@@ -318,12 +332,6 @@
       "source": "CNBC",
       "time": "09:00",
       "link": "https://www.cnbc.com/2026/06/30/medicare-obesity-drug-glp-1-coverage-starting-july-1.html"
-    },
-    {
-      "title": "賣空者繼續做空泡泡瑪特——儘管這是一筆虧損的交易",
-      "source": "CNBC",
-      "time": "05:41",
-      "link": "https://www.cnbc.com/2026/06/30/short-sellers-betting-against-toymaker-pop-mart-even-though-they-are-losing-money.html"
     }
   ]
 }
