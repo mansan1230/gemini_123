@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-07-11 01:16",
+  "update_time": "2026-07-12 01:17",
   "crypto_fng": {
     "value": "26",
     "value_classification": "Fear",
-    "timestamp": "1783728000",
-    "time_until_update": "81797"
+    "timestamp": "1783814400",
+    "time_until_update": "81725"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24030.18,
-        "change": -169.28,
-        "percent": -0.7,
-        "rsi": "46.5",
+        "price": 24175.12,
+        "change": 144.94,
+        "percent": 0.6,
+        "rsi": "53.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 67743.85,
-        "change": 924.8,
-        "percent": 1.38,
-        "rsi": "40.4",
+        "price": 68557.73,
+        "change": 813.88,
+        "percent": 1.2,
+        "rsi": "39.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25118.27,
-        "change": 220.82,
-        "percent": 0.89,
-        "rsi": "51.9",
+        "price": 25067.09,
+        "change": -51.18,
+        "percent": -0.2,
+        "rsi": "48.9",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64086.87,
-        "change": 893.72,
-        "percent": 1.41,
-        "rsi": "67.4",
+        "price": 63889.74,
+        "change": -237.4,
+        "percent": -0.37,
+        "rsi": "66.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1792.69,
-        "change": 48.21,
-        "percent": 2.76,
-        "rsi": "75.7",
+        "price": 1794.41,
+        "change": -1.28,
+        "percent": -0.07,
+        "rsi": "76.6",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 77.77,
-        "change": -0.28,
-        "percent": -0.35,
-        "rsi": "63.4",
+        "price": 76.27,
+        "change": -1.8,
+        "percent": -2.3,
+        "rsi": "63.2",
         "trend": "📈 多頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 11.99,
-        "change": -0.12,
-        "percent": -0.99,
-        "rsi": "53.1",
+        "price": 11.96,
+        "change": -0.15,
+        "percent": -1.24,
+        "rsi": "52.8",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7626.0,
-        "change": 37.25,
-        "percent": 0.49,
-        "rsi": "60.5",
+        "price": 7620.25,
+        "change": 31.5,
+        "percent": 0.42,
+        "rsi": "60.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30068.5,
-        "change": 131.5,
-        "percent": 0.44,
-        "rsi": "48.3",
+        "price": 30032.25,
+        "change": 95.25,
+        "percent": 0.32,
+        "rsi": "48.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52962.0,
-        "change": 201.0,
-        "percent": 0.38,
-        "rsi": "67.6",
+        "price": 52906.0,
+        "change": 145.0,
+        "percent": 0.27,
+        "rsi": "67.0",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 100.96,
-        "change": 0.02,
-        "percent": 0.02,
-        "rsi": "52.2",
+        "price": 100.97,
+        "change": 0.03,
+        "percent": 0.03,
+        "rsi": "52.3",
         "trend": "📈 多頭"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4128.9,
-        "change": -1.7,
-        "percent": -0.04,
-        "rsi": "42.8",
+        "price": 4104.1,
+        "change": -26.5,
+        "percent": -0.64,
+        "rsi": "41.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 71.51,
-        "change": -0.57,
-        "percent": -0.79,
-        "rsi": "38.1",
+        "price": 71.41,
+        "change": -0.67,
+        "percent": -0.93,
+        "rsi": "38.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.28,
-        "change": 0.07,
-        "percent": 1.13,
-        "rsi": "46.5",
+        "price": 6.23,
+        "change": 0.02,
+        "percent": 0.3,
+        "rsi": "44.2",
         "trend": "-"
       },
       {
@@ -213,6 +213,42 @@
     ]
   },
   "news": [
+    {
+      "title": "人工智慧競賽正在從更大的模型轉向更便宜、更聰明的系統",
+      "source": "CNBC",
+      "time": "21:27",
+      "link": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html"
+    },
+    {
+      "title": "ETF 市場正在突破其所能承受的槓桿極限。 SK海力士就是最新的例子",
+      "source": "CNBC",
+      "time": "18:37",
+      "link": "https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html"
+    },
+    {
+      "title": "SK 海力士股票將於納斯達克上市，向美國投資者開放這家價值數兆美元的晶片巨頭",
+      "source": "CNBC",
+      "time": "14:18",
+      "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html"
+    },
+    {
+      "title": "Morning Squawk 中的籌碼反彈、聯準會工作小組、達美航空財報等",
+      "source": "CNBC",
+      "time": "12:46",
+      "link": "https://www.cnbc.com/2026/07/10/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "隨著富人尋求自己的米其林星級，私人廚師的薪水達到30萬美元",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html"
+    },
+    {
+      "title": "人工智慧、伊朗戰爭風險打壓印度IT公司的獲利前景",
+      "source": "Bloomberg",
+      "time": "03:51",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks"
+    },
     {
       "title": "美國所有 50 個州在 20 年來的最佳商業州表現如何",
       "source": "CNBC",
@@ -244,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/07/08/employers-arent-expanding-coverage-of-glp-1-obesity-drugs-survey.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "由於利率仍維持在窄幅區間內，每週抵押貸款需求下降",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/07/08/weekly-mortgage-demand-drops-as-rates-remain-stuck-in-a-narrow-range.html"
@@ -296,42 +332,6 @@
       "source": "CoinDesk",
       "time": "14:00",
       "link": "https://www.coindesk.com/opinion/2026/07/04/europe-led-on-crypto-regulation-now-implementation-must-match-ambition"
-    },
-    {
-      "title": "福特實現品質里程碑，執行長目標是完美推出新車",
-      "source": "CNBC",
-      "time": "12:06",
-      "link": "https://www.cnbc.com/2026/07/03/ford-achieves-quality-milestone-targets-flawless-new-vehicle-launches.html"
-    },
-    {
-      "title": "美國運通和大通將豪華休息室大戰轉移到機場之外",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/03/amex-chase-credit-card-lounges.html"
-    },
-    {
-      "title": "人工智慧產業正在失去關鍵訊號之一",
-      "source": "Bloomberg",
-      "time": "07:16",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-03/the-ai-trade-is-losing-one-of-its-key-signals-taking-stock"
-    },
-    {
-      "title": "由於就業數據削弱聯準會升息預期，美元每週下跌",
-      "source": "CNBC",
-      "time": "02:23",
-      "link": "https://www.cnbc.com/2026/07/03/dollar-heads-for-weekly-drop-as-jobs-data-dims-fed-hike-bets.html"
-    },
-    {
-      "title": "特斯拉公佈第二季汽車交車量 480,126 輛，超出預期",
-      "source": "CNBC",
-      "time": "13:08",
-      "link": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html"
-    },
-    {
-      "title": "美國人正在為牛排支付創紀錄的價格。這就是需求沒有成長的原因",
-      "source": "CNBC",
-      "time": "11:00",
-      "link": "https://www.cnbc.com/2026/07/02/beef-prices-demand-for-steak-isnt-falling.html"
     }
   ]
 }
