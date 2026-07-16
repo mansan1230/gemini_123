@@ -1,337 +1,216 @@
 {
-  "update_time": "2026-07-15 01:06",
+  "update_time": "2026-07-16 01:15",
   "crypto_fng": {
     "value": "25",
     "value_classification": "Extreme Fear",
-    "timestamp": "1784073600",
-    "time_until_update": "82420"
+    "timestamp": "1784160000",
+    "time_until_update": "81885"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7543.59,
-        "change": 28.25,
+        "price": 7572.4,
+        "change": 28.81,
         "percent": 0.38,
-        "rsi": "69.2",
+        "rsi": "72.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26107.01,
-        "change": 233.83,
-        "percent": 0.9,
-        "rsi": "57.9",
+        "price": 26269.23,
+        "change": 162.22,
+        "percent": 0.62,
+        "rsi": "61.9",
         "trend": "震盪"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24213.72,
-        "change": 38.6,
-        "percent": 0.16,
-        "rsi": "56.1",
+        "price": 24340.73,
+        "change": 127.01,
+        "percent": 0.52,
+        "rsi": "65.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 68194.5,
-        "change": 951.77,
-        "percent": 1.42,
-        "rsi": "47.1",
-        "trend": "📈 多頭"
+        "price": 66697.86,
+        "change": -1045.64,
+        "percent": -1.54,
+        "rsi": "30.3",
+        "trend": "震盪"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25114.25,
-        "change": 47.16,
-        "percent": 0.19,
-        "rsi": "53.4",
+        "price": 25147.03,
+        "change": 32.78,
+        "percent": 0.13,
+        "rsi": "56.6",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64712.81,
-        "change": 2473.69,
-        "percent": 3.97,
-        "rsi": "73.0",
+        "price": 64553.09,
+        "change": -403.02,
+        "percent": -0.62,
+        "rsi": "68.0",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1875.04,
-        "change": 101.54,
-        "percent": 5.73,
-        "rsi": "80.9",
+        "price": 1913.17,
+        "change": 23.69,
+        "percent": 1.25,
+        "rsi": "80.8",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 77.59,
-        "change": 2.73,
-        "percent": 3.64,
-        "rsi": "59.9",
+        "price": 76.88,
+        "change": -0.88,
+        "percent": -1.13,
+        "rsi": "48.6",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 13.1,
-        "change": -0.23,
-        "percent": -1.73,
-        "rsi": "70.1",
+        "price": 12.84,
+        "change": -0.26,
+        "percent": -1.98,
+        "rsi": "66.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 41.82,
-        "change": 1.24,
-        "percent": 3.05,
-        "rsi": "56.2",
+        "price": 41.91,
+        "change": 0.1,
+        "percent": 0.23,
+        "rsi": "58.4",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 24.4,
-        "change": 0.6,
-        "percent": 2.52,
-        "rsi": "41.8",
+        "price": 24.8,
+        "change": 0.4,
+        "percent": 1.64,
+        "rsi": "44.0",
         "trend": "📉 空頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.98,
-        "change": 0.34,
-        "percent": 2.69,
-        "rsi": "58.1",
+        "price": 12.99,
+        "change": 0.06,
+        "percent": 0.46,
+        "rsi": "58.5",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7601.0,
-        "change": 38.0,
-        "percent": 0.5,
-        "rsi": "65.9",
+        "price": 7617.0,
+        "change": 25.75,
+        "percent": 0.34,
+        "rsi": "68.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29913.0,
-        "change": 437.25,
-        "percent": 1.48,
-        "rsi": "52.3",
+        "price": 29661.5,
+        "change": -128.75,
+        "percent": -0.43,
+        "rsi": "51.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52821.0,
-        "change": 57.0,
-        "percent": 0.11,
-        "rsi": "63.3",
+        "price": 52909.0,
+        "change": 118.0,
+        "percent": 0.22,
+        "rsi": "61.8",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.5,
-        "change": -0.66,
-        "percent": -3.85,
-        "rsi": "36.0",
+        "price": 15.67,
+        "change": -0.83,
+        "percent": -5.03,
+        "rsi": "36.1",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.59,
-        "change": -0.02,
-        "percent": -0.52,
-        "rsi": "60.1",
+        "price": 4.55,
+        "change": -0.04,
+        "percent": -0.87,
+        "rsi": "67.7",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 100.82,
-        "change": -0.46,
-        "percent": -0.45,
-        "rsi": "39.5",
-        "trend": "📈 多頭"
+        "price": 100.46,
+        "change": -0.48,
+        "percent": -0.48,
+        "rsi": "30.6",
+        "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 162.08,
-        "change": -0.35,
-        "percent": -0.22,
-        "rsi": "53.3",
+        "price": 162.07,
+        "change": -0.12,
+        "percent": -0.07,
+        "rsi": "52.8",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4064.3,
-        "change": 67.3,
-        "percent": 1.68,
-        "rsi": "45.7",
+        "price": 4050.3,
+        "change": -10.8,
+        "percent": -0.27,
+        "rsi": "54.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 80.29,
-        "change": 2.15,
-        "percent": 2.75,
-        "rsi": "63.1",
+        "price": 80.2,
+        "change": 0.86,
+        "percent": 1.08,
+        "rsi": "70.5",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.38,
-        "change": 0.14,
-        "percent": 2.32,
-        "rsi": "60.5",
+        "price": 6.36,
+        "change": 0.03,
+        "percent": 0.53,
+        "rsi": "73.0",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 183.62,
-        "change": 2.34,
-        "percent": 1.29,
-        "rsi": "49.4",
+        "price": 181.58,
+        "change": -2.04,
+        "percent": -1.11,
+        "rsi": "48.4",
         "trend": "震盪"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 56.18,
-        "change": 0.11,
-        "percent": 0.2,
-        "rsi": "70.1",
+        "price": 56.56,
+        "change": 0.38,
+        "percent": 0.68,
+        "rsi": "73.9",
         "trend": "📈 多頭"
       }
     ]
   },
-  "news": [
-    {
-      "title": "吉姆·克萊默表示，這些「巴甫洛夫交易」是油價飆升時受益的股票",
-      "source": "CNBC",
-      "time": "23:00",
-      "link": "https://www.cnbc.com/2026/07/13/jim-cramer-stocks-benefit-when-oil-spikes.html"
-    },
-    {
-      "title": "石油波動正在創造「雙贏」的交易策略",
-      "source": "CNBC",
-      "time": "17:02",
-      "link": "https://www.cnbc.com/2026/07/13/oil-volatility-is-creating-a-win-win-trade-strategy.html"
-    },
-    {
-      "title": "由於慷慨的稅收優惠，Meta 路易斯安那州資料中心投資將達到 500 億美元",
-      "source": "CNBC",
-      "time": "09:30",
-      "link": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html"
-    },
-    {
-      "title": "“幾乎無限”：高管表示，即使企業轉向“價值最大化”，人工智慧需求仍然強勁",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html"
-    },
-    {
-      "title": "孟加拉第一座核電廠如何重塑其能源未來",
-      "source": "Bloomberg",
-      "time": "01:32",
-      "link": "https://www.bloomberg.com/news/features/2026-07-12/bangladesh-s-nuclear-debut-tests-developing-world-s-atomic-ambitions"
-    },
-    {
-      "title": "當馬斯克的 Neuralink 鑽入頭骨時，中國的 BrainCo 押注大腦技術的未來是可穿戴的",
-      "source": "CNBC",
-      "time": "13:47",
-      "link": "https://www.cnbc.com/2026/07/11/chinas-brainco-bets-on-wearable-brain-tech.html"
-    },
-    {
-      "title": "新住房法以負擔能力為目標——這對購房者和賣家意味著什麼",
-      "source": "CNBC",
-      "time": "13:30",
-      "link": "https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html"
-    },
-    {
-      "title": "倦怠、沮喪與心碎：亞馬遜裁員對飽和的就業市場造成影響",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/11/burnout-frustration-and-heartbreak-amazon-layoffs-take-their-toll.html"
-    },
-    {
-      "title": "微型 GLP-1 植入物是幫助患者維持減重效果的最新選擇",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/11/glp-1-implant-from-vivani-medical-aims-to-help-patients-stay-on-treatment.html"
-    },
-    {
-      "title": "人工智慧競賽正在從更大的模型轉向更便宜、更聰明的系統",
-      "source": "CNBC",
-      "time": "21:27",
-      "link": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html"
-    },
-    {
-      "title": "ETF 市場正在突破其所能承受的槓桿極限。 SK海力士就是最新的例子",
-      "source": "CNBC",
-      "time": "18:37",
-      "link": "https://www.cnbc.com/2026/07/10/etfs-investing-market-risk-leverage.html"
-    },
-    {
-      "title": "SK 海力士股票將於納斯達克上市，向美國投資者開放這家價值數兆美元的晶片巨頭",
-      "source": "CNBC",
-      "time": "14:18",
-      "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html"
-    },
-    {
-      "title": "Morning Squawk 中的籌碼反彈、聯準會工作小組、達美航空財報等",
-      "source": "CNBC",
-      "time": "12:46",
-      "link": "https://www.cnbc.com/2026/07/10/5-things-to-know-before-the-stock-market-opens.html"
-    },
-    {
-      "title": "隨著富人尋求自己的米其林星級，私人廚師的薪水達到30萬美元",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/10/private-chef-salaries.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bloomberg",
-      "time": "03:51",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-10/indian-it-firms-earnings-face-ai-middle-east-war-risks"
-    },
-    {
-      "title": "美國所有 50 個州在 20 年來的最佳商業州表現如何",
-      "source": "CNBC",
-      "time": "15:06",
-      "link": "https://www.cnbc.com/2026/07/09/top-states-business-all-time-rankings-since-2007.html"
-    },
-    {
-      "title": "認識 SK 海力士，這家價值數萬億美元的韓國晶片製造商首次登陸美國市場",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html"
-    },
-    {
-      "title": "清潔能源捲土重來？不要排除再生能源，尤其是這隻股票",
-      "source": "CNBC",
-      "time": "11:49",
-      "link": "https://www.cnbc.com/2026/07/09/clean-power-comeback-dont-count-out-renewable-energy-and-this-one-stock-in-particular.html"
-    },
-    {
-      "title": "中國6月份消費者物價成長放緩，而生產者通膨因出口訂單而上升",
-      "source": "CNBC",
-      "time": "01:42",
-      "link": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html"
-    },
-    {
-      "title": "健康回報：雇主沒有擴大 GLP-1 肥胖藥物的覆蓋範圍——許多雇主正在尋找解決方法",
-      "source": "CNBC",
-      "time": "13:19",
-      "link": "https://www.cnbc.com/2026/07/08/employers-arent-expanding-coverage-of-glp-1-obesity-drugs-survey.html"
-    }
-  ]
+  "news": []
 }
