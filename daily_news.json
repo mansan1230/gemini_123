@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-07-18 01:11",
+  "update_time": "2026-07-19 01:16",
   "crypto_fng": {
-    "value": "25",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1784332800",
-    "time_until_update": "82122"
+    "value": "28",
+    "value_classification": "Fear",
+    "timestamp": "1784419200",
+    "time_until_update": "81821"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25008.6,
-        "change": 327.5,
-        "percent": 1.33,
-        "rsi": "76.8",
+        "price": 24562.24,
+        "change": -446.36,
+        "percent": -1.78,
+        "rsi": "75.9",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66835.54,
-        "change": -1915.97,
-        "percent": -2.79,
-        "rsi": "40.5",
-        "trend": "震盪"
+        "price": 64141.12,
+        "change": -2694.42,
+        "percent": -4.03,
+        "rsi": "33.2",
+        "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 24915.49,
-        "change": -84.04,
+        "price": 24830.98,
+        "change": -84.51,
         "percent": -0.34,
-        "rsi": "54.5",
+        "rsi": "53.7",
         "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 63876.37,
-        "change": 87.09,
-        "percent": 0.14,
-        "rsi": "56.1",
-        "trend": "震盪"
+        "price": 64730.86,
+        "change": 831.4,
+        "percent": 1.3,
+        "rsi": "57.3",
+        "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1839.58,
-        "change": -23.61,
-        "percent": -1.27,
-        "rsi": "59.7",
+        "price": 1859.19,
+        "change": 18.2,
+        "percent": 0.99,
+        "rsi": "59.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 75.05,
-        "change": -0.22,
-        "percent": -0.29,
-        "rsi": "25.4",
+        "price": 75.58,
+        "change": 0.57,
+        "percent": 0.76,
+        "rsi": "29.3",
         "trend": "📈 多頭"
       }
     ],
@@ -102,28 +102,28 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.95,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "60.5",
+        "price": 12.9,
+        "change": -0.05,
+        "percent": -0.39,
+        "rsi": "59.8",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7494.75,
-        "change": -83.0,
-        "percent": -1.1,
-        "rsi": "57.6",
+        "price": 7497.75,
+        "change": -80.0,
+        "percent": -1.06,
+        "rsi": "57.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28768.25,
-        "change": -457.5,
-        "percent": -1.57,
-        "rsi": "44.6",
+        "price": 28773.25,
+        "change": -452.5,
+        "percent": -1.55,
+        "rsi": "44.7",
         "trend": "-"
       },
       {
@@ -157,7 +157,7 @@
         "price": 100.75,
         "change": 0.02,
         "percent": 0.02,
-        "rsi": "39.7",
+        "rsi": "39.6",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4023.0,
-        "change": 37.4,
-        "percent": 0.94,
-        "rsi": "45.7",
+        "price": 4012.7,
+        "change": 27.1,
+        "percent": 0.68,
+        "rsi": "44.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 81.77,
-        "change": 2.82,
-        "percent": 3.57,
-        "rsi": "77.6",
+        "price": 82.49,
+        "change": 3.54,
+        "percent": 4.48,
+        "rsi": "78.3",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.27,
-        "change": -0.03,
-        "percent": -0.41,
-        "rsi": "58.7",
+        "price": 6.22,
+        "change": -0.08,
+        "percent": -1.21,
+        "rsi": "54.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,36 @@
     ]
   },
   "news": [
+    {
+      "title": "零售業和華爾街在 SpaceX 的影響下陷入困境，但不會不戰而屈人之兵",
+      "source": "CNBC",
+      "time": "17:27",
+      "link": "https://www.cnbc.com/2026/07/17/retail-and-wall-street-are-underwater-on-spacex-but-not-going-down-without-a-fight.html"
+    },
+    {
+      "title": "川普面臨美國保護霍爾木茲海峽權力的限制",
+      "source": "gcaptain.com",
+      "time": "15:08",
+      "link": "https://gcaptain.com/trump-confronts-limits-to-us-power-to-secure-strait-of-hormuz/"
+    },
+    {
+      "title": "CNBC 調查發現，經濟前景正在惡化，川普受到指責",
+      "source": "CNBC",
+      "time": "11:12",
+      "link": "https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html"
+    },
+    {
+      "title": "這個 2800 萬美元的以太市場賭注旨在從純粹的市場混亂中獲利",
+      "source": "CoinDesk",
+      "time": "07:28",
+      "link": "https://www.coindesk.com/markets/2026/07/17/this-usd28-million-ether-market-bet-aims-to-profit-from-pure-market-chaos"
+    },
+    {
+      "title": "銀行獲利前景：在利潤率提升的希望和領導層變動的情況下，投資人應該關注什麼？",
+      "source": "Bloomberg",
+      "time": "04:07",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-17/hdfc-bank-icici-bank-eye-fx-deposits-for-margin-boost"
+    },
     {
       "title": "中國一位頂級投資者表示，中國最大的瓶頸是金融，而不是人工智慧",
       "source": "CNBC",
@@ -302,36 +332,6 @@
       "source": "gcaptain.com",
       "time": "14:24",
       "link": "https://gcaptain.com/the-strait-of-hormuzs-southern-route-is-no-longer-safe/"
-    },
-    {
-      "title": "運輸金融情報：每次供應鏈中斷背後的教訓",
-      "source": "gcaptain.com",
-      "time": "11:45",
-      "link": "https://gcaptain.com/transportation-financial-intelligence-the-lesson-behind-every-supply-chain-disruption/"
-    },
-    {
-      "title": "Birla 向三菱日聯金融集團 (MUFG) 提供 15 億美元的殼牌收購貸款",
-      "source": "Bloomberg",
-      "time": "11:03",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/india-s-birla-taps-mufg-for-1-5-billion-shell-acquisition-loan"
-    },
-    {
-      "title": "川普的霍爾木茲收費計畫使石油供應風險重新成為人們關注的焦點",
-      "source": "CNBC",
-      "time": "02:37",
-      "link": "https://www.cnbc.com/2026/07/14/trumps-hormuz-toll-plans-bring-oil-supply-risks-back-in-spotlight.html"
-    },
-    {
-      "title": "吉姆·克萊默表示，這些「巴甫洛夫交易」是油價飆升時受益的股票",
-      "source": "CNBC",
-      "time": "23:00",
-      "link": "https://www.cnbc.com/2026/07/13/jim-cramer-stocks-benefit-when-oil-spikes.html"
-    },
-    {
-      "title": "石油波動正在創造「雙贏」的交易策略",
-      "source": "CNBC",
-      "time": "17:02",
-      "link": "https://www.cnbc.com/2026/07/13/oil-volatility-is-creating-a-win-win-trade-strategy.html"
     }
   ]
 }
