@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-07-19 01:16",
+  "update_time": "2026-07-20 01:19",
   "crypto_fng": {
-    "value": "28",
+    "value": "29",
     "value_classification": "Fear",
-    "timestamp": "1784419200",
-    "time_until_update": "81821"
+    "timestamp": "1784505600",
+    "time_until_update": "81606"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64730.86,
-        "change": 831.4,
-        "percent": 1.3,
-        "rsi": "57.3",
+        "price": 64702.65,
+        "change": -93.95,
+        "percent": -0.14,
+        "rsi": "55.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1859.19,
-        "change": 18.2,
-        "percent": 0.99,
-        "rsi": "59.5",
+        "price": 1874.05,
+        "change": 12.66,
+        "percent": 0.68,
+        "rsi": "60.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 75.58,
-        "change": 0.57,
-        "percent": 0.76,
-        "rsi": "29.3",
+        "price": 76.83,
+        "change": 1.37,
+        "percent": 1.81,
+        "rsi": "35.3",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7497.75,
-        "change": -80.0,
-        "percent": -1.06,
-        "rsi": "57.9",
+        "price": 7509.75,
+        "change": 12.0,
+        "percent": 0.16,
+        "rsi": "50.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28773.25,
-        "change": -452.5,
-        "percent": -1.55,
-        "rsi": "44.7",
+        "price": 28901.5,
+        "change": 128.25,
+        "percent": 0.45,
+        "rsi": "38.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52375.0,
-        "change": -411.0,
-        "percent": -0.78,
-        "rsi": "52.8",
+        "price": 52392.0,
+        "change": 17.0,
+        "percent": 0.03,
+        "rsi": "46.6",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 100.75,
+        "price": 100.77,
         "change": 0.02,
         "percent": 0.02,
-        "rsi": "39.6",
+        "rsi": "43.7",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 162.35,
-        "change": 0.28,
-        "percent": 0.17,
-        "rsi": "55.7",
+        "price": 162.37,
+        "change": -0.01,
+        "percent": -0.01,
+        "rsi": "54.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4012.7,
-        "change": 27.1,
-        "percent": 0.68,
-        "rsi": "44.8",
+        "price": 4020.6,
+        "change": 7.9,
+        "percent": 0.2,
+        "rsi": "49.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 82.49,
-        "change": 3.54,
-        "percent": 4.48,
-        "rsi": "78.3",
+        "price": 83.45,
+        "change": 0.96,
+        "percent": 1.16,
+        "rsi": "77.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.22,
-        "change": -0.08,
-        "percent": -1.21,
-        "rsi": "54.9",
+        "price": 6.29,
+        "change": 0.07,
+        "percent": 1.08,
+        "rsi": "61.6",
         "trend": "-"
       },
       {
@@ -213,6 +213,30 @@
     ]
   },
   "news": [
+    {
+      "title": "華倫巴菲特接受 CNBC 採訪時透露了兩個意想不到的消息",
+      "source": "CNBC",
+      "time": "14:53",
+      "link": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html"
+    },
+    {
+      "title": "我離開美國前往特立尼達和多巴哥：我的 4 口之家每月花費約 3,000 美元 - 我們從未如此幸福",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/07/18/i-left-the-us-for-trinidad-and-tobago-my-family-of-4-spends-3k-a-month-weve-never-been-happier.html"
+    },
+    {
+      "title": "「WarshGPT」：華爾街如何適應聯準會的新溝通時代",
+      "source": "CNBC",
+      "time": "11:31",
+      "link": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html"
+    },
+    {
+      "title": "肥貓？您的超重寵物可能會收到減肥藥",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/07/18/cats-glp-1-ozempic-pets-weight-loss.html"
+    },
     {
       "title": "零售業和華爾街在 SpaceX 的影響下陷入困境，但不會不戰而屈人之兵",
       "source": "CNBC",
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "18:50",
       "link": "https://www.cnbc.com/2026/07/14/lucid-stock-lcid-bankruptcy-report.html"
-    },
-    {
-      "title": "Zipline 聘請前特斯拉、Uber、Waymo 高層，讓無人機送貨成為美國主流",
-      "source": "CNBC",
-      "time": "18:29",
-      "link": "https://www.cnbc.com/2026/07/14/zipline-drone-delivery-tesla-uber-waymo-executives.html"
-    },
-    {
-      "title": "2026 年 7 月 14 日今日黃金價格 — 以及最佳購買地點",
-      "source": "CNBC",
-      "time": "17:08",
-      "link": "https://www.cnbc.com/select/the-price-of-gold-today-july-14-2026/"
-    },
-    {
-      "title": "蘋果正在與新創公司洽談縮小人工智慧模型以在 iPhone 上運行",
-      "source": "CNBC",
-      "time": "17:04",
-      "link": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html"
-    },
-    {
-      "title": "無論川普說什麼，穿越霍爾木茲的南部路線不再安全",
-      "source": "gcaptain.com",
-      "time": "14:24",
-      "link": "https://gcaptain.com/the-strait-of-hormuzs-southern-route-is-no-longer-safe/"
     }
   ]
 }
