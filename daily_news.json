@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-07-23 01:22",
+  "update_time": "2026-07-24 01:18",
   "crypto_fng": {
-    "value": "31",
+    "value": "28",
     "value_classification": "Fear",
-    "timestamp": "1784764800",
-    "time_until_update": "81454"
+    "timestamp": "1784851200",
+    "time_until_update": "81694"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7498.96,
-        "change": -10.24,
-        "percent": -0.14,
-        "rsi": "51.5",
+        "price": 7408.3,
+        "change": -90.66,
+        "percent": -1.21,
+        "rsi": "43.9",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 25690.9,
-        "change": -146.31,
-        "percent": -0.57,
-        "rsi": "44.7",
+        "price": 25137.69,
+        "change": -553.21,
+        "percent": -2.15,
+        "rsi": "40.5",
         "trend": "📉 空頭"
       },
       {
@@ -34,11 +34,11 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66928.87,
-        "change": 813.27,
-        "percent": 1.23,
-        "rsi": "44.4",
-        "trend": "震盪"
+        "price": 64668.64,
+        "change": -1446.96,
+        "percent": -2.19,
+        "rsi": "37.9",
+        "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
@@ -52,167 +52,215 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 65941.49,
-        "change": -563.63,
-        "percent": -0.85,
-        "rsi": "66.5",
+        "price": 64972.18,
+        "change": -1128.62,
+        "percent": -1.71,
+        "rsi": "58.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1931.91,
-        "change": 3.53,
-        "percent": 0.18,
-        "rsi": "72.5",
+        "price": 1871.78,
+        "change": -61.71,
+        "percent": -3.19,
+        "rsi": "63.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 78.13,
-        "change": 0.02,
-        "percent": 0.03,
-        "rsi": "51.4",
+        "price": 75.94,
+        "change": -1.97,
+        "percent": -2.52,
+        "rsi": "42.6",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 12.51,
-        "change": -0.11,
-        "percent": -0.87,
-        "rsi": "56.5",
-        "trend": "震盪"
+        "price": 12.68,
+        "change": 0.17,
+        "percent": 1.36,
+        "rsi": "55.9",
+        "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 42.56,
-        "change": -0.05,
-        "percent": -0.12,
-        "rsi": "80.0",
+        "price": 43.06,
+        "change": 0.5,
+        "percent": 1.18,
+        "rsi": "78.1",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 25.01,
-        "change": 0.09,
-        "percent": 0.36,
-        "rsi": "48.2",
-        "trend": "震盪"
+        "price": 25.59,
+        "change": 0.58,
+        "percent": 2.32,
+        "rsi": "50.2",
+        "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.89,
-        "change": 0.09,
-        "percent": 0.7,
-        "rsi": "64.2",
+        "price": 13.0,
+        "change": 0.1,
+        "percent": 0.78,
+        "rsi": "59.1",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7547.0,
-        "change": 1.25,
-        "percent": 0.02,
-        "rsi": "50.3",
+        "price": 7456.0,
+        "change": -84.25,
+        "percent": -1.12,
+        "rsi": "44.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29259.0,
-        "change": -57.0,
-        "percent": -0.19,
-        "rsi": "40.9",
+        "price": 28694.75,
+        "change": -486.5,
+        "percent": -1.67,
+        "rsi": "40.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52494.0,
-        "change": 51.0,
-        "percent": 0.1,
-        "rsi": "47.3",
+        "price": 51943.0,
+        "change": -506.0,
+        "percent": -0.96,
+        "rsi": "30.7",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.64,
-        "change": -0.41,
-        "percent": -2.4,
-        "rsi": "50.2",
+        "price": 18.7,
+        "change": 2.06,
+        "percent": 12.38,
+        "rsi": "58.7",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.66,
-        "change": 0.03,
-        "percent": 0.63,
-        "rsi": "70.8",
+        "price": 4.7,
+        "change": 0.05,
+        "percent": 0.99,
+        "rsi": "73.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.06,
-        "change": -0.12,
-        "percent": -0.12,
-        "rsi": "44.3",
-        "trend": "震盪"
+        "price": 101.39,
+        "change": 0.25,
+        "percent": 0.25,
+        "rsi": "60.2",
+        "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 163.07,
-        "change": -0.12,
-        "percent": -0.07,
-        "rsi": "70.6",
+        "price": 163.84,
+        "change": 0.76,
+        "percent": 0.47,
+        "rsi": "75.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4138.4,
-        "change": 67.3,
-        "percent": 1.65,
-        "rsi": "55.3",
+        "price": 4044.9,
+        "change": -102.0,
+        "percent": -2.46,
+        "rsi": "45.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 87.91,
-        "change": 3.0,
-        "percent": 3.53,
-        "rsi": "88.5",
+        "price": 91.6,
+        "change": 4.77,
+        "percent": 5.49,
+        "rsi": "89.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.5,
-        "change": -0.01,
-        "percent": -0.19,
-        "rsi": "71.0",
+        "price": 6.32,
+        "change": -0.13,
+        "percent": -1.97,
+        "rsi": "59.9",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 180.27,
-        "change": -0.51,
-        "percent": -0.28,
-        "rsi": "43.2",
+        "price": 178.45,
+        "change": -1.82,
+        "percent": -1.01,
+        "rsi": "47.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 56.05,
-        "change": -0.06,
-        "percent": -0.11,
-        "rsi": "62.3",
+        "price": 55.83,
+        "change": -0.22,
+        "percent": -0.39,
+        "rsi": "52.3",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "印度內部通訊：Skyroot 火箭將印度與美國、中國一起進行私人軌道發射",
+      "source": "CNBC",
+      "time": "00:05",
+      "link": "https://www.cnbc.com/2026/07/23/india-skyroot-rocket-us-china-spacex.html"
+    },
+    {
+      "title": "特斯拉將於盤後公佈第二季業績",
+      "source": "CNBC",
+      "time": "16:00",
+      "link": "https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"
+    },
+    {
+      "title": "胡塞威脅給石油市場帶來“兩個瓶頸問題”",
+      "source": "gcaptain.com",
+      "time": "15:42",
+      "link": "https://gcaptain.com/houthi-threats-give-oil-markets-a-two-chokepoint-problem/"
+    },
+    {
+      "title": "川普的仿製藥關稅：對藥品價格、製造商和供應意味著什麼",
+      "source": "CNBC",
+      "time": "13:16",
+      "link": "https://www.cnbc.com/2026/07/22/trump-generic-drug-tariffs-prices-explained.html"
+    },
+    {
+      "title": "三星在蘋果預計首次亮相前推出新款可折疊智慧型手機，提高價格",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/07/22/samsung-galaxy-z-fold8-ultra-z-fold8-z-flip8-launch.html"
+    },
+    {
+      "title": "這就是為什麼比特幣多頭應該仔細研究利率",
+      "source": "CoinDesk",
+      "time": "11:23",
+      "link": "https://www.coindesk.com/daybook-us/2026/07/22/here-s-why-bitcoin-bulls-should-take-a-closer-look-at-interest-rates"
+    },
+    {
+      "title": "AI 模式逃離了 OpenAI 的沙箱並撞上了 Hugging Face。加密貨幣是危險的地方",
+      "source": "CoinDesk",
+      "time": "06:01",
+      "link": "https://www.coindesk.com/markets/2026/07/22/ai-models-escaped-openai-s-sandbox-and-hit-hugging-face-crypto-is-where-that-gets-dangerous"
+    },
+    {
+      "title": "川普推動美國製造的人工智慧晶片打擊台積電的利潤",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/07/22/trump-pressure-ai-chips-us-tsmc-margins.html"
+    },
     {
       "title": "投資專家：為什麼「只買市場」不一定適用於債券",
       "source": "CNBC",
@@ -284,54 +332,6 @@
       "source": "CNBC",
       "time": "14:45",
       "link": "https://www.cnbc.com/2026/07/19/psychedelic-drugs-mental-health.html"
-    },
-    {
-      "title": "CNBC 調查發現，住房成本是年輕選民面臨的首要政治問題",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/07/19/housing-costs-election-young-voters-cnbc-survey-finds.html"
-    },
-    {
-      "title": "華倫巴菲特接受 CNBC 採訪時透露了兩個意想不到的消息",
-      "source": "CNBC",
-      "time": "14:53",
-      "link": "https://www.cnbc.com/2026/07/18/two-unexpected-revelations-in-warren-buffetts-cnbc-interview.html"
-    },
-    {
-      "title": "我離開美國前往特立尼達和多巴哥：我的 4 口之家每月花費約 3,000 美元 - 我們從未如此幸福",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/07/18/i-left-the-us-for-trinidad-and-tobago-my-family-of-4-spends-3k-a-month-weve-never-been-happier.html"
-    },
-    {
-      "title": "「WarshGPT」：華爾街如何適應聯準會的新溝通時代",
-      "source": "CNBC",
-      "time": "11:31",
-      "link": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html"
-    },
-    {
-      "title": "肥貓？您的超重寵物可能會收到減肥藥",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/07/18/cats-glp-1-ozempic-pets-weight-loss.html"
-    },
-    {
-      "title": "零售業和華爾街在 SpaceX 的影響下陷入困境，但不會不戰而屈人之兵",
-      "source": "CNBC",
-      "time": "17:27",
-      "link": "https://www.cnbc.com/2026/07/17/retail-and-wall-street-are-underwater-on-spacex-but-not-going-down-without-a-fight.html"
-    },
-    {
-      "title": "川普面臨美國保護霍爾木茲海峽權力的限制",
-      "source": "gcaptain.com",
-      "time": "15:08",
-      "link": "https://gcaptain.com/trump-confronts-limits-to-us-power-to-secure-strait-of-hormuz/"
-    },
-    {
-      "title": "CNBC 調查發現，經濟前景正在惡化，川普受到指責",
-      "source": "CNBC",
-      "time": "11:12",
-      "link": "https://www.cnbc.com/2026/07/17/economic-outlook-is-worsening-and-trump-is-getting-blamed-cnbc-survey-finds.html"
     }
   ]
 }
