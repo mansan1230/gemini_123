@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-01 01:23",
+  "update_time": "2026-08-02 01:21",
   "crypto_fng": {
     "value": "27",
     "value_classification": "Fear",
-    "timestamp": "1785542400",
-    "time_until_update": "81372"
+    "timestamp": "1785628800",
+    "time_until_update": "81516"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 62923.54,
-        "change": -1801.77,
-        "percent": -2.78,
-        "rsi": "45.5",
+        "price": 62931.38,
+        "change": 117.63,
+        "percent": 0.19,
+        "rsi": "40.9",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1865.35,
-        "change": -52.02,
-        "percent": -2.71,
-        "rsi": "52.9",
+        "price": 1853.08,
+        "change": -7.27,
+        "percent": -0.39,
+        "rsi": "49.0",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 73.04,
-        "change": -1.43,
-        "percent": -1.92,
-        "rsi": "43.6",
+        "price": 72.38,
+        "change": -0.41,
+        "percent": -0.56,
+        "rsi": "40.1",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7503.5,
-        "change": 31.0,
-        "percent": 0.41,
-        "rsi": "45.3",
+        "price": 7519.25,
+        "change": 46.75,
+        "percent": 0.63,
+        "rsi": "46.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28287.0,
-        "change": 49.25,
-        "percent": 0.17,
-        "rsi": "37.6",
+        "price": 28404.25,
+        "change": 166.5,
+        "percent": 0.59,
+        "rsi": "39.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52524.0,
-        "change": 144.0,
-        "percent": 0.27,
-        "rsi": "47.5",
+        "price": 52635.0,
+        "change": 255.0,
+        "percent": 0.49,
+        "rsi": "48.7",
         "trend": "-"
       }
     ],
@@ -157,7 +157,7 @@
         "price": 99.8,
         "change": -0.21,
         "percent": -0.21,
-        "rsi": "29.4",
+        "rsi": "29.3",
         "trend": "震盪"
       },
       {
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4098.6,
-        "change": -1.5,
-        "percent": -0.04,
-        "rsi": "59.4",
+        "price": 4049.1,
+        "change": -51.0,
+        "percent": -1.24,
+        "rsi": "54.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 86.8,
-        "change": 3.21,
-        "percent": 3.84,
-        "rsi": "61.5",
+        "price": 84.67,
+        "change": 1.08,
+        "percent": 1.29,
+        "rsi": "59.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.51,
-        "change": 0.06,
-        "percent": 0.98,
-        "rsi": "63.2",
+        "price": 6.44,
+        "change": -0.01,
+        "percent": -0.13,
+        "rsi": "60.3",
         "trend": "-"
       },
       {
@@ -213,6 +213,60 @@
     ]
   },
   "news": [
+    {
+      "title": "隨著監管爭論加劇，川普的人工智慧行政命令接近關鍵期限",
+      "source": "CNBC",
+      "time": "21:46",
+      "link": "https://www.cnbc.com/2026/07/31/trump-ai-executive-order-nears-key-deadline-regulation-debate-heats-up.html"
+    },
+    {
+      "title": "未來幾個月原油墊層「大幅萎縮」—Vortexa",
+      "source": "gcaptain.com",
+      "time": "19:38",
+      "link": "https://gcaptain.com/significant-shrinking-in-crude-cushion-in-coming-month-vortexa/"
+    },
+    {
+      "title": "加密貨幣交易員表示，犯罪者的好與壞",
+      "source": "CoinDesk",
+      "time": "17:53",
+      "link": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders"
+    },
+    {
+      "title": "微軟股價飆升。麥克‧庫烏 (Mike Khouw) 表示，以下是仍然可以賺錢的方法",
+      "source": "CNBC",
+      "time": "15:26",
+      "link": "https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html"
+    },
+    {
+      "title": "現金減少和記憶體成本飆升：科技公司的人工智慧建設價格不斷上漲",
+      "source": "CNBC",
+      "time": "13:14",
+      "link": "https://www.cnbc.com/2026/07/31/tech-earnings-cash-memory-ai.html"
+    },
+    {
+      "title": "分析師表示，電動車價格不符合「二手車法則」——這對買家和賣家意味著什麼",
+      "source": "CNBC",
+      "time": "12:15",
+      "link": "https://www.cnbc.com/2026/07/31/used-ev-prices.html"
+    },
+    {
+      "title": "超越川普帳戶標準普爾 500 指數基金：如何提高兒童終身財務保障的幾率",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/07/31/trump-accounts-children-stock-market-investing.html"
+    },
+    {
+      "title": "越來越多的消費品公司保持私有狀態的時間更長，避免走IPO之路",
+      "source": "CNBC",
+      "time": "11:30",
+      "link": "https://www.cnbc.com/2026/07/31/private-consumer-companies-ipo.html"
+    },
+    {
+      "title": "策略師稱，隨著人工智慧需求與致命風暴相撞，銅價可能創下新高",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/07/31/copper-prices-chile-storms-mines-ai.html"
+    },
     {
       "title": "快時尚零售商 Shein 歷時 3 年的 IPO 歷程讓其失去了上市的“黃金時機”",
       "source": "CNBC",
@@ -278,60 +332,6 @@
       "source": "CNBC",
       "time": "22:05",
       "link": "https://www.cnbc.com/2026/07/29/stock-market-today-live-updates.html"
-    },
-    {
-      "title": "晶片製造商發布少量獲利指引，高通將在記憶體緊縮期間提高價格",
-      "source": "CNBC",
-      "time": "20:02",
-      "link": "https://www.cnbc.com/2026/07/29/qualcomm-qcom-earnings-report-q3-2026-.html"
-    },
-    {
-      "title": "FTC 就數據和計費行為起訴 Hims 和 Hers 公司，股價下跌 10%",
-      "source": "CNBC",
-      "time": "18:24",
-      "link": "https://www.cnbc.com/2026/07/29/hims-and-hers-ftc-lawsuit-stock.html"
-    },
-    {
-      "title": "聯準會維持利率不變。它如何影響你的錢包",
-      "source": "CNBC",
-      "time": "18:04",
-      "link": "https://www.cnbc.com/2026/07/29/fed-interest-rates-credit-cards-mortgages-auto-loans-debt-savings-accounts.html"
-    },
-    {
-      "title": "隨著加密貨幣永續期貨的繁榮，以太坊的角色正在改變",
-      "source": "CoinDesk",
-      "time": "18:00",
-      "link": "https://www.coindesk.com/tech/2026/07/29/as-crypto-perpetual-futures-boom-ethereum-s-role-is-shifting"
-    },
-    {
-      "title": "蘋果股價剛創下歷史新高。以下是交易者 Mike Khouw 的操作方式",
-      "source": "CNBC",
-      "time": "17:48",
-      "link": "https://www.cnbc.com/2026/07/29/apple-shares-just-hit-a-record-heres-how-trader-mike-khouw-is-playing-the-move.html"
-    },
-    {
-      "title": "Meta 在收盤後公佈第二季業績",
-      "source": "CNBC",
-      "time": "16:00",
-      "link": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
-    },
-    {
-      "title": "香港升息如何永遠改變加密貨幣交易的內幕",
-      "source": "CoinDesk",
-      "time": "13:53",
-      "link": "https://www.coindesk.com/business/2026/07/29/the-inside-story-of-how-a-hike-in-hong-kong-changed-crypto-trading-forever"
-    },
-    {
-      "title": "SpaceX 是 Solana 必須贏得的戰場",
-      "source": "CoinDesk",
-      "time": "08:00",
-      "link": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win"
-    },
-    {
-      "title": "CNBC 每日開盤：銀行業表現出色，SK 海力士股價下跌，突如其來的襲擊擾亂了油價",
-      "source": "CNBC",
-      "time": "06:36",
-      "link": "https://www.cnbc.com/2026/07/29/daily-open-bank-earnings-ubs-sk-hynix.html"
     }
   ]
 }
