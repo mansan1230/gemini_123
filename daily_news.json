@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-02 01:21",
+  "update_time": "2026-08-03 01:21",
   "crypto_fng": {
-    "value": "27",
+    "value": "28",
     "value_classification": "Fear",
-    "timestamp": "1785628800",
-    "time_until_update": "81516"
+    "timestamp": "1785715200",
+    "time_until_update": "81482"
   },
   "data": {
     "indices": [
@@ -34,9 +34,9 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 64362.02,
-        "change": 2494.59,
-        "percent": 4.03,
+        "price": 63072.13,
+        "change": -1289.89,
+        "percent": -2.0,
         "rsi": "38.7",
         "trend": "📉 空頭"
       },
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 62931.38,
-        "change": 117.63,
-        "percent": 0.19,
-        "rsi": "40.9",
+        "price": 63118.18,
+        "change": 354.86,
+        "percent": 0.57,
+        "rsi": "42.4",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1853.08,
-        "change": -7.27,
-        "percent": -0.39,
-        "rsi": "49.0",
+        "price": 1867.79,
+        "change": 24.37,
+        "percent": 1.32,
+        "rsi": "49.6",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 72.38,
-        "change": -0.41,
-        "percent": -0.56,
-        "rsi": "40.1",
+        "price": 72.99,
+        "change": 1.12,
+        "percent": 1.56,
+        "rsi": "39.7",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7519.25,
-        "change": 46.75,
-        "percent": 0.63,
-        "rsi": "46.6",
+        "price": 7553.5,
+        "change": 34.25,
+        "percent": 0.46,
+        "rsi": "47.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28404.25,
-        "change": 166.5,
-        "percent": 0.59,
-        "rsi": "39.1",
+        "price": 28606.5,
+        "change": 202.25,
+        "percent": 0.71,
+        "rsi": "37.7",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52635.0,
-        "change": 255.0,
-        "percent": 0.49,
-        "rsi": "48.7",
+        "price": 52845.0,
+        "change": 210.0,
+        "percent": 0.4,
+        "rsi": "50.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.8,
-        "change": -0.21,
-        "percent": -0.21,
-        "rsi": "29.3",
+        "price": 99.63,
+        "change": -0.17,
+        "percent": -0.17,
+        "rsi": "30.8",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.4,
-        "change": -2.78,
-        "percent": -1.74,
-        "rsi": "23.0",
+        "price": 156.29,
+        "change": -3.9,
+        "percent": -2.43,
+        "rsi": "20.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4049.1,
-        "change": -51.0,
-        "percent": -1.24,
-        "rsi": "54.4",
+        "price": 4112.3,
+        "change": 63.2,
+        "percent": 1.56,
+        "rsi": "54.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 84.67,
-        "change": 1.08,
-        "percent": 1.29,
-        "rsi": "59.2",
+        "price": 80.63,
+        "change": -4.04,
+        "percent": -4.77,
+        "rsi": "51.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.44,
-        "change": -0.01,
-        "percent": -0.13,
-        "rsi": "60.3",
+        "price": 6.53,
+        "change": 0.09,
+        "percent": 1.38,
+        "rsi": "59.9",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "透過抵押貸款購買公寓可能很快就會變得更加複雜。這就是為什麼",
+      "source": "CNBC",
+      "time": "13:30",
+      "link": "https://www.cnbc.com/2026/08/01/condo-buyers-mortgage-rules-fannie-mae-freddie-mac.html"
+    },
+    {
+      "title": "隨著美國人直接使用 GLP-1 處方，沃爾瑪、好市多、亞馬遜將成為減肥大贏家",
+      "source": "CNBC",
+      "time": "12:30",
+      "link": "https://www.cnbc.com/2026/08/01/glp-1-prescriptions-weight-loss-walmart-costco-amazon.html"
+    },
     {
       "title": "隨著監管爭論加劇，川普的人工智慧行政命令接近關鍵期限",
       "source": "CNBC",
@@ -320,18 +332,6 @@
       "source": "CoinDesk",
       "time": "09:00",
       "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-and-ether-markets-are-ruled-by-perps-spacex-showed-how-far-their-influence-can-go"
-    },
-    {
-      "title": "比特幣分析師一致認為，聯準會的持有態度是強硬的。他們對接下來發生的事情意見不一。",
-      "source": "CoinDesk",
-      "time": "06:28",
-      "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-analysts-agree-the-fed-s-hold-was-hawkish-they-don-t-agree-on-what-happens-next"
-    },
-    {
-      "title": "今日股市：即時更新",
-      "source": "CNBC",
-      "time": "22:05",
-      "link": "https://www.cnbc.com/2026/07/29/stock-market-today-live-updates.html"
     }
   ]
 }
