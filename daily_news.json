@@ -1,226 +1,274 @@
 {
-  "update_time": "2026-08-06 01:12",
+  "update_time": "2026-08-07 01:55",
   "crypto_fng": {
-    "value": "25",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1785974400",
-    "time_until_update": "82047"
+    "value": "29",
+    "value_classification": "Fear",
+    "timestamp": "1786060800",
+    "time_until_update": "79475"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7723.55,
-        "change": -12.97,
-        "percent": -0.17,
-        "rsi": "61.5",
+        "price": 7709.96,
+        "change": -13.59,
+        "percent": -0.18,
+        "rsi": "66.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26363.44,
-        "change": -221.55,
-        "percent": -0.83,
-        "rsi": "55.4",
+        "price": 26348.35,
+        "change": -15.09,
+        "percent": -0.06,
+        "rsi": "60.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25852.92,
-        "change": -156.48,
-        "percent": -0.6,
-        "rsi": "67.4",
+        "price": 25451.92,
+        "change": -78.36,
+        "percent": -0.31,
+        "rsi": "56.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 65196.59,
-        "change": 1239.06,
-        "percent": 1.94,
-        "rsi": "40.0",
+        "price": 64718.74,
+        "change": -964.52,
+        "percent": -1.47,
+        "rsi": "51.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 26202.35,
-        "change": 201.04,
-        "percent": 0.77,
-        "rsi": "75.8",
+        "price": 26140.13,
+        "change": 13.83,
+        "percent": 0.05,
+        "rsi": "79.1",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64522.13,
-        "change": 466.18,
-        "percent": 0.73,
-        "rsi": "41.8",
+        "price": 64365.07,
+        "change": -232.43,
+        "percent": -0.36,
+        "rsi": "46.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1907.15,
-        "change": 38.76,
-        "percent": 2.07,
-        "rsi": "47.2",
+        "price": 1901.55,
+        "change": -4.98,
+        "percent": -0.26,
+        "rsi": "53.0",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 73.97,
-        "change": 0.25,
-        "percent": 0.34,
-        "rsi": "37.2",
+        "price": 72.63,
+        "change": -1.33,
+        "percent": -1.8,
+        "rsi": "38.9",
         "trend": "📉 空頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 13.97,
-        "change": 0.06,
-        "percent": 0.43,
-        "rsi": "70.9",
+        "price": 13.94,
+        "change": -0.03,
+        "percent": -0.21,
+        "rsi": "70.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 43.26,
-        "change": -0.7,
-        "percent": -1.6,
-        "rsi": "63.4",
+        "price": 43.65,
+        "change": 0.4,
+        "percent": 0.91,
+        "rsi": "67.2",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 26.58,
-        "change": -0.71,
-        "percent": -2.6,
-        "rsi": "64.7",
+        "price": 26.38,
+        "change": -0.2,
+        "percent": -0.75,
+        "rsi": "64.8",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 12.89,
-        "change": -0.08,
-        "percent": -0.62,
-        "rsi": "48.6",
+        "price": 13.03,
+        "change": 0.12,
+        "percent": 0.93,
+        "rsi": "52.9",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7756.0,
-        "change": -9.5,
-        "percent": -0.12,
-        "rsi": "61.0",
+        "price": 7732.25,
+        "change": -17.25,
+        "percent": -0.22,
+        "rsi": "65.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29513.75,
-        "change": -349.75,
-        "percent": -1.17,
-        "rsi": "52.5",
+        "price": 29524.25,
+        "change": -90.75,
+        "percent": -0.31,
+        "rsi": "57.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 54594.0,
-        "change": 326.0,
-        "percent": 0.6,
-        "rsi": "63.5",
+        "price": 53936.0,
+        "change": -558.0,
+        "percent": -1.02,
+        "rsi": "61.6",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.81,
-        "change": -0.69,
-        "percent": -4.18,
-        "rsi": "47.0",
+        "price": 15.15,
+        "change": -0.66,
+        "percent": -4.17,
+        "rsi": "37.2",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.62,
-        "change": -0.01,
-        "percent": -0.22,
-        "rsi": "54.3",
+        "price": 4.67,
+        "change": 0.05,
+        "percent": 1.15,
+        "rsi": "61.1",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.67,
-        "change": -0.22,
-        "percent": -0.23,
-        "rsi": "32.4",
+        "price": 99.93,
+        "change": 0.24,
+        "percent": 0.24,
+        "rsi": "37.2",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.72,
-        "change": 0.03,
-        "percent": 0.02,
-        "rsi": "23.3",
+        "price": 158.31,
+        "change": 0.71,
+        "percent": 0.45,
+        "rsi": "27.5",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4360.2,
-        "change": 264.8,
-        "percent": 6.47,
-        "rsi": "73.6",
+        "price": 4314.2,
+        "change": 68.4,
+        "percent": 1.61,
+        "rsi": "71.0",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 75.21,
-        "change": -0.56,
-        "percent": -0.74,
-        "rsi": "45.6",
+        "price": 77.83,
+        "change": 2.61,
+        "percent": 3.47,
+        "rsi": "44.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.75,
-        "change": 0.13,
-        "percent": 1.96,
-        "rsi": "69.4",
+        "price": 6.73,
+        "change": 0.03,
+        "percent": 0.43,
+        "rsi": "73.9",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 185.91,
-        "change": -0.99,
-        "percent": -0.53,
-        "rsi": "59.7",
+        "price": 185.33,
+        "change": -0.58,
+        "percent": -0.31,
+        "rsi": "61.6",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 58.0,
-        "change": 0.12,
-        "percent": 0.21,
-        "rsi": "62.0",
+        "price": 57.81,
+        "change": -0.19,
+        "percent": -0.33,
+        "rsi": "65.8",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
     {
-      "title": "吉姆克萊默說這個投資錯誤正在讓你損失巨大的收益",
+      "title": "好萊塢再次製作價值數十億美元的電影。蜘蛛人剛加入行列",
+      "source": "CNBC",
+      "time": "21:15",
+      "link": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html"
+    },
+    {
+      "title": "Meta 推出首個 AI 編碼代理，與 Anthropic 和 OpenAI 抗衡",
+      "source": "CNBC",
+      "time": "19:06",
+      "link": "https://www.cnbc.com/2026/08/05/meta-debuts-muse-code-to-take-on-anthropic-and-openai-.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CoinDesk",
+      "time": "18:15",
+      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow"
+    },
+    {
+      "title": "迪士尼正在考慮免費的廣告支援串流媒體，表示已售罄超級盃廣告位",
+      "source": "CNBC",
+      "time": "14:44",
+      "link": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/08/05/mortgage-rates-hit-their-highest-level-in-over-a-year.html"
+    },
+    {
+      "title": "CNBC 英國交易所：帝亞吉歐的轉虧為盈測試",
+      "source": "CNBC",
+      "time": "05:30",
+      "link": "https://www.cnbc.com/2026/08/05/uk-exchange-diageo-earnings-spirits-lewis.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "04:01",
+      "link": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html"
+    },
+    {
+      "title": "儘管與美國地緣政治緊張，通用汽車與中國汽車製造商仍將合資企業延長20年",
+      "source": "CNBC",
+      "time": "02:30",
+      "link": "https://www.cnbc.com/2026/08/04/gm-chinese-automaker-extend-tie-up-amid-geopolitical-tensions-with-us.html"
+    },
+    {
+      "title": "吉姆·克萊默（Jim Cramer）表示，這個投資錯誤正在讓你損失巨大收益",
       "source": "CNBC",
       "time": "23:00",
       "link": "https://www.cnbc.com/2026/08/04/jim-cramer-says-this-investing-mistake-is-costing-you-big-gains.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "「嬰兒iPhone」和蘋果供應商洩密事件如何解釋中國最近的供應鏈動向",
       "source": "CNBC",
       "time": "14:40",
       "link": "https://www.cnbc.com/2026/08/04/china-apple-india-tata-electronics.html"
@@ -250,7 +298,7 @@
       "link": "https://www.cnbc.com/2026/08/04/mcdonalds-skye-anderson-us-president.html"
     },
     {
-      "title": "隨著 Coldcard 的利用和策略銷售的減少，比特幣上漲至 64,000 美元。 ADA 進展",
+      "title": "隨著 Coldcard 的利用和策略銷售的減少，比特幣價格上漲至 64,000 美元。 ADA 進展",
       "source": "CoinDesk",
       "time": "10:51",
       "link": "https://www.coindesk.com/markets/2026/08/04/bitcoin-rises-toward-usd64-000-as-coldcard-exploit-strategy-sales-recede-ada-advances"
@@ -284,54 +332,6 @@
       "source": "CNBC",
       "time": "03:03",
       "link": "https://www.cnbc.com/2026/08/04/grab-earnings-ai-forecast-cfo-.html"
-    },
-    {
-      "title": "獲利改善和銷售預期強勁，Snap 股價上漲 10%",
-      "source": "CNBC",
-      "time": "20:12",
-      "link": "https://www.cnbc.com/2026/08/03/snap-q2-earnings-report-2026.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "The Wall Street Journal",
-      "time": "13:23",
-      "link": "https://www.wsj.com/business/earnings/nissan-reports-first-quarterly-profit-in-two-years-42e8543b"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:01",
-      "link": "https://www.cnbc.com/2026/08/03/electric-lsv-stellantis-fiat-toppolino.html"
-    },
-    {
-      "title": "旅遊價格戰可能會削弱中國消費支出中罕見的亮點",
-      "source": "CNBC",
-      "time": "10:32",
-      "link": "https://www.cnbc.com/2026/08/03/china-price-demand-tourism-hotel.html"
-    },
-    {
-      "title": "投資者受益於伊朗戰爭帶來的石油市場繁榮。做多交易會變得更加棘手",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html"
-    },
-    {
-      "title": "為什麼航班如此昂貴並且很可能會保持這種狀態",
-      "source": "CNBC",
-      "time": "12:00",
-      "link": "https://www.cnbc.com/2026/08/02/flights-are-getting-even-more-expensive-as-fuel-prices-rise.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:30",
-      "link": "https://www.cnbc.com/2026/08/01/condo-buyers-mortgage-rules-fannie-mae-freddie-mac.html"
-    },
-    {
-      "title": "隨著美國人直接使用 GLP-1 處方，沃爾瑪、好市多、亞馬遜將成為減肥大贏家",
-      "source": "CNBC",
-      "time": "12:30",
-      "link": "https://www.cnbc.com/2026/08/01/glp-1-prescriptions-weight-loss-walmart-costco-amazon.html"
     }
   ]
 }
