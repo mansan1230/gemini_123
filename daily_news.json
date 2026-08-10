@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-09 00:40",
+  "update_time": "2026-08-10 00:42",
   "crypto_fng": {
-    "value": "31",
+    "value": "30",
     "value_classification": "Fear",
-    "timestamp": "1786233600",
-    "time_until_update": "83966"
+    "timestamp": "1786320000",
+    "time_until_update": "83868"
   },
   "data": {
     "indices": [
@@ -34,11 +34,11 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 65606.71,
-        "change": -76.55,
-        "percent": -0.12,
-        "rsi": "54.9",
-        "trend": "📉 空頭"
+        "price": 66646.1,
+        "change": 1039.39,
+        "percent": 1.58,
+        "rsi": "51.5",
+        "trend": "震盪"
       },
       {
         "name": "🇪🇺 德國 DAX",
@@ -52,27 +52,27 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 64926.76,
-        "change": 46.57,
-        "percent": 0.07,
-        "rsi": "53.6",
+        "price": 64859.54,
+        "change": -45.15,
+        "percent": -0.07,
+        "rsi": "46.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1916.32,
-        "change": 3.04,
-        "percent": 0.16,
-        "rsi": "55.4",
+        "price": 1908.11,
+        "change": -7.42,
+        "percent": -0.39,
+        "rsi": "43.0",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 75.92,
-        "change": 2.28,
-        "percent": 3.09,
-        "rsi": "54.8",
-        "trend": "震盪"
+        "price": 76.37,
+        "change": 0.4,
+        "percent": 0.52,
+        "rsi": "49.2",
+        "trend": "📈 多頭"
       }
     ],
     "shipping": [
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7779.75,
-        "change": 45.0,
-        "percent": 0.58,
-        "rsi": "68.8",
+        "price": 7771.75,
+        "change": -8.0,
+        "percent": -0.1,
+        "rsi": "65.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29834.75,
-        "change": 346.5,
-        "percent": 1.18,
-        "rsi": "59.2",
+        "price": 29852.25,
+        "change": 17.5,
+        "percent": 0.06,
+        "rsi": "55.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 54152.0,
-        "change": 139.0,
-        "percent": 0.26,
-        "rsi": "66.0",
+        "price": 54028.0,
+        "change": -124.0,
+        "percent": -0.23,
+        "rsi": "62.7",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.6,
-        "change": -0.37,
-        "percent": -0.37,
-        "rsi": "29.5",
+        "price": 99.64,
+        "change": 0.04,
+        "percent": 0.04,
+        "rsi": "26.3",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.74,
-        "change": 0.14,
-        "percent": 0.09,
-        "rsi": "22.9",
+        "price": 157.92,
+        "change": -0.49,
+        "percent": -0.31,
+        "rsi": "27.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4340.7,
-        "change": 98.7,
-        "percent": 2.33,
-        "rsi": "72.0",
+        "price": 4396.7,
+        "change": 56.0,
+        "percent": 1.29,
+        "rsi": "71.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 78.18,
-        "change": 0.89,
-        "percent": 1.15,
-        "rsi": "43.9",
+        "price": 78.9,
+        "change": 0.72,
+        "percent": 0.92,
+        "rsi": "42.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.57,
-        "change": -0.12,
-        "percent": -1.74,
-        "rsi": "62.4",
+        "price": 6.6,
+        "change": 0.03,
+        "percent": 0.51,
+        "rsi": "55.1",
         "trend": "-"
       },
       {
@@ -213,6 +213,18 @@
     ]
   },
   "news": [
+    {
+      "title": "為什麼萬億美元資產管理公司 T. Rowe Price 會將 memecoin 放入其加密 ETF 中",
+      "source": "CoinDesk",
+      "time": "13:00",
+      "link": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf"
+    },
+    {
+      "title": "電梯巨頭奧的斯希望在動盪的市場中發揮防禦作用。它必須先證明自己",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html"
+    },
     {
       "title": "川普取笑伊朗協議並未達成，但市場飆升。這就是為什麼它不斷發生",
       "source": "CNBC",
@@ -304,7 +316,7 @@
       "link": "https://www.cnbc.com/2026/08/06/diageo-savings-plan-restructuring-earnings-spirits.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "阿斯特捷利康可能違背十年來的製藥策略，購買美國規模的產品",
       "source": "CNBC",
       "time": "09:40",
       "link": "https://www.cnbc.com/2026/08/06/astrazeneca-bristol-myers-merger-talks.html"
@@ -320,18 +332,6 @@
       "source": "CoinDesk",
       "time": "04:46",
       "link": "https://www.coindesk.com/markets/2026/08/06/xrp-whales-keep-buying-the-dip-but-ether-shows-deeper-capitulation"
-    },
-    {
-      "title": "好萊塢再次製作價值數十億美元的電影。蜘蛛人剛加入行列",
-      "source": "CNBC",
-      "time": "21:15",
-      "link": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html"
-    },
-    {
-      "title": "Meta 推出首個 AI 編碼代理，與 Anthropic 和 OpenAI 抗衡",
-      "source": "CNBC",
-      "time": "19:06",
-      "link": "https://www.cnbc.com/2026/08/05/meta-debuts-muse-code-to-take-on-anthropic-and-openai-.html"
     }
   ]
 }
