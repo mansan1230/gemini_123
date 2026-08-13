@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-08-12 00:48",
+  "update_time": "2026-08-13 00:50",
   "crypto_fng": {
-    "value": "27",
+    "value": "29",
     "value_classification": "Fear",
-    "timestamp": "1786492800",
-    "time_until_update": "83473"
+    "timestamp": "1786579200",
+    "time_until_update": "83350"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7728.2,
-        "change": -24.91,
-        "percent": -0.32,
-        "rsi": "65.3",
+        "price": 7748.5,
+        "change": 20.3,
+        "percent": 0.26,
+        "rsi": "75.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26445.45,
-        "change": -159.91,
-        "percent": -0.6,
-        "rsi": "59.0",
+        "price": 26588.49,
+        "change": 143.04,
+        "percent": 0.54,
+        "rsi": "69.1",
         "trend": "📈 多頭"
       },
       {
@@ -34,11 +34,11 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66947.25,
-        "change": -22.97,
-        "percent": -0.03,
-        "rsi": "52.9",
-        "trend": "震盪"
+        "price": 68280.56,
+        "change": 1310.34,
+        "percent": 1.96,
+        "rsi": "57.0",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
@@ -52,167 +52,209 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 63674.52,
-        "change": -236.07,
-        "percent": -0.37,
-        "rsi": "48.6",
+        "price": 63528.05,
+        "change": -23.82,
+        "percent": -0.04,
+        "rsi": "47.3",
         "trend": "震盪"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1881.0,
-        "change": 9.72,
-        "percent": 0.52,
-        "rsi": "43.0",
+        "price": 1880.43,
+        "change": -0.94,
+        "percent": -0.05,
+        "rsi": "44.8",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 76.22,
-        "change": 0.27,
-        "percent": 0.36,
-        "rsi": "61.2",
-        "trend": "📈 多頭"
+        "price": 75.57,
+        "change": -0.63,
+        "percent": -0.82,
+        "rsi": "58.4",
+        "trend": "震盪"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 13.79,
-        "change": -0.01,
-        "percent": -0.07,
-        "rsi": "76.7",
+        "price": 13.67,
+        "change": -0.13,
+        "percent": -0.94,
+        "rsi": "73.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 43.48,
-        "change": -0.66,
-        "percent": -1.49,
-        "rsi": "56.6",
+        "price": 44.35,
+        "change": 0.22,
+        "percent": 0.49,
+        "rsi": "63.8",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 24.53,
-        "change": -0.68,
-        "percent": -2.7,
-        "rsi": "47.4",
-        "trend": "📉 空頭"
+        "price": 25.27,
+        "change": 0.74,
+        "percent": 3.02,
+        "rsi": "48.3",
+        "trend": "震盪"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 13.02,
-        "change": -0.22,
-        "percent": -1.66,
-        "rsi": "52.6",
+        "price": 13.35,
+        "change": 0.11,
+        "percent": 0.83,
+        "rsi": "60.3",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7753.0,
-        "change": -23.75,
-        "percent": -0.31,
-        "rsi": "64.3",
+        "price": 7768.5,
+        "change": 21.0,
+        "percent": 0.27,
+        "rsi": "73.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29668.5,
-        "change": -68.5,
-        "percent": -0.23,
-        "rsi": "54.6",
+        "price": 29840.0,
+        "change": 214.0,
+        "percent": 0.72,
+        "rsi": "62.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53882.0,
-        "change": -181.0,
-        "percent": -0.33,
-        "rsi": "61.2",
+        "price": 53835.0,
+        "change": -45.0,
+        "percent": -0.08,
+        "rsi": "66.5",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.28,
-        "change": -0.18,
-        "percent": -1.16,
-        "rsi": "44.8",
+        "price": 14.55,
+        "change": -0.73,
+        "percent": -4.78,
+        "rsi": "32.2",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
         "price": 4.68,
-        "change": -0.01,
-        "percent": -0.32,
-        "rsi": "52.5",
+        "change": -0.0,
+        "percent": -0.04,
+        "rsi": "47.8",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.81,
-        "change": -0.0,
-        "percent": -0.0,
-        "rsi": "30.3",
+        "price": 99.93,
+        "change": 0.11,
+        "percent": 0.11,
+        "rsi": "26.5",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.28,
-        "change": 0.12,
-        "percent": 0.08,
-        "rsi": "31.9",
+        "price": 159.3,
+        "change": 0.04,
+        "percent": 0.02,
+        "rsi": "26.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4441.0,
-        "change": 79.2,
-        "percent": 1.82,
-        "rsi": "70.6",
+        "price": 4498.2,
+        "change": 115.2,
+        "percent": 2.63,
+        "rsi": "83.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 83.75,
-        "change": 1.62,
-        "percent": 1.97,
-        "rsi": "46.5",
+        "price": 82.28,
+        "change": -0.92,
+        "percent": -1.11,
+        "rsi": "37.1",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.64,
-        "change": 0.05,
-        "percent": 0.72,
-        "rsi": "60.7",
+        "price": 6.62,
+        "change": 0.0,
+        "percent": 0.05,
+        "rsi": "71.5",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 186.09,
-        "change": -0.23,
-        "percent": -0.12,
-        "rsi": "57.1",
+        "price": 188.86,
+        "change": 2.77,
+        "percent": 1.49,
+        "rsi": "62.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 57.8,
-        "change": -0.01,
-        "percent": -0.02,
-        "rsi": "67.6",
+        "price": 57.92,
+        "change": 0.12,
+        "percent": 0.21,
+        "rsi": "71.5",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "黃仁勳5000億美元AI融資計畫為何面臨來自中國的巨大風險",
+      "source": "CNBC",
+      "time": "21:01",
+      "link": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html"
+    },
+    {
+      "title": "AI 基礎建設需求加速，營收翻倍，CoreWeave 股價上漲 8%",
+      "source": "CNBC",
+      "time": "20:24",
+      "link": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html"
+    },
+    {
+      "title": "隨著芝商所推出期貨合約，人工智慧算力正成為可交易資產類別",
+      "source": "CNBC",
+      "time": "18:09",
+      "link": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html"
+    },
+    {
+      "title": "當安全資產與風險競爭時。 20 世紀 60 年代至 90 年代比特幣和股票的經驗教訓。",
+      "source": "CoinDesk",
+      "time": "11:13",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks"
+    },
+    {
+      "title": "川普對伊朗態度強硬，霍爾木茲協議的希望蒙上陰影",
+      "source": "gcaptain.com",
+      "time": "10:19",
+      "link": "https://gcaptain.com/trump-hardens-stance-on-iran-clouding-hopes-for-hormuz-deal/"
+    },
+    {
+      "title": "華爾街剛剛認可了黃仁勳的人工智慧「大概念」。現在怎麼辦？",
+      "source": "CNBC",
+      "time": "10:00",
+      "link": "https://www.cnbc.com/2026/08/11/wall-street-endorsed-jensen-huangs-big-concept-for-ai-what-now.html"
+    },
+    {
+      "title": "禮來公司（Eli Lilly）在全球減肥藥大戰中首次獲得美國以外地區的 Foundayo 批准",
+      "source": "CNBC",
+      "time": "09:27",
+      "link": "https://www.cnbc.com/2026/08/11/foundayo-eli-lilly-wegovy-pill-uk.html"
+    },
     {
       "title": "黃金剛剛經歷了 7 個月以來最好的一周。這就是 Mike Khouw 購買更多商品的原因",
       "source": "CNBC",
@@ -220,7 +262,7 @@
       "link": "https://www.cnbc.com/2026/08/10/gold-just-had-its-best-week-in-7-months-heres-why-mike-khouw-is-buying-more.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "隨著 Tom Lee 的公司將資本轉向股票回購，Bitmine 的 ETH 購買放緩",
       "source": "CoinDesk",
       "time": "13:50",
       "link": "https://www.coindesk.com/business/2026/08/10/bitmine-s-eth-buying-slows-as-tom-lee-s-firm-shifts-capital-to-share-buybacks"
@@ -244,7 +286,7 @@
       "link": "https://www.cnbc.com/2026/08/10/santoli-stocks-return-to-their-winning-ways-but-was-julys-brief-pain-enough-to-satisfy-the-market-gods.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "比特幣波動性正在崩潰，但下行保護仍然需要溢價",
       "source": "CoinDesk",
       "time": "10:13",
       "link": "https://www.coindesk.com/markets/2026/08/10/bitcoin-volatility-is-in-meltdown-but-downside-protection-still-commands-a-premium"
@@ -268,7 +310,7 @@
       "link": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf"
     },
     {
-      "title": "電梯巨頭奧的斯希望在動盪的市場中發揮防禦作用。它必须首先证明自己",
+      "title": "電梯巨頭奧的斯希望在動盪的市場中發揮防禦作用。它必須先證明自己",
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html"
@@ -286,52 +328,10 @@
       "link": "https://www.cnbc.com/2026/08/07/doximity-shares-double-heres-whats-driving-it-.html"
     },
     {
-      "title": "美國 50 個最大城市中有 38 個城市的房屋售價低於要價——如果你買得起的話",
+      "title": "美國 50 個最大城市中有 38 個城市的房屋售價低於要價（如果您負擔得起）",
       "source": "CNBC",
       "time": "13:00",
       "link": "https://www.cnbc.com/2026/08/07/homes-are-selling-below-asking-in-38-of-the-50-biggest-us-cities.html"
-    },
-    {
-      "title": "阿波羅與易捷航空達成交易後，私募股權公司開始關注廉價航空公司——這家航空公司可能是下一個",
-      "source": "CNBC",
-      "time": "12:35",
-      "link": "https://www.cnbc.com/2026/08/07/easyjet-apollo-private-equity-airlines-travel.html"
-    },
-    {
-      "title": "K型經濟在房地產領域顯現：奢侈品銷售上升，首次置業者陷入困境",
-      "source": "CNBC",
-      "time": "12:15",
-      "link": "https://www.cnbc.com/2026/08/07/housing-k-shaped-economy-luxury-starter-homes.html"
-    },
-    {
-      "title": "中國在人工智慧領域正在取得進展。但美國仍具有重大優勢",
-      "source": "CNBC",
-      "time": "11:19",
-      "link": "https://www.cnbc.com/2026/08/07/china-us-ai-race-hugging-face-models.html"
-    },
-    {
-      "title": "「武器化」日圓：美日乾預可能如何重塑全球貨幣市場",
-      "source": "CNBC",
-      "time": "00:05",
-      "link": "https://www.cnbc.com/2026/08/07/japan-us-yen-intervention-global-currency-markets.html"
-    },
-    {
-      "title": "維吉尼亞州州長因電價擔憂幹預 NextEra 和 Dominion 合併",
-      "source": "CNBC",
-      "time": "20:50",
-      "link": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html"
-    },
-    {
-      "title": "SpaceX 的股價週四通過了一次關鍵測試。現在經驗豐富的交易者押注底部可能已經到來",
-      "source": "CNBC",
-      "time": "19:25",
-      "link": "https://www.cnbc.com/2026/08/06/spacex-passed-a-key-test-thursday-sophisticated-traders-bet-the-bottom-is-in.html"
-    },
-    {
-      "title": "即使原油价格稳定，今年秋季天然气价格也可能保持高位。這就是為什麼",
-      "source": "CNBC",
-      "time": "17:39",
-      "link": "https://www.cnbc.com/2026/08/06/refinery-gas-oil-prices-iran-ukraine-war.html"
     }
   ]
 }
