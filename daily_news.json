@@ -1,218 +1,266 @@
 {
-  "update_time": "2026-08-20 00:27",
+  "update_time": "2026-08-21 00:30",
   "crypto_fng": {
-    "value": "62",
+    "value": "72",
     "value_classification": "Greed",
-    "timestamp": "1787184000",
-    "time_until_update": "84769"
+    "timestamp": "1787270400",
+    "time_until_update": "84600"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7707.98,
-        "change": 16.22,
-        "percent": 0.21,
-        "rsi": "72.6",
+        "price": 7641.16,
+        "change": -66.82,
+        "percent": -0.87,
+        "rsi": "62.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26331.09,
-        "change": 41.38,
-        "percent": 0.16,
-        "rsi": "68.9",
-        "trend": "📈 多頭"
+        "price": 26067.17,
+        "change": -263.92,
+        "percent": -1.0,
+        "rsi": "60.8",
+        "trend": "震盪"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25471.15,
-        "change": 17.92,
-        "percent": 0.07,
-        "rsi": "43.0",
+        "price": 25698.49,
+        "change": 203.42,
+        "percent": 0.8,
+        "rsi": "46.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 65776.66,
-        "change": -1684.07,
-        "percent": -2.5,
-        "rsi": "65.7",
+        "price": 65913.65,
+        "change": -303.14,
+        "percent": -0.46,
+        "rsi": "56.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 26128.36,
-        "change": -210.25,
-        "percent": -0.8,
-        "rsi": "70.5",
+        "price": 25983.04,
+        "change": -108.29,
+        "percent": -0.42,
+        "rsi": "61.0",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 69642.17,
-        "change": 4961.46,
-        "percent": 7.67,
-        "rsi": "75.3",
+        "price": 73685.04,
+        "change": 4418.85,
+        "percent": 6.38,
+        "rsi": "84.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2264.64,
-        "change": 348.18,
-        "percent": 18.17,
-        "rsi": "87.1",
+        "price": 2336.29,
+        "change": 84.83,
+        "percent": 3.77,
+        "rsi": "89.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 85.64,
-        "change": 8.61,
-        "percent": 11.18,
-        "rsi": "79.8",
+        "price": 88.35,
+        "change": 2.98,
+        "percent": 3.49,
+        "rsi": "87.7",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 14.0,
+        "price": 14.19,
         "change": 0.18,
-        "percent": 1.34,
-        "rsi": "71.0",
+        "percent": 1.32,
+        "rsi": "66.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 48.73,
-        "change": 0.93,
-        "percent": 1.95,
-        "rsi": "82.1",
+        "price": 48.4,
+        "change": -0.33,
+        "percent": -0.68,
+        "rsi": "76.3",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 27.41,
-        "change": -1.08,
-        "percent": -3.79,
-        "rsi": "61.1",
+        "price": 27.16,
+        "change": -0.25,
+        "percent": -0.91,
+        "rsi": "58.3",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 16.15,
-        "change": -0.01,
-        "percent": -0.06,
-        "rsi": "79.7",
+        "price": 16.22,
+        "change": 0.07,
+        "percent": 0.43,
+        "rsi": "79.3",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7742.0,
-        "change": 28.0,
-        "percent": 0.36,
-        "rsi": "72.0",
+        "price": 7667.75,
+        "change": -61.25,
+        "percent": -0.79,
+        "rsi": "62.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29656.75,
-        "change": 70.75,
-        "percent": 0.24,
-        "rsi": "68.7",
+        "price": 29327.0,
+        "change": -185.75,
+        "percent": -0.63,
+        "rsi": "62.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53564.0,
-        "change": 161.0,
-        "percent": 0.3,
-        "rsi": "65.7",
+        "price": 52879.0,
+        "change": -651.0,
+        "percent": -1.22,
+        "rsi": "53.0",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 14.89,
-        "change": -0.95,
-        "percent": -6.0,
-        "rsi": "36.1",
+        "price": 16.01,
+        "change": 1.12,
+        "percent": 7.52,
+        "rsi": "50.1",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.65,
-        "change": -0.05,
-        "percent": -1.13,
-        "rsi": "49.0",
+        "price": 4.7,
+        "change": 0.04,
+        "percent": 0.92,
+        "rsi": "44.9",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.81,
-        "change": -0.84,
-        "percent": -0.84,
-        "rsi": "29.4",
+        "price": 98.78,
+        "change": -0.05,
+        "percent": -0.05,
+        "rsi": "31.3",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.34,
-        "change": -1.21,
-        "percent": -0.76,
-        "rsi": "37.7",
+        "price": 158.99,
+        "change": 0.72,
+        "percent": 0.45,
+        "rsi": "62.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4574.0,
-        "change": 208.0,
-        "percent": 4.76,
-        "rsi": "79.3",
+        "price": 4574.4,
+        "change": 85.0,
+        "percent": 1.89,
+        "rsi": "84.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 84.53,
-        "change": -0.41,
-        "percent": -0.48,
-        "rsi": "51.9",
+        "price": 86.15,
+        "change": 0.32,
+        "percent": 0.37,
+        "rsi": "53.0",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 6.5,
-        "change": 0.02,
-        "percent": 0.3,
-        "rsi": "54.6",
+        "change": 0.01,
+        "percent": 0.19,
+        "rsi": "55.2",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 183.64,
-        "change": -1.98,
-        "percent": -1.07,
-        "rsi": "63.0",
+        "price": 183.1,
+        "change": -0.54,
+        "percent": -0.29,
+        "rsi": "62.7",
         "trend": "震盪"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 57.48,
-        "change": -0.36,
-        "percent": -0.62,
-        "rsi": "56.9",
+        "price": 56.95,
+        "change": -0.53,
+        "percent": -0.92,
+        "rsi": "50.1",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "印度內部通訊：隨著蘋果、三星取得優勢，中國智慧型手機在印度遭遇晶片擠壓",
+      "source": "CNBC",
+      "time": "00:17",
+      "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html"
+    },
+    {
+      "title": "亞洲的氫能夢想：該地區押注新興綠色技術以改善交通",
+      "source": "CNBC",
+      "time": "00:09",
+      "link": "https://www.cnbc.com/2026/08/20/asia-hydrogen-trains-green-transport.html"
+    },
+    {
+      "title": "隨著金融科技深入人工智慧領域，Stripe 收購 OpenRouter",
+      "source": "CNBC",
+      "time": "20:10",
+      "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
+    },
+    {
+      "title": "貝森特採取措施抑制國債殖利率，對沃什領導的聯準會帶來新壓力",
+      "source": "CNBC",
+      "time": "20:02",
+      "link": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "gcaptain.com",
+      "time": "16:16",
+      "link": "https://gcaptain.com/navigator-gas-sees-u-s-gas-export-boom-driving-handysize-demand/"
+    },
+    {
+      "title": "Morning Squawk 中的目標收益、加拿大關稅、美國航空的座椅靠背螢幕等",
+      "source": "CNBC",
+      "time": "12:34",
+      "link": "https://www.cnbc.com/2026/08/19/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "散戶並未完全放棄人工智慧交易，但他們似乎更加謹慎",
+      "source": "CNBC",
+      "time": "11:09",
+      "link": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "08:33",
+      "link": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html"
+    },
     {
       "title": "吉姆·克萊默 (Jim Cramer) 表示市場過於消極——這正在創造買入機會",
       "source": "CNBC",
@@ -220,13 +268,13 @@
       "link": "https://www.cnbc.com/2026/08/18/jim-cramer-market-too-negative-buying-opportunities.html"
     },
     {
-      "title": "分析：隨著華爾街等待沃什，債券市場壓力正在擠壓主街",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:48",
       "link": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html"
     },
     {
-      "title": "逆向投資者與大眾投資者：一位交易員大量押注做空晶片股",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:13",
       "link": "https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html"
@@ -268,7 +316,7 @@
       "link": "https://gcaptain.com/saudi-arabia-resumes-oil-loadings-sales-from-inside-strait-of-hormuz/"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "隨著加州法律鬥爭進入關鍵時刻，Meta 面臨「天文數字」後果",
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html"
@@ -284,54 +332,6 @@
       "source": "Bloomberg",
       "time": "04:58",
       "link": "https://www.bloomberg.com/news/articles/2026-08-16/india-readies-big-lpg-output-boost-as-hormuz-uncertainty-lingers"
-    },
-    {
-      "title": "中東秘密石油流動正在控制全球價格",
-      "source": "gcaptain.com",
-      "time": "17:41",
-      "link": "https://gcaptain.com/covert-mideast-oil-flows-are-keeping-global-prices-in-check/"
-    },
-    {
-      "title": "秘密表現出色：消除有關股市不受歡迎的“神話”",
-      "source": "CNBC",
-      "time": "05:00",
-      "link": "https://www.cnbc.com/2026/08/16/goldman-stock-market-outperformance.html"
-    },
-    {
-      "title": "隨著川普向外國造船廠開放海軍造船業，韓華和芬坎蒂尼股價上漲",
-      "source": "gcaptain.com",
-      "time": "21:01",
-      "link": "https://gcaptain.com/hanwha-fincantieri-shares-rise-as-trump-opens-navy-shipbuilding-to-foreign-yards/"
-    },
-    {
-      "title": "OpenAI 人才外流在 IPO 前引發“巨大危險信號”",
-      "source": "CNBC",
-      "time": "15:45",
-      "link": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html"
-    },
-    {
-      "title": "川普下令對外國製造的零件徵收關稅後，無人機股票上漲",
-      "source": "CNBC",
-      "time": "14:01",
-      "link": "https://www.cnbc.com/2026/08/14/drone-stocks-trump-tariffs.html"
-    },
-    {
-      "title": "房地產投資者稱這是至少三年來最糟糕的市場",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html"
-    },
-    {
-      "title": "創投支持的金融科技公司利用人工智慧挑戰貝萊德，並在 ETF 領域掀起新的費用戰",
-      "source": "CNBC",
-      "time": "14:00",
-      "link": "https://www.cnbc.com/2026/08/14/low-cost-etfs-corgi-invest.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "11:19",
-      "link": "https://www.cnbc.com/2026/08/14/data-centers-in-space-emerge-as-next-frontier-for-insurers.html"
     }
   ]
 }
