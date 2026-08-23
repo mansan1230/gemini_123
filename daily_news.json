@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-22 00:26",
+  "update_time": "2026-08-23 00:29",
   "crypto_fng": {
-    "value": "71",
+    "value": "66",
     "value_classification": "Greed",
-    "timestamp": "1787356800",
-    "time_until_update": "84781"
+    "timestamp": "1787443200",
+    "time_until_update": "84648"
   },
   "data": {
     "indices": [
@@ -26,52 +26,52 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25698.49,
-        "change": 203.42,
-        "percent": 0.8,
-        "rsi": "46.3",
+        "price": 26009.46,
+        "change": 310.97,
+        "percent": 1.21,
+        "rsi": "50.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66216.79,
-        "change": 890.37,
-        "percent": 1.36,
-        "rsi": "64.8",
+        "price": 66016.36,
+        "change": -200.43,
+        "percent": -0.3,
+        "rsi": "56.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25983.04,
-        "change": -108.29,
-        "percent": -0.42,
-        "rsi": "61.0",
+        "price": 26136.56,
+        "change": 153.52,
+        "percent": 0.59,
+        "rsi": "54.9",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77972.95,
-        "change": 4940.2,
-        "percent": 6.76,
-        "rsi": "87.7",
+        "price": 77219.46,
+        "change": -1115.73,
+        "percent": -1.42,
+        "rsi": "82.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2508.35,
-        "change": 181.97,
-        "percent": 7.82,
-        "rsi": "91.9",
+        "price": 2426.4,
+        "change": -88.88,
+        "percent": -3.53,
+        "rsi": "81.8",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 94.07,
-        "change": 6.43,
-        "percent": 7.34,
-        "rsi": "89.9",
+        "price": 94.21,
+        "change": 0.56,
+        "percent": 0.59,
+        "rsi": "89.0",
         "trend": "📈 多頭"
       }
     ],
@@ -102,9 +102,9 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 16.79,
-        "change": 0.57,
-        "percent": 3.51,
+        "price": 16.78,
+        "change": 0.56,
+        "percent": 3.45,
         "rsi": "81.7",
         "trend": "📈 多頭"
       }
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7687.75,
-        "change": 25.25,
-        "percent": 0.33,
-        "rsi": "55.6",
+        "price": 7691.25,
+        "change": 28.75,
+        "percent": 0.38,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29374.0,
-        "change": 73.5,
-        "percent": 0.25,
-        "rsi": "57.0",
+        "price": 29387.75,
+        "change": 87.25,
+        "percent": 0.3,
+        "rsi": "57.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53330.0,
-        "change": 481.0,
-        "percent": 0.91,
-        "rsi": "49.9",
+        "price": 53353.0,
+        "change": 504.0,
+        "percent": 0.95,
+        "rsi": "50.2",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.84,
-        "change": -0.06,
-        "percent": -0.06,
-        "rsi": "28.9",
+        "price": 98.8,
+        "change": -0.1,
+        "percent": -0.1,
+        "rsi": "28.5",
         "trend": "📉 空頭"
       },
       {
@@ -172,25 +172,25 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4661.6,
-        "change": 145.3,
-        "percent": 3.22,
-        "rsi": "87.8",
+        "price": 4624.1,
+        "change": 107.8,
+        "percent": 2.39,
+        "rsi": "87.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 86.64,
-        "change": -1.19,
-        "percent": -1.35,
-        "rsi": "63.7",
+        "price": 87.06,
+        "change": -0.77,
+        "percent": -0.88,
+        "rsi": "64.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 6.58,
         "change": 0.12,
-        "percent": 1.86,
+        "percent": 1.85,
         "rsi": "54.9",
         "trend": "-"
       },
@@ -214,7 +214,37 @@
   },
   "news": [
     {
-      "title": "日本歷史性的日圓幹預「加速」了套利交易",
+      "title": "雷·達利奧 (Ray Dalio) 表示，貝森特的舉動表明債務危機正在逼近；推薦黃金和比特幣",
+      "source": "CNBC",
+      "time": "19:21",
+      "link": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html"
+    },
+    {
+      "title": "Mike Khouw 表示，這個沉睡的產業可能會帶來豐厚的回報",
+      "source": "CNBC",
+      "time": "17:31",
+      "link": "https://www.cnbc.com/2026/08/21/this-sleepy-sector-could-offer-big-returns-says-mike-khouw.html"
+    },
+    {
+      "title": "如何利用標準普爾 500 指數與市場上其他指數之間的價值差距",
+      "source": "CNBC",
+      "time": "14:30",
+      "link": "https://www.cnbc.com/2026/08/21/index-funds-stock-market-investing.html"
+    },
+    {
+      "title": "報告顯示，由於美國簽證政策收緊，國際學生入學率下降",
+      "source": "CNBC",
+      "time": "13:46",
+      "link": "https://www.cnbc.com/2026/08/21/international-student-enrollment-us-visa-policies.html"
+    },
+    {
+      "title": "由於債券緊張、債務擔憂和美元疲軟重振黃金需求，金價反彈",
+      "source": "CNBC",
+      "time": "11:35",
+      "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "00:00",
       "link": "https://www.cnbc.com/2026/08/20/us-japan-yen-intervention-bank-of-japan-carry-trade.html"
@@ -226,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html"
     },
     {
-      "title": "看門機器人、成堆的污水：歡迎來到人工智慧工作怪異時代",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:30",
       "link": "https://www.cnbc.com/2026/08/20/gatekeeping-bots-piles-of-slop-welcome-to-the-age-of-ai-weirdness-at-work.html"
@@ -238,25 +268,25 @@
       "link": "https://www.cnbc.com/2026/08/20/trump-accounts-investment-rules-treasury.html"
     },
     {
-      "title": "美光科技斥資 500 億美元在博伊西擴建計畫如何重塑其故鄉",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/08/20/micron-boise-chip-fab-expansion.html"
     },
     {
-      "title": "Unitree創辦人表示，人形機器人的「ChatGPT時刻」可能還要等10年",
+      "title": "Unitree 創辦人表示，人形機器人的「ChatGPT 時刻」可能還需要 10 年時間",
       "source": "CNBC",
       "time": "08:21",
       "link": "https://www.cnbc.com/2026/08/20/unitree-humanoid-robots-chatgpt-moment.html"
     },
     {
-      "title": "CNBC 每日開盤：美國債務規模突破 40 兆美元，財政部試圖控制債券殖利率",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "01:31",
       "link": "https://www.cnbc.com/2026/08/20/cnbc-daily-open-treasury-us-debt-moderna-cancer.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "印度內部通訊：隨著蘋果、三星取得優勢，中國智慧型手機在印度遭遇晶片擠壓",
       "source": "CNBC",
       "time": "00:17",
       "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html"
@@ -268,7 +298,7 @@
       "link": "https://www.cnbc.com/2026/08/20/asia-hydrogen-trains-green-transport.html"
     },
     {
-      "title": "隨著金融科技深入人工智慧領域，Stripe 收購 OpenRouter",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "20:10",
       "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
@@ -280,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html"
     },
     {
-      "title": "Navigator Gas 預計美國天然氣出口繁榮將推動靈便型船舶需求",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "gcaptain.com",
       "time": "16:16",
       "link": "https://gcaptain.com/navigator-gas-sees-u-s-gas-export-boom-driving-handysize-demand/"
@@ -292,7 +322,7 @@
       "link": "https://www.cnbc.com/2026/08/19/5-things-to-know-before-the-stock-market-opens.html"
     },
     {
-      "title": "散戶並未完全放棄人工智慧交易，但他們似乎更加謹慎",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:09",
       "link": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "08:33",
       "link": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html"
-    },
-    {
-      "title": "吉姆·克萊默 (Jim Cramer) 表示市場過於消極——這正在創造買入機會",
-      "source": "CNBC",
-      "time": "22:23",
-      "link": "https://www.cnbc.com/2026/08/18/jim-cramer-market-too-negative-buying-opportunities.html"
-    },
-    {
-      "title": "分析：隨著華爾街等待沃什，債券市場壓力正在擠壓主街",
-      "source": "CNBC",
-      "time": "16:48",
-      "link": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html"
-    },
-    {
-      "title": "逆向投資者與大眾投資者：一位交易員大量押注做空晶片股",
-      "source": "CNBC",
-      "time": "13:13",
-      "link": "https://www.cnbc.com/2026/08/18/contrarian-vs-the-crowd-one-trader-made-a-massive-bet-against-chip-stocks.html"
-    },
-    {
-      "title": "美國航空將增加座椅靠背螢幕和更大的頭等艙以追趕達美航空和聯合航空",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/08/18/american-airlines-seatback-screens.html"
-    },
-    {
-      "title": "能源市場的「裂縫」比以往任何時候都更大。比特幣可能會感覺到。",
-      "source": "CoinDesk",
-      "time": "11:21",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/18/the-crack-in-the-energy-market-is-wider-than-ever-bitcoin-might-feel-it"
     }
   ]
 }
