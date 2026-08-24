@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-23 00:29",
+  "update_time": "2026-08-24 00:28",
   "crypto_fng": {
-    "value": "66",
+    "value": "73",
     "value_classification": "Greed",
-    "timestamp": "1787443200",
-    "time_until_update": "84648"
+    "timestamp": "1787529600",
+    "time_until_update": "84700"
   },
   "data": {
     "indices": [
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66016.36,
-        "change": -200.43,
-        "percent": -0.3,
-        "rsi": "56.6",
+        "price": 66074.95,
+        "change": 58.59,
+        "percent": 0.09,
+        "rsi": "59.8",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77219.46,
-        "change": -1115.73,
-        "percent": -1.42,
+        "price": 77408.48,
+        "change": 325.06,
+        "percent": 0.42,
         "rsi": "82.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2426.4,
-        "change": -88.88,
-        "percent": -3.53,
-        "rsi": "81.8",
+        "price": 2449.16,
+        "change": 24.91,
+        "percent": 1.03,
+        "rsi": "82.8",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 94.21,
-        "change": 0.56,
-        "percent": 0.59,
-        "rsi": "89.0",
+        "price": 94.29,
+        "change": 0.38,
+        "percent": 0.4,
+        "rsi": "88.9",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7691.25,
-        "change": 28.75,
-        "percent": 0.38,
-        "rsi": "55.8",
+        "price": 7691.5,
+        "change": 0.25,
+        "percent": 0.0,
+        "rsi": "40.8",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29387.75,
-        "change": 87.25,
-        "percent": 0.3,
-        "rsi": "57.2",
+        "price": 29388.5,
+        "change": 0.75,
+        "percent": 0.0,
+        "rsi": "40.4",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53353.0,
-        "change": 504.0,
-        "percent": 0.95,
-        "rsi": "50.2",
+        "price": 53321.0,
+        "change": -32.0,
+        "percent": -0.06,
+        "rsi": "34.6",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 98.8,
-        "change": -0.1,
-        "percent": -0.1,
-        "rsi": "28.5",
+        "price": 98.79,
+        "change": -0.01,
+        "percent": -0.02,
+        "rsi": "29.1",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.94,
-        "change": 0.66,
-        "percent": 0.42,
-        "rsi": "62.0",
+        "price": 158.76,
+        "change": -0.12,
+        "percent": -0.08,
+        "rsi": "60.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4624.1,
-        "change": 107.8,
-        "percent": 2.39,
+        "price": 4689.1,
+        "change": 65.0,
+        "percent": 1.41,
         "rsi": "87.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 87.06,
-        "change": -0.77,
-        "percent": -0.88,
-        "rsi": "64.9",
+        "price": 86.08,
+        "change": -0.98,
+        "percent": -1.13,
+        "rsi": "77.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
         "price": 6.58,
-        "change": 0.12,
-        "percent": 1.85,
-        "rsi": "54.9",
+        "change": 0.0,
+        "percent": 0.0,
+        "rsi": "46.5",
         "trend": "-"
       },
       {
@@ -214,19 +214,25 @@
   },
   "news": [
     {
-      "title": "雷·達利奧 (Ray Dalio) 表示，貝森特的舉動表明債務危機正在逼近；推薦黃金和比特幣",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "13:26",
+      "link": "https://www.cnbc.com/2026/08/22/stocks-market-investments-diversification.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "19:21",
       "link": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html"
     },
     {
-      "title": "Mike Khouw 表示，這個沉睡的產業可能會帶來豐厚的回報",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "17:31",
       "link": "https://www.cnbc.com/2026/08/21/this-sleepy-sector-could-offer-big-returns-says-mike-khouw.html"
     },
     {
-      "title": "如何利用標準普爾 500 指數與市場上其他指數之間的價值差距",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "14:30",
       "link": "https://www.cnbc.com/2026/08/21/index-funds-stock-market-investing.html"
@@ -238,7 +244,7 @@
       "link": "https://www.cnbc.com/2026/08/21/international-student-enrollment-us-visa-policies.html"
     },
     {
-      "title": "由於債券緊張、債務擔憂和美元疲軟重振黃金需求，金價反彈",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:35",
       "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html"
@@ -250,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/08/20/us-japan-yen-intervention-bank-of-japan-carry-trade.html"
     },
     {
-      "title": "迄今為止，貝森特在國債市場的努力尚未發揮作用。這是他還可以嘗試的其他方法",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "20:09",
       "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html"
@@ -262,7 +268,7 @@
       "link": "https://www.cnbc.com/2026/08/20/gatekeeping-bots-piles-of-slop-welcome-to-the-age-of-ai-weirdness-at-work.html"
     },
     {
-      "title": "財政部提出川普帳戶的低成本投資規則",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:00",
       "link": "https://www.cnbc.com/2026/08/20/trump-accounts-investment-rules-treasury.html"
@@ -274,7 +280,7 @@
       "link": "https://www.cnbc.com/2026/08/20/micron-boise-chip-fab-expansion.html"
     },
     {
-      "title": "Unitree 創辦人表示，人形機器人的「ChatGPT 時刻」可能還需要 10 年時間",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "08:21",
       "link": "https://www.cnbc.com/2026/08/20/unitree-humanoid-robots-chatgpt-moment.html"
@@ -286,13 +292,13 @@
       "link": "https://www.cnbc.com/2026/08/20/cnbc-daily-open-treasury-us-debt-moderna-cancer.html"
     },
     {
-      "title": "印度內部通訊：隨著蘋果、三星取得優勢，中國智慧型手機在印度遭遇晶片擠壓",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "00:17",
       "link": "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html"
     },
     {
-      "title": "亞洲的氫能夢想：該地區押注新興綠色技術以改善交通",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "00:09",
       "link": "https://www.cnbc.com/2026/08/20/asia-hydrogen-trains-green-transport.html"
@@ -304,7 +310,7 @@
       "link": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html"
     },
     {
-      "title": "貝森特採取措施抑制國債殖利率，對沃什領導的聯準會帶來新壓力",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "20:02",
       "link": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html"
@@ -316,7 +322,7 @@
       "link": "https://gcaptain.com/navigator-gas-sees-u-s-gas-export-boom-driving-handysize-demand/"
     },
     {
-      "title": "Morning Squawk 中的目標收益、加拿大關稅、美國航空的座椅靠背螢幕等",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "12:34",
       "link": "https://www.cnbc.com/2026/08/19/5-things-to-know-before-the-stock-market-opens.html"
@@ -326,12 +332,6 @@
       "source": "CNBC",
       "time": "11:09",
       "link": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
-    },
-    {
-      "title": "聯邦公開市場委員會會議紀要公佈前，國債殖利率從數十年高點回落",
-      "source": "CNBC",
-      "time": "08:33",
-      "link": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html"
     }
   ]
 }
