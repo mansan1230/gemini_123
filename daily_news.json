@@ -1,27 +1,27 @@
 {
-  "update_time": "2026-08-24 00:28",
+  "update_time": "2026-08-25 00:27",
   "crypto_fng": {
-    "value": "73",
+    "value": "74",
     "value_classification": "Greed",
-    "timestamp": "1787529600",
-    "time_until_update": "84700"
+    "timestamp": "1787616000",
+    "time_until_update": "84722"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7674.37,
-        "change": 33.21,
-        "percent": 0.43,
-        "rsi": "56.9",
+        "price": 7652.86,
+        "change": -21.51,
+        "percent": -0.28,
+        "rsi": "40.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26180.46,
-        "change": 113.29,
-        "percent": 0.43,
-        "rsi": "54.8",
+        "price": 25980.19,
+        "change": -200.27,
+        "percent": -0.76,
+        "rsi": "36.9",
         "trend": "震盪"
       },
       {
@@ -34,10 +34,10 @@
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66074.95,
-        "change": 58.59,
-        "percent": 0.09,
-        "rsi": "59.8",
+        "price": 64814.09,
+        "change": -1202.27,
+        "percent": -1.82,
+        "rsi": "54.1",
         "trend": "📉 空頭"
       },
       {
@@ -52,167 +52,179 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77408.48,
-        "change": 325.06,
-        "percent": 0.42,
-        "rsi": "82.7",
+        "price": 78784.59,
+        "change": 1029.33,
+        "percent": 1.32,
+        "rsi": "87.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2449.16,
-        "change": 24.91,
-        "percent": 1.03,
-        "rsi": "82.8",
+        "price": 2479.21,
+        "change": 15.39,
+        "percent": 0.62,
+        "rsi": "87.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 94.29,
-        "change": 0.38,
-        "percent": 0.4,
-        "rsi": "88.9",
+        "price": 99.88,
+        "change": 4.44,
+        "percent": 4.65,
+        "rsi": "91.9",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 14.75,
-        "change": 0.56,
-        "percent": 3.95,
-        "rsi": "66.0",
+        "price": 14.69,
+        "change": -0.06,
+        "percent": -0.41,
+        "rsi": "65.5",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 49.69,
-        "change": 1.29,
-        "percent": 2.67,
-        "rsi": "78.2",
+        "price": 50.19,
+        "change": 0.5,
+        "percent": 1.01,
+        "rsi": "80.8",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 28.25,
-        "change": 1.09,
-        "percent": 4.01,
-        "rsi": "59.1",
+        "price": 28.38,
+        "change": 0.13,
+        "percent": 0.46,
+        "rsi": "55.0",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 16.78,
-        "change": 0.56,
-        "percent": 3.45,
-        "rsi": "81.7",
+        "price": 17.44,
+        "change": 0.66,
+        "percent": 3.93,
+        "rsi": "86.5",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7691.5,
-        "change": 0.25,
-        "percent": 0.0,
-        "rsi": "40.8",
+        "price": 7661.25,
+        "change": -30.0,
+        "percent": -0.39,
+        "rsi": "37.9",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29388.5,
-        "change": 0.75,
-        "percent": 0.0,
-        "rsi": "40.4",
+        "price": 29024.25,
+        "change": -363.5,
+        "percent": -1.24,
+        "rsi": "35.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53321.0,
-        "change": -32.0,
-        "percent": -0.06,
-        "rsi": "34.6",
+        "price": 53462.0,
+        "change": 109.0,
+        "percent": 0.2,
+        "rsi": "37.2",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.13,
-        "change": -0.88,
-        "percent": -5.5,
-        "rsi": "45.8",
+        "price": 15.85,
+        "change": 0.72,
+        "percent": 4.76,
+        "rsi": "46.3",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.74,
-        "change": 0.04,
-        "percent": 0.89,
-        "rsi": "55.6",
+        "price": 4.7,
+        "change": -0.03,
+        "percent": -0.72,
+        "rsi": "58.7",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.79,
-        "change": -0.01,
-        "percent": -0.02,
-        "rsi": "29.1",
+        "price": 98.96,
+        "change": 0.16,
+        "percent": 0.16,
+        "rsi": "33.2",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.76,
-        "change": -0.12,
-        "percent": -0.08,
-        "rsi": "60.9",
+        "price": 159.15,
+        "change": 0.24,
+        "percent": 0.15,
+        "rsi": "62.9",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4689.1,
-        "change": 65.0,
-        "percent": 1.41,
-        "rsi": "87.3",
+        "price": 4740.3,
+        "change": 116.2,
+        "percent": 2.51,
+        "rsi": "88.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 86.08,
-        "change": -0.98,
-        "percent": -1.13,
-        "rsi": "77.2",
+        "price": 85.11,
+        "change": -1.95,
+        "percent": -2.24,
+        "rsi": "73.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.58,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "46.5",
+        "price": 6.61,
+        "change": 0.03,
+        "percent": 0.46,
+        "rsi": "49.3",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 183.31,
-        "change": 0.21,
-        "percent": 0.11,
-        "rsi": "59.4",
-        "trend": "震盪"
+        "price": 180.05,
+        "change": -3.26,
+        "percent": -1.78,
+        "rsi": "34.8",
+        "trend": "📉 空頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 57.48,
-        "change": 0.53,
-        "percent": 0.93,
-        "rsi": "51.2",
+        "price": 58.22,
+        "change": 0.74,
+        "percent": 1.29,
+        "rsi": "54.0",
         "trend": "📈 多頭"
       }
     ]
   },
   "news": [
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "12:00",
+      "link": "https://www.cnbc.com/2026/08/23/wells-fargo-citigroup-deals-regional-banks.html"
+    },
     {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
@@ -238,7 +250,7 @@
       "link": "https://www.cnbc.com/2026/08/21/index-funds-stock-market-investing.html"
     },
     {
-      "title": "報告顯示，由於美國簽證政策收緊，國際學生入學率下降",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:46",
       "link": "https://www.cnbc.com/2026/08/21/international-student-enrollment-us-visa-policies.html"
@@ -320,18 +332,6 @@
       "source": "gcaptain.com",
       "time": "16:16",
       "link": "https://gcaptain.com/navigator-gas-sees-u-s-gas-export-boom-driving-handysize-demand/"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:34",
-      "link": "https://www.cnbc.com/2026/08/19/5-things-to-know-before-the-stock-market-opens.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "11:09",
-      "link": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
     }
   ]
 }
