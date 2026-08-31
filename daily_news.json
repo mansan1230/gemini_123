@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-08-30 01:52",
+  "update_time": "2026-08-31 01:48",
   "crypto_fng": {
-    "value": "69",
+    "value": "62",
     "value_classification": "Greed",
-    "timestamp": "1788048000",
-    "time_until_update": "79622"
+    "timestamp": "1788134400",
+    "time_until_update": "79918"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25584.79,
-        "change": 19.05,
-        "percent": 0.07,
-        "rsi": "42.8",
+        "price": 25420.77,
+        "change": -164.02,
+        "percent": -0.64,
+        "rsi": "45.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66405.56,
-        "change": 273.59,
-        "percent": 0.41,
-        "rsi": "53.9",
+        "price": 65216.32,
+        "change": -1189.24,
+        "percent": -1.79,
+        "rsi": "41.3",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 78080.56,
-        "change": -2176.98,
-        "percent": -2.71,
-        "rsi": "82.6",
+        "price": 77731.45,
+        "change": -98.84,
+        "percent": -0.13,
+        "rsi": "81.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2456.88,
-        "change": -53.53,
-        "percent": -2.13,
-        "rsi": "80.1",
+        "price": 2416.94,
+        "change": -25.6,
+        "percent": -1.05,
+        "rsi": "76.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 105.27,
-        "change": -3.94,
-        "percent": -3.61,
-        "rsi": "84.6",
+        "price": 101.73,
+        "change": -2.4,
+        "percent": -2.3,
+        "rsi": "78.3",
         "trend": "📈 多頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7722.0,
-        "change": -20.5,
-        "percent": -0.26,
-        "rsi": "43.8",
+        "price": 7689.75,
+        "change": -32.25,
+        "percent": -0.42,
+        "rsi": "43.5",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29491.75,
-        "change": -204.0,
-        "percent": -0.69,
-        "rsi": "45.5",
+        "price": 29323.75,
+        "change": -168.0,
+        "percent": -0.57,
+        "rsi": "44.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53584.0,
-        "change": -37.0,
-        "percent": -0.07,
-        "rsi": "41.0",
+        "price": 53415.0,
+        "change": -169.0,
+        "percent": -0.32,
+        "rsi": "41.2",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.7,
-        "change": 0.54,
-        "percent": 0.54,
-        "rsi": "47.9",
+        "price": 99.59,
+        "change": -0.11,
+        "percent": -0.11,
+        "rsi": "45.9",
         "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 160.04,
-        "change": 0.78,
-        "percent": 0.49,
-        "rsi": "71.0",
+        "price": 159.81,
+        "change": 0.49,
+        "percent": 0.31,
+        "rsi": "59.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4478.1,
-        "change": -131.6,
-        "percent": -2.85,
-        "rsi": "58.8",
+        "price": 4494.3,
+        "change": 16.2,
+        "percent": 0.36,
+        "rsi": "58.5",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 83.4,
-        "change": -0.13,
-        "percent": -0.16,
-        "rsi": "53.8",
+        "price": 85.28,
+        "change": 1.88,
+        "percent": 2.25,
+        "rsi": "55.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.56,
-        "change": -0.03,
-        "percent": -0.38,
-        "rsi": "47.3",
+        "price": 6.61,
+        "change": 0.05,
+        "percent": 0.69,
+        "rsi": "49.6",
         "trend": "-"
       },
       {
@@ -216,6 +216,18 @@
     {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
+      "time": "14:07",
+      "link": "https://www.cnbc.com/2026/08/29/imax-revenue-odyssey-box-office.html"
+    },
+    {
+      "title": "專欄：Salesforce 剛剛揭露了人工智慧的下一個戰場——而且不是模型",
+      "source": "CNBC",
+      "time": "13:00",
+      "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html"
+    },
+    {
+      "title": "玉米和小麥價格躍升至三年多來的最高價格",
+      "source": "CNBC",
       "time": "20:00",
       "link": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html"
     },
@@ -238,7 +250,7 @@
       "link": "https://www.cnbc.com/2026/08/28/markets-us-dollar-stocks.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Imax 表示該片已開放販售。為什麼沒人買？",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/08/28/imax-sale-potential-buyers.html"
@@ -250,13 +262,13 @@
       "link": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "尊美醇 (Jameson) 製造商保樂力加 (Pernod Ricard) 警告稱，隨著美國人減少飲酒，銷量將受到打擊",
       "source": "The Wall Street Journal",
       "time": "13:14",
       "link": "https://www.wsj.com/business/retail/pernod-ricard-warns-weak-u-s-drinking-to-keep-clipping-sales-growth-45a92af3"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "比爾蓋茲表示，為什麼我們需要「人類保留」的工作，以及我們如何應對最嚴重的人工智慧劇變",
       "source": "CNBC",
       "time": "16:44",
       "link": "https://www.cnbc.com/2026/08/26/why-we-need-human-reserved-jobs-bill-gates-ai-memo.html"
@@ -274,7 +286,7 @@
       "link": "https://www.bloomberg.com/news/articles/2026-08-25/gold-holds-five-day-gain-as-oil-drop-eases-inflation-concerns"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "「太多太快」：印尼的成長野心受到經濟學家質疑",
       "source": "CNBC",
       "time": "04:50",
       "link": "https://www.cnbc.com/2026/08/26/indonesia-economy-growth-ambitions-economists.html"
@@ -286,52 +298,40 @@
       "link": "https://www.bloomberg.com/news/articles/2026-08-26/ai-will-deflate-value-of-it-work-by-up-to-25-hexaware-ceo-says"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "布加迪執行長 Mate Rimac 表示超級跑車的未來是老式內燃機",
       "source": "CNBC",
       "time": "11:30",
       "link": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "貝森特債券操縱後，「貶值交易」捲土重來。加密貨幣和黃金重新流行",
       "source": "CNBC",
       "time": "11:24",
       "link": "https://www.cnbc.com/2026/08/25/debasement-trade-debt-gold-bitcoin-dollar.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "由於美元疲軟和國債回購計劃，黃金觸及三個月高點",
       "source": "CNBC",
       "time": "02:28",
       "link": "https://www.cnbc.com/2026/08/25/gold-hits-over-three-month-high-on-dollar-weakness-treasury-bond-buyback-plans.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "TotalEnergies執行長表示，透過霍爾木茲海峽運輸一艘VLCC的成本達到2000萬美元",
       "source": "gcaptain.com",
       "time": "16:10",
       "link": "https://gcaptain.com/cost-to-ship-a-vlcc-through-hormuz-hits-20-million-totalenergies-ceo-says/"
     },
     {
-      "title": "從英偉達的財報到貿易戰磁帶炸彈，一個簡單的策略可能是本週的最佳選擇",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "16:07",
       "link": "https://www.cnbc.com/2026/08/24/from-nvidia-earnings-to-trade-war-tape-bombs-a-simple-strategy-could-be-this-weeks-best-bet.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "媒體併購冷淡：派拉蒙-WBD 反壟斷挑戰可能會阻礙更多交易",
       "source": "CNBC",
       "time": "11:09",
       "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "06:00",
-      "link": "https://www.cnbc.com/2026/08/24/cnbc-daily-open-ai-iran-economic-d-day.html"
-    },
-    {
-      "title": "等權重標普 500 指數引領 2026 年市場，其旗艦交易額剛突破 1,000 億美元",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html"
     }
   ]
 }
