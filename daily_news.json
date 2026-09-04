@@ -1,77 +1,77 @@
 {
-  "update_time": "2026-09-03 01:38",
+  "update_time": "2026-09-04 01:31",
   "crypto_fng": {
-    "value": "65",
+    "value": "74",
     "value_classification": "Greed",
-    "timestamp": "1788393600",
-    "time_until_update": "80515"
+    "timestamp": "1788480000",
+    "time_until_update": "80909"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7666.6,
-        "change": 35.13,
-        "percent": 0.46,
-        "rsi": "35.6",
+        "price": 7747.71,
+        "change": 81.11,
+        "percent": 1.06,
+        "rsi": "46.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26217.83,
-        "change": 118.06,
-        "percent": 0.45,
-        "rsi": "37.3",
-        "trend": "震盪"
+        "price": 26584.06,
+        "change": 366.23,
+        "percent": 1.4,
+        "rsi": "47.2",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25329.73,
-        "change": -237.26,
-        "percent": -0.93,
-        "rsi": "47.5",
+        "price": 25311.21,
+        "change": -18.52,
+        "percent": -0.07,
+        "rsi": "48.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 64430.49,
-        "change": -1784.86,
-        "percent": -2.7,
-        "rsi": "29.6",
+        "price": 64663.4,
+        "change": 337.76,
+        "percent": 0.53,
+        "rsi": "28.8",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25970.11,
-        "change": -288.0,
-        "percent": -1.1,
-        "rsi": "40.4",
-        "trend": "📈 多頭"
+        "price": 25839.33,
+        "change": -130.78,
+        "percent": -0.5,
+        "rsi": "38.3",
+        "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77338.22,
-        "change": -65.41,
-        "percent": -0.08,
-        "rsi": "70.4",
+        "price": 80916.77,
+        "change": 3616.3,
+        "percent": 4.68,
+        "rsi": "70.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2387.55,
-        "change": -30.29,
-        "percent": -1.25,
-        "rsi": "58.8",
+        "price": 2506.25,
+        "change": 114.75,
+        "percent": 4.8,
+        "rsi": "61.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 100.18,
-        "change": 0.19,
-        "percent": 0.19,
-        "rsi": "67.4",
+        "price": 103.59,
+        "change": 3.2,
+        "percent": 3.19,
+        "rsi": "68.3",
         "trend": "📈 多頭"
       }
     ],
@@ -81,7 +81,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "76.8",
+        "rsi": "79.1",
         "trend": "震盪"
       },
       {
@@ -89,7 +89,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "67.7",
+        "rsi": "66.2",
         "trend": "震盪"
       },
       {
@@ -97,101 +97,101 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "51.4",
+        "rsi": "49.1",
         "trend": "震盪"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 16.4,
-        "change": 0.17,
-        "percent": 1.05,
-        "rsi": "65.3",
+        "price": 16.8,
+        "change": 0.4,
+        "percent": 2.44,
+        "rsi": "59.3",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7674.0,
-        "change": 31.25,
-        "percent": 0.41,
-        "rsi": "33.4",
+        "price": 7755.75,
+        "change": 79.25,
+        "percent": 1.03,
+        "rsi": "45.2",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29162.25,
-        "change": 36.75,
-        "percent": 0.13,
-        "rsi": "29.4",
+        "price": 29535.75,
+        "change": 349.5,
+        "percent": 1.2,
+        "rsi": "39.3",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53154.0,
-        "change": 326.0,
-        "percent": 0.62,
-        "rsi": "38.8",
+        "price": 53760.0,
+        "change": 639.0,
+        "percent": 1.2,
+        "rsi": "49.4",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.2,
-        "change": -1.14,
-        "percent": -6.98,
-        "rsi": "52.8",
+        "price": 14.32,
+        "change": -0.88,
+        "percent": -5.79,
+        "rsi": "50.3",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.8,
-        "change": 0.0,
-        "percent": 0.0,
-        "rsi": "65.7",
+        "price": 4.76,
+        "change": -0.03,
+        "percent": -0.71,
+        "rsi": "57.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.54,
-        "change": -0.13,
-        "percent": -0.13,
-        "rsi": "43.1",
-        "trend": "震盪"
+        "price": 98.98,
+        "change": -0.58,
+        "percent": -0.58,
+        "rsi": "39.6",
+        "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.33,
-        "change": -1.87,
-        "percent": -1.16,
-        "rsi": "41.4",
+        "price": 155.89,
+        "change": -3.03,
+        "percent": -1.91,
+        "rsi": "30.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4441.2,
-        "change": 93.2,
-        "percent": 2.14,
-        "rsi": "54.9",
+        "price": 4522.6,
+        "change": 156.3,
+        "percent": 3.58,
+        "rsi": "58.3",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 91.01,
-        "change": 0.79,
-        "percent": 0.88,
-        "rsi": "73.0",
+        "price": 91.88,
+        "change": 0.87,
+        "percent": 0.96,
+        "rsi": "72.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.61,
-        "change": 0.1,
-        "percent": 1.51,
-        "rsi": "50.8",
+        "price": 6.7,
+        "change": 0.2,
+        "percent": 3.09,
+        "rsi": "55.8",
         "trend": "-"
       },
       {
@@ -199,7 +199,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "36.8",
+        "rsi": "37.8",
         "trend": "震盪"
       },
       {
@@ -207,20 +207,44 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "38.8",
+        "rsi": "45.1",
         "trend": "震盪"
       }
     ]
   },
   "news": [
     {
-      "title": "由於 TikTok 和 Whatnot 等應用，直播購物在美國日益流行",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "00:05",
+      "link": "https://www.cnbc.com/2026/09/03/india-nifty-sensex-manufacturing-economy-gdp.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "14:08",
+      "link": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Bloomberg",
+      "time": "05:35",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-01/ceo-s-refusal-to-overhaul-bank-fueled-surprise-hdfc-shakeup"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Bloomberg",
+      "time": "05:24",
+      "link": "https://www.bloomberg.com/news/features/2026-09-02/brookfield-blackstone-bet-on-shielding-india-real-estate-from-climate-disaster"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
     },
     {
-      "title": "20,000 美元以下的二手車往往賣得很快，但買家需要權衡取捨",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html"
@@ -232,7 +256,7 @@
       "link": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
     },
     {
-      "title": "歐元區通膨率重回3%以上。利率可能會隨之上升",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "09:56",
       "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html"
@@ -250,19 +274,19 @@
       "link": "https://www.bloomberg.com/news/articles/2026-09-01/ather-energy-s-130-stock-surge-leaves-tesla-byd-behind-in-2026"
     },
     {
-      "title": "Bessent稱東京可能幹預提振日圓，日本借貸成本創30年新高",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "07:31",
       "link": "https://www.cnbc.com/2026/09/01/japan-bonds-yen-intervention-bessent.html"
     },
     {
-      "title": "CNBC 每日開盤：川普希望將經濟成長放在首位，沃什則踩剎車",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "01:19",
       "link": "https://www.cnbc.com/2026/09/01/cnbc-daily-open-trump-us-growth-fed.html"
     },
     {
-      "title": "八月是孩子們回歸的月份。克萊默回顧了最大贏家的推動因素",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "23:23",
       "link": "https://www.cnbc.com/2026/08/31/august-was-the-month-of-the-comeback-kids-cramer-reviews-what-drove-the-biggest-winners.html"
@@ -274,31 +298,31 @@
       "link": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html"
     },
     {
-      "title": "油輪在戰爭期間發財，Sinokor 佔據主導地位",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "gcaptain.com",
       "time": "16:13",
       "link": "https://gcaptain.com/oil-tankers-make-fortunes-during-war-as-sinokor-dominates/"
     },
     {
-      "title": "2026 年 ABS 展望稱，早期行動、靈活性和執行是 2035 年成功的關鍵",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "gcaptain.com",
       "time": "14:25",
       "link": "https://gcaptain.com/early-action-flexibility-and-execution-key-to-success-through-2035-says-the-2026-abs-outlook/"
     },
     {
-      "title": "《Morning Squawk》中的 G20 會議、對伊朗的打擊、「字母湯」經濟等",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "12:56",
       "link": "https://www.cnbc.com/2026/08/31/5-things-to-know-before-the-stock-market-opens.html"
     },
     {
-      "title": "印度最大私人銀行 HDFC 銀行執行長宣布意外退出後股價上漲",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "05:27",
       "link": "https://www.cnbc.com/2026/08/31/hdfc-largest-bank-india-ceo-exit.html"
     },
     {
-      "title": "美加貿易戰中的新關稅牆對經濟中的關鍵金屬意味著什麼",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:00",
       "link": "https://www.cnbc.com/2026/08/30/us-canada-trade-war-tariffs-steel-aluminum-metals-economy.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "12:00",
       "link": "https://www.cnbc.com/2026/08/30/trump-tariff-refunds-walmart-home-depot-target.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "10:42",
-      "link": "https://www.cnbc.com/2026/08/30/top-analysts-suggest-these-dividend-stocks-for-consistent-income.html"
-    },
-    {
-      "title": "莫迪的已開發國家夢對印度的成長差距造成壓力",
-      "source": "Bloomberg",
-      "time": "03:40",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-30/modi-s-developed-nation-dream-strains-against-india-s-growth-gap"
-    },
-    {
-      "title": "執行長表示，我們正處於「Imax 覺醒」之中。公司如何賺取數百萬美元",
-      "source": "CNBC",
-      "time": "14:07",
-      "link": "https://www.cnbc.com/2026/08/29/imax-revenue-odyssey-box-office.html"
-    },
-    {
-      "title": "專欄：Salesforce 剛剛揭露了人工智慧的下一個戰場——而且不是模型",
-      "source": "CNBC",
-      "time": "13:00",
-      "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html"
     }
   ]
 }
