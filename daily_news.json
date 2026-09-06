@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-05 01:33",
+  "update_time": "2026-09-06 01:27",
   "crypto_fng": {
     "value": "73",
     "value_classification": "Greed",
-    "timestamp": "1788566400",
-    "time_until_update": "80813"
+    "timestamp": "1788652800",
+    "time_until_update": "81176"
   },
   "data": {
     "indices": [
@@ -26,79 +26,79 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25213.31,
-        "change": -97.9,
-        "percent": -0.39,
-        "rsi": "52.4",
+        "price": 25650.87,
+        "change": 437.56,
+        "percent": 1.74,
+        "rsi": "54.7",
         "trend": "📈 多頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 64214.48,
-        "change": -111.16,
-        "percent": -0.17,
-        "rsi": "25.8",
+        "price": 65020.94,
+        "change": 806.46,
+        "percent": 1.26,
+        "rsi": "28.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 26003.32,
-        "change": 163.99,
-        "percent": 0.63,
-        "rsi": "39.1",
+        "price": 26046.4,
+        "change": 43.08,
+        "percent": 0.17,
+        "rsi": "42.5",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 79731.57,
-        "change": -1540.17,
-        "percent": -1.9,
-        "rsi": "54.3",
+        "price": 79924.78,
+        "change": 252.81,
+        "percent": 0.32,
+        "rsi": "59.3",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2455.76,
-        "change": -52.26,
-        "percent": -2.08,
-        "rsi": "45.6",
+        "price": 2493.69,
+        "change": 37.61,
+        "percent": 1.53,
+        "rsi": "55.6",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 102.06,
-        "change": -1.92,
-        "percent": -1.84,
-        "rsi": "60.5",
+        "price": 103.62,
+        "change": 1.67,
+        "percent": 1.64,
+        "rsi": "61.7",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "76.2",
-        "trend": "震盪"
+        "price": 16.56,
+        "change": 0.42,
+        "percent": 2.6,
+        "rsi": "78.4",
+        "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "65.9",
-        "trend": "震盪"
+        "price": 50.85,
+        "change": 0.5,
+        "percent": 0.99,
+        "rsi": "67.8",
+        "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "40.2",
-        "trend": "震盪"
+        "price": 28.58,
+        "change": 0.99,
+        "percent": 3.59,
+        "rsi": "48.4",
+        "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
@@ -128,10 +128,10 @@
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53275.0,
-        "change": -470.0,
-        "percent": -0.87,
-        "rsi": "46.8",
+        "price": 53440.0,
+        "change": -305.0,
+        "percent": -0.57,
+        "rsi": "48.7",
         "trend": "-"
       }
     ],
@@ -157,7 +157,7 @@
         "price": 99.16,
         "change": 0.16,
         "percent": 0.16,
-        "rsi": "42.9",
+        "rsi": "43.0",
         "trend": "📉 空頭"
       },
       {
@@ -172,166 +172,166 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4477.2,
-        "change": -14.5,
-        "percent": -0.32,
-        "rsi": "53.7",
+        "price": 4429.8,
+        "change": -61.9,
+        "percent": -1.38,
+        "rsi": "50.7",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 91.22,
-        "change": -0.08,
-        "percent": -0.09,
-        "rsi": "68.3",
+        "price": 91.48,
+        "change": 0.18,
+        "percent": 0.2,
+        "rsi": "68.9",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.67,
-        "change": 0.09,
-        "percent": 1.38,
-        "rsi": "53.8",
+        "price": 6.6,
+        "change": 0.02,
+        "percent": 0.3,
+        "rsi": "49.5",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "42.3",
-        "trend": "震盪"
+        "price": 187.28,
+        "change": 1.31,
+        "percent": 0.7,
+        "rsi": "44.9",
+        "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "59.0",
-        "trend": "震盪"
+        "price": 58.1,
+        "change": -0.46,
+        "percent": -0.79,
+        "rsi": "54.4",
+        "trend": "📈 多頭"
       }
     ]
   },
   "news": [
     {
-      "title": "隨著成本持續攀升，微軟將對 Xbox 雲端遊戲訂戶施加時間限制",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "16:56",
+      "link": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "16:24",
+      "link": "https://www.cnbc.com/2026/09/04/ai-stocks-market-trading.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "11:57",
+      "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "05:00",
+      "link": "https://www.cnbc.com/2026/09/04/global-bond-selloff-inflation-risk.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "04:49",
+      "link": "https://www.cnbc.com/2026/09/04/shein-ipo-fast-fashion-temu-competition.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "17:00",
       "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html"
     },
     {
-      "title": "富達表示，平均 401(k) IRA 餘額創下歷史新高，但越來越多的工人正在竊取他們的帳戶",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:54",
       "link": "https://www.cnbc.com/2026/09/03/401k-ira-retirement-balances-leakage-fidelity.html"
     },
     {
-      "title": "隨著中國擔憂的加劇，Anthropic 的蒸餾之戰轉向暗網",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:45",
       "link": "https://www.cnbc.com/2026/09/03/anthropic-distillation-battle-turns-to-dark-web-china-concerns-swell.html"
     },
     {
-      "title": "紐西蘭聯邦儲備銀行官員告訴 CNBC，中國經濟放緩促使紐西蘭出口商轉向多元化，遠離最大買家",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "04:44",
       "link": "https://www.cnbc.com/2026/09/03/china-new-zealand-dairy-agriculture-exports-slowdown-rbnz.html"
     },
     {
-      "title": "世界似乎正在​​進入一個更高速率的時代。誰將為此付出代價",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "04:20",
       "link": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html"
     },
     {
-      "title": "谷歌在經歷了十多年來最長的月度連續虧損後，在 9 月開始以人工智慧勢頭強勁",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "03:28",
       "link": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html"
     },
     {
-      "title": "印度內部通訊：印度經濟成長超出預期，但其最大的股票並未受到青睞",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "00:05",
       "link": "https://www.cnbc.com/2026/09/03/india-nifty-sensex-manufacturing-economy-gdp.html"
     },
     {
-      "title": "私募股權基金最近輸給了標準普爾 500 指數——為什麼富人的投資不一定更好",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "14:08",
       "link": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html"
     },
     {
-      "title": "執行長拒絕改革銀行引發 HDFC 意外重組",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Bloomberg",
       "time": "05:35",
       "link": "https://www.bloomberg.com/news/articles/2026-09-01/ceo-s-refusal-to-overhaul-bank-fueled-surprise-hdfc-shakeup"
     },
     {
-      "title": "華爾街押注保護印度房地產免受氣候災難",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Bloomberg",
       "time": "05:24",
       "link": "https://www.bloomberg.com/news/features/2026-09-02/brookfield-blackstone-bet-on-shielding-india-real-estate-from-climate-disaster"
     },
     {
-      "title": "由於 TikTok 和 Whatnot 等應用，直播購物在美國正在興起",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/09/01/tiktok-whatnot-livestream-shopping.html"
     },
     {
-      "title": "20,000 美元以下的二手車往往賣得很快，但買家需要權衡取捨",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/09/01/used-cars-under-20000-sell-quickly-tradeoffs.html"
     },
     {
-      "title": "隨著人工智慧挑戰和記憶體緊縮加劇，蘋果進入約翰特努斯時代",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "11:00",
       "link": "https://www.cnbc.com/2026/09/01/apple-enters-ternus-era-as-ai-challenges-and-memory-crunch-intensify.html"
     },
     {
-      "title": "歐元區通膨率重回3%以上。利率可能會隨之上升",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "09:56",
       "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html"
     },
     {
-      "title": "中東動盪重燃通膨擔憂 全球債券殖利率飆升至數十年高點",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "09:37",
       "link": "https://www.cnbc.com/2026/09/01/bond-yields-iran-inflation-treasurys-japan-uk.html"
-    },
-    {
-      "title": "Ather Energy 2026年飆漲130%，超越特斯拉、比亞迪",
-      "source": "Bloomberg",
-      "time": "07:54",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/ather-energy-s-130-stock-surge-leaves-tesla-byd-behind-in-2026"
-    },
-    {
-      "title": "Bessent稱東京可能幹預提振日圓，日本借貸成本創30年新高",
-      "source": "CNBC",
-      "time": "07:31",
-      "link": "https://www.cnbc.com/2026/09/01/japan-bonds-yen-intervention-bessent.html"
-    },
-    {
-      "title": "CNBC 每日開盤：川普希望將經濟成長放在首位，沃什則踩剎車",
-      "source": "CNBC",
-      "time": "01:19",
-      "link": "https://www.cnbc.com/2026/09/01/cnbc-daily-open-trump-us-growth-fed.html"
-    },
-    {
-      "title": "八月是孩子們回歸的月份。克萊默回顧了最大贏家的推動因素",
-      "source": "CNBC",
-      "time": "23:23",
-      "link": "https://www.cnbc.com/2026/08/31/august-was-the-month-of-the-comeback-kids-cramer-reviews-what-drove-the-biggest-winners.html"
-    },
-    {
-      "title": "CNBC 的《中國連線》電子報：麥肯錫的逆向經濟觀點",
-      "source": "CNBC",
-      "time": "23:00",
-      "link": "https://www.cnbc.com/2026/08/31/cnbc-china-connection-newsletter-mckinseys-contrarian-view-economy.html"
     }
   ]
 }
