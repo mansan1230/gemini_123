@@ -1,280 +1,310 @@
 {
-  "update_time": "2026-09-08 01:35",
+  "update_time": "2026-09-09 01:43",
   "crypto_fng": {
-    "value": "69",
+    "value": "66",
     "value_classification": "Greed",
-    "timestamp": "1788825600",
-    "time_until_update": "80690"
+    "timestamp": "1788912000",
+    "time_until_update": "80211"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7718.6,
-        "change": -29.11,
-        "percent": -0.38,
-        "rsi": "47.4",
-        "trend": "📈 多頭"
+        "price": 7673.52,
+        "change": -45.08,
+        "percent": -0.58,
+        "rsi": "48.2",
+        "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26506.99,
-        "change": -77.07,
-        "percent": -0.29,
-        "rsi": "47.3",
+        "price": 26421.41,
+        "change": -85.58,
+        "percent": -0.32,
+        "rsi": "52.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25413.12,
-        "change": -237.75,
-        "percent": -0.93,
-        "rsi": "48.8",
-        "trend": "📈 多頭"
+        "price": 25317.18,
+        "change": -95.94,
+        "percent": -0.38,
+        "rsi": "46.3",
+        "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 66544.31,
-        "change": 144.47,
-        "percent": 0.22,
-        "rsi": "58.4",
+        "price": 65753.55,
+        "change": 484.22,
+        "percent": 0.74,
+        "rsi": "47.0",
         "trend": "震盪"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 26006.53,
-        "change": -39.87,
-        "percent": -0.15,
-        "rsi": "46.6",
+        "price": 26007.63,
+        "change": 1.1,
+        "percent": 0.0,
+        "rsi": "47.6",
         "trend": "📈 多頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 79299.34,
-        "change": -1050.7,
-        "percent": -1.31,
-        "rsi": "51.1",
+        "price": 78812.2,
+        "change": -303.65,
+        "percent": -0.38,
+        "rsi": "50.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2499.56,
-        "change": -14.99,
-        "percent": -0.6,
-        "rsi": "51.5",
+        "price": 2495.49,
+        "change": 4.53,
+        "percent": 0.18,
+        "rsi": "54.6",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 104.17,
-        "change": -2.28,
-        "percent": -2.14,
-        "rsi": "56.7",
+        "price": 103.67,
+        "change": -0.2,
+        "percent": -0.19,
+        "rsi": "58.7",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 16.56,
-        "change": 0.42,
-        "percent": 2.6,
-        "rsi": "78.4",
+        "price": 16.3,
+        "change": -0.26,
+        "percent": -1.57,
+        "rsi": "77.0",
         "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 50.85,
-        "change": 0.5,
-        "percent": 0.99,
-        "rsi": "67.8",
+        "price": 50.58,
+        "change": -0.27,
+        "percent": -0.53,
+        "rsi": "65.2",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 28.58,
-        "change": 0.99,
-        "percent": 3.59,
-        "rsi": "48.4",
+        "price": 30.08,
+        "change": 1.5,
+        "percent": 5.25,
+        "rsi": "59.5",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 17.52,
-        "change": 0.75,
-        "percent": 4.47,
-        "rsi": "58.6",
+        "price": 17.22,
+        "change": -0.3,
+        "percent": -1.71,
+        "rsi": "61.8",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7712.75,
-        "change": -9.25,
-        "percent": -0.12,
-        "rsi": "49.9",
+        "price": 7685.5,
+        "change": -36.5,
+        "percent": -0.47,
+        "rsi": "47.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29656.5,
-        "change": 91.25,
-        "percent": 0.31,
-        "rsi": "51.5",
+        "price": 29584.25,
+        "change": 19.0,
+        "percent": 0.06,
+        "rsi": "50.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 53096.0,
-        "change": -344.0,
-        "percent": -0.64,
-        "rsi": "46.3",
+        "price": 52800.0,
+        "change": -640.0,
+        "percent": -1.2,
+        "rsi": "43.3",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 15.3,
-        "change": 0.77,
-        "percent": 5.3,
-        "rsi": "47.3",
+        "price": 15.72,
+        "change": 0.42,
+        "percent": 2.75,
+        "rsi": "54.4",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.78,
+        "price": 4.81,
         "change": 0.02,
         "percent": 0.46,
-        "rsi": "56.4",
+        "rsi": "60.6",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.18,
-        "change": 0.02,
-        "percent": 0.02,
-        "rsi": "43.1",
+        "price": 98.82,
+        "change": -0.34,
+        "percent": -0.34,
+        "rsi": "38.9",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 153.46,
-        "change": -2.74,
-        "percent": -1.75,
-        "rsi": "24.1",
+        "price": 153.67,
+        "change": -0.19,
+        "percent": -0.12,
+        "rsi": "27.6",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4479.8,
-        "change": 50.0,
-        "percent": 1.13,
-        "rsi": "56.7",
+        "price": 4418.2,
+        "change": -11.6,
+        "percent": -0.26,
+        "rsi": "53.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 92.46,
-        "change": 0.98,
-        "percent": 1.07,
-        "rsi": "69.8",
+        "price": 94.53,
+        "change": 3.05,
+        "percent": 3.33,
+        "rsi": "72.8",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.76,
-        "change": 0.16,
-        "percent": 2.5,
-        "rsi": "67.2",
+        "price": 6.77,
+        "change": 0.18,
+        "percent": 2.68,
+        "rsi": "67.6",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 187.28,
-        "change": 1.31,
-        "percent": 0.7,
-        "rsi": "44.9",
+        "price": 187.87,
+        "change": 0.59,
+        "percent": 0.32,
+        "rsi": "54.4",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 58.1,
-        "change": -0.46,
-        "percent": -0.79,
-        "rsi": "54.4",
-        "trend": "📈 多頭"
+        "price": 57.3,
+        "change": -0.8,
+        "percent": -1.38,
+        "rsi": "45.8",
+        "trend": "震盪"
       }
     ]
   },
   "news": [
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "CNBC 的《中國連線》電子報：中國消費疲軟成為世界議題",
+      "source": "CNBC",
+      "time": "23:00",
+      "link": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html"
+    },
+    {
+      "title": "勞動節汽油價格超過每加侖 4 美元，創歷史新高",
+      "source": "CNBC",
+      "time": "13:43",
+      "link": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
+    },
+    {
+      "title": "受川普關稅影響，路虎攬勝製造商將裁員 4,000 人",
+      "source": "The Wall Street Journal",
+      "time": "12:02",
+      "link": "https://www.wsj.com/business/autos/tata-motors-owned-jlr-plans-redundancy-program-as-it-targets-over-2b-in-savings-4f8fccdb"
+    },
+    {
+      "title": "華爾街頂尖分析師長期看好這三隻股票",
+      "source": "CNBC",
+      "time": "10:37",
+      "link": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html"
+    },
+    {
+      "title": "捷豹路虎將裁員數千人 耗資23億美元進行大修",
+      "source": "CNBC",
+      "time": "08:00",
+      "link": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html"
+    },
+    {
+      "title": "CNBC每日開盤：隨著伊朗戰爭的繼續，川普的「小短途旅行」變成了一場艱苦的戰鬥",
       "source": "CNBC",
       "time": "01:29",
       "link": "https://www.cnbc.com/2026/09/07/cnbc-daily-open-trump-iran-war-oil-prices-nuclear-deal.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "伊朗警告稱，隨著經濟壓力加大，伊朗將對美國襲擊作出「更加痛苦」的反應",
       "source": "CNBC",
       "time": "12:02",
       "link": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "為什麼沃爾瑪要進軍 DoorDash 和 Uber Eats 優食配送業務，從甜甜圈、咖啡和三明治開始",
       "source": "CNBC",
       "time": "14:46",
       "link": "https://www.cnbc.com/2026/09/05/walmart-dunkin-subway-delivery-uber-eats-doordash.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "隨著業務的蓬勃發展，許多卡車司機對人工智慧資料中心的看法與美國其他地區不同",
       "source": "CNBC",
       "time": "13:33",
       "link": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "阿貝爾：伯克希爾希望透過兩種方式從人工智慧中獲利",
       "source": "CNBC",
       "time": "12:45",
       "link": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "這個增強型地熱計畫旨在釋放千兆瓦電力，推動資料中心的繁榮",
       "source": "CNBC",
       "time": "12:20",
       "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "川普的國家資本主義透過他史無前例的委內瑞拉協議進入石油業",
       "source": "CNBC",
       "time": "12:14",
       "link": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "從「神秘假期」到旅館，隨著價格上漲，精打細算的旅客變得節儉",
       "source": "CNBC",
       "time": "12:07",
       "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "義大利的梅洛尼剛剛達到了一個重要的政治里程碑。前領導人表示必須進行經濟改革",
       "source": "CNBC",
       "time": "05:41",
       "link": "https://www.cnbc.com/2026/09/05/italy-meloni-bonds-debt.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "麥克庫 (Mike Khouw) 表示，網路計程車改變了遊戲規則。這是他交易特斯拉的方式",
       "source": "CNBC",
       "time": "16:56",
       "link": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "電容器供應鏈瓶頸正成為市場上更大的AI交易",
       "source": "CNBC",
       "time": "16:24",
       "link": "https://www.cnbc.com/2026/09/04/ai-stocks-market-trading.html"
@@ -292,46 +322,16 @@
       "link": "https://www.cnbc.com/2026/09/04/global-bond-selloff-inflation-risk.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "謝因進入股市時搖搖欲墜。它能恢復魔力嗎？",
       "source": "CNBC",
       "time": "04:49",
       "link": "https://www.cnbc.com/2026/09/04/shein-ipo-fast-fashion-temu-competition.html"
     },
     {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "隨著成本持續攀升，微軟將對 Xbox 雲端遊戲訂戶施加時間限制",
       "source": "CNBC",
       "time": "17:00",
       "link": "https://www.cnbc.com/2026/09/03/microsoft-xbox-game-pass-cloud-limits.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:54",
-      "link": "https://www.cnbc.com/2026/09/03/401k-ira-retirement-balances-leakage-fidelity.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "11:45",
-      "link": "https://www.cnbc.com/2026/09/03/anthropic-distillation-battle-turns-to-dark-web-china-concerns-swell.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "04:44",
-      "link": "https://www.cnbc.com/2026/09/03/china-new-zealand-dairy-agriculture-exports-slowdown-rbnz.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "04:20",
-      "link": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "03:28",
-      "link": "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html"
     }
   ]
 }
