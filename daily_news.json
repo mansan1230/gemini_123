@@ -1,77 +1,77 @@
 {
-  "update_time": "2026-09-10 01:37",
+  "update_time": "2026-09-11 01:36",
   "crypto_fng": {
-    "value": "69",
+    "value": "56",
     "value_classification": "Greed",
-    "timestamp": "1788998400",
-    "time_until_update": "80528"
+    "timestamp": "1789084800",
+    "time_until_update": "80588"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7636.36,
-        "change": -37.16,
-        "percent": -0.48,
-        "rsi": "43.2",
+        "price": 7591.7,
+        "change": -44.66,
+        "percent": -0.58,
+        "rsi": "45.1",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26253.34,
-        "change": -168.07,
-        "percent": -0.64,
-        "rsi": "48.4",
+        "price": 26081.72,
+        "change": -171.62,
+        "percent": -0.65,
+        "rsi": "50.3",
         "trend": "震盪"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25317.18,
-        "change": -95.94,
-        "percent": -0.38,
-        "rsi": "46.3",
+        "price": 25274.96,
+        "change": -42.22,
+        "percent": -0.17,
+        "rsi": "40.6",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 64387.69,
-        "change": -881.64,
-        "percent": -1.35,
-        "rsi": "38.9",
+        "price": 63430.33,
+        "change": -1712.45,
+        "percent": -2.63,
+        "rsi": "35.6",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 26007.63,
-        "change": 1.1,
-        "percent": 0.0,
-        "rsi": "47.6",
-        "trend": "📈 多頭"
+        "price": 25576.45,
+        "change": -431.18,
+        "percent": -1.66,
+        "rsi": "40.1",
+        "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77971.33,
-        "change": -467.25,
-        "percent": -0.6,
-        "rsi": "46.6",
+        "price": 76830.52,
+        "change": -1429.0,
+        "percent": -1.83,
+        "rsi": "38.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2457.66,
-        "change": -27.28,
-        "percent": -1.1,
-        "rsi": "45.5",
+        "price": 2451.34,
+        "change": -15.57,
+        "percent": -0.63,
+        "rsi": "44.5",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 100.75,
-        "change": -2.58,
-        "percent": -2.49,
-        "rsi": "48.1",
+        "price": 99.06,
+        "change": -2.55,
+        "percent": -2.51,
+        "rsi": "34.3",
         "trend": "📈 多頭"
       }
     ],
@@ -81,7 +81,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "76.0",
+        "rsi": "71.6",
         "trend": "震盪"
       },
       {
@@ -89,7 +89,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "61.3",
+        "rsi": "64.9",
         "trend": "震盪"
       },
       {
@@ -97,101 +97,101 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "68.2",
+        "rsi": "64.3",
         "trend": "震盪"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 17.28,
-        "change": 0.07,
-        "percent": 0.41,
-        "rsi": "62.4",
+        "price": 17.68,
+        "change": 0.4,
+        "percent": 2.31,
+        "rsi": "64.9",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7646.5,
-        "change": -34.0,
+        "price": 7610.25,
+        "change": -33.5,
         "percent": -0.44,
-        "rsi": "42.0",
+        "rsi": "44.6",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29386.25,
-        "change": -152.5,
-        "percent": -0.52,
-        "rsi": "47.4",
+        "price": 29135.25,
+        "change": -313.5,
+        "percent": -1.06,
+        "rsi": "46.6",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52521.0,
-        "change": -311.0,
-        "percent": -0.59,
-        "rsi": "39.1",
+        "price": 52218.0,
+        "change": -207.0,
+        "percent": -0.39,
+        "rsi": "42.6",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.46,
-        "change": 0.74,
-        "percent": 4.71,
-        "rsi": "52.5",
+        "price": 17.84,
+        "change": 1.38,
+        "percent": 8.38,
+        "rsi": "64.1",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.84,
-        "change": 0.03,
-        "percent": 0.65,
-        "rsi": "70.4",
+        "price": 4.94,
+        "change": 0.11,
+        "percent": 2.21,
+        "rsi": "74.1",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 98.8,
-        "change": -0.04,
-        "percent": -0.04,
-        "rsi": "49.5",
+        "price": 99.04,
+        "change": 0.27,
+        "percent": 0.27,
+        "rsi": "52.2",
         "trend": "📉 空頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 153.64,
-        "change": 0.17,
-        "percent": 0.11,
-        "rsi": "23.9",
+        "price": 154.31,
+        "change": 0.73,
+        "percent": 0.48,
+        "rsi": "28.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4457.2,
-        "change": 63.3,
-        "percent": 1.44,
-        "rsi": "47.9",
+        "price": 4368.9,
+        "change": -47.1,
+        "percent": -1.07,
+        "rsi": "40.2",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 96.87,
-        "change": 3.84,
-        "percent": 4.13,
-        "rsi": "74.5",
+        "price": 102.49,
+        "change": 6.44,
+        "percent": 6.7,
+        "rsi": "78.1",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.85,
-        "change": 0.11,
-        "percent": 1.68,
-        "rsi": "70.3",
+        "price": 6.55,
+        "change": -0.26,
+        "percent": -3.8,
+        "rsi": "53.9",
         "trend": "-"
       },
       {
@@ -199,7 +199,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "59.0",
+        "rsi": "60.4",
         "trend": "震盪"
       },
       {
@@ -207,7 +207,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "48.5",
+        "rsi": "51.0",
         "trend": "震盪"
       }
     ]
@@ -215,12 +215,36 @@
   "news": [
     {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "18:08",
+      "link": "https://www.cnbc.com/2026/09/09/summer-box-theatrical-shifts.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "10:30",
+      "link": "https://www.cnbc.com/2026/09/09/trump-oil-gas-holdings-iran-war.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "10:23",
+      "link": "https://www.cnbc.com/2026/09/09/prediction-markets-election-kalshi-polymarket.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "10:00",
+      "link": "https://www.cnbc.com/2026/09/09/defense-tech-covenant-anthem-missile.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Bloomberg",
       "time": "01:35",
       "link": "https://www.bloomberg.com/news/articles/2026-09-09/paytm-bets-on-workplace-ai-agents-in-pivot-beyond-payments"
     },
     {
-      "title": "「病患支付關稅」：瑞士製藥公司執行長警告川普的仿製藥關稅威脅",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:31",
       "link": "https://www.cnbc.com/2026/09/08/pharma-tariffs-trump-generic-drugs-sandoz-cmd-stock.html"
@@ -250,7 +274,7 @@
       "link": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html"
     },
     {
-      "title": "勞動節汽油價格每加侖超過 4 美元，創歷史新高",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
       "time": "13:43",
       "link": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
@@ -308,30 +332,6 @@
       "source": "CNBC",
       "time": "12:20",
       "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:14",
-      "link": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html"
-    },
-    {
-      "title": "從「神秘假期」到旅館，隨著價格上漲，精打細算的旅客變得節儉",
-      "source": "CNBC",
-      "time": "12:07",
-      "link": "https://www.cnbc.com/2026/09/05/budget-travel-vacation-costs.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "05:41",
-      "link": "https://www.cnbc.com/2026/09/05/italy-meloni-bonds-debt.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "16:56",
-      "link": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html"
     }
   ]
 }
