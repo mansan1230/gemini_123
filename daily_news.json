@@ -1,77 +1,77 @@
 {
-  "update_time": "2026-09-11 01:36",
+  "update_time": "2026-09-12 01:43",
   "crypto_fng": {
-    "value": "56",
+    "value": "63",
     "value_classification": "Greed",
-    "timestamp": "1789084800",
-    "time_until_update": "80588"
+    "timestamp": "1789171200",
+    "time_until_update": "80198"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7591.7,
-        "change": -44.66,
-        "percent": -0.58,
-        "rsi": "45.1",
+        "price": 7656.98,
+        "change": 65.28,
+        "percent": 0.86,
+        "rsi": "48.4",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26081.72,
-        "change": -171.62,
-        "percent": -0.65,
-        "rsi": "50.3",
-        "trend": "震盪"
+        "price": 26333.04,
+        "change": 251.31,
+        "percent": 0.96,
+        "rsi": "53.1",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 25274.96,
-        "change": -42.22,
-        "percent": -0.17,
-        "rsi": "40.6",
+        "price": 24954.47,
+        "change": -320.49,
+        "percent": -1.27,
+        "rsi": "26.6",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 63430.33,
-        "change": -1712.45,
-        "percent": -2.63,
-        "rsi": "35.6",
+        "price": 65270.95,
+        "change": 128.17,
+        "percent": 0.2,
+        "rsi": "45.0",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25576.45,
-        "change": -431.18,
-        "percent": -1.66,
-        "rsi": "40.1",
-        "trend": "震盪"
+        "price": 25361.15,
+        "change": -215.3,
+        "percent": -0.84,
+        "rsi": "31.7",
+        "trend": "📉 空頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 76830.52,
-        "change": -1429.0,
-        "percent": -1.83,
-        "rsi": "38.8",
+        "price": 77253.91,
+        "change": 685.78,
+        "percent": 0.9,
+        "rsi": "47.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2451.34,
-        "change": -15.57,
-        "percent": -0.63,
-        "rsi": "44.5",
+        "price": 2512.39,
+        "change": 75.29,
+        "percent": 3.09,
+        "rsi": "56.3",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 99.06,
-        "change": -2.55,
-        "percent": -2.51,
-        "rsi": "34.3",
+        "price": 101.98,
+        "change": 3.29,
+        "percent": 3.33,
+        "rsi": "46.5",
         "trend": "📈 多頭"
       }
     ],
@@ -81,7 +81,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "71.6",
+        "rsi": "64.5",
         "trend": "震盪"
       },
       {
@@ -89,7 +89,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "64.9",
+        "rsi": "59.5",
         "trend": "震盪"
       },
       {
@@ -97,101 +97,101 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "64.3",
+        "rsi": "59.0",
         "trend": "震盪"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 17.68,
-        "change": 0.4,
-        "percent": 2.31,
-        "rsi": "64.9",
+        "price": 17.28,
+        "change": -0.41,
+        "percent": -2.32,
+        "rsi": "55.3",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7610.25,
-        "change": -33.5,
-        "percent": -0.44,
-        "rsi": "44.6",
+        "price": 7660.75,
+        "change": 62.25,
+        "percent": 0.82,
+        "rsi": "47.1",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29135.25,
-        "change": -313.5,
-        "percent": -1.06,
-        "rsi": "46.6",
+        "price": 29391.75,
+        "change": 256.5,
+        "percent": 0.88,
+        "rsi": "50.1",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52218.0,
-        "change": -207.0,
-        "percent": -0.39,
-        "rsi": "42.6",
+        "price": 52576.0,
+        "change": 481.0,
+        "percent": 0.92,
+        "rsi": "41.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 17.84,
-        "change": 1.38,
-        "percent": 8.38,
-        "rsi": "64.1",
+        "price": 15.84,
+        "change": -2.0,
+        "percent": -11.21,
+        "rsi": "50.0",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 4.94,
-        "change": 0.11,
-        "percent": 2.21,
-        "rsi": "74.1",
+        "price": 4.97,
+        "change": 0.03,
+        "percent": 0.63,
+        "rsi": "73.6",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 99.04,
-        "change": 0.27,
-        "percent": 0.27,
-        "rsi": "52.2",
-        "trend": "📉 空頭"
+        "price": 99.1,
+        "change": 0.01,
+        "percent": 0.01,
+        "rsi": "54.7",
+        "trend": "震盪"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 154.31,
-        "change": 0.73,
-        "percent": 0.48,
-        "rsi": "28.4",
+        "price": 153.55,
+        "change": -0.02,
+        "percent": -0.01,
+        "rsi": "23.1",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4368.9,
-        "change": -47.1,
-        "percent": -1.07,
-        "rsi": "40.2",
+        "price": 4390.0,
+        "change": 25.5,
+        "percent": 0.58,
+        "rsi": "32.6",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 102.49,
-        "change": 6.44,
-        "percent": 6.7,
-        "rsi": "78.1",
+        "price": 99.99,
+        "change": -2.49,
+        "percent": -2.43,
+        "rsi": "73.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.55,
-        "change": -0.26,
-        "percent": -3.8,
-        "rsi": "53.9",
+        "price": 6.56,
+        "change": 0.09,
+        "percent": 1.39,
+        "rsi": "49.0",
         "trend": "-"
       },
       {
@@ -199,7 +199,7 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "60.4",
+        "rsi": "53.8",
         "trend": "震盪"
       },
       {
@@ -207,12 +207,78 @@
         "price": NaN,
         "change": NaN,
         "percent": NaN,
-        "rsi": "51.0",
+        "rsi": "44.4",
         "trend": "震盪"
       }
     ]
   },
   "news": [
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "gcaptain.com",
+      "time": "16:59",
+      "link": "https://gcaptain.com/iraq-seeks-oil-tankers-as-gulf-giants-try-to-ensure-hormuz-flows/"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "16:58",
+      "link": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "gcaptain.com",
+      "time": "16:34",
+      "link": "https://gcaptain.com/surging-tanker-rates-signal-deepening-global-energy-crisis/"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "14:34",
+      "link": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "14:15",
+      "link": "https://www.cnbc.com/2026/09/10/income-alternatives-bond-yields-rates.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "13:13",
+      "link": "https://www.cnbc.com/2026/09/10/apple-makes-biggest-change-to-iphone-release-cadence-in-7-years.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "12:51",
+      "link": "https://www.cnbc.com/2026/09/10/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "gcaptain.com",
+      "time": "12:08",
+      "link": "https://gcaptain.com/surging-tanker-rates-signal-a-deepening-global-energy-crisis/"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "11:00",
+      "link": "https://www.cnbc.com/2026/09/10/rare-disease-is-taking-his-sight-access-to-a-treatment-is-hard-to-get.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "The Wall Street Journal",
+      "time": "09:30",
+      "link": "https://www.wsj.com/business/energy-oil/the-ipo-that-asks-you-to-buy-ai-hype-today-and-get-paid-years-later-1bd97731"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "06:14",
+      "link": "https://www.cnbc.com/2026/09/10/daily-open-trump-dividend-5000-midterms.html"
+    },
     {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "CNBC",
@@ -266,72 +332,6 @@
       "source": "Bloomberg",
       "time": "07:01",
       "link": "https://www.bloomberg.com/news/articles/2026-09-08/bitcoin-s-latest-hack-puts-key-crypto-vulnerability-in-spotlight"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "23:00",
-      "link": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:43",
-      "link": "https://www.cnbc.com/2026/09/07/gas-prices-labor-day-record-high-road-trip.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "The Wall Street Journal",
-      "time": "12:02",
-      "link": "https://www.wsj.com/business/autos/tata-motors-owned-jlr-plans-redundancy-program-as-it-targets-over-2b-in-savings-4f8fccdb"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "10:37",
-      "link": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "08:00",
-      "link": "https://www.cnbc.com/2026/09/07/jaguar-land-rover-jlr-job-cuts-autos.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "01:29",
-      "link": "https://www.cnbc.com/2026/09/07/cnbc-daily-open-trump-iran-war-oil-prices-nuclear-deal.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:02",
-      "link": "https://www.cnbc.com/2026/09/06/iran-us-response-oil-tanker-strikes.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "14:46",
-      "link": "https://www.cnbc.com/2026/09/05/walmart-dunkin-subway-delivery-uber-eats-doordash.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:33",
-      "link": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:45",
-      "link": "https://www.cnbc.com/2026/09/05/abel-two-ways-berkshire-hopes-in-cash-in-on-ai.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:20",
-      "link": "https://www.cnbc.com/2026/09/05/fervo-energys-enhanced-geothermal-project-aims-to-power-data-center-boom.html"
     }
   ]
 }
