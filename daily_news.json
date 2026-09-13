@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-09-12 01:43",
+  "update_time": "2026-09-13 01:33",
   "crypto_fng": {
-    "value": "63",
+    "value": "61",
     "value_classification": "Greed",
-    "timestamp": "1789171200",
-    "time_until_update": "80198"
+    "timestamp": "1789257600",
+    "time_until_update": "80782"
   },
   "data": {
     "indices": [
@@ -19,119 +19,119 @@
       {
         "name": "🇺🇸 Nasdaq",
         "price": 26333.04,
-        "change": 251.31,
+        "change": 251.32,
         "percent": 0.96,
         "rsi": "53.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24954.47,
-        "change": -320.49,
-        "percent": -1.27,
-        "rsi": "26.6",
-        "trend": "震盪"
+        "price": 24805.63,
+        "change": -148.84,
+        "percent": -0.6,
+        "rsi": "31.4",
+        "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 65270.95,
-        "change": 128.17,
-        "percent": 0.2,
-        "rsi": "45.0",
+        "price": 64011.34,
+        "change": -1259.61,
+        "percent": -1.93,
+        "rsi": "40.7",
         "trend": "📉 空頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25361.15,
-        "change": -215.3,
-        "percent": -0.84,
-        "rsi": "31.7",
-        "trend": "📉 空頭"
+        "price": 25568.56,
+        "change": 207.41,
+        "percent": 0.82,
+        "rsi": "38.3",
+        "trend": "震盪"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 77253.91,
-        "change": 685.78,
-        "percent": 0.9,
-        "rsi": "47.9",
+        "price": 77231.12,
+        "change": 57.32,
+        "percent": 0.07,
+        "rsi": "46.2",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2512.39,
-        "change": 75.29,
-        "percent": 3.09,
-        "rsi": "56.3",
+        "price": 2523.08,
+        "change": 8.35,
+        "percent": 0.33,
+        "rsi": "55.9",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 101.98,
-        "change": 3.29,
-        "percent": 3.33,
-        "rsi": "46.5",
+        "price": 101.95,
+        "change": -0.45,
+        "percent": -0.44,
+        "rsi": "43.9",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "64.5",
-        "trend": "震盪"
+        "price": 16.01,
+        "change": 0.09,
+        "percent": 0.57,
+        "rsi": "65.3",
+        "trend": "📈 多頭"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "59.5",
-        "trend": "震盪"
+        "price": 52.0,
+        "change": 0.97,
+        "percent": 1.9,
+        "rsi": "64.5",
+        "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "59.0",
-        "trend": "震盪"
+        "price": 29.57,
+        "change": 0.1,
+        "percent": 0.34,
+        "rsi": "59.6",
+        "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 17.28,
-        "change": -0.41,
-        "percent": -2.32,
-        "rsi": "55.3",
+        "price": 17.27,
+        "change": -0.42,
+        "percent": -2.37,
+        "rsi": "55.1",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7660.75,
-        "change": 62.25,
-        "percent": 0.82,
-        "rsi": "47.1",
+        "price": 7659.5,
+        "change": 61.0,
+        "percent": 0.8,
+        "rsi": "47.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 29391.75,
-        "change": 256.5,
-        "percent": 0.88,
-        "rsi": "50.1",
+        "price": 29387.0,
+        "change": 251.75,
+        "percent": 0.86,
+        "rsi": "50.0",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52576.0,
-        "change": 481.0,
-        "percent": 0.92,
-        "rsi": "41.1",
+        "price": 52585.0,
+        "change": 490.0,
+        "percent": 0.94,
+        "rsi": "41.2",
         "trend": "-"
       }
     ],
@@ -154,10 +154,10 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 99.1,
-        "change": 0.01,
-        "percent": 0.01,
-        "rsi": "54.7",
+        "price": 99.12,
+        "change": 0.03,
+        "percent": 0.03,
+        "rsi": "55.1",
         "trend": "震盪"
       },
       {
@@ -172,42 +172,42 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4390.0,
-        "change": 25.5,
-        "percent": 0.58,
-        "rsi": "32.6",
+        "price": 4366.2,
+        "change": 1.7,
+        "percent": 0.04,
+        "rsi": "30.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 99.99,
-        "change": -2.49,
-        "percent": -2.43,
-        "rsi": "73.2",
+        "price": 100.05,
+        "change": -2.43,
+        "percent": -2.37,
+        "rsi": "73.4",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.56,
-        "change": 0.09,
-        "percent": 1.39,
-        "rsi": "49.0",
+        "price": 6.47,
+        "change": 0.0,
+        "percent": 0.04,
+        "rsi": "44.7",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "53.8",
-        "trend": "震盪"
+        "price": 187.67,
+        "change": 2.45,
+        "percent": 1.32,
+        "rsi": "57.8",
+        "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": NaN,
-        "change": NaN,
-        "percent": NaN,
-        "rsi": "44.4",
+        "price": 57.25,
+        "change": 0.38,
+        "percent": 0.67,
+        "rsi": "48.0",
         "trend": "震盪"
       }
     ]
@@ -215,6 +215,36 @@
   "news": [
     {
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "gcaptain.com",
+      "time": "15:45",
+      "link": "https://gcaptain.com/imo-urged-to-give-shipping-clear-investment-signal-on-net-zero-pathway/"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "13:06",
+      "link": "https://www.cnbc.com/2026/09/11/5-things-to-know-before-the-stock-market-opens.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "10:55",
+      "link": "https://www.cnbc.com/2026/09/11/oil-private-credit-refinancing.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "07:04",
+      "link": "https://www.cnbc.com/2026/09/11/fintechs-upi-india-is-credit-economy-gff.html"
+    },
+    {
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "CNBC",
+      "time": "02:30",
+      "link": "https://www.cnbc.com/2026/09/11/apple-samsung-foldable-iran-trump-election-iran-ford-oracle-.html"
+    },
+    {
+      "title": "海灣巨頭試圖確保霍爾木茲流量，伊拉克尋求油輪",
       "source": "gcaptain.com",
       "time": "16:59",
       "link": "https://gcaptain.com/iraq-seeks-oil-tankers-as-gulf-giants-try-to-ensure-hormuz-flows/"
@@ -302,36 +332,6 @@
       "source": "CNBC",
       "time": "10:00",
       "link": "https://www.cnbc.com/2026/09/09/defense-tech-covenant-anthem-missile.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bloomberg",
-      "time": "01:35",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/paytm-bets-on-workplace-ai-agents-in-pivot-beyond-payments"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "13:31",
-      "link": "https://www.cnbc.com/2026/09/08/pharma-tariffs-trump-generic-drugs-sandoz-cmd-stock.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "12:58",
-      "link": "https://www.cnbc.com/2026/09/08/rental-demand-home-sales-zillow-report.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "CNBC",
-      "time": "11:42",
-      "link": "https://www.cnbc.com/2026/09/08/santoli-one-key-tech-etf-may-signal-whether-this-bull-market-can-keep-marching-on.html"
-    },
-    {
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bloomberg",
-      "time": "07:01",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-08/bitcoin-s-latest-hack-puts-key-crypto-vulnerability-in-spotlight"
     }
   ]
 }
