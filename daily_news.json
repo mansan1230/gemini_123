@@ -1,213 +1,213 @@
 {
-  "update_time": "2026-09-29 02:52",
+  "update_time": "2026-09-30 02:34",
   "crypto_fng": {
-    "value": "73",
+    "value": "71",
     "value_classification": "Greed",
-    "timestamp": "1790640000",
-    "time_until_update": "76029"
+    "timestamp": "1790726400",
+    "time_until_update": "77146"
   },
   "data": {
     "indices": [
       {
         "name": "🇺🇸 S&P 500",
-        "price": 7683.69,
-        "change": -59.72,
-        "percent": -0.77,
-        "rsi": "50.8",
+        "price": 7670.84,
+        "change": -12.85,
+        "percent": -0.17,
+        "rsi": "52.9",
         "trend": "震盪"
       },
       {
         "name": "🇺🇸 Nasdaq",
-        "price": 26820.38,
-        "change": -248.34,
-        "percent": -0.92,
-        "rsi": "56.9",
+        "price": 26797.54,
+        "change": -22.84,
+        "percent": -0.09,
+        "rsi": "59.9",
         "trend": "📈 多頭"
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24493.22,
-        "change": -149.29,
-        "percent": -0.61,
-        "rsi": "33.2",
+        "price": 24474.89,
+        "change": -48.68,
+        "percent": -0.2,
+        "rsi": "38.2",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 65307.0,
-        "change": -570.62,
-        "percent": -0.87,
-        "rsi": "51.7",
-        "trend": "震盪"
+        "price": 66295.28,
+        "change": 814.01,
+        "percent": 1.24,
+        "rsi": "49.3",
+        "trend": "📈 多頭"
       },
       {
         "name": "🇪🇺 德國 DAX",
-        "price": 25374.42,
-        "change": -34.22,
-        "percent": -0.13,
-        "rsi": "37.4",
+        "price": 25399.21,
+        "change": 24.79,
+        "percent": 0.1,
+        "rsi": "45.8",
         "trend": "📉 空頭"
       }
     ],
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 82876.37,
-        "change": -1581.72,
-        "percent": -1.87,
-        "rsi": "62.9",
+        "price": 83309.29,
+        "change": -193.32,
+        "percent": -0.23,
+        "rsi": "75.1",
         "trend": "📈 多頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2653.3,
-        "change": -33.63,
-        "percent": -1.25,
-        "rsi": "60.9",
+        "price": 2666.92,
+        "change": -21.75,
+        "percent": -0.81,
+        "rsi": "76.2",
         "trend": "📈 多頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 116.7,
-        "change": -5.36,
-        "percent": -4.39,
-        "rsi": "64.8",
+        "price": 119.35,
+        "change": 0.51,
+        "percent": 0.43,
+        "rsi": "77.5",
         "trend": "📈 多頭"
       }
     ],
     "shipping": [
       {
         "name": "🚢 乾散貨 ETF (BDI)",
-        "price": 14.9,
-        "change": -0.42,
-        "percent": -2.74,
-        "rsi": "33.0",
-        "trend": "📈 多頭"
+        "price": 14.46,
+        "change": -0.44,
+        "percent": -2.95,
+        "rsi": "31.2",
+        "trend": "震盪"
       },
       {
         "name": "🌊 全球航運 ETF",
-        "price": 50.5,
-        "change": -0.42,
-        "percent": -0.82,
-        "rsi": "49.4",
+        "price": 50.55,
+        "change": 0.05,
+        "percent": 0.1,
+        "rsi": "48.0",
         "trend": "📈 多頭"
       },
       {
         "name": "📦 ZIM (集裝箱)",
-        "price": 28.39,
-        "change": -0.8,
-        "percent": -2.74,
-        "rsi": "33.9",
+        "price": 28.75,
+        "change": 0.36,
+        "percent": 1.27,
+        "rsi": "43.6",
         "trend": "📈 多頭"
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 17.65,
-        "change": -0.01,
-        "percent": -0.06,
-        "rsi": "54.7",
+        "price": 18.12,
+        "change": 0.45,
+        "percent": 2.55,
+        "rsi": "58.3",
         "trend": "📈 多頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7733.0,
-        "change": -70.75,
-        "percent": -0.91,
-        "rsi": "53.8",
+        "price": 7747.0,
+        "change": 0.25,
+        "percent": 0.0,
+        "rsi": "58.0",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 30478.25,
-        "change": -411.0,
-        "percent": -1.33,
-        "rsi": "61.9",
+        "price": 30618.0,
+        "change": 51.75,
+        "percent": 0.17,
+        "rsi": "65.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51776.0,
-        "change": -387.0,
-        "percent": -0.74,
-        "rsi": "39.3",
+        "price": 51892.0,
+        "change": 55.0,
+        "percent": 0.11,
+        "rsi": "44.1",
         "trend": "-"
       }
     ],
     "macro": [
       {
         "name": "😰 恐慌指數 (VIX)",
-        "price": 16.07,
-        "change": 1.2,
-        "percent": 8.07,
-        "rsi": "51.3",
+        "price": 16.04,
+        "change": -0.03,
+        "percent": -0.19,
+        "rsi": "48.3",
         "trend": "-"
       },
       {
         "name": "🇺🇸 10年美債",
-        "price": 5.24,
-        "change": 0.06,
-        "percent": 1.08,
-        "rsi": "83.4",
+        "price": 5.26,
+        "change": 0.02,
+        "percent": 0.29,
+        "rsi": "83.0",
         "trend": "📈 多頭"
       },
       {
         "name": "💵 美元指數",
-        "price": 101.2,
-        "change": 0.23,
-        "percent": 0.22,
-        "rsi": "85.5",
+        "price": 101.35,
+        "change": 0.15,
+        "percent": 0.14,
+        "rsi": "87.9",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 157.36,
-        "change": -0.1,
-        "percent": -0.07,
-        "rsi": "71.8",
+        "price": 156.48,
+        "change": -0.88,
+        "percent": -0.56,
+        "rsi": "65.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4165.1,
-        "change": -156.1,
-        "percent": -3.61,
-        "rsi": "25.1",
+        "price": 4209.8,
+        "change": 41.4,
+        "percent": 0.99,
+        "rsi": "27.9",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 93.7,
-        "change": 1.29,
-        "percent": 1.4,
-        "rsi": "50.9",
+        "price": 89.29,
+        "change": -3.31,
+        "percent": -3.57,
+        "rsi": "40.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.62,
-        "change": -0.08,
-        "percent": -1.14,
-        "rsi": "45.0",
+        "price": 6.64,
+        "change": 0.07,
+        "percent": 1.11,
+        "rsi": "43.4",
         "trend": "-"
       },
       {
         "name": "💻 科技 (XLK)",
-        "price": 194.53,
-        "change": -1.74,
-        "percent": -0.89,
-        "rsi": "62.9",
+        "price": 194.5,
+        "change": -0.03,
+        "percent": -0.02,
+        "rsi": "62.8",
         "trend": "📈 多頭"
       },
       {
         "name": "🏦 金融 (XLF)",
-        "price": 54.19,
-        "change": -0.65,
-        "percent": -1.19,
-        "rsi": "19.4",
+        "price": 54.01,
+        "change": -0.18,
+        "percent": -0.33,
+        "rsi": "19.7",
         "trend": "📉 空頭"
       }
     ]
