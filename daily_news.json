@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-08 02:51",
+  "update_time": "2026-11-09 03:10",
   "crypto_fng": {
-    "value": "28",
+    "value": "29",
     "value_classification": "Fear",
-    "timestamp": "1794096000",
-    "time_until_update": "76122"
+    "timestamp": "1794182400",
+    "time_until_update": "74998"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 24481.86,
-        "change": -315.12,
-        "percent": -1.27,
-        "rsi": "53.6",
+        "price": 24554.2,
+        "change": 72.34,
+        "percent": 0.3,
+        "rsi": "59.0",
         "trend": "震盪"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 57434.77,
-        "change": -3643.13,
-        "percent": -5.96,
-        "rsi": "21.7",
+        "price": 59411.34,
+        "change": 1976.57,
+        "percent": 3.44,
+        "rsi": "32.2",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 75589.41,
-        "change": -157.52,
-        "percent": -0.21,
-        "rsi": "34.9",
+        "price": 75004.75,
+        "change": -742.83,
+        "percent": -0.98,
+        "rsi": "35.3",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 2227.77,
-        "change": -7.28,
-        "percent": -0.33,
-        "rsi": "39.6",
+        "price": 2140.6,
+        "change": -95.72,
+        "percent": -4.28,
+        "rsi": "36.2",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 88.78,
-        "change": -1.28,
-        "percent": -1.42,
-        "rsi": "25.2",
+        "price": 87.56,
+        "change": -2.11,
+        "percent": -2.35,
+        "rsi": "25.0",
         "trend": "📉 空頭"
       }
     ],
@@ -112,26 +112,26 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7402.0,
-        "change": 19.0,
-        "percent": 0.26,
-        "rsi": "34.0",
+        "price": 7444.5,
+        "change": 42.5,
+        "percent": 0.57,
+        "rsi": "35.4",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 27085.25,
-        "change": 333.25,
-        "percent": 1.25,
-        "rsi": "29.9",
+        "price": 27256.5,
+        "change": 171.25,
+        "percent": 0.63,
+        "rsi": "31.9",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 51385.0,
-        "change": -230.0,
-        "percent": -0.45,
-        "rsi": "44.2",
+        "price": 51729.0,
+        "change": 344.0,
+        "percent": 0.67,
+        "rsi": "42.5",
         "trend": "-"
       }
     ],
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 102.3,
-        "change": 0.75,
-        "percent": 0.74,
-        "rsi": "55.3",
+        "price": 102.16,
+        "change": -0.14,
+        "percent": -0.14,
+        "rsi": "57.4",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 158.43,
-        "change": 0.93,
-        "percent": 0.59,
-        "rsi": "49.3",
+        "price": 158.32,
+        "change": 0.82,
+        "percent": 0.52,
+        "rsi": "48.4",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 4074.9,
-        "change": -38.6,
-        "percent": -0.94,
-        "rsi": "44.1",
+        "price": 4129.3,
+        "change": 54.4,
+        "percent": 1.33,
+        "rsi": "49.1",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 90.83,
-        "change": 0.31,
-        "percent": 0.34,
-        "rsi": "34.2",
+        "price": 91.09,
+        "change": 0.26,
+        "percent": 0.29,
+        "rsi": "36.2",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.22,
-        "change": -0.03,
-        "percent": -0.5,
-        "rsi": "36.1",
+        "price": 6.33,
+        "change": 0.11,
+        "percent": 1.82,
+        "rsi": "40.5",
         "trend": "-"
       },
       {
