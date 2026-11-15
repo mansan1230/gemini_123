@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-14 03:42",
+  "update_time": "2026-11-15 03:19",
   "crypto_fng": {
-    "value": "13",
+    "value": "10",
     "value_classification": "Extreme Fear",
-    "timestamp": "1794614400",
-    "time_until_update": "73045"
+    "timestamp": "1794700800",
+    "time_until_update": "74432"
   },
   "data": {
     "indices": [
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 66893.1,
-        "change": -4449.87,
-        "percent": -6.24,
-        "rsi": "26.2",
+        "price": 65207.76,
+        "change": -3041.51,
+        "percent": -4.46,
+        "rsi": "23.5",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1887.15,
-        "change": -129.68,
-        "percent": -6.43,
-        "rsi": "27.9",
+        "price": 1824.53,
+        "change": -103.06,
+        "percent": -5.35,
+        "rsi": "24.9",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 75.19,
-        "change": -6.47,
-        "percent": -7.92,
-        "rsi": "16.0",
+        "price": 71.89,
+        "change": -6.21,
+        "percent": -7.95,
+        "rsi": "14.8",
         "trend": "📉 空頭"
       }
     ],
@@ -102,36 +102,36 @@
       },
       {
         "name": "⚓ Maersk (馬士基)",
-        "price": 15.01,
-        "change": 0.17,
-        "percent": 1.15,
-        "rsi": "15.1",
+        "price": 15.04,
+        "change": 0.2,
+        "percent": 1.35,
+        "rsi": "15.7",
         "trend": "📉 空頭"
       }
     ],
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7561.0,
-        "change": -54.25,
-        "percent": -0.71,
-        "rsi": "43.4",
+        "price": 7583.0,
+        "change": -32.25,
+        "percent": -0.42,
+        "rsi": "44.2",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 27927.25,
-        "change": -457.25,
-        "percent": -1.61,
-        "rsi": "39.6",
+        "price": 28034.75,
+        "change": -349.75,
+        "percent": -1.23,
+        "rsi": "40.2",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52347.0,
-        "change": -43.0,
-        "percent": -0.08,
-        "rsi": "48.5",
+        "price": 52418.0,
+        "change": 28.0,
+        "percent": 0.05,
+        "rsi": "49.0",
         "trend": "-"
       }
     ],
@@ -172,26 +172,26 @@
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 3887.6,
-        "change": 2.3,
-        "percent": 0.06,
-        "rsi": "40.5",
+        "price": 3886.3,
+        "change": 1.0,
+        "percent": 0.03,
+        "rsi": "40.4",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 88.92,
-        "change": 0.18,
-        "percent": 0.2,
-        "rsi": "31.1",
+        "price": 88.56,
+        "change": -0.18,
+        "percent": -0.2,
+        "rsi": "30.6",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.06,
-        "change": -0.12,
-        "percent": -1.92,
-        "rsi": "32.4",
+        "price": 6.08,
+        "change": -0.1,
+        "percent": -1.67,
+        "rsi": "32.8",
         "trend": "-"
       },
       {
