@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-11-15 03:19",
+  "update_time": "2026-11-16 03:21",
   "crypto_fng": {
     "value": "10",
     "value_classification": "Extreme Fear",
-    "timestamp": "1794700800",
-    "time_until_update": "74432"
+    "timestamp": "1794787200",
+    "time_until_update": "74305"
   },
   "data": {
     "indices": [
@@ -26,18 +26,18 @@
       },
       {
         "name": "🇭🇰 恒生指數",
-        "price": 23637.6,
-        "change": -370.95,
-        "percent": -1.55,
-        "rsi": "56.0",
+        "price": 23845.96,
+        "change": 208.36,
+        "percent": 0.88,
+        "rsi": "61.1",
         "trend": "📉 空頭"
       },
       {
         "name": "🇯🇵 日經 225",
-        "price": 61142.35,
-        "change": 322.99,
-        "percent": 0.53,
-        "rsi": "44.7",
+        "price": 60182.5,
+        "change": -959.85,
+        "percent": -1.57,
+        "rsi": "43.4",
         "trend": "📉 空頭"
       },
       {
@@ -52,26 +52,26 @@
     "crypto": [
       {
         "name": "🟠 Bitcoin",
-        "price": 65207.76,
-        "change": -3041.51,
-        "percent": -4.46,
-        "rsi": "23.5",
+        "price": 65075.37,
+        "change": 947.32,
+        "percent": 1.48,
+        "rsi": "22.9",
         "trend": "📉 空頭"
       },
       {
         "name": "🔵 Ethereum",
-        "price": 1824.53,
-        "change": -103.06,
-        "percent": -5.35,
-        "rsi": "24.9",
+        "price": 1821.71,
+        "change": 52.59,
+        "percent": 2.97,
+        "rsi": "26.0",
         "trend": "📉 空頭"
       },
       {
         "name": "☀️ Solana",
-        "price": 71.89,
-        "change": -6.21,
-        "percent": -7.95,
-        "rsi": "14.8",
+        "price": 72.12,
+        "change": 1.94,
+        "percent": 2.77,
+        "rsi": "19.1",
         "trend": "📉 空頭"
       }
     ],
@@ -112,25 +112,25 @@
     "futures": [
       {
         "name": "📈 標普期貨",
-        "price": 7583.0,
-        "change": -32.25,
-        "percent": -0.42,
-        "rsi": "44.2",
+        "price": 7574.5,
+        "change": -8.5,
+        "percent": -0.11,
+        "rsi": "41.7",
         "trend": "-"
       },
       {
         "name": "💻 納指期貨",
-        "price": 28034.75,
-        "change": -349.75,
-        "percent": -1.23,
-        "rsi": "40.2",
+        "price": 27951.0,
+        "change": -83.75,
+        "percent": -0.3,
+        "rsi": "36.5",
         "trend": "-"
       },
       {
         "name": "🛑 道指期貨",
-        "price": 52418.0,
-        "change": 28.0,
-        "percent": 0.05,
+        "price": 52441.0,
+        "change": 23.0,
+        "percent": 0.04,
         "rsi": "49.0",
         "trend": "-"
       }
@@ -154,44 +154,44 @@
       },
       {
         "name": "💵 美元指數",
-        "price": 103.41,
-        "change": 0.24,
-        "percent": 0.23,
-        "rsi": "65.7",
+        "price": 103.44,
+        "change": 0.03,
+        "percent": 0.03,
+        "rsi": "63.1",
         "trend": "📈 多頭"
       },
       {
         "name": "💴 USD/JPY",
-        "price": 159.88,
-        "change": 0.14,
-        "percent": 0.09,
-        "rsi": "74.4",
+        "price": 159.7,
+        "change": -0.17,
+        "percent": -0.11,
+        "rsi": "69.0",
         "trend": "-"
       }
     ],
     "commodities": [
       {
         "name": "🥇 黃金",
-        "price": 3886.3,
-        "change": 1.0,
-        "percent": 0.03,
-        "rsi": "40.4",
+        "price": 3871.2,
+        "change": -15.1,
+        "percent": -0.39,
+        "rsi": "36.8",
         "trend": "-"
       },
       {
         "name": "🛢️ 原油 (WTI)",
-        "price": 88.56,
-        "change": -0.18,
-        "percent": -0.2,
-        "rsi": "30.6",
+        "price": 87.86,
+        "change": -0.7,
+        "percent": -0.79,
+        "rsi": "31.7",
         "trend": "-"
       },
       {
         "name": "🏭 銅",
-        "price": 6.08,
-        "change": -0.1,
-        "percent": -1.67,
-        "rsi": "32.8",
+        "price": 6.02,
+        "change": -0.06,
+        "percent": -1.05,
+        "rsi": "24.6",
         "trend": "-"
       },
       {
